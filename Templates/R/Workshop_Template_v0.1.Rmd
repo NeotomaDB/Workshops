@@ -1,25 +1,25 @@
 ---
-
 title: '[rename workshop]'
 author: '[add names], Simon Goring, Jack Williams, Eric C. Grimm'
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
+  word_document:
+    reference_docx: styles/word-styles-reference-01.docx
+    toc: yes
+    toc_depth: '3'
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
   html_document:
-    keep_md: true
     highlight: pygment
+    includes:
+      after_body: footer.html
+      before_body: header.html
+    keep_md: yes
     number_sections: yes
     theme: yeti
     toc: yes
     toc_depth: 3
-    includes:
-      before_body: header.html
-      after_body: footer.html
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
-  word_document:
-    toc: yes
-    toc_depth: '3'
 csl: ecology.csl
 bibliography: workshop.bib
 ---
