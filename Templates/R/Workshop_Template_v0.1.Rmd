@@ -13,8 +13,8 @@ output:
   html_document:
     highlight: pygment
     includes:
-      after_body: footer.html
-      before_body: header.html
+      after_body: styles/footer.html
+      before_body: styles/header.html
     keep_md: yes
     number_sections: yes
     theme: yeti
