@@ -1,0 +1,82 @@
+---
+title: "Neotoma Workshop, AmQua July 2016"
+author: "Jack Williams, Simon Goring, and Eric Grimm"
+date: "July 2, 2016"
+output: html_document
+---
+
+# Neotoma Workshop, AmQua July 2016
+## Learning Goals
+1. **Neotoma Explorer**: Learn how to use  Explorer and a teaching exercise designed to introduce it.
+2. **APIs and JSON**: Introduce the concept of APIs and the APIs developed to enable programmatic access to Neotoma data.
+3. **R and _neotoma_**: 
++ get sites
++ get datasets
++ get downloads
++ bacon
+4. **GitHub and RMarkdown**: 
+
+## Useful Websites and Resources
+### Neotoma & Related PaleoResources
+* This overview: <https://github.com/IceAgeEcologist/NeotomaWorkshops/blob/master/Neotoma_Workshop_AmQua2016.Rmd>
+* Accompanying R Script <https://github.com/IceAgeEcologist/NeotomaWorkshops/blob/master/neotoma_demo_amqua2016.R>
+* SERC Carleton: <http://serc.carleton.edu/neotoma/activities.html>
+* Neotoma APIs: <http://api.neotomadb.org/>
+* Neotoma Manual and Database Structure: <http://neotoma-manual.readthedocs.io/en/latest/>
+* Neotoma Entity Relationship Diagram: <http://www.neotomadb.org/uploads/NeotomaDMD.pdf>
+* Goring et al. 2015 neotoma package: <http://www.openquaternary.com/articles/10.5334/oq.ab/>
+* bacon and clam age-modeling software (Maarten Blaauw) <http://chrono.qub.ac.uk/blaauw/>
+
+### Guides: RMarkdown & GitHub
+* RMarkdown Reference Guide: <https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf>
+* Using GitHub with R and RStudio: <http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/>
+* RStudio Support:  <https://support.rstudio.com/hc/en-us/articles/200532077?version=0.99.489&mode=desktop>
+
+## Workshop Activities
+### Part 1: Neotoma Explorer 
+1. Walkthrough of Neotoma Explorer.  This and other Neotoma-related exercises are available at [SERC Carleton](http://serc.carleton.edu/neotoma/activities.html).
+2. save JSON and drag back to Explorer
+
+### Part 2:  APIs & JSON
+#### Intro to APIs
+Neotoma makes its data available through a set of programming tools known as APIs (Application Programming Interfaces). An API allows different applications to talk to one another. In most cases you will see an API being used in a web environment, where commands are passed through the URL using particular, fixed, variables.
+
+Usually, if you want to analyze many datasets simultaneously, or pass Neotoma data to other analytical environments (e.g. R, Matlab, Python), you will want to use the APIs.  
+
+Here, we'll introduce the concept of APIs and show how the Neotoma APIs work. In the next section, we will explore the _neotoma_ R package.  _neotoma_ sits on top of the Neotoma APIs and uses them to get data and metadata from the Neotoma database and pull them into Neotoma.
+
+Let's begin with an example of an API that we use all the time:  Google. Take a second right now to go to Google and type in a search term, then hit enter. You should see something like this:
+
+> https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=when%20did%20the%20quaternary%20begin
+
+This is the API that interfaces between your web browser and Google's databases.  You can see I searched for the string “when did the quaternary begin”. This string is part of a command sent to the Google servers, and is prefaced by “q=”. Google's servers know that when they are reading the URL everything followed by the hash sign (#) is part of a set of variables.
+
+#### Neotoma APIs
+[Neotoma](http://www.neotomadb.org) has the same kind of API, although it is specialized to serve up the paleoecological records stored in the database. The APIs are documented and described on the [Neotoma Developer Center](http://api.neotomadb.org/)
+
+The Neotoma API is just a way for applications on your computer (such as R) to interact with the Neotoma database. It allows you to search for sites, publications, authors and data sets using the Neotoma URL. For example the sites command:
+
+> http://api.neotomadb.org/v1/data/sites?altmin=0&altmax=100
+
+will return a massive wall of text. At first pass, it's a bit daunting.  But, if you look at it more closely you will see that it starts with the word success, and then contains site data for all sites in the Neotoma database that have elevations between 0 and 100ft. 
+
+This is a good moment to introduce JSON.  JSON stands for JavaScript Object Notation.  JSON is a lightweight data-interchange format.  It's text-based, so easy for humans to read.  It's highly structured, making it easy for machines to parse and create.
+
+Several extensions exist for browsers to make JSON data easier to read.  I use **JSONView**
+
+Various APIs have been developed to return datasets, publications and other database tables from within Neotoma. In addition, a set of APIs exist that each directly map onto a table in the Neotoma Database.  All APIs are documented on the (Neotoma Developer Center)[http://api.neotomadb.org/doc/home].
+
+##### Walkthrough of APIs
+1.	Site, Dataset, etc. (walk through each with examples, using material on the [Neotoma Developer Center](http://api.neotomadb.org/))
+2.	Base Tables 
+
+### Part 3:  R and _neotoma_
+This section demonstrates how to use the _neotoma_ R package to get data from Neotoma and pass it into R.  
+For this section, we will use a demo R script available on [GitHub](https://github.com/IceAgeEcologist/NeotomaWorkshops/blob/master/neotoma_demo_amqua2016.R)
+
+
+### Part 4:  bacon age modeling
+This section demonstrates how to generate new age models in R using the bacon software.
+For this section, we will use another demo R script available on [GitHub](https://github.com/IceAgeEcologist/NeotomaWorkshops/blob/master/bacon_demo_amqua2016.R)
+
+### Part 5:  GitHub and RMarkDown

@@ -1,0 +1,229 @@
+---
+
+title: '[rename workshop]'
+author: '[add names], Simon Goring, Jack Williams, Eric C. Grimm'
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    keep_md: true
+    highlight: pygment
+    number_sections: yes
+    theme: yeti
+    toc: yes
+    toc_depth: 3
+    includes:
+      before_body: header.html
+      after_body: footer.html
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+  word_document:
+    toc: yes
+    toc_depth: '3'
+csl: ecology.csl
+bibliography: workshop.bib
+---
+
+# Introduction
+
+# Finding Data
+
+## Explorer
+
+## Neotoma
+
+```{r}
+# Uncomment this line if you haven't already installed any of these packages:
+# install.packages(c("neotoma", "analogue"))
+
+#Add the neotoma package to your programming environment (we'll add analogue later)
+library(neotoma)
+
+```
+
+`neotoma` has three fundamental commands: `get_site`, `get_dataset`, `get_download`. The first two return metadata for sites and datasets; the latter returns data. See Goring et al. [@neotoma_goring] for a full description of the package and example code.  This exercise is partially based on those examples.
+
+### Finding sites
+
+We'll start with `get_site`.  `get_site` returns a `data.frame` with metadata about sites. You can use this to find the spatial coverage of data in a region (using `get_site` with a bounding box), or to get explicit site information easily from more complex data objects.  Use the command `?get_site` to see all the options available.
+
+You can easily search by site name, for example, finding "Marion Lake".  By default the search string is explicit, but because older sites, entered as part of COHMAP, often had appended textual information (for example `(CA:British Columbia)`), it's often good practice to first search using a wildcard character:
+
+```{r}
+
+marion_site <- get_site(sitename = 'Marion%')
+
+print(marion_site)
+```
+
+While `marion_site` is a `data.frame` it also has class `site`, that's why the print output looks a little different than a standard `data.frame`.  That also allows you to use some of the other `neotoma` functions more easily.  
+
+```{r}
+
+#Search by lat/lon bounding box.  This one roughly corresponds to Florida.
+FL_sites <- get_site(loc = c(-88, -79, 25, 30)) 
+```
+
+You can also search by geopolitical name or geopolitical IDs (`gpid`) stored in Neotoma. For a list of names and gpids, go to [http://api.neotomadb.org/apdx/geopol.htm](), or use the `get_table(table.name = "GeoPoliticalUnits")` command.  This command works either with an explicit numeric ID, or with a text string:
+
+```{r}
+#get all sites in New Mexico (gpid=7956)
+NM_sites <- get_site(gpid = 7956)
+
+#get all sites in Wisconsin
+WI_sites <- get_site(gpid = "Wisconsin")
+```
+
+`data.frame`s store vectors of equal length.  The nice thing about `data.frame`s is that each vector can be of a different type (character, numeric values, *etc*.). In RStudio, you can use the Environment panel in upper right to explore variables. 
+
+We pointed out before that the object returned from `get_site` is both a `data.frame` and a `site` object.  Because it has a special `print` method some of the information from the full object is obscured when printed.  You can see all the data in the `data.frame` using `str` (short for *structure*):
+
+```{r}
+str(marion_site)
+```
+
+Let's look at the `description` field:
+
+```{r}
+marion_site$description
+```
+
+
+### Getting Datasets
+
+The structure of the Neotoma data model, as expressed through the API is roughly: "`counts` within `download`s, `download`s within `dataset`s, `dataset`s within `site`s".  So a `dataset` contains more information than a site, about a particular dataset from that site.  A site may have a single associated dataset, or multiple.  For example:
+
+```{r}
+
+get_dataset(marion_site[1,])
+
+```
+
+```r
+#get_dataset returns a list of datasets containing the metadata for each dataset
+#We can pass output from get_site to get_dataset
+marion.meta.dataset  <- get_dataset(marion.meta.site)
+#Let's look at the metadata returned for Marion Lake and Marion Landfill.  Both
+#have a geochronology dataset, while one has a pollen dataset and the other a 
+#vertebrate fauna dataset
+marion.meta.dataset
+```
+
+### Get_Download
+
+`get_download` returns a list which stores a list of download objects - one for each retrieved dataset.  Each download object contains a suite of data for the samples in that dataset.  Get all datasets for both Marion Site and Marion Landfill. `get_download` will accept an object of class dataset:
+
+```{r}
+
+marion_all <- get_download(marion_site)
+
+print(marion_all)
+```
+
+There are a number of messages that appear.  These should be suppressed with the flag `verbose = FALSE` in the function call.  One thing you'll note is that not all of the datasets can be downloaded directly to a `download` objct.  This is because `geochronologic` datasets have a different data structure than other data, requiring different fields, and as such, they can be obtained using the `get_geochron` function:
+
+```{r}
+
+marion_geochron <- get_geochron(marion_site)
+
+print(marion_geochron)
+```
+
+The result is effectively the inverse of the first.
+
+```{r}
+#Get all datasets for just Marion Lake (BC):
+marion_bc <- get_download(marion_site[1,])
+```
+
+Within the download object, `sample.meta` stores the core depth and age information for that dataset. We just want to look at the first few lines, so are  using the head function.
+
+```{r}
+head(marion_bc[[1]]$sample.meta)
+
+#taxon.list stores a list of taxa found  in the  dataset
+head(marion_bc[[1]]$taxon.list)
+
+#counts stores the the counts, presence/absence data, or percentage data for each taxon for each sample
+head(marion_bc[[1]]$counts)
+
+#lab.data stores any associated  laboratory measurements in the dataset
+#For Marion Lake, this returns the Microsphere suspension used as a spike to calculate
+#concentrations
+head(marion_bc[[1]]$lab.data)
+```
+
+### Helper functions
+
+#### `compile_taxa`
+
+The level of taxonomic resolution can vary among analysts.  Often for multi-site analyses it is helpful to aggregate to a common taxonomic resolution. The `compile_taxa` function in `neotoma` will do this.  To help support rapid prototyping, `neotoma` includes a few pre-built taxonomic lists, **however**, the function also supports the use of a custom-built `data.frame` for aligning taxonomies.  Because new taxa are added to Neotoma regularly (based on analyst identification), it is worthwhile to check the assignments performed by the `compile_taxa` function, and to build your own explicit compilation table.
+
+```{r}
+marion_bc <- compile_taxa(marion_bc, list.name = "P25")
+```
+
+You'll notice that warning messages return  a number of taxa that cannot be onverted using the existing data table.  Are these taxa important?  They may be important for you.  Check to see which taxa have been converted by looking at the new taxon table:
+
+```{r}
+marion_bc[[1]]$taxon.list[,c("compressed", "taxon.name")]
+```
+
+And note that if you look at the names of the objects in the new `download` (using `names(marion_bc[[1]]))`, there is now a `full.counts` object.  This allows you to continue using the original counts, while also retaining the new compiled counts.
+
+#### Plotting
+
+There are several options for plotting stratigraphic data in R.  The `rioja` package [@rioja_package] and `analogue` [@analogue_package] each have methods, and other possibilities exist.  Here we will show simple plotting using the `analogue` package. To make it clear which functions come from the `analogue` package I will use `analogue::` before the function names.  This is just an explicit way to state the function source.  If you choose not to do this you will not encounter any problems unless multiple packages have similarly name functions.
+
+```{r, message=FALSE, warning=FALSE}
+
+library("analogue")
+
+# Convert the Marion Lake pollen data to percentages
+marion_bc_pct <- analogue::tran(x = marion_bc[[1]]$counts, method = 'percent')
+
+# Drop rare taxa:
+marion_bc_pct <- marion_bc_pct[, colMeans(marion_bc_pct, na.rm = TRUE) > 2]
+
+analogue::Stratiplot(x = marion_bc_pct[ , order(colMeans(marion_bc_pct, na.rm = TRUE), 
+                                                decreasing = TRUE)], 
+                     y = marion_bc[[1]]$sample.meta$age,
+                     ylab = marion_bc[[1]]$sample.meta$age.type[1],
+                     xlab = " Pollen Percentage")
+
+```
+
+# Age Models
+
+Build a new age model for Marion Lake, using `bacon`
+
+```r
+#Set working directory to location of bacon software
+setwd('C:/Jack/Datasets/AA_Software/Bacon/winBacon_2.2')
+source('Bacon.R')
+
+#Bacon uses text files as inputs.  We'll create these.
+#Set working directory to where Bacon will look for input files
+dir.create('C:/Jack/Datasets/AA_Software/Bacon/winBacon_2.2/Cores/Marion')
+setwd('C:/Jack/Datasets/AA_Software/Bacon/winBacon_2.2/Cores/Marion')
+
+#get the geochronological data for both Marion Lake and Marion Landfill
+marion.geochron <- get_geochron(marion.meta.site, verbose = TRUE)
+
+#RAN OUT OF TIME HERE - BELOW CODE NOT DONE YET
+
+#Create dataframe to hold geochronology data for export
+geochron.df <- data.frame(alnus = marion.lake.pct[,"Alnus "],
+                       ages  = marion.lake.data[[1]]$sample.meta$age,
+                       site = rep('Marion', length(marion.lake.data)))
+write(x, file = "marion.csv",
+      ncolumns = if(is.character(x)) 1 else 5,
+      append = FALSE, sep = " ")
+
+```
+
+# Multi-Site Analysis
+
+# Conclusions
+
+# References
