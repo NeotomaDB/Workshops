@@ -1,6 +1,6 @@
 # Neotoma Workshops
 
-![](Packrat.png)
+![](images/Packrat.png)
 
 <br>
 
@@ -93,4 +93,4 @@ If you aren't comfortable doing this, contact us through the issues tracker or v
 Thanks for helping out and being a part of the Neotoma Paleoecological Database group!
 
 <br>
-![](packrat_ty.png)
+![](images/packrat_ty.png)
