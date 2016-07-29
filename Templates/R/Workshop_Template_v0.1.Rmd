@@ -26,11 +26,75 @@ bibliography: workshop.bib
 
 # Introduction
 
+This workshop is intended to ... More teaching materials can be found [here](http://www.neotomadb.org/education/category/higher_ed/)
+
 # Finding Data
 
 ## Explorer
 
-## Neotoma
+### Getting Started
+
+1.	Go to [http://www.neotomadb.org/]() and click on the 'Explorer' picture, or navigate directly to the [Explorer App](http://apps.neotomadb.org/Explorer/)
+2.	Pan (by dragging), or change the zoom so that your window is centered on North America, including all of the lower 48 states and the southern half of Canada.
+
+### Search for Data
+
+1.	Find a Site
+  a.	Using the Search dialog window (Advanced tab, Metadata subtab, Site Name field), find "Devil's Lake, WI".
+  b.	Once you've performed the search, click on the point that appears.  A window will pop up with some information about this record.
+  c.	QUESTION 1:  What is the latitude and longitude of Devil's Lake?  What is the Site ID?  [Note:  Apparently the choice of Site ID for Devil's Lake is just a coincidence. . .]
+
+2.	Find a Taxon (Search Window, Basic Tab, use Taxon and Abundance fields)
+  a.	Find all sites with at least 20% *Picea* (spruce) pollen, between 21,000 and 18,000 years ago.
+  b.	QUESTION 2:  What state has the southernmost location of *Picea* in this search?  (For comparison, the southern range limit of *Picea* today is in the northern Great Lakes, plus a few scattered outliers e.g. at the top of the Appalachian Mountains).
+3.	Find all sites produced by a researcher (Search Window, Advanced Tab, Metadata subtab, Person Name field)
+  a.	Find all sites produced by Lou Maher
+  b.	QUESTION 3:  In which states has Lou worked?
+4.	Find all fossil pollen records in North America (Search window, Advanced Tab, Dataset field)
+  a.	QUESTION 4:  The generation of fossil pollen records is labor intensive and hence expensive - *e.g.* the costs of fieldwork, the money spent on radiocarbon dates, the time required for a trained analysis to identify and count pollen data, etc. A rough time/cost estimate for a single fossil pollen record is on the order of two years and $30,000.  Given this, give an order-of-magnitude estimate of the number of person-years and dollars it took to generate these fossil pollen records now stored in Neotoma. (Order-of-magnitude = 10 person-years?  100 person-years? 1000? etc.)
+  b.	QUESTION 5:  Notice there is a fairly dense network of fossil pollen sites in an arc stretching from Minnesota to Nova Scotia.  Why might there be such a dense network in this region?  
+5.	Show/Hide Search Results
+  a.	You now have many search layers - it may be getting a bit confusing.  Find the icon that lets you show/hide/combine search layers and use it to hide some of your searches.
+6.	Multi-Taxon Search
+  a.	Find all sites with at least 20% *Picea* pollen between 15,000 and 12,000 years ago.
+  b.	Find all sites with Mammut (mastodon) between 15,000 and 12,000 years ago.
+    i.	For Mammut, use the 'Advanced Taxon Selection' which you can use by clicking on the gears icon to the right of the 'Taxon' field in the 'Search' window.
+      1.	In the ATS window, choose 'Mammals' for Taxa Group and then enter Mammut into the 'Search for' window.  Then click 'Go'
+      2.	Note that the search returned taxon names for both Mammut (mastodon) and Mammuthus (mammoth).  Click all boxes for all variants of Mammut but do not click the Mammuthus boxes
+      3.	Enter a search name (e.g. 'Mammut - all') and click Save
+      4.	In the general search window, click 'Search'
+  c.	QUESTION 6:  Take a screenshot of this map and include it in your homework.  Does mastodon tend to live in places with spruce, or without spruce?  Suggest two hypotheses that might explain the observed association.
+7.	Multi-Time Search
+  a.	Hide your previous searches.
+  b.	Find all sites with at least 20% *Picea* pollen between 21,000 and 18,000 years ago.
+  c.	Find all sites with at least 20% *Picea* pollen between 15,000 and 12,000 years ago.
+  d.	Find all sites with at least 20% *Picea* pollen between 10,000 and 7,000 years ago.
+  e.	Find all sites with at least 20% *Picea* pollen between 5,000 and 1,000 years ago.
+  f.	QUESTION 7:  Take a screenshot of this map and include it in your homework.  Describe the history of *Picea* distributions in eastern North America over the last 21,000 years (i.e. ignore the Rockies and points west).  What environmental change(s) might be causing this shift in *Picea* distributions?  Given that trees are sessile (immobile) organisms, what processes might allow the observed range shifts?
+
+### View Data
+
+1.	Go find Devil's Lake (WI) again.  Click on the site.  
+2.	In the popup window with metadata for Devil's Lake, note that the bottom includes a list of datasets available at the site.  (P = pollen; P^ = pollen surface sample; clock = geochronological data; W = water sample; O^ = ostracode surface sample)
+3.	Hold the mouse over the pollen dataset.  Note that an eyeball and '+' appear to the right.
+4.	Click on the eyeball to view the Devil's Lake pollen dataset.  This opens up a new window with more detail about your dataset.
+  a.	Samples:  A data table.  Each row is a different variable and each column is a stratigraphic depth.  
+  b.	Diagram:  Plots a stratigraphic diagram.  Change the Primary Axis to 'COHMAP Chron 2' (this switches the vertical axis from a depth axis to time axis; more about depth vs. time later) then click 'Draw.'
+  c.	QUESTION 8:  Take a screenshot of this diagram and include it in your homework assignment.  
+    i.	What was the most abundant plant taxon at Devil's Lake during the end of the Pleistocene?  (i.e. prior to 11,000 years ago)
+    ii.	What has been the most abundant taxon during the Holocene? (from 11,000 years ago to present)
+    iii.	(Note: Here we are assuming that plant with the most abundant pollen in sediments is also the most abundant on the landscape.  This isn't necessarily a good assumption; we'll save that challenge for another day.) 
+  d.	QUESTION 9:  Using the information in the Chronology tab, how many age controls are stored for Devil's Lake?  How many of these are radiocarbon dates?
+  e.	QUESTION 10:  What publications are listed for Devil's Lake?
+
+### Download Data
+1.	In the popup window with metadata for Devil's Lake, hold the mouse over the pollen dataset.  Note that an eyeball and '+' appear to the right.  Click on the '+'.  This adds the dataset to a 'Datasets' tray.
+2.	Find the icon for the 'Saved Datasets Tray' and click on it.
+3.	Hover over the dataset then click on the Save icon to the right.  The dataset will be saved as a text file in CSV (comma separated value) format.
+4.	Open the downloaded CSV file in Excel or a text editor (e.g. Notepad, Wordpad) to look at it.
+5.	QUESTION 11:  What is the most abundant taxon at Depth = 1 cm?
+
+## The `neotoma` Package
 
 ```{r}
 # Uncomment this line if you haven't already installed any of these packages:
@@ -195,32 +259,72 @@ analogue::Stratiplot(x = marion_bc_pct[ , order(colMeans(marion_bc_pct, na.rm = 
 
 # Age Models
 
-Build a new age model for Marion Lake, using `bacon`
+We can use the Neotoma package, along with other tools to rebuild age models. Many of the age modeling tools require additional files to be installed.  One such program is [Bacon](http://chrono.qub.ac.uk/blaauw/bacon.html) [@].  Here we will rebuild a Baysian age model for a site in Wisconsin.
 
-```r
-#Set working directory to location of bacon software
-setwd('C:/Jack/Datasets/AA_Software/Bacon/winBacon_2.2')
-source('Bacon.R')
+We've looked in detail at Marion Lake, let's choose another site from our pool of Wisconsin sites earlier.  FIrst we need to get Bacon set up:
 
-#Bacon uses text files as inputs.  We'll create these.
-#Set working directory to where Bacon will look for input files
-dir.create('C:/Jack/Datasets/AA_Software/Bacon/winBacon_2.2/Cores/Marion')
-setwd('C:/Jack/Datasets/AA_Software/Bacon/winBacon_2.2/Cores/Marion')
-
-#get the geochronological data for both Marion Lake and Marion Landfill
-marion.geochron <- get_geochron(marion.meta.site, verbose = TRUE)
-
-#RAN OUT OF TIME HERE - BELOW CODE NOT DONE YET
-
-#Create dataframe to hold geochronology data for export
-geochron.df <- data.frame(alnus = marion.lake.pct[,"Alnus "],
-                       ages  = marion.lake.data[[1]]$sample.meta$age,
-                       site = rep('Marion', length(marion.lake.data)))
-write(x, file = "marion.csv",
-      ncolumns = if(is.character(x)) 1 else 5,
-      append = FALSE, sep = " ")
+```{r}
+old_dir <- getwd()
+setwd("winBacon_2.2/")
+source("Bacon.R")
 
 ```
+
+Now let's look for Lake O' Pines:
+
+```{r, warnings = FALSE}
+
+lake_o <- get_site(sitename = "Lake O' Pines")
+lake_o_ds <- get_dataset(lake_o)
+
+print(lake_o_ds)
+
+```
+
+Lake O' Pines has three dataset types, a geochronolgic, a pollen and a plant macrofossil dataset.  We only want to reconstruct the pollen dataset (Dataset ID `15925`).  Bacon requires a specific data format and the `neotoma` package provides a wrapper for it with the `write_agefile` function.  One thing to keep in mind is that datasets might have multiple chronologies, and these chronologies can be based on different subsets of data.  Let's look at the chronological controls used 
+
+```{r}
+
+# Get the download object:
+lake_o_dl <- get_download(15925)
+
+names(lake_o_dl$`15925`$chronologies)
+
+# There's only one chronology, lets take a look at it:
+
+lake_o_chron <- get_chroncontrol(lake_o_dl$`15925`)
+
+print(lake_o_chron)
+```
+
+So we can see that there's a relatively good number of radiocarbon dates, a modern sample, and it ought to make the basis of a decent age model.
+
+```{r}
+
+# Write the bacon formatted file to disk for Bacon:
+write_agefile(lake_o_dl[[1]], path = ".", chronology = 1, 
+              corename = "LAKEPINES", cal.prog = 'Bacon') 
+
+# Did it work?
+list.files("Cores")
+
+```
+
+The function puts a new directory into the `Cores` folder, Bacon's default read/write folder.  Again, you must make sure you're in the right working directory for this to work.
+
+Next, we start Bacon:
+
+```{r, echo = FALSE, warning = FALSE}
+# Note, these are very 'default' settings, mostly to ensure that this will run:
+
+tester <- system.time(Bacon("LAKEPINES", acc.mean = 10, suggest = FALSE, ask = FALSE))
+
+```
+
+Bacon itself doesn't return data back into R, so I'm just timing the function so we know how long it takes.  The last run of Lake O' Pines took `r tester[3]` seconds to run.  
+After running (it takes this The output is then available in the `Cores/LAKEPINES` folder.
+
+
 
 # Multi-Site Analysis
 
