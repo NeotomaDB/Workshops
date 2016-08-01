@@ -317,14 +317,39 @@ Next, we start Bacon:
 ```{r, echo = FALSE, warning = FALSE}
 # Note, these are very 'default' settings, mostly to ensure that this will run:
 
-tester <- system.time(Bacon("LAKEPINES", acc.mean = 10, suggest = FALSE, ask = FALSE))
+tester <- system.time(Bacon("LAKEPINES", acc.mean = 10, thick = 50, depths.file = TRUE, suggest = FALSE, ask = FALSE))
 
 ```
 
 Bacon itself doesn't return data back into R, so I'm just timing the function so we know how long it takes.  The last run of Lake O' Pines took `r tester[3]` seconds to run.  
-After running (it takes this The output is then available in the `Cores/LAKEPINES` folder.
 
+After running, the output is then available in the `Cores/LAKEPINES` folder.  We can read it back in using the `read_bacon` method.  We can either make a new `chronology` table on its own:
 
+```{r}
+
+head(read_bacon("LAKEPINES", add = FALSE))
+
+```
+
+We can see it has the same structure as the original `chronology` table in the `lake_o_dl` object.  We can add it to the `download`, and make it our default model if we want:
+
+```{r}
+
+lake_o_dl[[1]] <- read_bacon("LAKEPINES", add = TRUE, download = lake_o_dl[[1]], sections = 17)
+
+```
+
+Now we've got our new age model, we can compare the ages from the two models:
+
+```{r}
+plot(lake_o_dl[[1]]$chronologies[[2]]$age, # the new age model
+     lake_o_dl[[1]]$chronologies[[1]]$age - lake_o_dl[[1]]$chronologies[[2]]$age,
+     xlab = "Calibrated Years BP",
+     ylab = "Age correction (+: new model younger)")
+abline(h = 0)
+```
+
+So we can immediately see the difference a new model makes, and since we've set the new model as the default we can now carry that forward into subsequent analysis with the newly revised `lake_o_dl`.
 
 # Multi-Site Analysis
 
