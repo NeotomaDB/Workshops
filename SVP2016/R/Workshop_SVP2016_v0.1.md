@@ -13,19 +13,21 @@ More teaching materials can be found [here](http://www.neotomadb.org/education/c
 
 ### Getting Started
 
-1.	Go to [http://www.neotomadb.org/]() and click on the 'Explorer' picture, or navigate directly to the [Explorer App](http://apps.neotomadb.org/Explorer/)
+1.	Go to [http://www.neotomadb.org/](http://www.neotomadb.org/) and click on the 'Explorer' picture, or navigate directly to the [Explorer App](http://apps.neotomadb.org/Explorer/)
 2.	Pan (by dragging), or change the zoom so that your window is centered on North America, including all of the lower 48 states and the southern half of Canada.
 
 ### Search for Data
 
 1.	Find a Site
-  a.	Using the Search dialog window (Advanced tab, Metadata subtab, Site Name field), find "Devil's Lake, WI".
+  a.	Using the Search dialog window (Advanced tab, Metadata subtab, Site Name field), find the classic Guilday site "New Paris #4". [Note: Search doesn't like the # symbol, so search for "New Paris", which should return two sites: New Paris #2, and New Paris #4]
   b.	Once you've performed the search, click on the point that appears.  A window will pop up with some information about this record.
-  c.	QUESTION 1:  What is the latitude and longitude of Devil's Lake?  What is the Site ID?  [Note:  Apparently the choice of Site ID for Devil's Lake is just a coincidence. . .]
+  c.	QUESTION 1:  What is the latitude and longitude of New Paris #4?  What is the Site ID?
 
-2.	Find a Taxon (Search Window, Basic Tab, use Taxon and Abundance fields)
-  a.	Find all sites with *Antilocapra* records, between 21,000 and 18,000 years ago.
-  b.	QUESTION 2:  What state has the southernmost location of *Antilocapra* in this search?  (For comparison, the southern range limit of *Antilocapra* today is in XXX, plus a few scattered outliers e.g. at the top of the Appalachian Mountains).
+2.	Find a Taxon (Search Window, Basic Tab, use Taxon field)
+  a.	Find all sites with *Antilocapra* records.
+  b.	QUESTION 2:  How many sites have *Antilocapra* records?
+  c.  This indicates that we might need to build up the taxonomy.  Let's re-search for *Antilocapra*, but make sure we've included all relevant records. *Note 1:* To do this, we will search for a "Taxa group".  To the right of the "Taxon name" field, click on the gear symbol. Click on "Mammals" for the Taxa group, then search for *Antilocapra*. Then, click on all taxa you want to include here.  For example: Antilocapra americana, Antilocapra sp., Antilocapra, cf. Antilocapra americana, cf Antilocapra sp., Antilocapra cf A. americana, Antilocapridae ?Antilocapra sp., and ?Antilocapra sp. *Note 2:* It can be helpful to rename your search at the bottom of the Search dialog, e.g., to "Antilocapra"
+  What state has the southernmost location of *Antilocapra* in this search?  (For comparison, the southern range limit of *Antilocapra* today is in XXX, plus a few scattered outliers e.g. at the top of the Appalachian Mountains).
 3.	Find all sites produced by a researcher (Search Window, Advanced Tab, Metadata subtab, Person Name field)
   a.	Find all sites produced by Ernie Lundelius
   b.	QUESTION 3:  In which states has Ernie worked?
@@ -192,7 +194,7 @@ get_dataset(marion_site[1,])
 
 ```
 ## A dataset_list containing 2 objects:
-## Accessed from 2016-08-03 15:53h to 2016-08-03 15:53h. 
+## Accessed from 2016-08-04 14:31h to 2016-08-04 14:31h. 
 ## Datasets:
 ##  dataset.id                         site.name      long      lat
 ##        1705 Marion Lake (CA:British Columbia) -122.5472 49.30833
@@ -262,7 +264,7 @@ print(marion_all)
 
 ```
 ## A download_list containing 4 objects:
-## Accessed from 2016-08-03 15:53h to 2016-08-03 15:53h. 
+## Accessed from 2016-08-04 14:31h to 2016-08-04 14:31h. 
 ## Datasets:
 ##  dataset.id                         site.name       long      lat
 ##        1705 Marion Lake (CA:British Columbia) -122.54722 49.30833
@@ -302,7 +304,7 @@ print(marion_geochron)
 
 ```
 ## A geochronology_list containing 2 objects:
-## Accessed from 2016-08-03 15:53h to 2016-08-03 15:53h. 
+## Accessed from 2016-08-04 14:31h to 2016-08-04 14:31h. 
 ## Geochronologies:
 ##     id                         site.name       long      lat ages   min
 ##   8377 Marion Lake (CA:British Columbia) -122.54722 49.30833    7   520

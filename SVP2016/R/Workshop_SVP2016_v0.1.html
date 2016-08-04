@@ -193,7 +193,7 @@ $(document).ready(function () {
 <div id="getting-started" class="section level3">
 <h3><span class="header-section-number">2.1.1</span> Getting Started</h3>
 <ol style="list-style-type: decimal">
-<li>Go to <a href>http://www.neotomadb.org/</a> and click on the ‘Explorer’ picture, or navigate directly to the <a href="http://apps.neotomadb.org/Explorer/">Explorer App</a></li>
+<li>Go to <a href="http://www.neotomadb.org/" class="uri">http://www.neotomadb.org/</a> and click on the ‘Explorer’ picture, or navigate directly to the <a href="http://apps.neotomadb.org/Explorer/">Explorer App</a></li>
 <li>Pan (by dragging), or change the zoom so that your window is centered on North America, including all of the lower 48 states and the southern half of Canada.</li>
 </ol>
 </div>
@@ -203,16 +203,17 @@ $(document).ready(function () {
 <li>Find a Site</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
-<li><pre><code>Using the Search dialog window (Advanced tab, Metadata subtab, Site Name field), find &quot;Devil's Lake, WI&quot;.</code></pre></li>
+<li><pre><code>Using the Search dialog window (Advanced tab, Metadata subtab, Site Name field), find the classic Guilday site &quot;New Paris #4&quot;. [Note: Search doesn't like the # symbol, so search for &quot;New Paris&quot;, which should return two sites: New Paris #2, and New Paris #4]</code></pre></li>
 <li><pre><code>Once you've performed the search, click on the point that appears.  A window will pop up with some information about this record.</code></pre></li>
-<li><pre><code>QUESTION 1:  What is the latitude and longitude of Devil's Lake?  What is the Site ID?  [Note:  Apparently the choice of Site ID for Devil's Lake is just a coincidence. . .]</code></pre></li>
+<li><pre><code>QUESTION 1:  What is the latitude and longitude of New Paris #4?  What is the Site ID?</code></pre></li>
 </ol>
 <ol start="2" style="list-style-type: decimal">
-<li>Find a Taxon (Search Window, Basic Tab, use Taxon and Abundance fields)</li>
+<li>Find a Taxon (Search Window, Basic Tab, use Taxon field)</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
-<li><pre><code>Find all sites with *Antilocapra* records, between 21,000 and 18,000 years ago.</code></pre></li>
-<li><pre><code>QUESTION 2:  What state has the southernmost location of *Antilocapra* in this search?  (For comparison, the southern range limit of *Antilocapra* today is in XXX, plus a few scattered outliers e.g. at the top of the Appalachian Mountains).</code></pre></li>
+<li><pre><code>Find all sites with *Antilocapra* records.</code></pre></li>
+<li><pre><code>QUESTION 2:  How many sites have *Antilocapra* records?</code></pre></li>
+<li>This indicates that we might need to build up the taxonomy. Let’s re-search for <em>Antilocapra</em>, but make sure we’ve included all relevant records. <em>Note 1:</em> To do this, we will search for a “Taxa group”. To the right of the “Taxon name” field, click on the gear symbol. Click on “Mammals” for the Taxa group, then search for <em>Antilocapra</em>. Then, click on all taxa you want to include here. For example: Antilocapra americana, Antilocapra sp., Antilocapra, cf. Antilocapra americana, cf Antilocapra sp., Antilocapra cf A. americana, Antilocapridae ?Antilocapra sp., and ?Antilocapra sp. <em>Note 2:</em> It can be helpful to rename your search at the bottom of the Search dialog, e.g., to “Antilocapra” What state has the southernmost location of <em>Antilocapra</em> in this search? (For comparison, the southern range limit of <em>Antilocapra</em> today is in XXX, plus a few scattered outliers e.g. at the top of the Appalachian Mountains).</li>
 </ol>
 <ol start="3" style="list-style-type: decimal">
 <li>Find all sites produced by a researcher (Search Window, Advanced Tab, Metadata subtab, Person Name field)</li>
@@ -350,7 +351,7 @@ WI_sites &lt;-<span class="st"> </span><span class="kw">get_site</span>(<span cl
 <p>The structure of the Neotoma data model, as expressed through the API is roughly: “<code>counts</code> within <code>download</code>s, <code>download</code>s within <code>dataset</code>s, <code>dataset</code>s within <code>site</code>s”. So a <code>dataset</code> contains more information than a site, about a particular dataset from that site. A site may have a single associated dataset, or multiple. For example:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">get_dataset</span>(marion_site[<span class="dv">1</span>,])</code></pre></div>
 <pre><code>## A dataset_list containing 2 objects:
-## Accessed from 2016-08-03 15:53h to 2016-08-03 15:53h. 
+## Accessed from 2016-08-04 14:31h to 2016-08-04 14:31h. 
 ## Datasets:
 ##  dataset.id                         site.name      long      lat
 ##        1705 Marion Lake (CA:British Columbia) -122.5472 49.30833
@@ -383,7 +384,7 @@ marion.meta.dataset</code></pre></div>
 <pre><code>## Warning in get_download.default(datasetid, verbose = verbose): Some datasetids returned empty downloads, be aware that length(datasetid) is longer than the download_list.</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">print</span>(marion_all)</code></pre></div>
 <pre><code>## A download_list containing 4 objects:
-## Accessed from 2016-08-03 15:53h to 2016-08-03 15:53h. 
+## Accessed from 2016-08-04 14:31h to 2016-08-04 14:31h. 
 ## Datasets:
 ##  dataset.id                         site.name       long      lat
 ##        1705 Marion Lake (CA:British Columbia) -122.54722 49.30833
@@ -403,7 +404,7 @@ marion.meta.dataset</code></pre></div>
 ## API call was successful.</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">print</span>(marion_geochron)</code></pre></div>
 <pre><code>## A geochronology_list containing 2 objects:
-## Accessed from 2016-08-03 15:53h to 2016-08-03 15:53h. 
+## Accessed from 2016-08-04 14:31h to 2016-08-04 14:31h. 
 ## Geochronologies:
 ##     id                         site.name       long      lat ages   min
 ##   8377 Marion Lake (CA:British Columbia) -122.54722 49.30833    7   520
