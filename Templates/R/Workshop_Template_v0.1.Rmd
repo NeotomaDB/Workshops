@@ -149,16 +149,21 @@ We'll start with `get_site`.  `get_site` returns a `data.frame` with metadata ab
 
 You can easily search by site name, for example, finding "Marion Lake".  By default the search string is explicit, but because older sites, entered as part of COHMAP, often had appended textual information (for example `(CA:British Columbia)`), it's often good practice to first search using a wildcard character:
 
-```{r, message=FALSE, warning=FALSE}
+```{r, message=FALSE, warning=FALSE, results='hide'}
 
 marion_site <- get_site(sitename = 'Marion%')
 
+```
+
+While `marion_site` is a `data.frame` it also has class `site`, that's why the print output looks a little different than a standard `data.frame`:
+
+```{r}
 print(marion_site)
 ```
 
-While `marion_site` is a `data.frame` it also has class `site`, that's why the print output looks a little different than a standard `data.frame`.  That also allows you to use some of the other `neotoma` functions more easily.  
+That also allows you to use some of the other `neotoma` functions more easily.  
 
-```{r, message=FALSE, warning=FALSE}
+```{r, message=FALSE, warning=FALSE, results='hide'}
 
 #Search by lat/lon bounding box.  This one roughly corresponds to Florida.
 FL_sites <- get_site(loc = c(-88, -79, 25, 30)) 
@@ -166,7 +171,7 @@ FL_sites <- get_site(loc = c(-88, -79, 25, 30))
 
 You can also search by geopolitical name or geopolitical IDs (`gpid`) stored in Neotoma. For a list of names and gpids, go to [http://api.neotomadb.org/apdx/geopol.htm](), or use the `get_table(table.name = "GeoPoliticalUnits")` command.  This command works either with an explicit numeric ID, or with a text string:
 
-```{r, message=FALSE, warning=FALSE}
+```{r, message=FALSE, warning=FALSE, results='hide'}
 #get all sites in New Mexico (gpid=7956)
 NM_sites <- get_site(gpid = 7956)
 
