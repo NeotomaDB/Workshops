@@ -1,4 +1,4 @@
-## Ran on Thu Aug 04 20:27:51 2016 
+## Ran on Thu Aug 04 21:26:14 2016 
 
 Cal 0 : ConstCal;
 Cal 1 : IntCal13, 0;
@@ -15,4 +15,4 @@ Det 5 : Radiocarbon_34871 , 7620, 50, 680,  0,  0,  3,  4,  1;
 Det 6 : Radiocarbon_34872 , 11050, 50, 817,  0,  0,  3,  4,  1;
 
 ##		 K   MinYr   MaxYr   th0   th0p   w.a   w.b   alpha  beta  dmin  dmax
-Bacon 0: FixT, 17,  -1000,  1e+06,  -47,  -50,  2.8,  1.2,  1.5,  0.15, 0, 817;
+Bacon 0: FixT, 17,  -1000,  1e+06,  -48,  -46,  2.8,  1.2,  1.5,  0.15, 0, 817;
