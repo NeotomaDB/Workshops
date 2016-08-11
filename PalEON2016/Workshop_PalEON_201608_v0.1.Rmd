@@ -1,15 +1,8 @@
 ---
-title: 'Neotoma R Tutorial - PalEON Boot Camp 2016'
-author: 'Jack Williams, Simon Goring, Eric C. Grimm'
+title: '[rename workshop]'
+author: '[add names], Simon Goring, Jack Williams, Eric C. Grimm'
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
-  word_document:
-    reference_docx: styles/word-styles-reference-01.docx
-    toc: yes
-    toc_depth: '3'
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
   html_document:
     highlight: pygment
     includes:
@@ -20,19 +13,126 @@ output:
     theme: yeti
     toc: yes
     toc_depth: 3
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+  word_document:
+    reference_docx: styles/word-styles-reference-01.docx
+    toc: yes
+    toc_depth: '3'
 csl: ecology.csl
 bibliography: workshop.bib
 ---
 
 # Introduction
 
+This workshop is intended to introduce individuals to the Neotoma Paleoecology Database and Neotoma Explorer. Neotoma is a public-access and community-supported repository of paleoecological data, mostly from the late Quaternary. These paleoecological data are widely used by scientists to study species responses to past climate change. 
+
+More teaching materials can be found [here](http://www.neotomadb.org/education/category/higher_ed/)
+
 # Finding Data
 
 ## Explorer
 
-## Neotoma
+The Neotoma Explorer is a map-based search tool for paleoecological data discovery.
 
-```{r}
+![](images/explorer_window.png)
+
+### Getting Started
+
+To get started, go to [http://www.neotomadb.org/]() and click on the 'Explorer' picture, or navigate directly to the [Explorer App](http://apps.neotomadb.org/Explorer/), then pan (by dragging), or change the zoom so that your window is centered on North America, including all of the lower 48 states and the southern half of Canada.
+
+### Search for Data
+
+There are several ways to find sites or datasets with the Explorer.  The Basic search lets you search across time by taxon, while the Advanced search provides you with 
+
+#### Find a Taxon
+
+Using the **Basic Search**, find all sites with at least 20% *Picea* (spruce) pollen, between 21,000 and 18,000 years ago.
+
+* **QUESTION 1**  What state has the southernmost location of *Picea* in this search?  (For comparison, the southern range limit of *Picea* today is in the northern Great Lakes, plus a few scattered outliers e.g. at the top of the Appalachian Mountains).
+
+#### Find a Site
+
+The **Advanced Search** (the wizard's hat) gives you more powerful search options.
+
+![](images/advances_site.png)
+
+<br>
+
+1.	Using the Search dialog window -- (1) *Advanced* tab, (2) *Metadata* subtab (3) *Site Name* field -- find "Devil's Lake, WI".
+2.	Once you've performed the search, click on the point that appears.  A window will pop up with some information about this record.
+
+* **QUESTION 2**:  What is the latitude and longitude of Devil's Lake?  What is the Site ID?  [Note:  Apparently the choice of Site ID for Devil's Lake is just a coincidence. . .]
+
+#### Find All Work by a PI
+
+The Metadata Tab also allows you to search by Person Name. Find all sites produced by Lou Maher.
+
+* **QUESTION 3**  In which states has Lou worked?
+
+#### Find All Datasets by Type
+
+Using the *Dataset* field, find all fossil pollen records in North America
+
+* **QUESTION 4** The generation of fossil pollen records is labor intensive and hence expensive - *e.g.* the costs of fieldwork, the money spent on radiocarbon dates, the time required for a trained analysis to identify and count pollen data, etc. A rough time/cost estimate for a single fossil pollen record is on the order of two years and $30,000.  Given this, give an order-of-magnitude estimate of the number of person-years and dollars it took to generate these fossil pollen records now stored in Neotoma. (Order-of-magnitude = 10 person-years?  100 person-years? 1000? etc.)
+
+![](images/dense_pollen.png)
+
+* **QUESTION 5**  Notice there is a fairly dense network of fossil pollen sites in an arc stretching from Minnesota to Nova Scotia.  Why might there be such a dense network in this region?  
+
+#### Show/Hide Search Results
+
+You now have many search layers - it may be getting a bit confusing.  Find the icon that lets you show/hide/combine search layers and use it to hide some of your searches.
+
+#### Multi-Taxon Search
+
+1. Find all sites with at least 20% *Picea* pollen between 15,000 and 12,000 years ago.
+2. Find all sites with Mammut (mastodon) between 15,000 and 12,000 years ago.
+  1. For Mammut, use the 'Advanced Taxon Selection' which you can use by clicking on the gears icon to the right of the 'Taxon' field in the 'Search' window.
+  2. In the ATS window, choose 'Mammals' for Taxa Group and then enter Mammut into the 'Search for' window.  Then click 'Go'
+  3. Note that the search returned taxon names for both Mammut (mastodon) and Mammuthus (mammoth).  Click all boxes for all variants of Mammut but do not click the Mammuthus boxes
+  4. Enter a search name (e.g. 'Mammut - all') and click Save
+  5. In the general search window, click 'Search'
+
+* **QUESTION 6**  Does mastodon tend to live in places with spruce, or without spruce?  Suggest two hypotheses that might explain the observed association.
+
+#### Multi-Time Search
+
+1. Hide your previous searches.
+2. Find all sites with at least 20% *Picea* pollen between 21,000 and 18,000 years ago.
+3. Find all sites with at least 20% *Picea* pollen between 15,000 and 12,000 years ago.
+4. Find all sites with at least 20% *Picea* pollen between 10,000 and 7,000 years ago.
+5. Find all sites with at least 20% *Picea* pollen between 5,000 and 1,000 years ago.
+
+* **QUESTION 7**  Describe the history of *Picea* distributions in eastern North America over the last 21,000 years (i.e. ignore the Rockies and points west).  What environmental change(s) might be causing this shift in *Picea* distributions?  Given that trees are sessile (immobile) organisms, what processes might allow the observed range shifts?
+
+### View Data
+
+1. Go find Devil's Lake (WI) again.  Click on the site.  
+2. In the popup window with metadata for Devil's Lake, note that the bottom includes a list of datasets available at the site.  (P = pollen; P^ = pollen surface sample; clock = geochronological data; W = water sample; O^ = ostracode surface sample)
+3. Hold the mouse over the pollen dataset.  Note that an eyeball and '+' appear to the right.
+4. Click on the eyeball to view the Devil's Lake pollen dataset.  This opens up a new window with more detail about your dataset.
+  1. Samples:  A data table.  Each row is a different variable and each column is a stratigraphic depth.  
+  2. Diagram:  Plots a stratigraphic diagram.  Change the Primary Axis to 'COHMAP Chron 2' (this switches the vertical axis from a depth axis to time axis; more about depth vs. time later) then click 'Draw.'
+
+* **QUESTION 8**  (**1**) What was the most abundant plant taxon at Devil's Lake during the end of the Pleistocene?  (i.e. prior to 11,000 years ago); (**2**)	What has been the most abundant taxon during the Holocene? (from 11,000 years ago to present); *Note: Here we are assuming that plant with the most abundant pollen in sediments is also the most abundant on the landscape.  This isn't necessarily a good assumption; we'll save that challenge for another day.*
+
+* **QUESTION 9**  Using the information in the Chronology tab, how many age controls are stored for Devil's Lake?  How many of these are radiocarbon dates?
+
+* **QUESTION 10**  What publications are listed for Devil's Lake?
+
+### Download Data
+
+1.	In the popup window with metadata for Devil's Lake, hold the mouse over the pollen dataset.  Note that an eyeball and '+' appear to the right.  Click on the '+'.  This adds the dataset to a 'Datasets' tray.
+2.	Find the icon for the 'Saved Datasets Tray' and click on it.
+3.	Hover over the dataset then click on the Save icon to the right.  The dataset will be saved as a text file in CSV (comma separated value) format.
+4.	Open the downloaded CSV file in Excel or a text editor (e.g. Notepad, Wordpad) to look at it.
+5.	QUESTION 11:  What is the most abundant taxon at Depth = 1 cm?
+
+## The `neotoma` Package
+
+```{r, message=FALSE, warning=FALSE}
 # Uncomment this line if you haven't already installed any of these packages:
 # install.packages(c("neotoma", "analogue"))
 
@@ -49,16 +149,21 @@ We'll start with `get_site`.  `get_site` returns a `data.frame` with metadata ab
 
 You can easily search by site name, for example, finding "Marion Lake".  By default the search string is explicit, but because older sites, entered as part of COHMAP, often had appended textual information (for example `(CA:British Columbia)`), it's often good practice to first search using a wildcard character:
 
-```{r}
+```{r, message=FALSE, warning=FALSE, results='hide'}
 
 marion_site <- get_site(sitename = 'Marion%')
 
+```
+
+While `marion_site` is a `data.frame` it also has class `site`, that's why the print output looks a little different than a standard `data.frame`:
+
+```{r}
 print(marion_site)
 ```
 
-While `marion_site` is a `data.frame` it also has class `site`, that's why the print output looks a little different than a standard `data.frame`.  That also allows you to use some of the other `neotoma` functions more easily.  
+That also allows you to use some of the other `neotoma` functions more easily.  
 
-```{r}
+```{r, message=FALSE, warning=FALSE, results='hide'}
 
 #Search by lat/lon bounding box.  This one roughly corresponds to Florida.
 FL_sites <- get_site(loc = c(-88, -79, 25, 30)) 
@@ -66,7 +171,7 @@ FL_sites <- get_site(loc = c(-88, -79, 25, 30))
 
 You can also search by geopolitical name or geopolitical IDs (`gpid`) stored in Neotoma. For a list of names and gpids, go to [http://api.neotomadb.org/apdx/geopol.htm](), or use the `get_table(table.name = "GeoPoliticalUnits")` command.  This command works either with an explicit numeric ID, or with a text string:
 
-```{r}
+```{r, message=FALSE, warning=FALSE, results='hide'}
 #get all sites in New Mexico (gpid=7956)
 NM_sites <- get_site(gpid = 7956)
 
@@ -78,13 +183,13 @@ WI_sites <- get_site(gpid = "Wisconsin")
 
 We pointed out before that the object returned from `get_site` is both a `data.frame` and a `site` object.  Because it has a special `print` method some of the information from the full object is obscured when printed.  You can see all the data in the `data.frame` using `str` (short for *structure*):
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 str(marion_site)
 ```
 
 Let's look at the `description` field:
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 marion_site$description
 ```
 
@@ -93,7 +198,7 @@ marion_site$description
 
 The structure of the Neotoma data model, as expressed through the API is roughly: "`counts` within `download`s, `download`s within `dataset`s, `dataset`s within `site`s".  So a `dataset` contains more information than a site, about a particular dataset from that site.  A site may have a single associated dataset, or multiple.  For example:
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 
 get_dataset(marion_site[1,])
 
@@ -113,7 +218,7 @@ marion.meta.dataset
 
 `get_download` returns a list which stores a list of download objects - one for each retrieved dataset.  Each download object contains a suite of data for the samples in that dataset.  Get all datasets for both Marion Site and Marion Landfill. `get_download` will accept an object of class dataset:
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 
 marion_all <- get_download(marion_site)
 
@@ -122,7 +227,7 @@ print(marion_all)
 
 There are a number of messages that appear.  These should be suppressed with the flag `verbose = FALSE` in the function call.  One thing you'll note is that not all of the datasets can be downloaded directly to a `download` objct.  This is because `geochronologic` datasets have a different data structure than other data, requiring different fields, and as such, they can be obtained using the `get_geochron` function:
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 
 marion_geochron <- get_geochron(marion_site)
 
@@ -131,14 +236,14 @@ print(marion_geochron)
 
 The result is effectively the inverse of the first.
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 #Get all datasets for just Marion Lake (BC):
 marion_bc <- get_download(marion_site[1,])
 ```
 
 Within the download object, `sample.meta` stores the core depth and age information for that dataset. We just want to look at the first few lines, so are  using the head function.
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 head(marion_bc[[1]]$sample.meta)
 
 #taxon.list stores a list of taxa found  in the  dataset
@@ -159,13 +264,13 @@ head(marion_bc[[1]]$lab.data)
 
 The level of taxonomic resolution can vary among analysts.  Often for multi-site analyses it is helpful to aggregate to a common taxonomic resolution. The `compile_taxa` function in `neotoma` will do this.  To help support rapid prototyping, `neotoma` includes a few pre-built taxonomic lists, **however**, the function also supports the use of a custom-built `data.frame` for aligning taxonomies.  Because new taxa are added to Neotoma regularly (based on analyst identification), it is worthwhile to check the assignments performed by the `compile_taxa` function, and to build your own explicit compilation table.
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 marion_bc <- compile_taxa(marion_bc, list.name = "P25")
 ```
 
 You'll notice that warning messages return  a number of taxa that cannot be onverted using the existing data table.  Are these taxa important?  They may be important for you.  Check to see which taxa have been converted by looking at the new taxon table:
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 marion_bc[[1]]$taxon.list[,c("compressed", "taxon.name")]
 ```
 
@@ -193,37 +298,207 @@ analogue::Stratiplot(x = marion_bc_pct[ , order(colMeans(marion_bc_pct, na.rm = 
 
 ```
 
-# Age Models
+# Working with Data
 
-Build a new age model for Marion Lake, using `bacon`
+## Age Models
 
-```r
-#Set working directory to location of bacon software
-setwd('C:/Jack/Datasets/AA_Software/Bacon/winBacon_2.2')
-source('Bacon.R')
+We can use the Neotoma package, along with other tools to rebuild age models. Many of the age modeling tools require additional files to be installed.  One such program is [Bacon](http://chrono.qub.ac.uk/blaauw/bacon.html) [@].  Here we will rebuild a Baysian age model for a site in Wisconsin.
 
-#Bacon uses text files as inputs.  We'll create these.
-#Set working directory to where Bacon will look for input files
-dir.create('C:/Jack/Datasets/AA_Software/Bacon/winBacon_2.2/Cores/Marion')
-setwd('C:/Jack/Datasets/AA_Software/Bacon/winBacon_2.2/Cores/Marion')
+We've looked in detail at Marion Lake, let's choose another site from our pool of Wisconsin sites earlier.  First we need to get Bacon set up:
 
-#get the geochronological data for both Marion Lake and Marion Landfill
-marion.geochron <- get_geochron(marion.meta.site, verbose = TRUE)
+```{r, message=FALSE, warning=FALSE}
 
-#RAN OUT OF TIME HERE - BELOW CODE NOT DONE YET
-
-#Create dataframe to hold geochronology data for export
-geochron.df <- data.frame(alnus = marion.lake.pct[,"Alnus "],
-                       ages  = marion.lake.data[[1]]$sample.meta$age,
-                       site = rep('Marion', length(marion.lake.data)))
-write(x, file = "marion.csv",
-      ncolumns = if(is.character(x)) 1 else 5,
-      append = FALSE, sep = " ")
+source("Bacon.R")
 
 ```
 
-# Multi-Site Analysis
+Now let's look for Lake O' Pines:
+
+```{r, warnings = FALSE, message=FALSE}
+
+lake_o <- get_site(sitename = "Lake O' Pines")
+lake_o_ds <- get_dataset(lake_o)
+
+print(lake_o_ds)
+
+```
+
+Lake O' Pines has three dataset types, a geochronolgic, a pollen and a plant macrofossil dataset.  We only want to reconstruct the pollen dataset (Dataset ID `15925`).  Bacon requires a specific data format and the `neotoma` package provides a wrapper for it with the `write_agefile` function.  One thing to keep in mind is that datasets might have multiple chronologies, and these chronologies can be based on different subsets of data.  Let's look at the chronological controls used 
+
+```{r, message=FALSE, warning=FALSE}
+
+# Get the download object:
+lake_o_dl <- get_download(15925)
+
+names(lake_o_dl$`15925`$chronologies)
+
+# There's only one chronology, lets take a look at it:
+
+lake_o_chron <- get_chroncontrol(lake_o_dl$`15925`)
+
+print(lake_o_chron)
+```
+
+So we can see that there's a relatively good number of radiocarbon dates, a modern sample, and it ought to make the basis of a decent age model.
+
+```{r, message=FALSE, warning=FALSE}
+
+# Write the bacon formatted file to disk for Bacon:
+write_agefile(lake_o_dl[[1]], chronology = 1, path = ".",
+              corename = "LAKEPINES", cal.prog = 'Bacon') 
+
+# Did it work?
+list.files("Cores")
+
+```
+
+The function puts a new directory into the `Cores` folder, Bacon's default read/write folder.  Again, you must make sure you're in the right working directory for this to work.
+
+Next, we start Bacon:
+
+```{r, echo = TRUE, warning = FALSE}
+# Note, these are very 'default' settings, mostly to ensure that this will run:
+
+tester <- Bacon('LAKEPINES', acc.mean = 10, thick = 50, plot.pdf = FALSE,
+                depths.file = TRUE, suggest = FALSE, ask = FALSE)
+
+```
+
+Bacon itself doesn't return data back into R, so I'm just timing the function so we know how long it takes.  The last run of Lake O' Pines took 153 seconds to run.  
+
+After running, the output is then available in the `Cores/LAKEPINES` folder.  We can read it back in using the `read_bacon` method.  We can either make a new `chronology` table on its own:
+
+```{r, echo=TRUE, warning = FALSE, message = FALSE}
+# We have to do this because we can't change the working directory in a knit document.
+lake_o_dl[[1]] <- read_bacon("LAKEPINES", add = TRUE, path = ".",
+                             download = lake_o_dl[[1]], sections = 17)
+
+head(read_bacon("LAKEPINES", add = FALSE, sections = 17, path = "."))
+
+```
+
+We can see it has the same structure as the original `chronology` table in the `lake_o_dl` object.  We can add it to the `download`, and make it our default model if we want:
+
+```{r, eval = TRUE}
+
+lake_o_dl[[1]] <- read_bacon("LAKEPINES", add = TRUE, chron_name = "workshop",
+                             download = lake_o_dl[[1]], sections = 17)
+
+```
+
+Now we've got our new age model, we can compare the ages from the two models:
+
+```{r, message=FALSE, warning=FALSE}
+plot(lake_o_dl[[1]]$chronologies[[2]]$age, # the new age model
+     lake_o_dl[[1]]$chronologies[[1]]$age - lake_o_dl[[1]]$chronologies[[2]]$age,
+     xlab = "Calibrated Years BP",
+     ylab = "Age correction (+: new model younger)")
+abline(h = 0)
+```
+
+So we can immediately see the difference a new model makes (positive values indicate that the original chronology was older than the new model), and since we've set the new model as the default we can now carry that forward into subsequent analysis with the newly revised `lake_o_dl`.  But we shouldn't, because our new model isn't very good.
+
+## Multi-Site Analysis
+
+So now we know how to download for a single site and re-build chronologies.  What if we want to look at mltiple sites?  We can use the same set of `get_dataset` and `get_download` functions we used earlier, but add some specialized functions for compiling the datasets to help improve our ability to analyze the data.  Lets start by looking for sites with hemlock pollen in the upper Midwest, and we'll border the dates using a buffer around the hemlock decline.
+
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+
+if (!"hem_dl.rds" %in% list.files('data')) {
+  hem_dec <- get_dataset(taxonname = "Tsuga*", 
+                       datasettype = "pollen", 
+                       loc = c(-98.6, 36.5, -66.1, 49.75),
+                       ageyoung = 4500, ageold = 6000)
+  hem_dec_dl <- get_download(hem_dec)
+  saveRDS(hem_dec, "data/hem_ds.rds")
+  saveRDS(hem_dec_dl, "data/hem_dl.rds")
+} else {
+  hem_dec <- readRDS("data/hem_ds.rds")
+  hem_dec_dl <- readRDS("data/hem_dl.rds")
+}
+```
+
+```{r, eval =  FALSE}
+hem_dec <- get_dataset(taxonname = "Tsuga*", 
+                       datasettype = "pollen", 
+                       loc = c(-98.6, 36.5, -66.1, 49.75),
+                       ageyoung = 4500, ageold = 6000)
+
+hem_dec_dl <- get_download(hem_dec)
+```
+
+Let's see where the sites are:
+
+```{r, message=FALSE, warning=FALSE}
+# Note, a search for `Tsuga canadensis` returns only 49 records, because American scientists don't
+# like using the word Canada.  The broader search returns ~260 samples.
+
+library(rworldmap)
+map <- getMap()
+
+plot(hem_dec)
+plot(map, add = TRUE)
+
+```
+
+Now we use the function `compile_download` to combine the records.  We're really only interested in the *Tsuga* in this case, so we can search to *Tsuga* related columns.  `compile_download` also adds critical content to the first 10 columns of the output `data.frame`, so we want to keep those as well.
+
+```{r, message=FALSE, warning=FALSE}
+
+hem_compiled <- compile_downloads(hem_dec_dl)
+
+# A fun way of getting all the taxon tables out.  This gives us 18241 rows:
+all_taxa <- do.call(rbind.data.frame, lapply(hem_dec_dl, function(x)x$taxon.list[,1:6]))
+
+# and we're limited now to 892 (and some of these are "LABO" which means lab analyses)
+all_taxa <- all_taxa[!duplicated(all_taxa),]
+
+# Limit the taxa to everything that is a tree or shrub, or upland herbs.
+# Because columns in R by default change all punctuation and spaces to periods we have
+#  to take advantage of regular expressions to change spaces `[ ]` and punctuation
+#  `[[:punct:]]` to a period using the `gsub` command.
+
+good_cols <- c(1:10, which(colnames(hem_compiled) %in% 
+                            gsub("[ ]|[[:punct:]]", ".", 
+                                 all_taxa[all_taxa$ecological.group %in% 
+                                            c("TRSH", "UPHE"),1])))
+# Take just those trees, shrubs & herbs and transform the values to proportions:
+hem_compiled <- hem_compiled[ ,good_cols]
+hem_pct <- hem_compiled[,11:ncol(hem_compiled)] / rowSums(hem_compiled[,11:ncol(hem_compiled)], 
+                                                          na.rm = TRUE)
+
+hem_only <- rowSums(hem_pct[,grep("Tsuga", colnames(hem_pct))], na.rm = TRUE)
+```
+
+This gives us `r ncol(hem_compiled) - 10` unique taxa (the first ten columns of `hem_compiled` are all informational, not taxonomic), from across the `r length(hem_dec_dl)` downloads.  We then isolate only trees, shrubs & upland herbs, convert to proportion and then isolate the *Tsuga* samples.  We can pull ages from the `compiled_downloads` object - `hem_compiled` - by taking the `rowMeans` of the age columns, and try plotting it all out to see if we see a pattern:
+
+```{r, message=FALSE, warning=FALSE}
+
+age_cols <- grep("^age", colnames(hem_compiled))
+
+hemlock_all <- data.frame(ages = rowMeans(hem_compiled[,age_cols], na.rm = TRUE),
+                          prop = hem_only)
+
+plot(hemlock_all, col = rgb(0.1, 0.1, 0.1, 0.3), pch = 19, cex = 0.4,
+     xlim = c(0, 20000), 
+     ylab = "Proportion of Hemlock", xlab = "Years Before Present")
+```
+
+And we can now see how rapidly the *Tsuga* decline affects the northeastern United States and Canada.  Note the large number of "zero" points.  It's also worth noting that there are a number of records that are only in Radiocarbon years.  This is critically important.  The plot looks somewhat different if we separate radiocarbon years from other date types:
+
+```{r, message=FALSE, warning=FALSE}
+plot(hemlock_all, 
+     col = c(rgb(0.1, 0.1, 0.1, 0.3), 
+             rgb(1, 0, 0, 0.3))[(hem_compiled$date.type == "Radiocarbon years BP") + 1], 
+     pch = 19, cex = 0.4,
+     xlim = c(0, 20000), 
+     ylab = "Proportion of Hemlock", xlab = "Years Before Present")
+```
+
+If you look closely you can clearly see the offest at the time of the Decline between the Radiocarbon ages and the calibrated dates.  Obviously, more data cleaning needs to be done here.
 
 # Conclusions
+
+The `neotoma` package, and the Neotoma Paleoecological Database provide a powerful tool for data analysis and data manipulation.  These data tools can support exploratory data analysis, teaching opportunities, and research projects across disciplines.  More information about using Neotoma is available from the database's [Manual](https://neotoma-manual.readthedocs.io/en/latest/), and from the `neotoma` package [paper](http://www.openquaternary.com/articles/10.5334/oq.ab/).
 
 # References
