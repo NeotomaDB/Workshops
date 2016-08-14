@@ -143,25 +143,26 @@ library(neotoma)
 
 ```
 
-'neotoma' has various functions, each of which access the Neotoma APIs to get metadata and data from the Neotoma Paleoecology DB and pass these metadata and data into the R environment.  We'll focus here on 
-three very useful functions: `get_site`, `get_dataset`, `get_download`. The first two return metadata for sites and datasets; the latter returns data. See Goring et al. [@neotoma_goring] for a full description of the package and example code.  This exercise is partially based on those examples.
+'neotoma' has various functions, each of which access the Neotoma APIs to get metadata and data from the Neotoma Paleoecology DB and pass these metadata and data into the R environment.  
+
+We'll focus here on three very useful functions: `get_site`, `get_dataset`, `get_download`. The first two return metadata for sites and datasets; the latter returns data. See Goring et al. [@neotoma_goring] for a full description of the package and example code.  This exercise is partially based on those examples.
 
 ### Finding sites & getting site-level metadata (get_site)
 
 We'll start with `get_site`.  `get_site` returns a `data.frame` with metadata about sites. You can use this to find the spatial coverage of data in a region (using `get_site` with a bounding box), or to get explicit site information easily from more complex data objects.  Use the command `?get_site` to see all the options available.
 
-You can easily search by site name, for example, finding "Marion Lake".  By default the search string is explicit, but because older sites, entered as part of COHMAP, often had appended textual information (for example `(CA:British Columbia)`), it's often good practice to first search using a wildcard character:
+You can easily search by site name, for example, finding "Jay Lake".  By default the search string is explicit, but because older sites, entered as part of COHMAP, often had appended textual information (for example `(CA:British Columbia)`), it's often good practice to search using a wildcard character (%):
 
 ```{r, message=FALSE, warning=FALSE, results='hide'}
 
-marion_site <- get_site(sitename = 'Marion%')
+demo_site <- get_site(sitename = 'Jay%')
 
 ```
 
-While `marion_site` is a `data.frame` it also has class `site`, that's why the print output looks a little different than a standard `data.frame`:
+While `demo_site` is a `data.frame` it also has class `site`, that's why the print output looks a little different than a standard `data.frame`:
 
 ```{r}
-print(marion_site)
+print(demo_site)
 ```
 
 That also allows you to use some of the other `neotoma` functions more easily.  
@@ -169,17 +170,17 @@ That also allows you to use some of the other `neotoma` functions more easily.
 ```{r, message=FALSE, warning=FALSE, results='hide'}
 
 #Search by lat/lon bounding box.  This one roughly corresponds to Florida.
-FL_sites <- get_site(loc = c(-88, -79, 25, 30)) 
+demo_boxsearch_sites <- get_site(loc = c(-88, -79, 25, 30)) 
 ```
 
 You can also search by geopolitical name or geopolitical IDs (`gpid`) stored in Neotoma. For a list of names and gpids, go to [http://api.neotomadb.org/apdx/geopol.htm](), or use the `get_table(table.name = "GeoPoliticalUnits")` command.  This command works either with an explicit numeric ID, or with a text string:
 
 ```{r, message=FALSE, warning=FALSE, results='hide'}
 #get all sites in New Mexico (gpid=7956)
-NM_sites <- get_site(gpid = 7956)
+demo_NM_sites <- get_site(gpid = 7956)
 
 #get all sites in Wisconsin
-WI_sites <- get_site(gpid = "Wisconsin")
+demo_WI_sites <- get_site(gpid = "Wisconsin")
 ```
 
 `data.frame`s store vectors of equal length.  The nice thing about `data.frame`s is that each vector can be of a different type (character, numeric values, *etc*.). In RStudio, you can use the Environment panel in upper right to explore variables. 
@@ -187,97 +188,88 @@ WI_sites <- get_site(gpid = "Wisconsin")
 We pointed out before that the object returned from `get_site` is both a `data.frame` and a `site` object.  Because it has a special `print` method some of the information from the full object is obscured when printed.  You can see all the data in the `data.frame` using `str` (short for *structure*):
 
 ```{r, message=FALSE, warning=FALSE}
-str(marion_site)
+str(demo_site)
 ```
 
 Let's look at the `description` field:
 
 ```{r, message=FALSE, warning=FALSE}
-marion_site$description
+demo_site$description
 ```
-
 
 ### Finding Datasets & Getting Dataset-Level Metadata (get_datasets)
 
-The structure of the Neotoma data model, as expressed through the API is roughly: "`counts` within `download`s, `download`s within `dataset`s, `dataset`s within `site`s".  So a `dataset` contains more information than a site, about a particular dataset from that site.  A site may have a single associated dataset, or multiple.  For example:
+The structure of the Neotoma data model, as expressed through the API is roughly: `counts` within `download`, `download` within `dataset`, `dataset` within `site`.  So `dataset` contains more information than `site`, about a particular dataset from that site.  A site may have a single associated dataset, or many.  For example:
 
 ```{r, message=FALSE, warning=FALSE}
 
-get_dataset(marion_site[1,])
+demo_meta_dataset<-get_dataset(demo_site[1,])
+print(demo_meta_dataset)
 
 ```
 
-```r
-#get_dataset returns a list of datasets containing the metadata for each dataset
-#We can pass output from get_site to get_dataset
-marion.meta.dataset  <- get_dataset(marion.meta.site)
-#Let's look at the metadata returned for Marion Lake and Marion Landfill.  Both
-#have a geochronology dataset, while one has a pollen dataset and the other a 
-#vertebrate fauna dataset
-marion.meta.dataset
-```
 
 ### Getting Data (get_download)
 
-`get_download` returns a list which stores a list of download objects - one for each retrieved dataset.  Each download object contains a suite of data for the samples in that dataset.  Get all datasets for both Marion Site and Marion Landfill. `get_download` will accept an object of class dataset:
+`get_download` returns a list of download objects, one per dataset.  Each download object contains a suite of data for the samples in that dataset.  Get all datasets for Jay Lake. Note that `get_download` will accept an object of class dataset:
 
 ```{r, message=FALSE, warning=FALSE}
 
-marion_all <- get_download(marion_site)
+demo_data <- get_download(demo_site)
 
-print(marion_all)
+print(demo_data)
 ```
 
 There are a number of messages that appear.  These should be suppressed with the flag `verbose = FALSE` in the function call.  One thing you'll note is that not all of the datasets can be downloaded directly to a `download` objct.  This is because `geochronologic` datasets have a different data structure than other data, requiring different fields, and as such, they can be obtained using the `get_geochron` function:
 
 ```{r, message=FALSE, warning=FALSE}
 
-marion_geochron <- get_geochron(marion_site)
+demo_geochron <- get_geochron(demo_site)
 
-print(marion_geochron)
+print(demo_geochron)
 ```
 
 The result is effectively the inverse of the first.
 
-```{r, message=FALSE, warning=FALSE}
-#Get all datasets for just Marion Lake (BC):
-marion_bc <- get_download(marion_site[1,])
-```
-
 Within the download object, `sample.meta` stores the core depth and age information for that dataset. We just want to look at the first few lines, so are  using the head function.
 
 ```{r, message=FALSE, warning=FALSE}
-head(marion_bc[[1]]$sample.meta)
+#sample.meta stores metadata for each pollen sample
+#Accessing the second dataset to look at pollen dataset instead of macrofossil dataset
+head(demo_data[[2]]$sample.meta)
 
 #taxon.list stores a list of taxa found  in the  dataset
-head(marion_bc[[1]]$taxon.list)
+head(demo_data[[2]]$taxon.list)
 
 #counts stores the the counts, presence/absence data, or percentage data for each taxon for each sample
-head(marion_bc[[1]]$counts)
+head(demo_data[[2]]$counts)
 
 #lab.data stores any associated  laboratory measurements in the dataset
-#For Marion Lake, this returns the Microsphere suspension used as a spike to calculate
+#For Jay Lake, this returns the Microsphere suspension used as a spike to calculate
 #concentrations
-head(marion_bc[[1]]$lab.data)
+head(demo_data[[2]]$lab.data)
 ```
 
 ### Helper functions
 
 #### `compile_taxa`
 
-The level of taxonomic resolution can vary among analysts.  Often for multi-site analyses it is helpful to aggregate to a common taxonomic resolution. The `compile_taxa` function in `neotoma` will do this.  To help support rapid prototyping, `neotoma` includes a few pre-built taxonomic lists, **however**, the function also supports the use of a custom-built `data.frame` for aligning taxonomies.  Because new taxa are added to Neotoma regularly (based on analyst identification), it is worthwhile to check the assignments performed by the `compile_taxa` function, and to build your own explicit compilation table.
+The level of taxonomic resolution can vary among analysts.  Often for multi-site analyses it is helpful to aggregate to a common taxonomic resolution. The `compile_taxa` function in `neotoma` will do this.  To help support rapid prototyping, `neotoma` includes a few pre-built taxonomic lists, so far mostly for North American pollen types. **However**, the function also supports the use of a custom-built `data.frame` for aligning taxonomies.  Because new taxa are added to Neotoma regularly (based on analyst identification), it is worthwhile to check the assignments performed by the `compile_taxa` function, and to build your own  compilation table.
 
 ```{r, message=FALSE, warning=FALSE}
-marion_bc <- compile_taxa(marion_bc, list.name = "P25")
+#The 'P25' list derives from Gavin et al., (2003) Quaternary Research, and includes 25 pollen taxa.
+#Accessing second dataset to look at pollen dataset instead of macrofossil dataset
+demo_data_pollen <-demo_data[[2]]
+demo_data_pollen <- compile_taxa(demo_data_pollen, list.name = "P25")
 ```
 
-You'll notice that warning messages return  a number of taxa that cannot be onverted using the existing data table.  Are these taxa important?  They may be important for you.  Check to see which taxa have been converted by looking at the new taxon table:
+You'll notice that warning messages return  a number of taxa that cannot be converted using the existing data table.  Are these taxa important?  They may be important for you.  Check to see which taxa have been converted by looking at the new taxon table:
 
 ```{r, message=FALSE, warning=FALSE}
-marion_bc[[1]]$taxon.list[,c("compressed", "taxon.name")]
+demo_data_pollen$taxon.list[,c("compressed", "taxon.name")]
 ```
 
-And note that if you look at the names of the objects in the new `download` (using `names(marion_bc[[1]]))`, there is now a `full.counts` object.  This allows you to continue using the original counts, while also retaining the new compiled counts.
+And note that if you look at the names of the objects in the new `download` object (using `names(demo_data_pollen)`, there is now a `full.counts` object.  This allows you to continue using the original counts, while also retaining the new compiled counts.
 
 #### Plotting
 
@@ -288,15 +280,15 @@ There are several options for plotting stratigraphic data in R.  The `rioja` pac
 library("analogue")
 
 # Convert the Marion Lake pollen data to percentages
-marion_bc_pct <- analogue::tran(x = marion_bc[[1]]$counts, method = 'percent')
+demo_data_pct <- analogue::tran(x = demo_data[[2]]$counts, method = 'percent')
 
 # Drop rare taxa:
-marion_bc_pct <- marion_bc_pct[, colMeans(marion_bc_pct, na.rm = TRUE) > 2]
+demo_data_pct <- demo_data_pct[, colMeans(demo_data_pct, na.rm = TRUE) > 2]
 
-analogue::Stratiplot(x = marion_bc_pct[ , order(colMeans(marion_bc_pct, na.rm = TRUE), 
+analogue::Stratiplot(x = demo_data_pct[ , order(colMeans(demo_data_pct, na.rm = TRUE), 
                                                 decreasing = TRUE)], 
-                     y = marion_bc[[1]]$sample.meta$age,
-                     ylab = marion_bc[[1]]$sample.meta$age.type[1],
+                     y = demo_data[[2]]$sample.meta$age,
+                     ylab = demo_data[[2]]$sample.meta$age.type[1],
                      xlab = " Pollen Percentage")
 
 ```
@@ -305,7 +297,7 @@ analogue::Stratiplot(x = marion_bc_pct[ , order(colMeans(marion_bc_pct, na.rm = 
 
 ## Multi-Site Analysis
 
-So now we know how to download for a single site and re-build chronologies.  What if we want to look at mltiple sites?  We can use the same set of `get_dataset` and `get_download` functions we used earlier, but add some specialized functions for compiling the datasets to help improve our ability to analyze the data.  Lets start by looking for sites with hemlock pollen in the upper Midwest, and we'll border the dates using a buffer around the hemlock decline.
+What if we want to look at mltiple sites?  We can use the same set of `get_dataset` and `get_download` functions we used earlier, but add some specialized functions for compiling the datasets to help improve our ability to analyze the data.  Lets start by looking for sites with hemlock pollen in the upper Midwest, and we'll border the dates using a buffer around the hemlock decline.
 
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
 
