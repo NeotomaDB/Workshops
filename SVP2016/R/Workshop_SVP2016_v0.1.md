@@ -12,40 +12,72 @@ More teaching materials can be found [here](http://www.neotomadb.org/education/c
 ## Explorer
 
 ### Getting Started
+  1. Go to [http://www.neotomadb.org/](http://www.neotomadb.org/) and click on the 'Explorer' picture, or navigate directly to the [Explorer App](http://apps.neotomadb.org/Explorer/)
+  2. Pan (by dragging), or change the zoom so that your window is centered on North America, including all of the lower 48 states and the southern half of Canada.
 
-1.	Go to [http://www.neotomadb.org/](http://www.neotomadb.org/) and click on the 'Explorer' picture, or navigate directly to the [Explorer App](http://apps.neotomadb.org/Explorer/)
-2.	Pan (by dragging), or change the zoom so that your window is centered on North America, including all of the lower 48 states and the southern half of Canada.
+###	Tips and tricks
+  1. Show/Hide Search Results
+    a. You often accumulate many search layers - it may be getting a bit confusing.  Find the icon that lets you show/hide/combine search layers and use it to hide or delete some of your searches.
+  2. Rename searches
+    a. Searches from the "Basic" search window are automatically named, but not "Advanced" searches.  Add names for your searches as you go at the bottom of the Search dialog
 
 ### Search for Data
 
-1.	Find a Site
-  a.	Using the Search dialog window (Advanced tab, Metadata subtab, Site Name field), find the classic Guilday site "New Paris #4". [Note: Search doesn't like the # symbol, so search for "New Paris", which should return two sites: New Paris #2, and New Paris #4]
-  b.	Once you've performed the search, click on the point that appears.  A window will pop up with some information about this record.
-  c.	QUESTION 1:  What is the latitude and longitude of New Paris #4?  What is the Site ID?
+####	Finding sites
+  **1. Find a known site**
+    a. Using the Search dialog window (Advanced tab, Metadata subtab, Site Name field), find the classic Guilday site "New Paris #4". 
+      + *Note: Search doesn't like the # symbol, so search for "New Paris", which should return two sites: New Paris #2, and New Paris #4*
+    b. Once you've performed the search, click on the point that appears.  A window will pop up with some information about this record.
+    
+    > QUESTION 1:  What is the latitude and longitude of New Paris #4?  What is the Site ID?
+  
+  **2. Explore sites by geography**
+    a. Using the Search dialog window (Advanced tab), first choose "dataset type = vertebrate fauna" at the top
+    b. Then, in the Space subtab, click "Search by extent"
+    c. Click the "Extent" dropdown menu and search by shape, select the rectangle, then draw a rectangle on the map in your chosen region of North America
+    
+    > QUESTION 2:  How many total sites are found in that region?
 
-2.	Find a Taxon (Search Window, Basic Tab, use Taxon field)
-  a.	Find all sites with *Antilocapra* records.
-  b.	QUESTION 2:  How many sites have *Antilocapra* records?
-  c.  This indicates that we might need to build up the taxonomy.  Let's re-search for *Antilocapra*, but make sure we've included all relevant records. *Note 1:* To do this, we will search for a "Taxa group".  To the right of the "Taxon name" field, click on the gear symbol. Click on "Mammals" for the Taxa group, then search for *Antilocapra*. Then, click on all taxa you want to include here.  For example: Antilocapra americana, Antilocapra sp., Antilocapra, cf. Antilocapra americana, cf Antilocapra sp., Antilocapra cf A. americana, Antilocapridae ?Antilocapra sp., and ?Antilocapra sp. *Note 2:* It can be helpful to rename your search at the bottom of the Search dialog, e.g., to "Antilocapra"
-  What state has the southernmost location of *Antilocapra* in this search?  (For comparison, the southern range limit of *Antilocapra* today is in XXX, plus a few scattered outliers e.g. at the top of the Appalachian Mountains).
-3.	Find all sites produced by a researcher (Search Window, Advanced Tab, Metadata subtab, Person Name field)
-  a.	Find all sites produced by Ernie Lundelius
-  b.	QUESTION 3:  In which states has Ernie worked?
-4.	Find all vertebrate records in North America (Search window, Advanced Tab, Dataset field)
-  a.	QUESTION 4:  The generation of fossil records is labor intensive and hence expensive - *e.g.* the costs of fieldwork, the money spent on radiocarbon dates, the time required for a trained analysis to identify and count pollen data, etc. A rough time/cost estimate for a single fossil pollen record is on the order of two years and $30,000.  Given this, give an order-of-magnitude estimate of the number of person-years and dollars it took to generate these fossil pollen records now stored in Neotoma. (Order-of-magnitude = 10 person-years?  100 person-years? 1000? etc.)
-  b.	QUESTION 5:  Notice there is a fairly dense network of fossil pollen sites in an arc stretching from Minnesota to Nova Scotia.  Why might there be such a dense network in this region?  
-5.	Show/Hide Search Results
-  a.	You now have many search layers - it may be getting a bit confusing.  Find the icon that lets you show/hide/combine search layers and use it to hide some of your searches.
-6.	Multi-Taxon Search
-  a.	Find all sites with at least 20% *Picea* pollen between 15,000 and 12,000 years ago.
-  b.	Find all sites with Mammut (mastodon) between 15,000 and 12,000 years ago.
-    i.	For Mammut, use the 'Advanced Taxon Selection' which you can use by clicking on the gears icon to the right of the 'Taxon' field in the 'Search' window.
+  **3. Find all sites produced by a researcher**
+    a. Search Window, Advanced Tab, Metadata subtab, Person Name field
+    b. Find all sites produced by Ernie Lundelius
+    
+    > QUESTION 3:  In which states has Ernie worked?
+
+####  Find a Taxon 
+  **1.	Search for a single taxon.**
+    a. Search Window, Basic Tab, use Taxon field
+    b. Find all sites with *Antilocapra* records**
+  
+  > QUESTION 4:  How many sites have *Antilocapra* records?
+  
+  **2. Search for multiple taxa**
+    a. The basic *Antilocapra* search indicates that we might need to build up the taxonomy.  Let's re-search for *Antilocapra*, but make sure we've included all relevant records.
+    b. Search Window, Advanced tab, Taxa subtab
+      + *Note 1:* To do this, we will search for a "Taxa group".  To the right of the "Taxon name" field, click on the gear symbol. Click on "Mammals" for the Taxa group, then search for *Antilocapra*. Then, click on all taxa you want to include here.  For example: Antilocapra americana, Antilocapra sp., Antilocapra, cf. Antilocapra americana, cf Antilocapra sp., Antilocapra cf A. americana, Antilocapridae ?Antilocapra sp., and ?Antilocapra sp. 
+    
+    > QUESTION 5:  What state has the easternmost location of *Antilocapra* in this search?  (For comparison, the eastern range limit of *Antilocapra* today is in western Iowa).
+    
+    c.  Add the modern species range onto the search.
+      + Click on the red polygon at the top, search for and select *Antilocapra americana*
+  
+  
+####	Find all vertebrate records in North America 
+  1. Search window, Advanced Tab, Dataset type = "Vertebrate fauna"
+  
+  > QUESTION 6:  The generation of fossil records is labor intensive and hence expensive - *e.g.* the costs of fieldwork, the money spent on radiocarbon dates, the time required for a trained analysis to identify specimens, etc. A rough time/cost estimate for a single vertebrate fossil record is on the order of two years and $30,000.  Given this, give an order-of-magnitude estimate of the number of person-years and dollars it took to generate these fossil vertebrate records now stored in Neotoma. (Order-of-magnitude = 10 person-years?  100 person-years? 1000? etc.)
+  
+    
+####	Multi-Taxon Search
+  1. Find all sites with at least 20% *Picea* pollen between 15,000 and 12,000 years ago.
+  2. Find all sites with Mammut (mastodon) between 15,000 and 12,000 years ago.
+    +	For Mammut, use the 'Advanced Taxon Selection' which you can use by clicking on the gears icon to the right of the 'Taxon' field in the 'Search' window.
       1.	In the ATS window, choose 'Mammals' for Taxa Group and then enter Mammut into the 'Search for' window.  Then click 'Go'
       2.	Note that the search returned taxon names for both Mammut (mastodon) and Mammuthus (mammoth).  Click all boxes for all variants of Mammut but do not click the Mammuthus boxes
       3.	Enter a search name (e.g. 'Mammut - all') and click Save
       4.	In the general search window, click 'Search'
-  c.	QUESTION 6:  Take a screenshot of this map and include it in your homework.  Does mastodon tend to live in places with spruce, or without spruce?  Suggest two hypotheses that might explain the observed association.
-7.	Multi-Time Search
+  3.	QUESTION 6:  Take a screenshot of this map and include it in your homework.  Does mastodon tend to live in places with spruce, or without spruce?  Suggest two hypotheses that might explain the observed association.
+####	Multi-Time Search
   a.	Hide your previous searches.
   b.	Find all sites with at least 20% *Picea* pollen between 21,000 and 18,000 years ago.
   c.	Find all sites with at least 20% *Picea* pollen between 15,000 and 12,000 years ago.
@@ -124,7 +156,7 @@ FL_sites <- get_site(loc = c(-88, -79, 25, 30))
 ```
 
 ```
-## The API call was successful, you have returned  8204 records.
+## The API call was successful, you have returned  8212 records.
 ```
 
 You can also search by geopolitical name or geopolitical IDs (`gpid`) stored in Neotoma. For a list of names and gpids, go to [http://api.neotomadb.org/apdx/geopol.htm](), or use the `get_table(table.name = "GeoPoliticalUnits")` command.  This command works either with an explicit numeric ID, or with a text string:
@@ -194,7 +226,7 @@ get_dataset(marion_site[1,])
 
 ```
 ## A dataset_list containing 2 objects:
-## Accessed from 2016-08-04 14:31h to 2016-08-04 14:31h. 
+## Accessed from 2016-08-11 14:10h to 2016-08-11 14:10h. 
 ## Datasets:
 ##  dataset.id                         site.name      long      lat
 ##        1705 Marion Lake (CA:British Columbia) -122.5472 49.30833
@@ -264,7 +296,7 @@ print(marion_all)
 
 ```
 ## A download_list containing 4 objects:
-## Accessed from 2016-08-04 14:31h to 2016-08-04 14:31h. 
+## Accessed from 2016-08-11 14:10h to 2016-08-11 14:10h. 
 ## Datasets:
 ##  dataset.id                         site.name       long      lat
 ##        1705 Marion Lake (CA:British Columbia) -122.54722 49.30833
@@ -304,7 +336,7 @@ print(marion_geochron)
 
 ```
 ## A geochronology_list containing 2 objects:
-## Accessed from 2016-08-04 14:31h to 2016-08-04 14:31h. 
+## Accessed from 2016-08-11 14:10h to 2016-08-11 14:10h. 
 ## Geochronologies:
 ##     id                         site.name       long      lat ages   min
 ##   8377 Marion Lake (CA:British Columbia) -122.54722 49.30833    7   520
