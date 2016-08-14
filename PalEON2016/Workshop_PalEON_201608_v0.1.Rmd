@@ -1,6 +1,6 @@
 ---
-title: '[rename workshop]'
-author: '[add names], Simon Goring, Jack Williams, Eric C. Grimm'
+title: 'PalEON 2016: Neotoma DB, Explorer, and R'
+author: 'Jack Williams & Simon Goring'
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
@@ -26,9 +26,11 @@ bibliography: workshop.bib
 
 # Introduction
 
-This workshop is intended to introduce individuals to the Neotoma Paleoecology Database and Neotoma Explorer. Neotoma is a public-access and community-supported repository of paleoecological data, mostly from the late Quaternary. These paleoecological data are widely used by scientists to study species responses to past climate change. 
+This workshop is intended to introduce individuals to the Neotoma Paleoecology Database, Neotoma Explorer, and the  'neotoma' package in R. Neotoma is a public-access and community-supported repository of paleoecological data, mostly from the late Quaternary. These paleoecological data are widely used by scientists to study species responses to past climate change. 
 
-More teaching materials can be found [here](http://www.neotomadb.org/education/category/higher_ed/)
+This workshop was developed for the PalEON Boot Camp, Summer 2016.  It is available on GitHub, in the NeotomaDB [repository](https://github.com/NeotomaDB/Workshops/tree/master/PalEON2016).  
+
+More teaching materials can be found on the Neotoma [website](http://www.neotomadb.org/education/category/higher_ed/) and at the Science Education Resource Center (SERC) at Carleton College [link](http://serc.carleton.edu/neotoma/activities.html).
 
 # Finding Data
 
@@ -134,16 +136,17 @@ You now have many search layers - it may be getting a bit confusing.  Find the i
 
 ```{r, message=FALSE, warning=FALSE}
 # Uncomment this line if you haven't already installed any of these packages:
-# install.packages(c("neotoma", "analogue"))
+# install.packages(c("neotoma", "analogue", "rworldmap"))
 
-#Add the neotoma package to your programming environment (we'll add analogue later)
+#Add the neotoma package to your programming environment (we'll add analogue and rworldmap later)
 library(neotoma)
 
 ```
 
-`neotoma` has three fundamental commands: `get_site`, `get_dataset`, `get_download`. The first two return metadata for sites and datasets; the latter returns data. See Goring et al. [@neotoma_goring] for a full description of the package and example code.  This exercise is partially based on those examples.
+'neotoma' has various functions, each of which access the Neotoma APIs to get metadata and data from the Neotoma Paleoecology DB and pass these metadata and data into the R environment.  We'll focus here on 
+three very useful functions: `get_site`, `get_dataset`, `get_download`. The first two return metadata for sites and datasets; the latter returns data. See Goring et al. [@neotoma_goring] for a full description of the package and example code.  This exercise is partially based on those examples.
 
-### Finding sites
+### Finding sites & getting site-level metadata (get_site)
 
 We'll start with `get_site`.  `get_site` returns a `data.frame` with metadata about sites. You can use this to find the spatial coverage of data in a region (using `get_site` with a bounding box), or to get explicit site information easily from more complex data objects.  Use the command `?get_site` to see all the options available.
 
@@ -194,7 +197,7 @@ marion_site$description
 ```
 
 
-### Getting Datasets
+### Finding Datasets & Getting Dataset-Level Metadata (get_datasets)
 
 The structure of the Neotoma data model, as expressed through the API is roughly: "`counts` within `download`s, `download`s within `dataset`s, `dataset`s within `site`s".  So a `dataset` contains more information than a site, about a particular dataset from that site.  A site may have a single associated dataset, or multiple.  For example:
 
@@ -214,7 +217,7 @@ marion.meta.dataset  <- get_dataset(marion.meta.site)
 marion.meta.dataset
 ```
 
-### Get_Download
+### Getting Data (get_download)
 
 `get_download` returns a list which stores a list of download objects - one for each retrieved dataset.  Each download object contains a suite of data for the samples in that dataset.  Get all datasets for both Marion Site and Marion Landfill. `get_download` will accept an object of class dataset:
 
@@ -300,104 +303,6 @@ analogue::Stratiplot(x = marion_bc_pct[ , order(colMeans(marion_bc_pct, na.rm = 
 
 # Working with Data
 
-## Age Models
-
-We can use the Neotoma package, along with other tools to rebuild age models. Many of the age modeling tools require additional files to be installed.  One such program is [Bacon](http://chrono.qub.ac.uk/blaauw/bacon.html) [@].  Here we will rebuild a Baysian age model for a site in Wisconsin.
-
-We've looked in detail at Marion Lake, let's choose another site from our pool of Wisconsin sites earlier.  First we need to get Bacon set up:
-
-```{r, message=FALSE, warning=FALSE}
-
-source("Bacon.R")
-
-```
-
-Now let's look for Lake O' Pines:
-
-```{r, warnings = FALSE, message=FALSE}
-
-lake_o <- get_site(sitename = "Lake O' Pines")
-lake_o_ds <- get_dataset(lake_o)
-
-print(lake_o_ds)
-
-```
-
-Lake O' Pines has three dataset types, a geochronolgic, a pollen and a plant macrofossil dataset.  We only want to reconstruct the pollen dataset (Dataset ID `15925`).  Bacon requires a specific data format and the `neotoma` package provides a wrapper for it with the `write_agefile` function.  One thing to keep in mind is that datasets might have multiple chronologies, and these chronologies can be based on different subsets of data.  Let's look at the chronological controls used 
-
-```{r, message=FALSE, warning=FALSE}
-
-# Get the download object:
-lake_o_dl <- get_download(15925)
-
-names(lake_o_dl$`15925`$chronologies)
-
-# There's only one chronology, lets take a look at it:
-
-lake_o_chron <- get_chroncontrol(lake_o_dl$`15925`)
-
-print(lake_o_chron)
-```
-
-So we can see that there's a relatively good number of radiocarbon dates, a modern sample, and it ought to make the basis of a decent age model.
-
-```{r, message=FALSE, warning=FALSE}
-
-# Write the bacon formatted file to disk for Bacon:
-write_agefile(lake_o_dl[[1]], chronology = 1, path = ".",
-              corename = "LAKEPINES", cal.prog = 'Bacon') 
-
-# Did it work?
-list.files("Cores")
-
-```
-
-The function puts a new directory into the `Cores` folder, Bacon's default read/write folder.  Again, you must make sure you're in the right working directory for this to work.
-
-Next, we start Bacon:
-
-```{r, echo = TRUE, warning = FALSE}
-# Note, these are very 'default' settings, mostly to ensure that this will run:
-
-tester <- Bacon('LAKEPINES', acc.mean = 10, thick = 50, plot.pdf = FALSE,
-                depths.file = TRUE, suggest = FALSE, ask = FALSE)
-
-```
-
-Bacon itself doesn't return data back into R, so I'm just timing the function so we know how long it takes.  The last run of Lake O' Pines took 153 seconds to run.  
-
-After running, the output is then available in the `Cores/LAKEPINES` folder.  We can read it back in using the `read_bacon` method.  We can either make a new `chronology` table on its own:
-
-```{r, echo=TRUE, warning = FALSE, message = FALSE}
-# We have to do this because we can't change the working directory in a knit document.
-lake_o_dl[[1]] <- read_bacon("LAKEPINES", add = TRUE, path = ".",
-                             download = lake_o_dl[[1]], sections = 17)
-
-head(read_bacon("LAKEPINES", add = FALSE, sections = 17, path = "."))
-
-```
-
-We can see it has the same structure as the original `chronology` table in the `lake_o_dl` object.  We can add it to the `download`, and make it our default model if we want:
-
-```{r, eval = TRUE}
-
-lake_o_dl[[1]] <- read_bacon("LAKEPINES", add = TRUE, chron_name = "workshop",
-                             download = lake_o_dl[[1]], sections = 17)
-
-```
-
-Now we've got our new age model, we can compare the ages from the two models:
-
-```{r, message=FALSE, warning=FALSE}
-plot(lake_o_dl[[1]]$chronologies[[2]]$age, # the new age model
-     lake_o_dl[[1]]$chronologies[[1]]$age - lake_o_dl[[1]]$chronologies[[2]]$age,
-     xlab = "Calibrated Years BP",
-     ylab = "Age correction (+: new model younger)")
-abline(h = 0)
-```
-
-So we can immediately see the difference a new model makes (positive values indicate that the original chronology was older than the new model), and since we've set the new model as the default we can now carry that forward into subsequent analysis with the newly revised `lake_o_dl`.  But we shouldn't, because our new model isn't very good.
-
 ## Multi-Site Analysis
 
 So now we know how to download for a single site and re-build chronologies.  What if we want to look at mltiple sites?  We can use the same set of `get_dataset` and `get_download` functions we used earlier, but add some specialized functions for compiling the datasets to help improve our ability to analyze the data.  Lets start by looking for sites with hemlock pollen in the upper Midwest, and we'll border the dates using a buffer around the hemlock decline.
@@ -430,8 +335,10 @@ hem_dec_dl <- get_download(hem_dec)
 Let's see where the sites are:
 
 ```{r, message=FALSE, warning=FALSE}
-# Note, a search for `Tsuga canadensis` returns only 49 records, because American scientists don't
-# like using the word Canada.  The broader search returns ~260 samples.
+# Note, a search for `Tsuga canadensis` returns only 49 records, because palynologists in eastern 
+# North America often just report to the genus level (Tsuga).  This is conservative but safe 
+# because of a minor species (T. caroliniana) in the SEUS. The genus-level search returns 
+# ~260 samples.
 
 library(rworldmap)
 map <- getMap()
@@ -499,6 +406,6 @@ If you look closely you can clearly see the offest at the time of the Decline be
 
 # Conclusions
 
-The `neotoma` package, and the Neotoma Paleoecological Database provide a powerful tool for data analysis and data manipulation.  These data tools can support exploratory data analysis, teaching opportunities, and research projects across disciplines.  More information about using Neotoma is available from the database's [Manual](https://neotoma-manual.readthedocs.io/en/latest/), and from the `neotoma` package [paper](http://www.openquaternary.com/articles/10.5334/oq.ab/).
+The `neotoma` package, and the Neotoma Paleoecological Database provide a powerful tool for data analysis and data manipulation.  These data tools can support exploratory data analysis, teaching opportunities, and research projects across disciplines.  More information about using Neotoma is available from the database's [Manual](https://neotoma-manual.readthedocs.io/en/latest/), and from the `neotoma` package [paper](http://www.openquaternary.com/articles/10.5334/oq.ab/).  The 'neotoma'  source code is available at [GitHub](https://github.com/ropensci/neotoma)
 
 # References
