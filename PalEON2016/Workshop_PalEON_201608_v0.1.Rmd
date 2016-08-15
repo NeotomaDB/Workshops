@@ -170,7 +170,8 @@ That also allows you to use some of the other `neotoma` functions more easily.
 ```{r, message=FALSE, warning=FALSE, results='hide'}
 
 #Search by lat/lon bounding box.  This one roughly corresponds to Florida.
-demo_boxsearch_sites <- get_site(loc = c(-88, -79, 25, 30)) 
+#bounding box: (LonW, LatS, LonE, LatN)
+demo_boxsearch_sites <- get_site(loc = c(-88, 25, -79, 30)) 
 ```
 
 You can also search by geopolitical name or geopolitical IDs (`gpid`) stored in Neotoma. For a list of names and gpids, go to [http://api.neotomadb.org/apdx/geopol.htm](), or use the `get_table(table.name = "GeoPoliticalUnits")` command.  This command works either with an explicit numeric ID, or with a text string:
