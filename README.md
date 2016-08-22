@@ -33,6 +33,8 @@ or from the command line:
 RScript -e "rmarkdown::render(input = 'Workshop_Template_v0.1.Rmd', output_format = 'html_document')"
 ```
 
+If you are interested in working with version control and have a GitHub account, you can either [fork the repository](https://help.github.com/articles/fork-a-repo/) and add a pull request once you are done, or you can clone the repository locally and work on a new branch, creating a pull request when you are done.
+
 ## What's in the ZIP?
 
 The `R_template_v0.2.zip` file is an archived ZIP file that contains several key components:
@@ -87,7 +89,7 @@ If something doesn't work, feel free to contact us through the Neotoma [website]
 
 ## Once you're done
 
-If you have a GitHub account already and have cloned the whole repository, copy your finished workshop documents into a new directory in the `Examples` folder.  Make sure to give it a clear name that indicates the place & time of the workshop, and then make a pull request.
+If you have a GitHub account already and have cloned the whole repository, copy your finished workshop documents into a new directory in the `Examples` folder.  You can create a new directory from the command line, or using your file explorer. Make sure to give it a clear name that indicates the place & time of the workshop, and then [make a pull request](https://help.github.com/articles/creating-a-pull-request/).
 
 If you aren't comfortable doing this, contact us through the issues tracker or via email and send us a zipped copy of the workshop.  We'll put them up for you.  Please note that this repository is licensed under an [MIT License](https://raw.githubusercontent.com/NeotomaDB/Workshops/master/LICENSE).  If you are not comfortable sharing your work under these terms (or cannot legally) please let us know.
 
