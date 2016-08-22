@@ -24,18 +24,18 @@ If you're using RMarkdown it is relatively straightforward to render the `Rmd` f
 
 ```r
 library(rmarkdown)
-render(input = "Workshop_Template_v0.1.Rmd", output = "html_document")
+render(input = "Workshop_Template_v0.1.Rmd", output_format = "html_document")
 ```
 
-or from the commandline:
+or from the command line:
 
 ```
-RScript -e "rmarkdown::render(input = 'Workshop_Template_v0.1.Rmd', output = 'html_document')"
+RScript -e "rmarkdown::render(input = 'Workshop_Template_v0.1.Rmd', output_format = 'html_document')"
 ```
 
 ## What's in the ZIP?
 
-The `R_template_v0.1.zip` file is an archived ZIP file that contains five key components:
+The `R_template_v0.2.zip` file is an archived ZIP file that contains several key components:
 
 ![](images/zip_contents.png)
 
@@ -43,7 +43,7 @@ The `R_template_v0.1.zip` file is an archived ZIP file that contains five key co
 
 [**Workshop_Template_v0.1.Rmd**](https://github.com/NeotomaDB/Workshops/blob/master/Templates/R/Workshop_Template_v0.1.Rmd)
 
-  * The main document.  This includes executable code (although execution requires a working internet connection).  Feel free to edit to add examples with which you're familiar, or that focus on particular dataset types.<br>
+  * The main document:   This includes executable code (although execution requires a working internet connection).  Feel free to edit to add examples with which you're familiar, or that focus on particular dataset types.<br>
 
 [**images** folder](https://github.com/NeotomaDB/Workshops/tree/master/Templates/R/images)
 
@@ -61,6 +61,9 @@ The `R_template_v0.1.zip` file is an archived ZIP file that contains five key co
 
   * A citation format used by ESA.  Copied from [here](https://github.com/citation-style-language/styles/blob/master/ecology.csl).
 
+**Bacon Files & Folders**:
+
+  * [Bacon](http://chrono.qub.ac.uk/blaauw/bacon.html) is a method for building chronologies using Bayesian methods.  The files are included here so that the workshop can "just run".  This should not be considered a canonical distribution of Bacon.
 
 ## Editing the Rmd
 
