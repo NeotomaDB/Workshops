@@ -119,13 +119,14 @@ $(document).ready(function () {
 
 
 <div id="uw-aces-2016-how-to-export-neotoma-data-to-r-exploration-of-neotoma-r-package" class="section level1">
-<h1>UW ACES 2016: How to Export Neotoma Data to R, Exploration of neotoma R Package</h1>
-<p>Jack Williams &amp; Simon Goring<br /><code>r format(Sys.time(), '%d %B, %Y')</code></p>
+<h1>UW ACES 2016: How to Export Neotoma Data to R, Exploration of <em>neotoma</em> R Package</h1>
+<p>Jack Williams &amp; Simon Goring<br />06 October, 2016</p>
 </div>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
-<p>This exercise is intended to introduce individuals to the Neotoma Paleoecology Database, the ‘neotoma’ package in R, and the data objects used by ‘neotoma’. Neotoma is a public-access and community-supported repository of paleoecological data, mostly from the late Quaternary. These paleoecological data are widely used by scientists to study species responses to past climate change.</p>
+<p>This exercise is intended to introduce individuals to the Neotoma Paleoecology Database, the <em>neotoma</em> package in R, and the data objects used by <em>neotoma</em>. Neotoma is a public-access and community-supported repository of paleoecological data, mostly from the late Quaternary. These paleoecological data are widely used by scientists to study species responses to past climate change.</p>
 <p>This workshop was developed for the UW ACES seminar in Fall 2016. It is available on GitHub, in the NeotomaDB <a href="https://github.com/NeotomaDB/Workshops/tree/master/UW_ACES2016">repository</a>.</p>
+<p>This tutorial does not cover age modeling. Students interested in learning how to use the bacon age model can use the tutorial available on the PalEON Summer2016 <a href="https://github.com/PalEON-Project/Camp2016">repository</a></p>
 </div>
 <div id="the-neotoma-package" class="section level1">
 <h1>The <code>neotoma</code> Package</h1>
@@ -134,7 +135,7 @@ $(document).ready(function () {
 
 #Add the neotoma package to your programming environment (we'll add analogue and rworldmap later)
 library(neotoma)</code></pre>
-<p>‘neotoma’ has various functions, each of which access the Neotoma APIs to get metadata and data from the Neotoma Paleoecology DB and pass these metadata and data into the R environment.</p>
+<p>‘neotoma’ has various functions, each of which access the Neotoma <a href="http://api.neotomadb.org/doc/">APIs</a> to get metadata and data from the Neotoma Paleoecology DB and pass these metadata and data into the R environment.</p>
 <p>We’ll focus here on three very useful functions: <code>get_site</code>, <code>get_dataset</code>, <code>get_download</code>. The first two return metadata for sites and datasets; the latter returns data. See Goring et al. <span class="citation">[@neotoma_goring]</span> for a full description of the package and example code. This exercise is partially based on those examples.</p>
 <div id="finding-sites-getting-site-level-metadata-get_site" class="section level2">
 <h2>Finding sites &amp; getting site-level metadata (get_site)</h2>
@@ -524,6 +525,7 @@ analogue::Stratiplot(x = demo_data_pct[ , order(colMeans(demo_data_pct, na.rm = 
 <div id="multi-site-analysis" class="section level3">
 <h3>Multi-Site Analysis</h3>
 <p>What if we want to look at multiple sites? We can use the same set of <code>get_dataset</code> and <code>get_download</code> functions we used earlier, but add some specialized functions for compiling the datasets to help improve our ability to analyze the data. Lets start by looking for sites with hemlock pollen in the upper Midwest, and we’ll border the dates using a buffer around the hemlock decline.</p>
+<p>Warning: This code block makes a large number of queries to the Neotoma APIs and can take some time to run. You may want to skip this section and save it for when you have more time to run.</p>
 <pre class="r"><code>hem_dec &lt;- get_dataset(taxonname = &quot;Tsuga*&quot;, 
                        datasettype = &quot;pollen&quot;, 
                        loc = c(-98.6, 36.5, -66.1, 49.75),
@@ -588,9 +590,68 @@ plot(hemlock_all, col = rgb(0.1, 0.1, 0.1, 0.3), pch = 19, cex = 0.4,
 </div>
 </div>
 </div>
+<div id="uw-aces---example---tower-lake-and-irwin-smith-bob" class="section level1">
+<h1>UW ACES - Example - Tower Lake and Irwin Smith Bob</h1>
+<p>For an ACES-specific exercise, we’ll download and prepare the hemlock data from from Tower Lake and Irwin Smith Bog. The scripts here were used to prepare the data that you’ve used in your initial time series analyses.</p>
+<div id="get-site-data-for-tower-and-irwin" class="section level2">
+<h2>Get site data for Tower and Irwin</h2>
+<pre class="r"><code>#Sept 8, 2016:  this returns one site
+tower_site &lt;- get_site(sitename = 'Tower%')
+#Sept 8, 2016:  this returns one sites ('Irwin%' returns 2).  
+irwin_site &lt;- get_site(sitename = 'Irwin Smith%')</code></pre>
+</div>
+<div id="download-the-datasets-and-sample-metadata" class="section level2">
+<h2>Download the datasets and sample metadata</h2>
+<p>Using <code>get_download</code> to get the data</p>
+<pre class="r"><code>tower_data &lt;- get_download(tower_site)
+irwin_data &lt;- get_download(irwin_site)
+</code></pre>
+<p>Both Irwin and Tower each have two datasets, one plant macrofossils, one pollen. Checking to see which dataset is the pollen dataset</p>
+<pre class="r"><code>#dataset.meta stores metadata for each pollen sample
+#Irwin:  dataset 1 is plant macros, 2 is pollen
+head(irwin_data)
+#Tower:  dataset 1 is plant macros, 2 is pollen
+head(tower_data)</code></pre>
+<p>sample.meta stores metadata for each pollen sample taxon.list stores a list of taxa found in the dataset counts stores the the counts, presence/absence data, or percentage data for each taxon for each sample</p>
+<p>Bind the downloaded pollen datasets together into a single data frame. ‘bind’ is a function within the neotoma package.</p>
+<pre class="r"><code>aces_demo_data=bind(irwin_data[[2]], tower_data[[2]])</code></pre>
+</div>
+<div id="compile_taxa-1" class="section level2">
+<h2><code>compile_taxa</code></h2>
+<p>Compile both sites to a standard list of taxa, using the ‘WS64’ list from Williams and Shuman 2008. The warning messages return a number of taxa that cannot be converted using the existing data table. Check to see which taxa have been converted by looking at the new taxon table.</p>
+<pre class="r"><code>aces_poll64 &lt;- compile_taxa(aces_demo_data, list.name = &quot;WS64&quot;)
+aces_poll64$taxon.list[,c(&quot;compressed&quot;, &quot;taxon.name&quot;)]</code></pre>
+</div>
+<div id="convert-the-pollen-data-to-percentages" class="section level2">
+<h2>Convert the pollen data to percentages</h2>
+<p>Using tran function in analog to do percentages. To make it clear which functions come from the <code>analogue</code> package the code uses <code>analogue::</code> before the function names. This is just an explicit way to state the function source.<br />Also converting output to data frame and renaming Tsuga undifferentiated to Tsuga_canadensis in counts table. At these sites, this is T. canadensis and we are removing the space.</p>
+<pre class="r"><code>i_junk &lt;- analogue::tran(x = aces_poll64[[1]]$counts, method = 'percent')
+t_junk &lt;- analogue::tran(x = aces_poll64[[2]]$counts, method = 'percent')
+irwin_pct&lt;-data.frame(i_junk)
+tower_pct&lt;-data.frame(t_junk)
+irwin_pct&lt;-rename(irwin_pct, c(&quot;Tsuga.undifferentiated&quot;=&quot;Tsuga.canadensis&quot;))
+tower_pct&lt;-rename(tower_pct, c(&quot;Tsuga.undifferentiated&quot;=&quot;Tsuga.canadensis&quot;))</code></pre>
+<p>Create new data tables with just depths, ages, and hemlock percents. Rename column headers</p>
+<pre class="r"><code>irwin_hemlock&lt;-data.frame(aces_poll64[[1]]$sample.meta$depth,aces_poll64[[1]]$sample.meta$age,irwin_pct$Tsuga.canadensis)
+tower_hemlock&lt;-data.frame(aces_poll64[[2]]$sample.meta$depth,aces_poll64[[2]]$sample.meta$age,tower_pct$Tsuga.canadensis)
+#Note that 'names' command assumes position of columns.
+names(irwin_hemlock)[1]&lt;-&quot;Depth.cm&quot;
+names(irwin_hemlock)[2]&lt;-&quot;Age.yrB1950&quot;
+names(irwin_hemlock)[3]&lt;-&quot;Tsuga.canadensis&quot;
+names(tower_hemlock)[1]&lt;-&quot;Depth.cm&quot;
+names(tower_hemlock)[2]&lt;-&quot;Age.yrB1950&quot;
+names(tower_hemlock)[3]&lt;-&quot;Tsuga.canadensis&quot;</code></pre>
+<p>Plot data to confirm</p>
+<pre class="r"><code>plot(irwin_hemlock$Tsuga.canadensis,irwin_hemlock$Age.yrB1950)
+plot(tower_hemlock$Tsuga.canadensis,tower_hemlock$Age.yrB1950)</code></pre>
+<p>Saving data to an .RData file for sharing and re-use</p>
+<pre class="r"><code>save(irwin_hemlock,tower_hemlock,file=&quot;hemlock_irwin_tower.RData&quot;)
+save.image()</code></pre>
+</div>
+</div>
 <div id="conclusions" class="section level1">
 <h1>Conclusions</h1>
-<p>The <code>neotoma</code> package, and the Neotoma Paleoecological Database provide a powerful tool for data analysis and data manipulation. These data tools can support exploratory data analysis, teaching opportunities, and research projects across disciplines. More information about using Neotoma is available from the database’s <a href="https://neotoma-manual.readthedocs.io/en/latest/">Manual</a>, and from the <code>neotoma</code> package <a href="http://www.openquaternary.com/articles/10.5334/oq.ab/">paper</a>. The ‘neotoma’ source code is available at <a href="https://github.com/ropensci/neotoma">GitHub</a></p>
+<p>The <code>neotoma</code> package, and the Neotoma Paleoecological Database provide a powerful tool for data analysis and data manipulation. These data tools can support exploratory data analysis, teaching opportunities, and research projects across disciplines. More information about using Neotoma is available from the database’s <a href="https://neotoma-manual.readthedocs.io/en/latest/">Manual</a>, and from the <code>neotoma</code> package <a href="http://www.openquaternary.com/articles/10.5334/oq.ab/">paper</a>. The <code>neotoma</code> source code is available at <a href="https://github.com/ropensci/neotoma">GitHub</a></p>
 </div>
 <div id="references" class="section level1">
 <h1>References</h1>

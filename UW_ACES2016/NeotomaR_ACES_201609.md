@@ -1,3 +1,6 @@
+---
+output: html_document
+---
 # UW ACES 2016: How to Export Neotoma Data to R, Exploration of *neotoma* R Package
 Jack Williams & Simon Goring  
 `r format(Sys.time(), '%d %B, %Y')`  
