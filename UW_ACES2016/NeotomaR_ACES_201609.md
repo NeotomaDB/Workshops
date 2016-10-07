@@ -2,8 +2,6 @@
 Jack Williams & Simon Goring  
 `r format(Sys.time(), '%d %B, %Y')`  
 
-JUST ADDED THIS LINE
-
 # Introduction
 
 This exercise is intended to introduce individuals to the Neotoma Paleoecology Database, the  *neotoma* package in R, and the data objects used by *neotoma*. Neotoma is a public-access and community-supported repository of paleoecological data, mostly from the late Quaternary. These paleoecological data are widely used by scientists to study species responses to past climate change. 
