@@ -24,88 +24,102 @@ More teaching materials can be found [here](http://www.neotomadb.org/education/c
 ### Search for Data
 
 ####	Finding sites
-  **1. Find a known site**
+  1. **Find a known site**
     a. Using the Search dialog window (Advanced tab, Metadata subtab, Site Name field), find the classic Guilday site "New Paris #4". 
-      + *Note: Search doesn't like the # symbol, so search for "New Paris", which should return two sites: New Paris #2, and New Paris #4*
+      i. *Note:* Search doesn't like the # symbol, so search for "New Paris", which should return two sites: New Paris #2, and New Paris #4
     b. Once you've performed the search, click on the point that appears.  A window will pop up with some information about this record.
     
     > QUESTION 1:  What is the latitude and longitude of New Paris #4?  What is the Site ID?
   
-  **2. Explore sites by geography**
+  2. **Explore sites by geography**
     a. Using the Search dialog window (Advanced tab), first choose "dataset type = vertebrate fauna" at the top
     b. Then, in the Space subtab, click "Search by extent"
     c. Click the "Extent" dropdown menu and search by shape, select the rectangle, then draw a rectangle on the map in your chosen region of North America
     
     > QUESTION 2:  How many total sites are found in that region?
 
-  **3. Find all sites produced by a researcher**
+  3. **Find all sites produced by a researcher**
     a. Search Window, Advanced Tab, Metadata subtab, Person Name field
     b. Find all sites produced by Ernie Lundelius
     
     > QUESTION 3:  In which states has Ernie worked?
 
 ####  Find a Taxon 
-  **1.	Search for a single taxon.**
+  1. **Search for a single taxon.**
     a. Search Window, Basic Tab, use Taxon field
-    b. Find all sites with *Antilocapra* records**
+    b. Find all sites with *Antilocapra* records
   
-  > QUESTION 4:  How many sites have *Antilocapra* records?
+    > QUESTION 4:  How many sites have *Antilocapra* records?
   
-  **2. Search for multiple taxa**
+  2. **Search for multiple taxa**
     a. The basic *Antilocapra* search indicates that we might need to build up the taxonomy.  Let's re-search for *Antilocapra*, but make sure we've included all relevant records.
     b. Search Window, Advanced tab, Taxa subtab
-      + *Note 1:* To do this, we will search for a "Taxa group".  To the right of the "Taxon name" field, click on the gear symbol. Click on "Mammals" for the Taxa group, then search for *Antilocapra*. Then, click on all taxa you want to include here.  For example: Antilocapra americana, Antilocapra sp., Antilocapra, cf. Antilocapra americana, cf Antilocapra sp., Antilocapra cf A. americana, Antilocapridae ?Antilocapra sp., and ?Antilocapra sp. 
+      i. *Note:* To do this, we will search for a "Taxa group".To the right of the "Taxon name" field, click on the gear symbol. Click on "Mammals" for the Taxa group, then search for *Antilocapra*. Then, click on all taxa you want to include here.  For example: Antilocapra americana, Antilocapra sp., Antilocapra, cf. Antilocapra americana, cf Antilocapra sp., Antilocapra cf A. americana, Antilocapridae ?Antilocapra sp., and ?Antilocapra sp. 
     
     > QUESTION 5:  What state has the easternmost location of *Antilocapra* in this search?  (For comparison, the eastern range limit of *Antilocapra* today is in western Iowa).
     
-    c.  Add the modern species range onto the search.
-      + Click on the red polygon at the top, search for and select *Antilocapra americana*
+    c.  Add the modern species range onto the search: Click on the red polygon at the top, search for and select *Antilocapra americana*
   
   
 ####	Find all vertebrate records in North America 
-  1. Search window, Advanced Tab, Dataset type = "Vertebrate fauna"
+  1. **Search window, Advanced Tab, Dataset type = "Vertebrate fauna"**
   
   > QUESTION 6:  The generation of fossil records is labor intensive and hence expensive - *e.g.* the costs of fieldwork, the money spent on radiocarbon dates, the time required for a trained analysis to identify specimens, etc. A rough time/cost estimate for a single vertebrate fossil record is on the order of two years and $30,000.  Given this, give an order-of-magnitude estimate of the number of person-years and dollars it took to generate these fossil vertebrate records now stored in Neotoma. (Order-of-magnitude = 10 person-years?  100 person-years? 1000? etc.)
   
     
 ####	Multi-Taxon Search
-  1. Find all sites with at least 20% *Picea* pollen between 15,000 and 12,000 years ago.
-  2. Find all sites with Mammut (mastodon) between 15,000 and 12,000 years ago.
-    +	For Mammut, use the 'Advanced Taxon Selection' which you can use by clicking on the gears icon to the right of the 'Taxon' field in the 'Search' window.
-      1.	In the ATS window, choose 'Mammals' for Taxa Group and then enter Mammut into the 'Search for' window.  Then click 'Go'
-      2.	Note that the search returned taxon names for both Mammut (mastodon) and Mammuthus (mammoth).  Click all boxes for all variants of Mammut but do not click the Mammuthus boxes
-      3.	Enter a search name (e.g. 'Mammut - all') and click Save
-      4.	In the general search window, click 'Search'
-  3.	QUESTION 6:  Take a screenshot of this map and include it in your homework.  Does mastodon tend to live in places with spruce, or without spruce?  Suggest two hypotheses that might explain the observed association.
+  1. **Find all sites with at least 20% *Picea* pollen between 15,000 and 12,000 years ago.**
+    a. For *Picea*, first click on 'Dataset Type" = "pollen"
+    b. Then use the 'Advanced Taxon Selection' which you can use by clicking on the gears icon to the right of the 'Taxon' field in the 'Search' window. 
+      i. Enter 'Taxa group' = Vascular Plant, search for Picea,click the box next to Taxon to check all taxa, then uncheck taxa  like "Picea/Pinus" or "Picea/Abies".
+    c. Then click the 'Abundance/density' box and select >20%.  
+    d. Fill in the appropriate age range, and choose records that 'intersects result age range'. 
+    e. Finally, click 'Search'
+  2. **Find all sites with *Mammut* (mastodon) between 15,000 and 12,000 years ago.**
+    a. For *Mammut*, use the 'Advanced Taxon Selection' which you can use by clicking on the gears icon to the right of the 'Taxon' field in the 'Search' window.
+      i. In the 'Advanced Taxon Selection' window, choose 'Mammals' for Taxa Group and then enter *Mammut* into the 'Search for' window.Then click 'Go'
+      ii. Note that the search returned taxon names for both *Mammut* (mastodon) and *Mammuthus* (mammoth).  Click all boxes for all variants of *Mammut* but do not click the *Mammuthus* boxes
+      iii. Enter a search name (e.g. '*Mammut* - all') and click Save
+      iv. In the general search window, click 'Search'
+      
+      > QUESTION 7:  Take a screenshot of this map and include it in your homework.  Does mastodon tend to live in places with spruce, or without spruce?  Suggest two hypotheses that might explain the observed association (or lack of one).
+      
 ####	Multi-Time Search
-  a.	Hide your previous searches.
-  b.	Find all sites with at least 20% *Picea* pollen between 21,000 and 18,000 years ago.
-  c.	Find all sites with at least 20% *Picea* pollen between 15,000 and 12,000 years ago.
-  d.	Find all sites with at least 20% *Picea* pollen between 10,000 and 7,000 years ago.
-  e.	Find all sites with at least 20% *Picea* pollen between 5,000 and 1,000 years ago.
-  f.	QUESTION 7:  Take a screenshot of this map and include it in your homework.  Describe the history of *Picea* distributions in eastern North America over the last 21,000 years (i.e. ignore the Rockies and points west).  What environmental change(s) might be causing this shift in *Picea* distributions?  Given that trees are sessile (immobile) organisms, what processes might allow the observed range shifts?
+  1.	Hide your previous searches.
+  2.	Find all sites with *Mammuthus* between 21,000 and 18,000 years ago.
+  3.	Find all sites with *Mammuthus* between 18,000 and 15,000 years ago.
+  4.	Find all sites with *Mammuthus*  between 15,000 and 13,000 years ago.
+  5.	Find all sites with *Mammuthus*  between 13,000 and 11,000 years ago.
+  6.  Find all sites with *Mammuthus*  between 11,000 and 8,000 years ago.
+  
+  > QUESTION 8:  Take a screenshot of this map and include it in your homework.  Describe the history of *Mammuthus* distributions in North America over the last 21,000 years.   
 
 ### View Data
 
-1.	Go find Devil's Lake (WI) again.  Click on the site.  
-2.	In the popup window with metadata for Devil's Lake, note that the bottom includes a list of datasets available at the site.  (P = pollen; P^ = pollen surface sample; clock = geochronological data; W = water sample; O^ = ostracode surface sample)
-3.	Hold the mouse over the pollen dataset.  Note that an eyeball and '+' appear to the right.
-4.	Click on the eyeball to view the Devil's Lake pollen dataset.  This opens up a new window with more detail about your dataset.
-  a.	Samples:  A data table.  Each row is a different variable and each column is a stratigraphic depth.  
-  b.	Diagram:  Plots a stratigraphic diagram.  Change the Primary Axis to 'COHMAP Chron 2' (this switches the vertical axis from a depth axis to time axis; more about depth vs. time later) then click 'Draw.'
-  c.	QUESTION 8:  Take a screenshot of this diagram and include it in your homework assignment.  
-    i.	What was the most abundant plant taxon at Devil's Lake during the end of the Pleistocene?  (i.e. prior to 11,000 years ago)
-    ii.	What has been the most abundant taxon during the Holocene? (from 11,000 years ago to present)
-    iii.	(Note: Here we are assuming that plant with the most abundant pollen in sediments is also the most abundant on the landscape.  This isn't necessarily a good assumption; we'll save that challenge for another day.) 
-  d.	QUESTION 9:  Using the information in the Chronology tab, how many age controls are stored for Devil's Lake?  How many of these are radiocarbon dates?
-  e.	QUESTION 10:  What publications are listed for Devil's Lake?
+  1.	Using the last *Mammuthus* search (between 11,000 - 8,000 years ago), click on the single site that appears (Fetterman Mammoth Locality).  
+  2.	In the popup window with metadata for Fetterman, note that the bottom includes a list of datasets available at the site.  (V = vertebrate; clock = geochronological data)
+  3.	Hold the mouse over the vertebrate dataset.  Note that an eyeball and '+' appear to the right.
+  4.	Click on the eyeball to view the Fetterman Mammoth Locality vertebrate dataset.  This opens up a new window with more detail about your dataset.
+  a. Explore the specimens found at the site. There is no associated geochronological dataset, but the chronology tab indicates an age for the mammoth. What other information would you want about this date to determine authenticity?
+    + Samples:  A data table.  Each row is a different variable, the first few columns show metadata associated with each specimen, and each subsequent column is a stratigraphic depth.  In this case, this is an assemblage so there is only one depth column.
+    + Site: General information about the site
+    
+    > QUESTION 9:  What publications are listed for Fetterman?
+    
+  5.  Now search for the site "Samwell Cave".  
+    + Notice that this site has multiple localities within it, and each locality has both a vertebrate dataset and a geochronological dataset.
+    a. Explore the Samwell Cave Popcorn Dome datasets further.
+    
+    > QUESTION 10: What is the difference between information in the "Chronology" tab of the Vertebrate dataset versus the information within the Geochronology dataset?
+
 
 ### Download Data
-1.	In the popup window with metadata for Devil's Lake, hold the mouse over the pollen dataset.  Note that an eyeball and '+' appear to the right.  Click on the '+'.  This adds the dataset to a 'Datasets' tray.
-2.	Find the icon for the 'Saved Datasets Tray' and click on it.
-3.	Hover over the dataset then click on the Save icon to the right.  The dataset will be saved as a text file in CSV (comma separated value) format.
-4.	Open the downloaded CSV file in Excel or a text editor (e.g. Notepad, Wordpad) to look at it.
-5.	QUESTION 11:  What is the most abundant taxon at Depth = 1 cm?
+  1.	In the popup window with metadata for Samwell Cave Popcorn Dome, hold the mouse over the vertebrate dataset.  Note that an eyeball and '+' appear to the right.  Click on the '+'.  This adds the dataset to a 'Datasets' tray.
+  2.	Find the icon for the 'Saved Datasets Tray' and click on it.
+  3.	Hover over the dataset then click on the Save icon to the right.  The dataset will be saved as a text file in CSV (comma separated value) format.
+  4.	Open the downloaded CSV file in Excel or a text editor (e.g. Notepad, Wordpad) to look at it.
+  
+  > QUESTION 11:  When was the last time *Aplodontia rufa* was seen at the site?
 
 ## The `neotoma` Package
 
@@ -156,7 +170,7 @@ FL_sites <- get_site(loc = c(-88, -79, 25, 30))
 ```
 
 ```
-## The API call was successful, you have returned  8212 records.
+## The API call was successful, you have returned  383 records.
 ```
 
 You can also search by geopolitical name or geopolitical IDs (`gpid`) stored in Neotoma. For a list of names and gpids, go to [http://api.neotomadb.org/apdx/geopol.htm](), or use the `get_table(table.name = "GeoPoliticalUnits")` command.  This command works either with an explicit numeric ID, or with a text string:
@@ -226,7 +240,7 @@ get_dataset(marion_site[1,])
 
 ```
 ## A dataset_list containing 2 objects:
-## Accessed from 2016-08-11 14:10h to 2016-08-11 14:10h. 
+## Accessed from 2016-10-12 12:20h to 2016-10-12 12:20h. 
 ## Datasets:
 ##  dataset.id                         site.name      long      lat
 ##        1705 Marion Lake (CA:British Columbia) -122.5472 49.30833
@@ -296,7 +310,7 @@ print(marion_all)
 
 ```
 ## A download_list containing 4 objects:
-## Accessed from 2016-08-11 14:10h to 2016-08-11 14:10h. 
+## Accessed from 2016-10-12 12:20h to 2016-10-12 12:20h. 
 ## Datasets:
 ##  dataset.id                         site.name       long      lat
 ##        1705 Marion Lake (CA:British Columbia) -122.54722 49.30833
@@ -336,7 +350,7 @@ print(marion_geochron)
 
 ```
 ## A geochronology_list containing 2 objects:
-## Accessed from 2016-08-11 14:10h to 2016-08-11 14:10h. 
+## Accessed from 2016-10-12 12:20h to 2016-10-12 12:20h. 
 ## Geochronologies:
 ##     id                         site.name       long      lat ages   min
 ##   8377 Marion Lake (CA:British Columbia) -122.54722 49.30833    7   520
