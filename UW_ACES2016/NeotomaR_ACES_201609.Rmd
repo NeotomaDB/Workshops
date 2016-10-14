@@ -14,8 +14,8 @@ This tutorial does not cover age modeling.  Students interested in learning how 
 
 
 ```r
-# Uncomment this line if you haven't already installed any of these packages:
-# install.packages(c("neotoma", "analogue", "rworldmap"))
+# Uncomment this line if you haven't already installed any of these packages
+install.packages(c("neotoma", "analogue", "rworldmap"))
 
 #Add the neotoma package to your programming environment (we'll add analogue and rworldmap later)
 library(neotoma)
@@ -537,7 +537,7 @@ Warning:  This code block makes a large number of queries to the Neotoma APIs an
 ```r
 hem_dec <- get_dataset(taxonname = "Tsuga*", 
                        datasettype = "pollen", 
-                       loc = c(-98.6, 36.5, -66.1, 49.75),
+                       loc = c(-98.6, 36.5, -80, 49.75),
                        ageyoung = 4500, ageold = 6000)
 
 hem_dec_dl <- get_download(hem_dec)
@@ -712,4 +712,4 @@ save.image()
 
 The `neotoma` package, and the Neotoma Paleoecological Database provide a powerful tool for data analysis and data manipulation.  These data tools can support exploratory data analysis, teaching opportunities, and research projects across disciplines.  More information about using Neotoma is available from the database's [Manual](https://neotoma-manual.readthedocs.io/en/latest/), and from the `neotoma` package [paper](http://www.openquaternary.com/articles/10.5334/oq.ab/).  The `neotoma`  source code is available at [GitHub](https://github.com/ropensci/neotoma)
 
-# References
+# References  
