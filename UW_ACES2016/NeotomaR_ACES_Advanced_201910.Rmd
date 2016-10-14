@@ -1,0 +1,201 @@
+---
+title: "Advanced Neotoma for Fun and Profit"
+author: "Simon Goring"
+date: "October 6, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## What we'll learn
+
+This document is intended to act as a more complete vignette of the `neotoma` package's functionality.  I'll show some functions & behaviour that's not neccessarily shown in the examples or the Open Quaternary paper.  Some of it is pretty straightforward, some of it is a bit more complicated.
+
+### Topics
+
+1. Data exploration made easy (with `browse()` and `leaflet`)
+2. Plotting stratigraphic diagrams
+3. Re-building age models in bulk (ish)
+4. Using your Tilia files
+
+## Data Exploration Made Easy
+
+It's a bit of a pain to download lots of records and then visualize them in R, or at least, it had been.  In building the package I wanted to try to limit the need to install lots of other packages, so the basic `plot()` method isn't all that helpful:
+
+```{r, fig.cap="All Neotoma data points in Wisconsin, with varying symbols"}
+library(neotoma)
+
+# I'll try as much as I can to use the PACKAGE::FUNCTION() convention, although
+# you don't need to use it.  Since this is a learning document I think it help
+# make it a bit more explicit where these calls are coming from.
+
+all_wi <- neotoma::get_dataset(gpid = "Wisconsin")
+
+plot(all_wi)
+
+```
+
+So, we can see the different dataset types, you can pretty much make out Wisconsin, but it kind of looks like poop.  We can make a better map, an interactive map, using leaflet.  That's pretty fun, and the [RStudio help page for `leaflet`](https://rstudio.github.io/leaflet/) is really great to get you started.  Make sure the `leaflet` package is installed, and then let's check out what we get:
+
+```{r, fig.cap="Plotting data objects using leaflet"}
+
+library(leaflet)
+
+# We're going to use this multiple times I think, so let's make it a function:
+
+leaflet_map <- function(dataset_in) {
+  dataset_summary <- do.call(rbind, lapply(dataset_in, 
+                        function(x){
+                          data.frame(name = x$site.data$site.name,
+                                     lat  = x$site.data$lat + runif(1, -0.005, 0.005),
+                                     long = x$site.data$long + runif(1, -0.005, 0.005),
+                                     type = x$dataset.meta$dataset.type)
+                        }))
+  
+  # The leaflet package documentation uses piping.  For the sake of this tutorial, I won't:
+  pal <- colorFactor("Dark2", domain = levels(dataset_summary$type))
+  
+  map <- leaflet(data = dataset_summary)
+  map <- leaflet::addTiles(map)
+  map <- leaflet::addCircleMarkers(map, ~long, ~lat, 
+                                   popup = ~paste0("Site: ", as.character(name), "<br>",
+                                                   "Type: ", 
+                                                   as.character(dataset_summary$type)),
+                                   color = ~pal(type),
+                                   stroke = FALSE, fillOpacity = 0.5)
+  map
+}
+
+leaflet_map(all_wi)
+
+```
+
+This is much nicer (I think), but it is still missing all the additional information.  We can go directly to the Neotoma Explorer using the `browse` function.  Unfortunately, because f the limitations of URL string length, this doesn't always work:
+
+```r
+# Does not work:
+neotoma::browse(all_wi)
+
+# Does work:
+some_wi <- neotoma::get_dataset(gpid = "Wisconsin", datasettype = "pollen")
+neotoma::browse(some_wi)
+
+```
+
+Yay!
+
+## Plotting stratigraphic diagrams
+
+Let's say we're looking for all records from Wisconsin with *Larix* pollen, that must have some samples within the middle Holocene:
+
+```{r, warnings = FALSE}
+some_wi <- neotoma::get_dataset(gpid = "Wisconsin", datasettype = "pollen", taxonname = "Larix%", ageyoung = 4000, ageold = 6000)
+
+wi_pollen <- neotoma::get_download(some_wi, verbose = FALSE)
+
+leaflet_map(some_wi) # This is the function we made above.
+
+```
+
+What do these records look like?
+
+```{r}
+wi_pollen
+```
+
+I like Devil's Lake, so let's take a look at the pollen.  To get this to work you need the `analogue` package:
+
+```{r}
+library(analogue, quietly = TRUE)
+
+Stratiplot(wi_pollen[[2]])
+```
+
+You have all the advantages of the `Stratiplot()` function now, and the wrapper for the `neotoma` package makes it more useful directly with `download` objects.
+
+## Re-building Age-Models
+
+So, I'm interested in the smoothed surface of *Larix* pollen at 4kyr in the region.  I'm going to do a lazy job of it, but that's my perogative.  I just want you to see what we might do.
+
+First, we know there are different age types in the records.  Let's see what we've got here:
+
+```{r}
+table(sapply(wi_pollen, function(x)x$sample.meta$age.type[1]))
+```
+
+So, that's a lot of records to re-do.  To do it properly, we need all the chron-controls:
+
+```{r, message=FALSE}
+wi_chrons <- neotoma::get_chroncontrol(wi_pollen)
+```
+
+Now, the magic:
+
+```{r, message=FALSE, warning=FALSE, results='hide'}
+
+focal <- wi_chrons[[1]]
+
+new_chron <- Bchron::Bchronology(ages   = focal$chron.control$age,
+                    ageSds = focal$chron.control$age - focal$chron.control$age.young,
+                    positions = focal$chron.control$depth,
+                    calCurves = ifelse(focal$chron.control$control.type %in% 'Radiocarbon', 
+                                       'intcal13', 'normal'), 
+                    predictPositions = wi_pollen[[1]]$sample.meta$depth)
+
+plot(new_chron)
+```
+
+So, you can see that modelling can take a long time, but, we can basically wrap all that logic into a swell little function & run all the models overnight.  Wrapping `Bchronology()` around `neotoma`'s `download` objects is something that's on the TODO list, but there's a lot of art required to build age models & I'm not sure I want to do that quite yet.
+
+But, let's just pretend that we've done a good job and added all these date into the models.
+
+```{r, warnings = FALSE}
+all_output <- neotoma::compile_downloads(wi_pollen)
+
+all_output[,11:ncol(all_output)] <- all_output[,11:ncol(all_output)] /
+  rowSums(all_output[,11:ncol(all_output)], na.rm = TRUE)
+
+larix_df <- data.frame(lat = all_output$lat,
+                       long = all_output$long,
+                       age = all_output$age,
+                       larix = rowSums(all_output[,grep("Larix", colnames(all_output))],
+                                       na.rm = TRUE))
+
+lar_model <- mgcv::gam(larix ~ s(lat, long, age), data = larix_df, family = binomial)
+
+lar_predict <- expand.grid(lat  = seq(min(larix_df$lat),
+                                      max(larix_df$lat), by = 0.5),
+                           long = seq(min(larix_df$long),
+                                      max(larix_df$long), by = 0.5),
+                           age  = 4000)
+
+lar_predict$pred <- predict(lar_model, newdata = lar_predict)
+
+image(y = seq(min(larix_df$lat), max(larix_df$lat), by = 0.5), 
+      x = seq(min(larix_df$long), max(larix_df$long), by = 0.5),
+      z = matrix(lar_predict$pred, ncol = length(unique(lar_predict$long))))
+
+```
+
+### Finding records by Handle
+
+Someties people only publish their records using handles:
+
+```{r}
+data_ca <- get_dataset(datasettype = "pollen", gpid = "Canada")
+data_us <- get_dataset(datasettype = "pollen", gpid = "United States")
+
+datasets <- bind(data_ca, data_us)
+
+handles <- sapply(datasets, function(x)x$dataset.meta$collection.handle)
+
+codes <- c("JACKSON","ARRINGTO","BINNEWTR","WOLFCRK","CAMEL","ROCKYHOC","TULANEG","ANDERSON","CLEARPND","QUICKSND","SANDYRUN","WHITEPND","ALEXISLK")
+
+test_datasets <- sapply(codes, function(x)grep(paste0("^", x, "$"), handles))
+output <- datasets[test_datasets]
+class(output) <- c("dataset_list", "list")
+
+leaflet_map(output)
+```
