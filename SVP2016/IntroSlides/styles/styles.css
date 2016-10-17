@@ -1,0 +1,30 @@
+.gdbar img {
+  width: 250px !important;
+  height: 150px !important;
+  margin: 8px 8px;
+  position: absolute !important;
+  left: 10px !important;
+  top: 8px !important;
+}
+
+.gdbar {
+  width: 270px !important;
+  height: 170px !important;
+  position: absolute !important;
+  left: 10px !important;
+  top: 10px !important;
+}
+
+
+slides > slide:not(.nobackground):before {
+  width: 75px;
+  height: 50px;
+  background-size: 75px 50px;
+}
+
+#title {
+   color: blue;
+}
+.emphasized {
+   font-size: 1.2em;
+}

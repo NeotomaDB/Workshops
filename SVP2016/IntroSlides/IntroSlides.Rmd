@@ -1,0 +1,68 @@
+---
+title: "Archiving and Analyzing Vertebrate Paleoecological Data: Best Practices and Current Resources"
+author: "Jessica Blois, Edward Davis, Simon Goring, Jack Williams, Eric C. Grimm"
+date: "25 October 2016 | SVP 2016 | Salt Lake City, UT"
+output: 
+  ioslides_presentation:
+    css: styles/styles.css
+    logo: images/Packrat.png
+    widescreen: yes
+---
+
+## Learning Objectives
+
+Workshop participants will learn:
+
+- how to search and acquire faunal data using web tools and how to peruse the data using online mapping functions. 
+- how to use Neotoma’s APIs (Application Programming Interface) and the neotoma R package to write scripts to import Neotoma data into R for further analysis and perform simple analyses with those scripts. 
+- to use R as a tool for data and metadata entry. 
+- how to reconcile results across Neotoma and the Paleobiology Databases 
+
+
+## Agenda
+* 9:30 - 10:00am: Getting started
+    + Introductions  
+    + Getting set up for the day
+* 10:00 - 10:30am: Background and Intro to Neotoma [JESSICA]
+* 10:30 - 10:45am: Coffee
+* 10:45 - 11:45am: Web explorer intro and sandbox time [JESSICA]
+* 11:45 - 12:45pm LUNCH
+* 12:45 - 1:45pm. Intro to API and JSON queries. [EDWARD]
+* 1:45 - 2:45pm:  R Neotoma intro 
+* 2:45 - 4:00pm: Hackathon time
+
+## Getting started
+* All slides can be found here #insert link
+* Installing R (and optionally, R Studio)
+
+## What is Neotoma?
+- Database consortium- so can organize around a major database/dataset or contribute individual files
+- Neotoma ecosystem
+    - Faunal data
+        - FAUNMAP
+        - MIOMAP
+        - ANTIGUA (South America)
+        - MQMD (Mexico)
+    - Pollen and plant macros
+    - Packrat midden database
+    - Ostracodes
+    - Diatoms
+    - Isotopes (coming online soon)
+    - Etc., etc.
+
+## Scope and strengths of Neotoma
+- Pliocene to present, global
+- Multiproxy
+- Chronology tools and storage
+
+## Dataflow: getting data into and out of Neotoma
+- Getting data in:
+    - Contact a data steward and send data the old-fashioned way (via excel files, etc). List the data stewards.
+    - Excel template?   
+    - Download Tilia and enter data into Tilia file yourself.  Point people to resources, but this is not a Tilia training.
+
+- Getting data out:
+    - Neotoma Explorer
+    - API
+    - R
+
