@@ -13,56 +13,110 @@ output:
 
 Workshop participants will learn:
 
-- how to search and acquire faunal data using web tools and how to peruse the data using online mapping functions. 
-- how to use Neotoma’s APIs (Application Programming Interface) and the neotoma R package to write scripts to import Neotoma data into R for further analysis and perform simple analyses with those scripts. 
-- to use R as a tool for data and metadata entry. 
-- how to reconcile results across Neotoma and the Paleobiology Databases 
+- how to **search and acquire** faunal data using web tools and how to peruse the data using online mapping functions. 
+- how to use **APIs** (Application Programming Interface) for Neotoma and other databases
+- how to use the **neotoma R package** to write scripts to retrieve Neotoma data directly into R for further analysis 
 
 
 ## Agenda
 * 9:30 - 10:00am: Getting started
     + Introductions  
     + Getting set up for the day
-* 10:00 - 10:30am: Background and Intro to Neotoma [JESSICA]
+* 10:00 - 10:30am: Background and intro to Neotoma
 * 10:30 - 10:45am: Coffee
-* 10:45 - 11:45am: Web explorer intro and sandbox time [JESSICA]
-* 11:45 - 12:45pm LUNCH
-* 12:45 - 1:45pm. Intro to API and JSON queries. [EDWARD]
+* 10:45 - 11:45am: Web explorer intro and sandbox time
+* 11:45 - 12:45pm: LUNCH
+* 12:45 - 1:45pm: Intro to API and JSON queries
 * 1:45 - 2:45pm:  R Neotoma intro 
-* 2:45 - 4:00pm: Hackathon time
+* 2:45 - 3:00pm: Break
+* 3:00 - 4:30pm: Hackathon time
 
 ## Getting started
-* All slides can be found here #insert link
-* Installing R (and optionally, R Studio)
+### Resources
+- Following along today
+    - Intro/Background slides can be viewed through this link: http://htmlpreview.github.com/?https://github.com/NeotomaDB/Workshops/blob/master/SVP2016/IntroSlides/IntroSlides.html
+    - The primary workshop document can be viewed through this link
+https://htmlpreview.github.io/?https://github.com/NeotomaDB/Workshops/blob/master/SVP2016/R/Workshop_SVP2016_v0.1.html#explorer
 
+- All slides and materials are on GitHub
+    - The Neotoma Paleoecology Database: https://github.com/NeotomaDB
+    - The Workshops section: https://github.com/NeotomaDB/Workshops/tree/master/SVP2016
+
+## Getting started
+### Installations
+  1. Download and install R (available at https://cran.r-project.org/)
+  2. Download and install RStudio Desktop (https://www.rstudio.com/products/rstudio/download3/)
+  3. Install the following R packages: **RJSONIO**, **RCurl**, **neotoma**
+    + Open up R Studio, then type: install.packages(‘RJSONIO’, ‘RCurl’, ‘neotoma’)
+ 
 ## What is Neotoma?
-- Database consortium- so can organize around a major database/dataset or contribute individual files
-- Neotoma ecosystem
-    - Faunal data
-        - FAUNMAP
-        - MIOMAP
-        - ANTIGUA (South America)
-        - MQMD (Mexico)
-    - Pollen and plant macros
-    - Packrat midden database
-    - Ostracodes
-    - Diatoms
-    - Isotopes (coming online soon)
-    - Etc., etc.
+- Neotoma is a database *consortium*: [www.neotomadb.org](www.neotomadb.org)
+- Organized around proxy types
+    - historically, brought together several major databases or datasets (i.e. FAUNMAP, COHMAP)
+    - moving towards direct entry of individual data files
+- The different databases use a common, extendable platform to ensure compatibility across proxy types
+- Each proxy community can develop own standards, e.g. for taxonomy
+
+## The Neotoma ecosystem
+- Faunal data
+    - FAUNMAP, FAUNMAP2 (in progress)
+    - MIOMAP (with Tony Barnosky)
+    - ANTIGUA (South America megafaunal dates, in progress, with Tony Barnoksy and Emily Lindsey)
+    - MQMD (Mexico, in progress, with Joaquin Arroyo Cabrales)
+- Pollen and plant macros
+- Packrat midden database
+- Ostracodes, Diatoms
+- Isotopes (coming online soon)
+- Etc., etc.
 
 ## Scope and strengths of Neotoma
 - Pliocene to present, global
-- Multiproxy
 - Chronology tools and storage
+- Multiproxy
+- Active development community
+- Curated database --> high quality data
 
-## Dataflow: getting data into and out of Neotoma
-- Getting data in:
-    - Contact a data steward and send data the old-fashioned way (via excel files, etc). List the data stewards.
-    - Excel template?   
-    - Download Tilia and enter data into Tilia file yourself.  Point people to resources, but this is not a Tilia training.
+## Curated database
+- Each proxy group has a set of data stewards, led by one or a few lead stewards
+- Anyone can deposit data into Neotoma
+- Before going 'live', data need to be validated by a data steward
+    - Current vertebrate stewards:
+        - Edward Davis, Jessica Blois
+        - Russ Graham
+        - Mike Etnier (Alaska mammals)
 
-- Getting data out:
+## Dataflow
+### Getting data into Neotoma
+- Data are first entered into a program called *Tilia*, then validated by a steward and pushed up to the database
+- Two ways to get data into *Tilia* format
+    1. Download Tilia (free), enter data + metadata directly, then send the file to a steward for validation and upload
+    2. Contact a data steward and send data the old-fashioned way (via excel files, etc).
+        - We will coordinate getting your data into the correct format and uploaded
+    - *Note*: option 2 is a slow route, given the other constraints on our time! We are developing an Excel template and tools in R to facilitate data entry  
+
+## Dataflow
+### Getting data out
+- Focus of this workshop!
     - Neotoma Explorer
     - API
     - R
+    - Database snapshots (housed on [www.neotomadb.org/snapshots](www.neotomadb.org/snapshots))
 
+## Major activities
+- Adding new data (MIOMAP, ANTIGUA, MQMD)
+- Integration with other databases: grant to facilitate PBDB/Neotoma cross-database searches
+- DOIs: assign datasets individual DOIs, which will satisfy NSFs data access guidelines
+- Embargos: tools for embargoing data.
+    - e.g., enter and validate your data, get a DOI for paper submission, data go 'live' when the paper is published
+- Governance and Sustainability
+    - Forming a leadership structure
+    - Formalizing bylaws and policy
+- Education and outreach
+    - Partnerships with [SERC](http://serc.carleton.edu/index.html), [Flyover Country](http://fc.umn.edu/), etc.
+    
+## Questions and Discussion
+- Thoughts, questions??
+- Primary vertebrate contacts:
+    - Jessica Blois, [jblois@ucmerced.edu](mailto:jblois@ucmerced.edu)
+    - Edward Davis, [edavis@uoregon.edu](mailto:edavis@uoregon.edu)
+    - Russ Graham, mailto:[rgraham@ems.psu.edu](mailto:rgraham@ems.psu.edu)

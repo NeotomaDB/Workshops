@@ -115,10 +115,9 @@
 <p>Workshop participants will learn:</p>
 
 <ul>
-<li>how to search and acquire faunal data using web tools and how to peruse the data using online mapping functions.</li>
-<li>how to use Neotoma’s APIs (Application Programming Interface) and the neotoma R package to write scripts to import Neotoma data into R for further analysis and perform simple analyses with those scripts.</li>
-<li>to use R as a tool for data and metadata entry.</li>
-<li>how to reconcile results across Neotoma and the Paleobiology Databases</li>
+<li>how to <strong>search and acquire</strong> faunal data using web tools and how to peruse the data using online mapping functions.</li>
+<li>how to use <strong>APIs</strong> (Application Programming Interface) for Neotoma and other databases</li>
+<li>how to use the <strong>neotoma R package</strong> to write scripts to retrieve Neotoma data directly into R for further analysis</li>
 </ul>
 
 </article></slide><slide class=''><hgroup><h2>Agenda</h2></hgroup><article  id="agenda">
@@ -130,70 +129,180 @@
 <li>Introductions<br/></li>
 <li>Getting set up for the day</li>
 </ul></li>
-<li>10:00 - 10:30am: Background and Intro to Neotoma [JESSICA]</li>
+<li>10:00 - 10:30am: Background and intro to Neotoma</li>
 <li>10:30 - 10:45am: Coffee</li>
-<li>10:45 - 11:45am: Web explorer intro and sandbox time [JESSICA]</li>
-<li>11:45 - 12:45pm LUNCH</li>
-<li>12:45 - 1:45pm. Intro to API and JSON queries. [EDWARD]</li>
+<li>10:45 - 11:45am: Web explorer intro and sandbox time</li>
+<li>11:45 - 12:45pm: LUNCH</li>
+<li>12:45 - 1:45pm: Intro to API and JSON queries</li>
 <li>1:45 - 2:45pm: R Neotoma intro</li>
-<li>2:45 - 4:00pm: Hackathon time</li>
+<li>2:45 - 3:00pm: Break</li>
+<li>3:00 - 4:30pm: Hackathon time</li>
 </ul>
 
 </article></slide><slide class=''><hgroup><h2>Getting started</h2></hgroup><article  id="getting-started">
 
+<h3>Resources</h3>
+
 <ul>
-<li>All slides can be found here #insert link</li>
-<li>Installing R (and optionally, R Studio)</li>
+<li>Following along today
+
+<ul>
+<li>Intro/Background slides can be viewed through this link: <a href='http://htmlpreview.github.com/?https://github.com/NeotomaDB/Workshops/blob/master/SVP2016/IntroSlides/IntroSlides.html' title=''>http://htmlpreview.github.com/?https://github.com/NeotomaDB/Workshops/blob/master/SVP2016/IntroSlides/IntroSlides.html</a></li>
+<li>The primary workshop document can be viewed through this link <a href='https://htmlpreview.github.io/?https://github.com/NeotomaDB/Workshops/blob/master/SVP2016/R/Workshop_SVP2016_v0.1.html#explorer' title=''>https://htmlpreview.github.io/?https://github.com/NeotomaDB/Workshops/blob/master/SVP2016/R/Workshop_SVP2016_v0.1.html#explorer</a></li>
+</ul></li>
+<li>All slides and materials are on GitHub
+
+<ul>
+<li>The Neotoma Paleoecology Database: <a href='https://github.com/NeotomaDB' title=''>https://github.com/NeotomaDB</a></li>
+<li>The Workshops section: <a href='https://github.com/NeotomaDB/Workshops/tree/master/SVP2016' title=''>https://github.com/NeotomaDB/Workshops/tree/master/SVP2016</a></li>
+</ul></li>
 </ul>
+
+</article></slide><slide class=''><hgroup><h2>Getting started</h2></hgroup><article  id="getting-started-1">
+
+<h3>Installations</h3>
+
+<ol>
+<li>Download and install R (available at <a href='https://cran.r-project.org/' title=''>https://cran.r-project.org/</a>)</li>
+<li>Download and install RStudio Desktop (<a href='https://www.rstudio.com/products/rstudio/download3/' title=''>https://www.rstudio.com/products/rstudio/download3/</a>)</li>
+<li>Install the following R packages: <strong>RJSONIO</strong>, <strong>RCurl</strong>, <strong>neotoma</strong>
+
+<ul>
+<li>Open up R Studio, then type: install.packages(‘RJSONIO’, ‘RCurl’, ‘neotoma’)</li>
+</ul></li>
+</ol>
 
 </article></slide><slide class=''><hgroup><h2>What is Neotoma?</h2></hgroup><article  id="what-is-neotoma">
 
 <ul>
-<li>Database consortium- so can organize around a major database/dataset or contribute individual files</li>
-<li>Neotoma ecosystem
+<li>Neotoma is a database <em>consortium</em>: <a href='www.neotomadb.org' title=''>www.neotomadb.org</a></li>
+<li>Organized around proxy types
+
+<ul>
+<li>historically, brought together several major databases or datasets (i.e. FAUNMAP, COHMAP)</li>
+<li>moving towards direct entry of individual data files</li>
+</ul></li>
+<li>The different databases use a common, extendable platform to ensure compatibility across proxy types</li>
+<li>Each proxy community can develop own standards, e.g. for taxonomy</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>The Neotoma ecosystem</h2></hgroup><article  id="the-neotoma-ecosystem">
 
 <ul>
 <li>Faunal data
 
 <ul>
-<li>FAUNMAP</li>
-<li>MIOMAP</li>
-<li>ANTIGUA (South America)</li>
-<li>MQMD (Mexico)</li>
+<li>FAUNMAP, FAUNMAP2 (in progress)</li>
+<li>MIOMAP (with Tony Barnosky)</li>
+<li>ANTIGUA (South America megafaunal dates, in progress, with Tony Barnoksy and Emily Lindsey)</li>
+<li>MQMD (Mexico, in progress, with Joaquin Arroyo Cabrales)</li>
 </ul></li>
 <li>Pollen and plant macros</li>
 <li>Packrat midden database</li>
-<li>Ostracodes</li>
-<li>Diatoms</li>
+<li>Ostracodes, Diatoms</li>
 <li>Isotopes (coming online soon)</li>
 <li>Etc., etc.</li>
-</ul></li>
 </ul>
 
 </article></slide><slide class=''><hgroup><h2>Scope and strengths of Neotoma</h2></hgroup><article  id="scope-and-strengths-of-neotoma">
 
 <ul>
 <li>Pliocene to present, global</li>
-<li>Multiproxy</li>
 <li>Chronology tools and storage</li>
+<li>Multiproxy</li>
+<li>Active development community</li>
+<li>Curated database &#8211;&gt; high quality data</li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>Dataflow: getting data into and out of Neotoma</h2></hgroup><article  id="dataflow-getting-data-into-and-out-of-neotoma">
+</article></slide><slide class=''><hgroup><h2>Curated database</h2></hgroup><article  id="curated-database">
 
 <ul>
-<li>Getting data in:
+<li>Each proxy group has a set of data stewards, led by one or a few lead stewards</li>
+<li>Anyone can deposit data into Neotoma</li>
+<li>Before going &#39;live&#39;, data need to be validated by a data steward
 
 <ul>
-<li>Contact a data steward and send data the old-fashioned way (via excel files, etc). List the data stewards.</li>
-<li>Excel template?<br/></li>
-<li>Download Tilia and enter data into Tilia file yourself. Point people to resources, but this is not a Tilia training.</li>
+<li>Current vertebrate stewards:
+
+<ul>
+<li>Edward Davis, Jessica Blois</li>
+<li>Russ Graham</li>
+<li>Mike Etnier (Alaska mammals)</li>
 </ul></li>
-<li>Getting data out:
+</ul></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Dataflow</h2></hgroup><article  id="dataflow">
+
+<h3>Getting data into Neotoma</h3>
+
+<ul>
+<li>Data are first entered into a program called <em>Tilia</em>, then validated by a steward and pushed up to the database</li>
+<li>Two ways to get data into <em>Tilia</em> format
+
+<ol>
+<li>Download Tilia (free), enter data + metadata directly, then send the file to a steward for validation and upload</li>
+<li>Contact a data steward and send data the old-fashioned way (via excel files, etc).
+
+<ul>
+<li>We will coordinate getting your data into the correct format and uploaded</li>
+</ul></li>
+</ol>
+
+<ul>
+<li><em>Note</em>: option 2 is a slow route, given the other constraints on our time! We are developing an Excel template and tools in R to facilitate data entry</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Dataflow</h2></hgroup><article  id="dataflow-1">
+
+<h3>Getting data out</h3>
+
+<ul>
+<li>Focus of this workshop!
 
 <ul>
 <li>Neotoma Explorer</li>
 <li>API</li>
 <li>R</li>
+<li>Database snapshots (housed on <a href='www.neotomadb.org' title=''>www.neotomadb.org</a>)</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Major activities</h2></hgroup><article  id="major-activities">
+
+<ul>
+<li>Adding new data (MIOMAP, ANTIGUA, MQMD)</li>
+<li>Integration with other databases: grant to facilitate PBDB/Neotoma cross-database searches</li>
+<li>DOIs: assign datasets individual DOIs, which will satisfy NSFs data access guidelines</li>
+<li>Embargos: tools for embargoing data.
+
+<ul>
+<li>e.g., enter and validate your data, get a DOI for paper submission, data go &#39;live&#39; when the paper is published</li>
+</ul></li>
+<li>Governance and Sustainability
+
+<ul>
+<li>Forming a leadership structure</li>
+<li>Formalizing bylaws and policy</li>
+</ul></li>
+<li>Education and outreach
+
+<ul>
+<li>Partnerships with <a href='http://serc.carleton.edu/index.html' title=''>SERC</a>, <a href='http://fc.umn.edu/' title=''>Flyover Country</a>, etc.</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Questions and Discussion</h2></hgroup><article  id="questions-and-discussion">
+
+<ul>
+<li>Thoughts, questions??</li>
+<li>Primary vertebrate contacts:
+
+<ul>
+<li>Russ Graham, <a href='mailto:rgraham@ems.psu.edu' title=''>mailto:rgraham@ems.psu.edu</a></li>
+<li>Jessica Blois, <a href='mailto:jblois@ucmerced.edu' title=''>mailto:jblois@ucmerced.edu</a></li>
+<li>Edward Davis, <a href='mailto:edavis@uoregon.edu' title=''>mailto:edavis@uoregon.edu</a></li>
 </ul></li>
 </ul></article></slide>
 
