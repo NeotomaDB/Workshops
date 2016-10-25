@@ -34,20 +34,30 @@ Workshop participants will learn:
 ## Getting started
 ### Resources
 - Following along today
-    - Intro/Background slides can be viewed through this link: http://htmlpreview.github.com/?https://github.com/NeotomaDB/Workshops/blob/master/SVP2016/IntroSlides/IntroSlides.html
-    - The primary workshop document can be viewed through this link
-https://htmlpreview.github.io/?https://github.com/NeotomaDB/Workshops/blob/master/SVP2016/R/Workshop_SVP2016_v0.1.html#explorer
+    - Intro/Background slides can be viewed through this link:
+    http://bit.ly/2f3c2cR
+    
+    - The primary workshop document can be viewed through this link:
+    http://bit.ly/2dEK1a9
 
 - All slides and materials are on GitHub
-    - The Neotoma Paleoecology Database: https://github.com/NeotomaDB
-    - The Workshops section: https://github.com/NeotomaDB/Workshops/tree/master/SVP2016
+    - The Neotoma Paleoecology Database
+    https://github.com/NeotomaDB
+    - The Workshops section
+    https://github.com/NeotomaDB/Workshops/tree/master/SVP2016
 
 ## Getting started
 ### Installations
   1. Download and install R (available at https://cran.r-project.org/)
   2. Download and install RStudio Desktop (https://www.rstudio.com/products/rstudio/download3/)
   3. Install the following R packages: **RJSONIO**, **RCurl**, **neotoma**
-    + Open up R Studio, then type: install.packages(‘RJSONIO’, ‘RCurl’, ‘neotoma’)
+    + Open up R Studio, then type: install.packages(‘RJSONIO’, ‘RCurl’)
+    + **NOTE**: Last minute changes have been made to the `neotoma` package to make the workshop better for everyone.  Please install as:
+    
+```R
+install.packages('devtools')
+devtools::install_github("ropensci/neotoma")
+```
  
 ## What is Neotoma?
 - Neotoma is a database *consortium*: [www.neotomadb.org](www.neotomadb.org)
@@ -67,7 +77,7 @@ https://htmlpreview.github.io/?https://github.com/NeotomaDB/Workshops/blob/maste
 - Packrat midden database
 - Ostracodes, Diatoms
 - Isotopes (coming online soon)
-- Etc., etc.
+- Use `neotoma::get_table("datasettype")` to see all 25 available types
 
 ## Scope and strengths of Neotoma
 - Pliocene to present, global
