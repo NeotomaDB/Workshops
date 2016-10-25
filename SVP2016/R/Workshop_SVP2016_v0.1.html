@@ -99,7 +99,7 @@ img {
 <li><a href="#get_download"><span class="toc-section-number">4.0.3</span> Get_Download</a></li>
 </ul></li>
 <li><a href="#multi-site-analysis"><span class="toc-section-number">5</span> Multi-Site Analysis</a></li>
-<li><a href="#conclusions"><span class="toc-section-number">6</span> Conclusions</a></li>
+<li><a href="#a-few-final-thoughts"><span class="toc-section-number">6</span> A few final thoughts</a></li>
 </ul>
 </div>
 
@@ -499,8 +499,7 @@ head(samwell_pd[[1]]$counts)</code></pre>
 </div>
 <div id="multi-site-analysis" class="section level1">
 <h1><span class="header-section-number">5</span> Multi-Site Analysis</h1>
-<p>If we have time, we can work through the example given in a recent paper on the Neotoma package: <a href="http://www.openquaternary.com/articles/10.5334/oq.ab/" class="uri">http://www.openquaternary.com/articles/10.5334/oq.ab/</a></p>
-<p>Jump to the section “Examples”, then scroll down to “Mammal Distributions in the Pleistocene”. The R code is reproduced below.</p>
+<p>If we have time, we can work through the example given in a recent paper on the Neotoma package: (<a href="http://www.openquaternary.com/articles/10.5334/oq.ab/" class="uri">http://www.openquaternary.com/articles/10.5334/oq.ab/</a>). Jump to the section “Examples”, then scroll down to “Mammal Distributions in the Pleistocene”. The R code is reproduced below, with some modifications to accomodate changes since publication.</p>
 <pre class="r"><code># install.packages('ggplot2','reshape2')
 library(&quot;ggplot2&quot;)</code></pre>
 <pre><code>## Warning: package 'ggplot2' was built under R version 3.2.3</code></pre>
@@ -508,8 +507,14 @@ library(&quot;ggplot2&quot;)</code></pre>
 <pre class="r"><code>#  Bounding box is effectively the continental USA, excluding Alaska 
 mam.set &lt;- get_dataset(datasettype= 'vertebrate fauna', loc = c(-125, 24, -66, 49.5)) 
 
-#  Retrieving this many sites can be very time consuming 
-mam.dl &lt;- get_download(mam.set)                       
+#  Retrieving this many sites can be very time consuming.  This is what the call looks like, but don't run it just yet.
+
+# mam.dl &lt;- get_download(mam.set)                       
+# save(mam.dl, file=&quot;objects/mam.dl.RData&quot;) # this is the code I used to save the mam.dl file
+
+# Instead, let's load data that I already downloaded and stored on GitHub:
+githubURL &lt;- &quot;https://github.com/NeotomaDB/Workshops/blob/master/SVP2016/R/objects/mam.dl.RData?raw=true&quot;
+load(url(githubURL))
 
 compiled.mam &lt;- compile_downloads(mam.dl) 
 
@@ -533,7 +538,7 @@ mam.melt &lt;- melt(compiled.mam, measure.vars = 10:(ncol(compiled.mam)-1), na.r
 mam.melt &lt;- transform(mam.melt, ageInterval =factor(ageInterval, levels = periods)) 
 
 mam.lat &lt;- dcast(data = mam.melt, variable ~ageInterval, value.var = 'lat', 
-                 fun.aggregate = mean, drop = TRUE)[,c(1, 3, 5,16)] 
+                 fun.aggregate = mean, drop = TRUE)[,c(1, 3, 5, 6)]   # variable Late Holocene Late Glacial Full Glacial
 
 # We only want taxa that appear at all time periods: 
 mam.lat &lt;- mam.lat[rowSums(is.na(mam.lat)) == 0, ] 
@@ -549,12 +554,11 @@ ggplot(mam.lat.melt, aes(x = Era, y = value)) +
   geom_path(aes(group = variable, color =cluster)) +
   facet_wrap(~ cluster) + 
   scale_x_discrete(expand = c(.1,0)) + 
-  ylab(‘Mean Latitude of Occurrance’) +
+  ylab('Mean Latitude of Occurrence') +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))</code></pre>
 </div>
-<div id="conclusions" class="section level1">
-<h1><span class="header-section-number">6</span> Conclusions</h1>
-<p>We want to emphasize a few things:</p>
+<div id="a-few-final-thoughts" class="section level1">
+<h1><span class="header-section-number">6</span> A few final thoughts</h1>
 <ul>
 <li>All of these tools are evolving, at times daily, and so make sure to update packages frequently</li>
 <li>The resources will get better with your input! There are github repositories for:
@@ -566,8 +570,8 @@ ggplot(mam.lat.melt, aes(x = Era, y = value)) +
 <li>iDigBio: <a href="https://github.com/iDigBio" class="uri">https://github.com/iDigBio</a></li>
 <li>The ridigbio R package: <a href="https://github.com/iDigBio/ridigbio" class="uri">https://github.com/iDigBio/ridigbio</a></li>
 </ul></li>
-<li>All of these resources to access the data go only so far- we will need human eyes on our data and analyses to detect and correct errors.</li>
-<li>All of these resources can only access the data that is stored, with all of their errors and omissions. Making sure data are high-quality is an enormous amount of work, but can have huge payoffs for you and everyone else in the community.</li>
+<li>All of these resources to access the data go only so far- we will need human eyes on our data and analyses to detect and correct errors. You can report errors via GitHub “issues”, or by emailing Jessica directly</li>
+<li>All of these resources can only access the data that is stored, with both their strengths and limitations. Making sure any data you contribute or work with are high-quality is a necessary but enormous amount of work, with huge payoffs for you and everyone else in the community.</li>
 </ul>
 <div class="references">
 <h1>References</h1>

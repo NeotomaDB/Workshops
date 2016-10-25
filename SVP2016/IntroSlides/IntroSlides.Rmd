@@ -95,12 +95,22 @@ https://htmlpreview.github.io/?https://github.com/NeotomaDB/Workshops/blob/maste
     - *Note*: option 2 is a slow route, given the other constraints on our time! We are developing an Excel template and tools in R to facilitate data entry  
 
 ## Dataflow
-### Getting data out
+### Getting data out of Neotoma
 - Focus of this workshop!
     - Neotoma Explorer
     - API
     - R
-    - Database snapshots (housed on [www.neotomadb.org/snapshots](www.neotomadb.org/snapshots))
+    - Database snapshots (housed at [www.neotomadb.org/snapshots](www.neotomadb.org/snapshots))
+
+## Key caveats- for Neotoma and all other databases!
+- There may be errors or omissions in the data
+- There may have been updates to the data that are not stored in the database
+    - new dates, changes in taxonomy, etc.
+- "Garbage in, garbage out" 
+    - The strength of many of the original databases like FAUNMAP and COHMAP was that they convened a group of experts to assess various aspects of data quality. We need to keep applying that same lens to new datasets
+    - Data without associated metadata can only go so far
+        - *Note*: What is considered "good metadata" changes through time! 
+    - When in doubt, record and store as much information as possible.
 
 ## Major activities
 - Adding new data (MIOMAP, ANTIGUA, MQMD)
@@ -113,10 +123,10 @@ https://htmlpreview.github.io/?https://github.com/NeotomaDB/Workshops/blob/maste
     - Formalizing bylaws and policy
 - Education and outreach
     - Partnerships with [SERC](http://serc.carleton.edu/index.html), [Flyover Country](http://fc.umn.edu/), etc.
-    
+
 ## Questions and Discussion
 - Thoughts, questions??
 - Primary vertebrate contacts:
     - Jessica Blois, [jblois@ucmerced.edu](mailto:jblois@ucmerced.edu)
     - Edward Davis, [edavis@uoregon.edu](mailto:edavis@uoregon.edu)
-    - Russ Graham, mailto:[rgraham@ems.psu.edu](mailto:rgraham@ems.psu.edu)
+    - Russ Graham, [rgraham@ems.psu.edu](mailto:rgraham@ems.psu.edu)
