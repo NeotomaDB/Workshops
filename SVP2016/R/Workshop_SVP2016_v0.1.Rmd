@@ -469,9 +469,18 @@ library("reshape2")
 ```{r eval=F}
 #  Bounding box is effectively the continental USA, excluding Alaska 
 mam.set <- get_dataset(datasettype= 'vertebrate fauna', loc = c(-125, 24, -66, 49.5)) 
+mam.set <- get_dataset(datasettype= 'vertebrate fauna', loc = c(-125, 30, -115, 49.5)) 
 
-#  Retrieving this many sites can be very time consuming 
-mam.dl <- get_download(mam.set)                       
+#  Retrieving this many sites can be very time consuming.  This is what the call looks like, but don't run it just yet.
+# mam.dl <- get_download(mam.set)                       
+save(mam.dl, file="objects/mam.dl.RData")
+
+# Instead, let's load data that I already downloaded and stored on GitHub:
+install.packages('repmis')
+library(repmis)
+
+source_data("https://github.com/opetchey/RREEBES/raw/Beninca_development/Beninca_etal_2008_Nature/data/GLE_estimate.Rdata?raw=True")
+
 
 compiled.mam <- compile_downloads(mam.dl) 
 
