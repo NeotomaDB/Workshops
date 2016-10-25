@@ -327,6 +327,10 @@ Install the `neotoma` package, then add it to your programming environment
 library(neotoma)
 ```
 
+```
+## Warning: package 'neotoma' was built under R version 3.2.5
+```
+
 `neotoma` has three core commands: `get_site`, `get_dataset`, and `get_download`. The first two return metadata for sites and datasets; the latter returns data. See Goring *et al*. [@neotoma_goring] for a full description of the package and example code.  This exercise is partially based on those examples.
 
 ### Finding sites
@@ -534,6 +538,13 @@ Jump to the section "Examples", then scroll down to "Mammal Distributions in the
 ```r
 # install.packages('ggplot2','reshape2')
 library("ggplot2")
+```
+
+```
+## Warning: package 'ggplot2' was built under R version 3.2.3
+```
+
+```r
 library("reshape2") 
 ```
 
@@ -546,12 +557,15 @@ mam.set <- get_dataset(datasettype= 'vertebrate fauna', loc = c(-125, 30, -115, 
 # If you are running code that takes a long time, but has an obvious output, you can stick it
 # in an output file and call it later.  This is a nice trick :)
 
-if ("mam_dl.rds" %in% list.files('objects')) {
-  mam.dl <- readRDS('objects/mam_dl.rds')
-} else {
-  mam.dl <- get_download(mam.set)
-  saveRDS(mam.dl, file = 'objects/mam_dl.rds')
-}
+# if ("mam_dl.rds" %in% list.files('objects')) {
+#   mam.dl <- readRDS('objects/mam_dl.rds')
+# } else {
+#   mam.dl <- get_download(mam.set)
+#   saveRDS(mam.dl, file = 'objects/mam_dl.rds')
+# }
+
+githubURL <- "https://github.com/NeotomaDB/Workshops/blob/master/SVP2016/R/objects/mam.dl.RData?raw=true"
+load(url(githubURL))
 
 compiled.mam <- compile_downloads(mam.dl)
 
@@ -595,7 +609,7 @@ ggplot(mam.lat.melt, aes(x = Era, y = value)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
-![](Workshop_SVP2016_v0.1_files/figure-html/unnamed-chunk-27-1.png)<!-- -->
+![](Workshop_SVP2016_v0.1_files/figure-html/unnamed-chunk-27-1.png) 
 
 # A few final thoughts
 

@@ -511,12 +511,15 @@ mam.set <- get_dataset(datasettype= 'vertebrate fauna', loc = c(-125, 30, -115, 
 # If you are running code that takes a long time, but has an obvious output, you can stick it
 # in an output file and call it later.  This is a nice trick :)
 
-if ("mam_dl.rds" %in% list.files('objects')) {
-  mam.dl <- readRDS('objects/mam_dl.rds')
-} else {
-  mam.dl <- get_download(mam.set)
-  saveRDS(mam.dl, file = 'objects/mam_dl.rds')
-}
+# if ("mam_dl.rds" %in% list.files('objects')) {
+#   mam.dl <- readRDS('objects/mam_dl.rds')
+# } else {
+#   mam.dl <- get_download(mam.set)
+#   saveRDS(mam.dl, file = 'objects/mam_dl.rds')
+# }
+
+githubURL <- "https://github.com/NeotomaDB/Workshops/blob/master/SVP2016/R/objects/mam.dl.RData?raw=true"
+load(url(githubURL))
 
 compiled.mam <- compile_downloads(mam.dl)
 
