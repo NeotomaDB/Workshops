@@ -1,6 +1,7 @@
 ---
-title: "SVP 2016"
+title: "Society for Vertebrate Paleontology Workshop"
 author: "Jessica Blois, Edward Davis, Simon Goring, Jack Williams, Eric C. Grimm"
+date: "2016/10/24"
 csl: ecology.csl
 output:
   html_document:
@@ -10,7 +11,7 @@ output:
     keep_md: yes
     number_sections: yes
     toc: yes
-    toc_depth: 3
+    toc_depth: 2
   pdf_document:
     toc: yes
     toc_depth: '3'
@@ -23,15 +24,27 @@ bibliography: workshop.bib
 
 # Introduction
 
-This workshop will provide 1) guidance on best practices in the archiving and analysis of paleovertebrate data and 2) training in the use of the Neotoma Paleoecology Database (www.neotomadb.org) to archive, access, and analyze paleoecological data. Neotoma is a multiproxy paleodatabase that stores multiple kinds of paleoecological & paleoenvironmental data, including vertebrate faunal data. One of the strengths of Neotoma is the ability to compare faunal data with other proxy data such as fossil pollen, diatoms, ostracodes, insects, charcoal, and geochemical data.  In addition, the database is structured to relate absolute dates to taxon occurrences and to allow the creation and storage of age models built on absolute dates from stratigraphic sections. Neotoma is a public-access, community-supported database that is emerging as the standard repository for Pliocene and Quaternary paleoecological data.
+This workshop is designed to use paleoecological data and associated internet resources to provide participants with the following:
 
-More teaching materials can be found [here](http://www.neotomadb.org/education/category/higher_ed/)
+1. Guidance on best practices in the archiving and analysis of paleovertebrate data
+
+2. Training in the use of the Neotoma Paleoecology Database (www.neotomadb.org) to archive, access, and analyze paleoecological data. 
+
+Neotoma is a multiproxy paleo-database that stores a range of paleoecological & paleoenvironmental data, including vertebrate faunal data. One of the strengths of Neotoma is the ability to compare faunal data with other proxy data such as fossil pollen, diatoms, ostracodes, insects, charcoal, and geochemical data.  In addition, the database is structured to relate absolute dates to taxon occurrences and to allow the creation and storage of age models built on absolute dates from stratigraphic sections. Neotoma is a public-access, community-supported database that is emerging as the standard repository for Pliocene and Quaternary paleoecological data.
+
+More teaching materials can be found [in Neotoma's educational resources](http://www.neotomadb.org/education/category/higher_ed/).
 
 # Finding Data
 
 ## Explorer
 
 ### Getting Started
+
+<figure style="float:right; margin-left:10px" >
+<img src="objects/explorer.png" width="300">
+<figcaption><i>This is what you see when you're in the right place.</i></figcaption>
+</figure>
+
   1. Go to [http://www.neotomadb.org/](http://www.neotomadb.org/) and click on the 'Explorer' picture, or navigate directly to the [Explorer App](http://apps.neotomadb.org/Explorer/)
   2. Pan (by dragging), or change the zoom so that your window is centered on North America, including all of the lower 48 states and the southern half of Canada.
 
@@ -49,42 +62,48 @@ More teaching materials can be found [here](http://www.neotomadb.org/education/c
         i. *Note:* Search doesn't like the # symbol, so search for "New Paris", which should return two sites: New Paris #2, and New Paris #4
     b. Once you've performed the search, click on the point that appears.  A window will pop up with some information about this record.
     
-    > QUESTION 1:  What is the latitude and longitude of New Paris #4?  What is the Site ID?
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 1**:  What is the latitude and longitude of New Paris #4?  What is the Site ID?</p>
   
   2. **Explore sites by geography**
     a. Using the Search dialog window (Advanced tab), first choose "dataset type = vertebrate fauna" at the top
     b. Then, in the Space subtab, click "Search by extent"
     c. Click the "Extent" dropdown menu and search by shape, select the rectangle, then draw a rectangle on the map in your chosen region of North America
     
-    > QUESTION 2:  How many total sites are found in that region?
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 2**:  How many total sites are found in that region?</p>
 
   3. **Find all sites produced by a researcher**
     a. Search Window, Advanced Tab, Metadata subtab, Person Name field
-    b. Find all sites produced by Ernie Lundelius
+    b. Find all sites produced by [Ernie Lundelius](https://www.jsg.utexas.edu/researcher/ernest_lundelius/)
     
-    > QUESTION 3:  In which states has Ernie worked?
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 3**:  In which states has Ernie worked?</p>
 
 ####  Find a Taxon 
+
+<figure style="float:right; margin-left:10px" >
+<img src="objects/Antilocapra_americana_male.jpg" width="300">
+<figcaption><i>Help me find my friends!</i> <br>[Image credit: <a href="https://en.wikipedia.org/wiki/Pronghorn">Wikimedia Foundation</a>]</figcaption>
+</figure>
+
   1. **Search for a single taxon.**
     a. Search Window, Basic Tab, use Taxon field
     b. Find all sites with *Antilocapra* records
   
-    > QUESTION 4:  How many sites have *Antilocapra* records?
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 4**:  How many sites have *Antilocapra* records?</p>
   
   2. **Search for multiple taxa**
     a. The basic *Antilocapra* search indicates that we might need to build up the taxonomy.  Let's re-search for *Antilocapra*, but make sure we've included all relevant records.
     b. Search Window, Advanced tab, Taxa subtab
         i. *Note:* To do this, we will search for a "Taxa group".To the right of the "Taxon name" field, click on the gear symbol. Click on "Mammals" for the Taxa group, then search for *Antilocapra*. Then, click on all taxa you want to include here.  For example: *Antilocapra americana*, *Antilocapra* sp., *Antilocapra*, cf. *Antilocapra americana*, cf *Antilocapra* sp., *Antilocapra* cf. *A. americana*, Antilocapridae ?*Antilocapra* sp., and ?*Antilocapra* sp. 
     
-    > QUESTION 5:  What state has the easternmost location of *Antilocapra* in this search?  (For comparison, the eastern range limit of *Antilocapra* today is in western Iowa).
-    
-    c.  Add the modern species range onto the search: Click on the red polygon at the top, search for and select *Antilocapra americana*
-  
+c.  Add the modern species range onto the search: Click on the red polygon at the top, search for and select *Antilocapra americana*
+
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 5**:  What state has the easternmost location of *Antilocapra* in this search?  (For comparison, the eastern range limit of *Antilocapra* today is in western Iowa).</p>
+
   
 ####	Find all vertebrate records in North America 
   1. **Search window, Advanced Tab, Dataset type = "Vertebrate fauna"**
   
-  > QUESTION 6:  The generation of fossil records is labor intensive and hence expensive - *e.g.* the costs of fieldwork, the money spent on radiocarbon dates, the time required for a trained analysis to identify specimens, etc. A rough time/cost estimate for a single vertebrate fossil record is on the order of two years and $30,000.  Given this, give an order-of-magnitude estimate of the number of person-years and dollars it took to generate these fossil vertebrate records now stored in Neotoma. (Order-of-magnitude = 10 person-years?  100 person-years? 1000? etc.)
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 6**:  The generation of fossil records is labor intensive and hence expensive - *e.g.* the costs of fieldwork, the money spent on radiocarbon dates, the time required for a trained analysis to identify specimens, etc. A rough time/cost estimate for a single vertebrate fossil record is on the order of two years and $30,000.  Given this, give an order-of-magnitude estimate of the number of person-years and dollars it took to generate these fossil vertebrate records now stored in Neotoma. (Order-of-magnitude = 10 person-years?  100 person-years? 1000? etc.)</p>
   
 ####	Multi-Taxon Search
   1. **Find all sites with at least 20% *Picea* pollen between 15,000 and 12,000 years ago.**
@@ -101,7 +120,7 @@ More teaching materials can be found [here](http://www.neotomadb.org/education/c
         iii. Enter a search name (e.g. '*Mammut* - all') and click Save
         iv. In the general search window, click 'Search'
       
-      > QUESTION 7:  Does mastodon tend to live in places with spruce, or without spruce?  Suggest two hypotheses that might explain the observed association (or lack of one).
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 7**:  Does mastodon tend to live in places with spruce, or without spruce?  Suggest two hypotheses that might explain the observed association (or lack of one).</p>
       
 ####	Multi-Time Search
   1. Hide your previous searches.
@@ -111,7 +130,7 @@ More teaching materials can be found [here](http://www.neotomadb.org/education/c
   5. Find all sites with *Mammuthus*  between 13,000 and 11,000 years ago.
   6. Find all sites with *Mammuthus*  between 11,000 and 8,000 years ago.
   
-  > QUESTION 8:  Describe the history of *Mammuthus* distributions in North America over the last 21,000 years.   
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 8**:  Describe the history of *Mammuthus* distributions in North America over the last 21,000 years.</p>
 
 ### View Data
   1. Using the last *Mammuthus* search (between 11,000 - 8,000 years ago), click on the single site that appears (Fetterman Mammoth Locality).  
@@ -123,14 +142,20 @@ More teaching materials can be found [here](http://www.neotomadb.org/education/c
     b. Site: General information about the site
     c. Chronology: There is no associated geochronological dataset, but the chronology tab indicates an age for the mammoth. 
     
-    > QUESTION 9:  What other information would you want about this date to determine authenticity?
-    > QUESTION 10:  What publications are listed for Fetterman?
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 9**:  What other information would you want about this date to determine authenticity?</p>
+<br>
+**QUESTION 10**:  What publications are listed for Fetterman?</p>
     
+<figure style="float:right; margin-left:10px" >
+<img src="objects/sc_blois600.jpg" width="300">
+<figcaption><i>Well. . . Play it again Sam!</i> <br>[Image credit: <a href="http://www.ucmp.berkeley.edu/science/parks/shasta_trinity.php">UCMP.</a>]</figcaption>
+</figure>
+
   5. Now search for the site "Samwell Cave".  
     a. Notice that this site has multiple localities within it, and each locality has both a vertebrate dataset and a geochronological dataset.
     b. Explore the Samwell Cave Popcorn Dome datasets further.
     
-    > QUESTION 11:  What is the difference between information in the "Chronology" tab of the Vertebrate dataset versus the information within the Geochronology dataset?
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 11**:  What is the difference between information in the "Chronology" tab of the Vertebrate dataset versus the information within the Geochronology dataset?</p>
 
 
 ### Download Data
@@ -139,7 +164,7 @@ More teaching materials can be found [here](http://www.neotomadb.org/education/c
   3. Hover over the dataset then click on the Save icon to the right.  The dataset will be saved as a text file in CSV (comma separated value) format.
   4. Open the downloaded CSV file in Excel or a text editor (e.g. Notepad, Wordpad) to look at it.
   
-  > QUESTION 12:  When was the last time *Aplodontia rufa* was seen at the site?
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 12**:  When was the last time *Aplodontia rufa* was seen at the site?</p>
 
 # Web API- Application Programming Interface
 
@@ -148,7 +173,7 @@ More teaching materials can be found [here](http://www.neotomadb.org/education/c
   2. Often a structure for URL/URI formulation to make a query on a web database, such as Neotoma, iDigBio, or the Paleobiology Database. 
     + URL = Uniform Resource Locator, or web address. 
     + URI = Uniform Resource Identifier, or web address of a service, like an API.
-  3. Calls are usually sent as URL `GET` statements: values appended to a URL after a `?` that are processed as parameters to be passed to the code running on the server.  For example, we can think of `[http://google.com/?q=bananas]()` as if it were an R function called `search()`, passed as `search(q="bananas")`.
+  3. Calls are usually sent as URL `GET` statements: values appended to a URL after a `?` that are processed as parameters to be passed to the code running on the server.  For example, we can think of http://google.com/?q=bananas as if it were an R function called `search()`, passed as `search(q="bananas")`.
 
 Google has APIs for most of its products. You could write an R (or Python, etc.) script that would connect to the Google Calendar API to allow you to automatically change events on your calendar or report agenda items back to you in your own custom environment.  [Hilary Parker](https://hilaryparker.com/) has a nice example for [adding sunsets to Google Calendar](https://hilaryparker.com/2014/05/27/sunsets-in-google-calendar-using-r/) using R.
 
@@ -160,7 +185,7 @@ The full documentation for the Paelobiology Database API is located at [https://
 
 The PaleoBioDB API uses calls to different URLs to return different kinds of data. We’ll try some calls to the occurrence APIs. In your web browser, try typing: 
 
-`[https://paleobiodb.org/data1.2/occs/list.txt?base_name=Camelidae&interval=Pleistocene&show=loc,class]()`
+`https://paleobiodb.org/data1.2/occs/list.txt?base_name=Camelidae&interval=Pleistocene&show=loc,class`
 
 Note that this call is telling the API to search the `base_name`, “Camelidae”; the `interval`, “Pleistocene”; and to `show` the attributes `loc,class`. In this API, `base_name` searches for a taxonomic name at any level of the Linnaean hierarchy and returns any occurrences with that name, its synonyms, or its subtaxa. You should try changing to a name of interest to you and viewing the results. 
 
@@ -175,13 +200,13 @@ iDigBio (Integrated Digitized Biocollections) is the central resource for search
 
 First, try running this query:
 
-`[https://search.idigbio.org/v2/search/records/?rq=%7B%22scientificname%22%3A+%22camelus+bactrianus%22%2C+%22hasImage%22%3A+true%7D&limit=5]()`
+https://search.idigbio.org/v2/search/records/?rq=%7B%22scientificname%22%3A+%22camelus+bactrianus%22%2C+%22hasImage%22%3A+true%7D&limit=5
 
 There are several [URL encoding tags](http://www.w3schools.com/tags/ref_urlencode.asp) in this statement. The `%7B` means `{`, `%22` means `"`, the `%3A` means `:`, the `%2C` is a comma, and the `%7D` is `}`. The `+` means a space. So this statement translates as `?rq={"scientificname": "camelus bactrianus", "hasImage": true}&limit=5`. Try changing some of the values and seeing what you get.
 
 The format used to structure the `?rq=` parameter above is called JSON, or *J*ava*S*cript *O*bject *N*otation. The output you see when you submit the API call is also in JSON. It is an important way to transmit the sort of complicated, nested data saved in relational databases when you have to send a flat file over the web, and a newer alternative to XML, which you may have seen before.
 
-The documentation for the iDigBio API is at [https://www.idigbio.org/wiki/index.php/IDigBio_API]()
+The documentation for the iDigBio API is at https://www.idigbio.org/wiki/index.php/IDigBio_API
 
 ## More about JSON
 
@@ -191,7 +216,7 @@ JSON is composed of objects, enclosed by curly brackets, which may have any numb
 
 As an example, you could present an occurrence like this example from the Neotoma API:
 
-```coffeescript
+```javascript
 {
   "SiteLongitudeWest": -103.31666666666666,
   "SiteLatitudeSouth": 34.283333333333339,
@@ -213,10 +238,13 @@ As an example, you could present an occurrence like this example from the Neotom
 
 Can you tell what kind of occurrence this JSON object is describing? How old is it? Where is it located? 
 
-This record comes from searching the Neotoma DB API. Here is the example API call: [http://api.neotomadb.org/v1/data/sampledata?taxonname=Smilodon*]()
+This record comes from searching the Neotoma DB API. Here is the example API call: 
+
+[http://api.neotomadb.org/v1/data/sampledata?taxonname=Smilodon*]()
 
 Notice when you make this call that the JSON is computer-friendly but not human-friendly. Try it again with the ‘pretty’ format tag:
-<http://api.neotomadb.org/v1/data/sampledata?taxonname=Smilodon*&format=pretty>
+
+[http://api.neotomadb.org/v1/data/sampledata?taxonname=Smilodon*&format=pretty]()
 
 You should be able to see the nested set of JSON objects, including the occurrences returned as comma-separated objects within `"data"`.
 
@@ -397,7 +425,7 @@ marion.meta.dataset
 
 Both *Marion Lake (CA: British Columbia)* and *Marion Landfill* have a geochronology dataset, while *Marion Lake (CA: British Columbia)* has a pollen dataset and *Marion Landfill* a vertebrate fauna dataset. The third site, *Marion Lake*, has a diatom dataset and a water chemistry dataset.
 
-> Question: Are Marion Lake (CA: British Columbia) and Marion Lake the same site? Try using the `browse` function.
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**Question 13**: Are Marion Lake (CA: British Columbia) and Marion Lake the same site? Try using the `browse` function.</p>
 
 Further searches (*i.e.*, to examine the lat/longs) or consulting the literature would be required. This illustrates the caution needed when using this, or any other, database. Human judgement still needs to be exercised when examining results from databases.  The `get_publication()` function can return citation information if neccessary, but often using the `browse()` function is very helpful in examining a database further.
 
@@ -407,7 +435,7 @@ Further searches (*i.e.*, to examine the lat/longs) or consulting the literature
 
 Get data for all datasets at Samwell Cave. `get_download()` will accept an object of class dataset (ie, `samwell_dataset`), but also of class site, since it will automatically query for the datasets associated in each site.  Compare the returned messages for the following two commands:
 
-```{r, results= "hide", message=F}
+```{r, results= "hide", message=F, cache = TRUE}
 
 samwell_all <- get_download(samwell_site)
 samwell_all <- get_download(samwell_datasets)
@@ -464,9 +492,10 @@ head(samwell_pd[[1]]$counts)
 ```
 
 # Multi-Site Analysis
+
 If we have time, we can work through the example given the [Neotoma package paper in *Open Quaternary*](http://www.openquaternary.com/articles/10.5334/oq.ab/).
 
-Jump to the section "Examples", then scroll down to "Mammal Distributions in the Pleistocene".  The R code is reproduced below.
+Jump to the section "Examples", then scroll down to "Mammal Distributions in the Pleistocene".  The R code is reproduced below, with some modifications to accomodate changes since publication.
 
 ```{r}
 # install.packages('ggplot2','reshape2')
@@ -474,9 +503,8 @@ library("ggplot2")
 library("reshape2") 
 ```
 
-```{r eval=F}
+```{r eval = TRUE, message = FALSE, warning = FALSE, cache = TRUE}
 #  Bounding box is effectively the continental USA, excluding Alaska 
-#mam.set <- get_dataset(datasettype= 'vertebrate fauna', loc = c(-125, 24, -66, 49.5)) 
 mam.set <- get_dataset(datasettype= 'vertebrate fauna', loc = c(-125, 30, -115, 49.5))
 
 #  Retrieving this many sites can be very time consuming.
@@ -511,6 +539,9 @@ mam.melt <- melt(compiled.mam, measure.vars = 11:(ncol(compiled.mam)-1), na.rm =
 
 mam.melt <- transform(mam.melt, ageInterval = factor(ageInterval, levels = periods)) 
 
+mam.lat <- dcast(data = mam.melt, variable ~ageInterval, value.var = 'lat', 
+                 fun.aggregate = mean, drop = TRUE)[,c(1, 3, 5, 6)]   # variable Late Holocene Late Glacial Full Glacial
+
 # We only want taxa that appear at all time periods: 
 mam.lat <- mam.lat[rowSums(is.na(mam.lat)) == 0, ] 
 
@@ -525,23 +556,21 @@ ggplot(mam.lat.melt, aes(x = Era, y = value)) +
   geom_path(aes(group = variable, color =cluster)) +
   facet_wrap(~ cluster) + 
   scale_x_discrete(expand = c(.1,0)) + 
-  ylab(‘Mean Latitude of Occurrance’) +
+  ylab('Mean Latitude of Occurrence') +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
-# Conclusions
-
-We want to emphasize a few things:
+# A few final thoughts
 
 * All of these tools are evolving, at times daily, and so make sure to update packages frequently
 * The resources will get better with your input! There are github repositories for:
-    * The Neotoma Paleoecology Database itself: https://github.com/NeotomaDB
-    * The `neotoma` R package: https://github.com/ropensci/neotoma (also accessible via the NeotomaDB github)
-    * The Paleobiology Database: https://github.com/paleobiodb
-    * The PaleobioDB R Package: https://github.com/ropensci/paleobioDB
-    * iDigBio: https://github.com/iDigBio
-    * The ridigbio R package: https://github.com/iDigBio/ridigbio
-* All of these resources to access the data go only so far- we will need human eyes on our data and analyses to detect and correct errors.
-* All of these resources can only access the data that is stored, with all of their errors and omissions.  Making sure data are high-quality is an enormous amount of work, but can have huge payoffs for you and everyone else in the community.
+    * The Neotoma Paleoecology Database itself: [https://github.com/NeotomaDB]()
+    * The `neotoma` R package: [https://github.com/ropensci/neotoma]() (also accessible via the NeotomaDB github)
+    * The Paleobiology Database: [https://github.com/paleobiodb]()
+    * The PaleobioDB R Package: [https://github.com/ropensci/paleobioDB]()
+    * iDigBio: [https://github.com/iDigBio]()
+    * The ridigbio R package: [https://github.com/iDigBio/ridigbio]()
+* All of these resources to access the data go only so far - we will need human eyes on our data and analyses to detect and correct errors. You can report errors via GitHub "issues", or by emailing Jessica directly.
+* All of these resources can only access the data that is stored, with both their strengths and limitations.  Making sure any data you contribute or work with are high-quality is a necessary but enormous amount of work, with huge payoffs for you and everyone else in the community.
   
 # References
