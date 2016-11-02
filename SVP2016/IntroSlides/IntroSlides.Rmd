@@ -35,10 +35,10 @@ Workshop participants will learn:
 ### Resources
 - Following along today
     - Intro/Background slides can be viewed through this link:
-    http://bit.ly/2fb1HLa
+    https://cdn.rawgit.com/NeotomaDB/Workshops/master/SVP2016/IntroSlides/IntroSlides.html
     
     - The primary workshop document can be viewed through this link:
-    http://bit.ly/2dEK1a9
+    https://cdn.rawgit.com/NeotomaDB/Workshops/master/SVP2016/R/Workshop_SVP2016_v0.1.html
 
 - All slides and materials are on GitHub
     - The Neotoma Paleoecology Database
