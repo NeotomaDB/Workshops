@@ -169,50 +169,49 @@ c.  Add the modern species range onto the search: Click on the red polygon at th
 # Web API- Application Programming Interface
 
 ## What is a Web API?
-  1. Set of protocols for building tools and applications that use a specific web service
-  2. Often a structure for URL/URI formulation to make a query on a web database, such as Neotoma, iDigBio, or the Paleobiology Database. 
-    + URL = Uniform Resource Locator, or web address. 
-    + URI = Uniform Resource Identifier, or web address of a service, like an API.
-  3. Calls are usually sent as URL `GET` statements: values appended to a URL after a `?` that are processed as parameters to be passed to the code running on the server.  For example, we can think of http://google.com/?q=bananas as if it were an R function called `search()`, passed as `search(q="bananas")`.
+  1. Structured and documented way of communicating with web services and incorporating them in your own application.
+  2. Often used to access a database, such as Neotoma, iDigBio, or the Paleobiology Database.
+  3. Calls are usually sent as URL strings: values appended to a URL after a `?`  are processed as parameters to be passed to the server.  Most APIs use calls to different URLs to return different kinds of data or the specific data that meets your query. We can think of http://google.com/?q=bananas as if it were an R function called `search()`, passed as `search(q="bananas")`.
+    + URL = Uniform Resource Locator -- address of a web page. 
+    + URI = Uniform Resource Identifier -- web address of a service, like an API.
 
-Google has APIs for most of its products. You could write an R (or Python, etc.) script that would connect to the Google Calendar API to allow you to automatically change events on your calendar or report agenda items back to you in your own custom environment.  [Hilary Parker](https://hilaryparker.com/) has a nice example for [adding sunsets to Google Calendar](https://hilaryparker.com/2014/05/27/sunsets-in-google-calendar-using-r/) using R.
+Many public APIs exist.  For example, Google has APIs for most of its products. You could write an R (or Python, etc.) script that would connect to the Google Calendar API to allow you to automatically change events on your calendar or report agenda items back to you in your own custom environment.  [Hilary Parker](https://hilaryparker.com/) has a nice example for [adding sunsets to Google Calendar](https://hilaryparker.com/2014/05/27/sunsets-in-google-calendar-using-r/) using R.
 
-APIs exist for many important biological and paleobiological databases. We will work through examples from GeoLocate, the georeferencing service, iDigBio, the Paleobiology Database, and Neotoma. Different databases/services produce different kinds of API returns. The simplest kinds are comma delimited text files, but many APIs are now returning JSON documents. We will begin with text and move on to JSON.
+APIs are an important part of many important biological and paleobiological databases, because they allow users to filter, search, and download records using custom scripts. Different APIs have different parameter names, structures, and can produce different types of returns, including raw text, comma-delimited test, and JSON (**J**ava**S**cript **O**bject **N**otation). 
+
+We will work through examples from the Paleobiology Database and Neotoma. 
 
 ## Example 1: Text returns from the Paleobiology database. 
 
+**Goal:** Get all occurrences of *Camelidae* in the Paleobiology database that are dated to the Pliestocene, returning only the spatial location of the occurrence. Get the response as comma-separated text (CSV format).
+
+  1. The URI for the occurrences returned in text format is `https://paleobiodb.org/data1.2/occs/list.txt`. 
+  2. To specify parameters, add a `?`, followed by the parameter key-value pairs. `base_name=Camelidae&` searches for a taxonomic name at any level of the Linnaean hierarchy and returns any occurrences with that name, its synonyms, or its subtaxa.  Try changing to a name of interest to you.
+  3. To combine multiple search or filter parameters in a single request a request, use a `&` between key-value pairs. `&interval=Pleistocene` returns occurrences that fall within the specific geologic interval. Intervals can include North American Land Mammal Ages as well as the conventional Geologic Timescale.  Try “Blancan” and “Burdigalian” to see what happens.
+  4. Finally, the PaleoBioDB API allows you to pick what data gets returned with your call using the `show` parameter. `show=loc` limits the data of the response to only include the location of the occurrences. 
+  
+You should end up with a URI string like this, which can be typed into your web browser:
+
+`https://paleobiodb.org/data1.2/occs/list.txt?base_name=Camelidae&interval=Pleistocene&show=loc`
+
+There are many useful parameters to facilitate searching occurreneces in the Paleobiology database, including:
+  - taxonomy
+  - age
+  - environment
+  - location
+  - geographic bounding box (`lngmin` and `lngmax` as well as `latmin` and `latmax`)
+  - database ID
+
+The list of potential parameters is here: [https://paleobiodb.org/data1.2/occs/list_doc.html](). 
+
+Try for a few minutes to explore the data with different calls, using the call list.
+
 The full documentation for the Paelobiology Database API is located at [https://paleobiodb.org/data1.2/]()
 
-The PaleoBioDB API uses calls to different URLs to return different kinds of data. We’ll try some calls to the occurrence APIs. In your web browser, try typing: 
+## JSON
+Text returns are easily read by humans, but are often not suitable for the nested data structure saved in relational databases. *J*ava*S*cript *O*bject *N*otation (JSON) is a widely used data format that can encode these hierarchical relationships for sending across the Web, is easy to read, and can be consumed by many scripting languages (javascript, R, python, etc). JSON is a newer alternative to XML (e*X*tensible *M*arkup *L*anguage), which you may have seen before. JSON is becoming the standard for data transfer in web services and R has several packages for dealing with JSON-formatted data.
 
-`https://paleobiodb.org/data1.2/occs/list.txt?base_name=Camelidae&interval=Pleistocene&show=loc,class`
-
-Note that this call is telling the API to search the `base_name`, “Camelidae”; the `interval`, “Pleistocene”; and to `show` the attributes `loc,class`. In this API, `base_name` searches for a taxonomic name at any level of the Linnaean hierarchy and returns any occurrences with that name, its synonyms, or its subtaxa. You should try changing to a name of interest to you and viewing the results. 
-
-Similarly, `interval` returns occurrences that fall within the specific geologic interval. These intervals include North American Land Mammal Ages as well as the conventional Geologic Timescale. Try “Blancan” and “Burdigalian” to see what happens. Try an interval of interest to you.
-
-You can search by taxonomy, age, environment, even by the specific locality or occurrence ID in the database. The list of potential calls is here: [https://paleobiodb.org/data1.2/occs/list_doc.html]()
-
-You can narrow your results geographically by invoking `lngmin` and `lngmax` as well as `latmin` and `latmax` (remembering to separate parameters using an `&`). Try for a few minutes to explore the data with different calls, using the call list.
-
-## Example 2: JSON returns from iDigBio
-iDigBio (Integrated Digitized Biocollections) is the central resource for searching digital specimen data liberated by the NSF’s Advancing the Digitization of Biological Collections (ADBC) program. This program funds networks of collections centered on research themes (Thematic Collection Networks, TCNs) to enter specimen data into databases, to georeference collection locations, and to photograph those specimens. Most importantly, these data have to be made available online and connected to the iDigBio portal. iDigBio cleans up the data and provides several ways to access them, including the API we will be investigating.
-
-First, try running this query:
-
-https://search.idigbio.org/v2/search/records/?rq=%7B%22scientificname%22%3A+%22camelus+bactrianus%22%2C+%22hasImage%22%3A+true%7D&limit=5
-
-There are several [URL encoding tags](http://www.w3schools.com/tags/ref_urlencode.asp) in this statement. The `%7B` means `{`, `%22` means `"`, the `%3A` means `:`, the `%2C` is a comma, and the `%7D` is `}`. The `+` means a space. So this statement translates as `?rq={"scientificname": "camelus bactrianus", "hasImage": true}&limit=5`. Try changing some of the values and seeing what you get.
-
-The format used to structure the `?rq=` parameter above is called JSON, or *J*ava*S*cript *O*bject *N*otation. The output you see when you submit the API call is also in JSON. It is an important way to transmit the sort of complicated, nested data saved in relational databases when you have to send a flat file over the web, and a newer alternative to XML, which you may have seen before.
-
-The documentation for the iDigBio API is at https://www.idigbio.org/wiki/index.php/IDigBio_API
-
-## More about JSON
-
-At its most basic level, JSON transmits data objects in attribute-value pairs. It has come to replace XML, which was the previous standard for this sort of data transmission.
-
-JSON is composed of objects, enclosed by curly brackets, which may have any number of attributes named in quotes, with values after a colon, separated by commas. You may also present an array, or an ordered collection of values, enclosed in square brackets.
+JSON is composed of key-value pairs, enclosed by curly brackets and separated by commas (objects). You may also present an array, or an ordered collection of values, enclosed in square brackets. Values may be their own objects, allowing nested relationships between data.
 
 As an example, you could present an occurrence like this example from the Neotoma API:
 
@@ -238,11 +237,15 @@ As an example, you could present an occurrence like this example from the Neotom
 
 Can you tell what kind of occurrence this JSON object is describing? How old is it? Where is it located? 
 
-This record comes from searching the Neotoma DB API. Here is the example API call: 
+## Example 2: Neotoma, JSON, and R
+
+*Goal*: Search Neotoma for all Smilodon occurrences, and put them into an R data frame.
+
+  1.  The Neotoma database has a different structure and requires different parameters than the Paleobiology database. Here is the example API call: 
 
 [http://api.neotomadb.org/v1/data/sampledata?taxonname=Smilodon*]()
 
-Notice when you make this call that the JSON is computer-friendly but not human-friendly. Try it again with the ‘pretty’ format tag:
+  2. Notice when you make this call that the JSON is computer-friendly but not human-friendly. Try it again with the ‘pretty’ format tag:
 
 [http://api.neotomadb.org/v1/data/sampledata?taxonname=Smilodon*&format=pretty]()
 
@@ -316,11 +319,11 @@ When you have gotten this code to work, go through and make comments to describe
 
 Try playing with your queries to see what you can pull from the PaleoBioDB, or even extending to the other two APIs we have explored.
 
-## More on the Neotoma DB API
+## R packages and Database APIs
 
-If you think back to the Neotoma API example, you can see that the example API call is reporting data from only part of the distributed database schema of Neotoma. In fact, the Neotoma API is designed around a set of different URLs, each of which allows a user to search a portion of the database. So, if you want the full Site information for locations with *Smilodon* present, you would have to search on *Smilodon* in the SampleData URI (as we did in the example), pull the DatasetID values from those returns, then search on the Dataset URI ([http://api.neotomadb.org/v1/data/datasets]()) for those DatasetIDs, which would, in turn, produce the SiteIDs, which you would then search on the Sites URI ([http://api.neotomadb.org/v1/data/sites]()). This sort of searching would be cumbersome if you were to do it by hand, but fortunately you can script a computer to do it for you. In fact, you don’t have to write the scripts to do it, because they have already been constructed and provided to the community as the R [`neotoma`](https://cran.rstudio.com/web/packages/neotoma/index.html) package. 
+In the previous example, you can see that the example API call is reporting data from only part of the distributed database schema of Neotoma. In fact, the Neotoma API is designed around a set of different URLs, each of which allows a user to search a portion of the database. So, if you want the site information for occurrences of *Smilodon*, you would have to search on *Smilodon* in the SampleData URI (as we did in the example), pull the DatasetID values from those returns, then search on the Dataset ID ([http://api.neotomadb.org/v1/data/datasets]()) for those DatasetIDs, which would, in turn, produce the SiteIDs, which you would then search on the Sites URI ([http://api.neotomadb.org/v1/data/sites]()). This sort of searching would be cumbersome if you were to do it by hand, but fortunately you can script a computer to do it for you. In fact, you don’t have to write the scripts to do it, because they have already been constructed and provided to the community as the R [`neotoma`](https://cran.rstudio.com/web/packages/neotoma/index.html) package. 
 
-The `neotoma` package will the the subject of our next module, but bear in mind that the other APIs also have wrapper packages to simplify data calls in R. The PaleoBioDB has a package, `paleobioDB`, and iDigBio has a package, `ridigbio`.  Currently, a large group of collaborators is working on a single API and wrapping R package to access both PaleoBioDB and Neotoma at the same time, as well as linking to many online museum databases and iDigBio. We wanted to introduce you to the underlying architecture here so you would understand what these packages are doing, and would know that you can crack them open and hack your own solutions if you cannot get them to give you the data or format of data that you need for your work.
+Other APIs also have wrapper packages to simplify data calls in R. The PaleoBioDB has a package, `paleobioDB`, and iDigBio has a package, `ridigbio`.  Currently, a large group of collaborators is working on a single API and wrapping R package to access both PaleoBioDB and Neotoma at the same time, as well as linking to many online museum databases and iDigBio. While these packages are a great convenience and the `neotoma` package is the subject of our next module, we wanted to introduce you to the underlying architecture here so you would understand what these packages are doing. If they cannot give you the data or fomat you need for your work, they can be cracked open and a custom solution can be easily put together.
 
 # The `neotoma` Package
 
