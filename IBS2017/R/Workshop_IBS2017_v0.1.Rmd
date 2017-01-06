@@ -169,32 +169,63 @@ c.  Add the modern species range onto the search: Click on the red polygon at th
 # Web API- Application Programming Interface
 
 ## What is a Web API?
-  1. Structured and documented way of communicating with web services and incorporating them in your own application.
-  2. Often used to access a database, such as Neotoma, iDigBio, or the Paleobiology Database.
-  3. Calls are usually sent as URL strings: values appended to a URL after a `?`  are processed as parameters to be passed to the server.  Most APIs use calls to different URLs to return different kinds of data or the specific data that meets your query. We can think of http://google.com/?q=bananas as if it were an R function called `search()`, passed as `search(q="bananas")`.
+An API is a structured and documented way for computer applications to talk to each other. 
+  
+  - Can be used to communicate with web services and incorporate them into your own scripts.
+  - Often used to access a database, such as Neotoma, iDigBio, or the Paleobiology Database.
+  - Calls are usually sent as URL strings: values appended to a URL after a `?`  are processed as parameters to be passed to the server.  Most APIs use calls to different URLs and parameters to return the specific data that meets your query, such as a different resource (for example, sites, dataasets, or samples) or data format (text, json, or xml). 
+  
+We can think of http://google.com/?q=bananas as if it were an R function called `search()`, passed as `search(q="bananas")`.
+
     + URL = Uniform Resource Locator -- address of a web page. 
     + URI = Uniform Resource Identifier -- web address of a service, like an API.
 
-Many public APIs exist.  For example, Google has APIs for most of its products. You could write an R (or Python, etc.) script that would connect to the Google Calendar API to allow you to automatically change events on your calendar or report agenda items back to you in your own custom environment.  [Hilary Parker](https://hilaryparker.com/) has a nice example for [adding sunsets to Google Calendar](https://hilaryparker.com/2014/05/27/sunsets-in-google-calendar-using-r/) using R.
+Many public APIs exist allowing your programs to tie into many existing web serives.  For example, Google has APIs for most of its products. You could write an R (or Python, etc.) script that would connect to the Google Calendar API to allow you to automatically change events on your calendar or report agenda items back to you in your own custom environment.  [Hilary Parker](https://hilaryparker.com/) has a nice example for [adding sunsets to Google Calendar](https://hilaryparker.com/2014/05/27/sunsets-in-google-calendar-using-r/) using R.
 
-APIs are an important part of many important biological and paleobiological databases, because they allow users to filter, search, and download records using custom scripts. Different APIs have different parameter names, structures, and can produce different types of returns, including raw text, comma-delimited test, and JSON (**J**ava**S**cript **O**bject **N**otation). 
+APIs are an important part of many important biological and paleobiological databases, because they allow users to filter, search, and download records using custom scripts in their favorite language. Different database APIs have different parameter names, structures, and can produce different types of returns, including raw text, comma-delimited test, and JSON (**J**ava**S**cript **O**bject **N**otation), so make sure you review the documentation specific to the API you're trying to use. 
 
 We will work through examples from the Paleobiology Database and Neotoma. 
 
-## Example 1: Text returns from the Paleobiology database. 
+## Example 1: Text returns from the Paleobiology database
 
-**Goal:** Get all occurrences of *Camelidae* in the Paleobiology database that are dated to the Pliestocene, returning only the spatial location of the occurrence. Get the response as comma-separated text (CSV format).
+**Goal:** Get all occurrences of *Camelidae* in the Paleobiology database that are dated to the Pliestocene, returning the spatial location of the occurrence. Get the response as comma-separated text (CSV format).
 
-  1. The URI for the occurrences returned in text format is `https://paleobiodb.org/data1.2/occs/list.txt`. 
-  2. To specify parameters, add a `?`, followed by the parameter key-value pairs. `base_name=Camelidae&` searches for a taxonomic name at any level of the Linnaean hierarchy and returns any occurrences with that name, its synonyms, or its subtaxa.  Try changing to a name of interest to you.
+**Steps:**
+
+  1. The URI for the occurrences returned in text format is `https://paleobiodb.org/data1.2/occs/list.txt`. First we tell the server we want to make a call to the API (`/data1.2`), specifically to search through the occurrences in the database (`/occs`). By calling to the `list.txt` endpoint, we tell the server that we only want our returns in text/CSV format.
+  
+    *Without any parameters, this call will fail.  The developers of this API have required at least one parameter to be included with the search so that not all records are returned at once.*
+    
+  2. To specify parameters, add a `?`, followed by the parameter key-value pairs. `base_name=Camelidae` searches for a taxonomic name at any level of the Linnaean hierarchy and returns any occurrences with that name, its synonyms, or its subtaxa.  Try changing to a name of interest to you.
+  
+  `https://paleobiodb.org/data1.2/occs/list.txt?base_name=Camelidae`
+  
   3. To combine multiple search or filter parameters in a single request a request, use a `&` between key-value pairs. `&interval=Pleistocene` returns occurrences that fall within the specific geologic interval. Intervals can include North American Land Mammal Ages as well as the conventional Geologic Timescale.  Try “Blancan” and “Burdigalian” to see what happens.
-  4. Finally, the PaleoBioDB API allows you to pick what data gets returned with your call using the `show` parameter. `show=loc` limits the data of the response to only include the location of the occurrences. 
+  
+  `https://paleobiodb.org/data1.2/occs/list.txt?base_name=Camelidae&interval=Pleistocene`
+  
+  4. Finally, the PaleoBioDB API allows you to pick what data fields gets returned with your call using the `show` parameter. `show=loc` includes the location of the occurrences.
   
 You should end up with a URI string like this, which can be typed into your web browser:
 
 `https://paleobiodb.org/data1.2/occs/list.txt?base_name=Camelidae&interval=Pleistocene&show=loc`
 
+A successful call should return something like this:
+
+| "occurrence_no" | "record_type" | "reid_no" | "flags" | "collection_no" | "identified_name"           | "identified_rank" | "identified_no" | "difference" | "accepted_name"             | "accepted_rank" | "accepted_no" | "early_interval"   | "late_interval" | "max_ma" | "min_ma" | "reference_no" | "cc" | "state"        | "county"    | "latlng_basis"             | "latlng_precision" | "geogscale"        | "geogcomments"                                  | 
+|-----------------|---------------|-----------|---------|-----------------|-----------------------------|-------------------|-----------------|--------------|-----------------------------|-----------------|---------------|--------------------|-----------------|----------|----------|----------------|------|----------------|-------------|----------------------------|--------------------|--------------------|-------------------------------------------------| 
+| "138835"        | "occ"         | ""        | ""      | "11803"         | "Camelus sp."               | "genus"           | "42521"         | ""           | "Camelus"                   | "genus"         | "42521"       | "Late Pleistocene" | ""              | "0.126"  | "0.0117" | "4200"         | "IL" | "Mount Carmel" | ""          | "based on nearby landmark" | "minutes"          | ""                 | "Tabun Cave - Lat/Long for nearby Mount Carmel" | 
+| "194913"        | "occ"         | ""        | ""      | "20011"         | "Hemiauchenia sp."          | "genus"           | "42528"         | ""           | "Hemiauchenia"              | "genus"         | "42528"       | "Irvingtonian"     | ""              | "1.8"    | "0.3"    | "2066"         | "US" | "Nevada"       | "Douglas"   | "based on political unit"  | "1"                | "small collection" | "Antelope Valley"                               | 
+| "194920"        | "occ"         | ""        | ""      | "20012"         | "Hemiauchenia sp."          | "genus"           | "42528"         | ""           | "Hemiauchenia"              | "genus"         | "42528"       | "Irvingtonian"     | ""              | "1.8"    | "0.3"    | "2066"         | "US" | "Nevada"       | "Douglas"   | "based on political unit"  | "1"                | "small collection" | "Antelope Valley"                               | 
+| "194921"        | "occ"         | ""        | ""      | "20012"         | "Camelidae indet."          | "family"          | "42513"         | ""           | "Camelidae"                 | "family"        | "42513"       | "Irvingtonian"     | ""              | "1.8"    | "0.3"    | "2066"         | "US" | "Nevada"       | "Douglas"   | "based on political unit"  | "1"                | "small collection" | "Antelope Valley"                               | 
+| "194927"        | "occ"         | ""        | ""      | "20014"         | "Camelidae indet."          | "family"          | "42513"         | ""           | "Camelidae"                 | "family"        | "42513"       | "Irvingtonian"     | ""              | "1.8"    | "0.3"    | "2066"         | "US" | "Nevada"       | "Douglas"   | "based on political unit"  | "1"                | "small collection" | "Antelope Valley"                               | 
+| "195782"        | "occ"         | ""        | ""      | "20123"         | "Camelops sp."              | "genus"           | "42520"         | ""           | "Camelops"                  | "genus"         | "42520"       | "Irvingtonian"     | ""              | "1.8"    | "0.3"    | "1186"         | "US" | "California"   | "San Diego" | "based on political unit"  | "1"                | "small collection" | "Anza-Borrego Desert State Park"                | 
+
+
+
+
 There are many useful parameters to facilitate searching occurreneces in the Paleobiology database, including:
+
   - taxonomy
   - age
   - environment
@@ -202,16 +233,24 @@ There are many useful parameters to facilitate searching occurreneces in the Pal
   - geographic bounding box (`lngmin` and `lngmax` as well as `latmin` and `latmax`)
   - database ID
 
-The list of potential parameters is here: [https://paleobiodb.org/data1.2/occs/list_doc.html](). 
+The list of potential parameters is here: [https://paleobiodb.org/data1.2/occs/list_doc.html](https://paleobiodb.org/data1.2/occs/list_doc.html). 
 
-Try for a few minutes to explore the data with different calls, using the call list.
+Try for a few minutes to explore the data with different parameters, using the list above.
 
-The full documentation for the Paelobiology Database API is located at [https://paleobiodb.org/data1.2/]()
+The full documentation (with a list of all of the available resources) for the Paelobiology Database API is located at [https://paleobiodb.org/data1.2/](https://paleobiodb.org/data1.2/)
 
 ## JSON
-Text returns are easily read by humans, but are often not suitable for the nested data structure saved in relational databases. *J*ava*S*cript *O*bject *N*otation (JSON) is a widely used data format that can encode these hierarchical relationships for sending across the Web, is easy to read, and can be consumed by many scripting languages (javascript, R, python, etc). JSON is a newer alternative to XML (e*X*tensible *M*arkup *L*anguage), which you may have seen before. JSON is becoming the standard for data transfer in web services and R has several packages for dealing with JSON-formatted data.
+Text returns are easily read by humans, but are often not suitable for the nested data structure saved in relational databases and can be hard for computers to interpret. 
 
-JSON is composed of key-value pairs, enclosed by curly brackets and separated by commas (objects). You may also present an array, or an ordered collection of values, enclosed in square brackets. Values may be their own objects, allowing nested relationships between data.
+*J*ava*S*cript *O*bject *N*otation (JSON) is:
+  
+  - a widely used data format that can encode hierarchical relationships
+  - (relatively) human readable
+  - can be consumed by many scripting languages (javascript, R, python, etc)
+  - newer alternative to XML (e*X*tensible *M*arkup *L*anguage), which you may have seen before
+  - modern standard for web-based transmission of data
+
+JSON is composed of key-value pairs, enclosed by curly brackets and separated by commas (sets of key value-pairs within curly brackets are called objects). You may also present an array, or an ordered collection of values, enclosed in square brackets. Values may be objects, allowing nested relationships between data.
 
 As an example, you could present an occurrence like this example from the Neotoma API:
 
@@ -239,91 +278,73 @@ Can you tell what kind of occurrence this JSON object is describing? How old is 
 
 ## Example 2: Neotoma, JSON, and R
 
-*Goal*: Search Neotoma for all Smilodon occurrences, and put them into an R data frame.
+**Goal**: Search Neotoma for all Smilodon occurrences, and put them into an R data frame.
 
-  1.  The Neotoma database has a different structure and requires different parameters than the Paleobiology database. Here is the example API call: 
 
-[http://api.neotomadb.org/v1/data/sampledata?taxonname=Smilodon*]()
+**Steps:**
 
-  2. Notice when you make this call that the JSON is computer-friendly but not human-friendly. Try it again with the ‘pretty’ format tag:
+  + The Neotoma database has a different structure and requires different parameters than the Paleobiology database. Here is the example API call: 
 
-[http://api.neotomadb.org/v1/data/sampledata?taxonname=Smilodon*&format=pretty]()
+[http://api.neotomadb.org/v1/data/sampledata?taxonname=Smilodon*](http://api.neotomadb.org/v1/data/sampledata?taxonname=Smilodon*)
+
+  + Notice when you make this call that the JSON is computer-friendly but not human-friendly. Try it again with the ‘pretty’ format tag:
+
+[http://api.neotomadb.org/v1/data/sampledata?taxonname=Smilodon*&format=pretty](http://api.neotomadb.org/v1/data/sampledata?taxonname=Smilodon*&format=pretty)
 
 You should be able to see the nested set of JSON objects, including the occurrences returned as comma-separated objects within `"data"`.
 
-Try experimenting with the search, substituting different names. We’ll do more with the Neotoma API in a bit.
+Try experimenting with the search, substituting different names. 
 
-JSON is becoming the standard for data transfer in web services. R has several packages for dealing with JSON-formatted data. We will use some examples from the package [`RJSONIO`](https://cran.rstudio.com/web/packages/RJSONIO/index.html). We will also use the package [`RCurl`](https://cran.rstudio.com/web/packages/Rcurl/index.html), which has functions to let you query APIs from within the R environment.  The `neotoma` package is built around the newer [`httr`](https://cran.rstudio.com/web/packages/httr/index.html) package.
+Even when `pretty`, it will be difficult to analyze or map the data as JSON. Before that, we'll need to put the data into an R dataframe. We will use the `jsonlite` package for this, which is a simple way for R to read JSON files.  There are several other packages for JSON-formatted data in the CRAN repository, including [`RJSONIO`](https://cran.rstudio.com/web/packages/RJSONIO/index.html), [`RCurl`](https://cran.rstudio.com/web/packages/Rcurl/index.html), and [`httr`](https://cran.rstudio.com/web/packages/httr/index.html). 
+
+  + Load (and install) the `jsonlite` package.
 
 ```{r message = FALSE}
-# Uncomment this line if you haven't already installed any of these packages:
-# install.packages(c("RCurl", "RJSONIO"))
+# Uncomment this line if you haven't already installed this package:
+# install.packages(c("jsonlite"))
 
 # Add the packages to your programming environment 
-library(RCurl)
-library(RJSONIO)
+library(jsonlite)
 ```
 
-You will also want to make sure you have the latest version of R installed, or else the secure connection (https) won’t work in the following queries. 
 
-Now create a query for the PaleoBioDB API using the example from above:
+   + Make the call to the Neotoma API, saving the result as an R variable. Make sure the URI is represented as a string (enclosed in quotes) so it is properly interpreted by R.
+
+
 ```{r}
-q <- "https://paleobiodb.org/data1.2/occs/list.txt?base_name=Camelidae&interval=Pleistocene&show=loc,class"
+uri = "http://api.neotomadb.org/v1/data/sampledata?taxonname=Smilodon*"
+response <- fromJSON(uri) # make the call, save the JSON
 ```
+   + Look at the structure of the data we got back:
 
-Create an object to receive the results:
 ```{r}
-a <- basicTextGatherer()
+str(response)
 ```
 
-And execute that query:
-```{r, results="hide"}
-curlPerform(url = q, writefunction = a$update)
+The server gave us back a named list of two elements.  The first element is an integer called `success`.  If success is not equal to 1, the server had an error while processing your request. You may want to ensure that `success` is true before attempting to pass data into analysis scripts. 
+
+The second element is a `data.frame` of sample data from Neotoma, containing 15 fields.
+```{r}
+head(response$data)
 ```
 
-Finally, view the data:
-```{r, results="hide"}
-a$value()
-```
-
-You can see that the data have come in as a character vector; a long list of text strings with no clear structure. Luckily, the PaleoBioDB API also has a JSON interface. 
-
-Change your query to refer to list.json:
-```{r eval=T}
-q <- "https://paleobiodb.org/data1.2/occs/list.json?base_name=Camelidae&interval=Pleistocene&show=loc,class"
-```
-
-Rerun your query and look at `a$value( )` again. How does it look now?
-
-```{r, results="hide"}
-a <- basicTextGatherer()
-curlPerform(url = q, writefunction = a$update)
-a$value()
-```
-
-You can convert it to a data frame:
-```{r, results="hide"}
-tmp <- fromJSON(a$value())
-records <- tmp$records
-results <- data.frame(records[1], stringsAsFactors = FALSE)
-for (x in records[-1]) {
-  x <- data.frame(x, stringsAsFactors = FALSE)
-  results <- merge(results, x, by = intersect(names(results),names(x)), all = TRUE)
-}
-
-dim(results)  # this shows the dimensions of the data frame
-head(results)  # using head() here only prints the top 6 rows, out of 424
-```
-
-When you have gotten this code to work, go through and make comments to describe what each section is doing. Remember, you can make comments in your R code by placing a hashtag (#) at the beginning of a line, or after a line has run (as with the last few lines in the above chunk of code).
-
-Try playing with your queries to see what you can pull from the PaleoBioDB, or even extending to the other two APIs we have explored.
+This data frame could be directly passed into further analyses as the results of the Neotoma search.
 
 ## R packages and Database APIs
 
-In the previous example, you can see that the example API call is reporting data from only part of the distributed database schema of Neotoma. In fact, the Neotoma API is designed around a set of different URLs, each of which allows a user to search a portion of the database. So, if you want the site information for occurrences of *Smilodon*, you would have to search on *Smilodon* in the SampleData URI (as we did in the example), pull the DatasetID values from those returns, then search on the Dataset ID ([http://api.neotomadb.org/v1/data/datasets]()) for those DatasetIDs, which would, in turn, produce the SiteIDs, which you would then search on the Sites URI ([http://api.neotomadb.org/v1/data/sites]()). This sort of searching would be cumbersome if you were to do it by hand, but fortunately you can script a computer to do it for you. In fact, you don’t have to write the scripts to do it, because they have already been constructed and provided to the community as the R [`neotoma`](https://cran.rstudio.com/web/packages/neotoma/index.html) package. 
+In the previous example, you can see that the example API call is reporting data from only part of the distributed database schema of Neotoma. In fact, the Neotoma API is designed around a set of different URLs, each of which allows a user to search a portion of the database. So, if you want the site information for occurrences of *Smilodon*, you would have to:
 
-Other APIs also have wrapper packages to simplify data calls in R. The PaleoBioDB has a package, `paleobioDB`, and iDigBio has a package, `ridigbio`.  Currently, a large group of collaborators is working on a single API and wrapping R package to access both PaleoBioDB and Neotoma at the same time, as well as linking to many online museum databases and iDigBio. While these packages are a great convenience and the `neotoma` package is the subject of our next module, we wanted to introduce you to the underlying architecture here so you would understand what these packages are doing. If they cannot give you the data or fomat you need for your work, they can be cracked open and a custom solution can be easily put together.
+  1. search on *Smilodon* in the SampleData URI (as we did in the example)
+  2. Get the DatasetID values from each record
+  3. Search Neotoma for each Dataset ID using the Datasets resource ([http://api.neotomadb.org/v1/data/datasets]())
+  4. Get the SiteID from each dataset record
+  5. Search Neotoma for each Site using the Sites resource ([http://api.neotomadb.org/v1/data/sites]()). 
+
+This sort of searching would be cumbersome if you were to do it by hand, but fortunately you can script a computer to do it for you. In fact, you don’t even have to write the scripts to do it, because calls like this have already been constructed and provided to the community as the R [`neotoma`](https://cran.rstudio.com/web/packages/neotoma/index.html) package. 
+
+Other APIs also have wrapper packages to simplify data calls in R, including the paleobiology database (`paleobioDB`) and iDigBio (`ridigbio`).  Currently, a large group of collaborators is working on a single API and wrapping R package to access both PaleoBioDB and Neotoma at the same time, as well as linking to many online museum databases and iDigBio. 
+
+While these packages are a great convenience and the `neotoma` package is the subject of our next module, we wanted to introduce you to the underlying architecture here so you would understand what these packages are doing. If they cannot give you the data or fomat you need for your work, the API can be cracked open and a custom solution can be easily put together.
 
 # The `neotoma` Package
 
