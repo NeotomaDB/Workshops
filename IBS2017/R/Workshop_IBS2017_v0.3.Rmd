@@ -34,6 +34,8 @@ Neotoma is a multiproxy paleo-database that stores a range of paleoecological & 
 
 More teaching materials can be found [in Neotoma's educational resources](http://www.neotomadb.org/education/category/higher_ed/).
 
+This workshop is available on GitHub, in the NeotomaDB [repository](https://github.com/NeotomaDB/Workshops/tree/master/IBS2017).  
+
 # Finding Data
 
 ## Explorer
@@ -100,10 +102,11 @@ c.  Add the modern species range onto the search: Click on the red polygon at th
 <p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 5**:  What state has the easternmost location of *Antilocapra* in this search?  (For comparison, the eastern range limit of *Antilocapra* today is in western Iowa).</p>
 
   
-####	Find all vertebrate records in North America 
+####	Find all vertebrate and pollen records in the database 
   1. **Search window, Advanced Tab, Dataset type = "Vertebrate fauna"**
+  2. **Search window, Advanced Tab, Dataset type = "Pollen"**
   
-<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 6**:  The generation of fossil records is labor intensive and hence expensive - *e.g.* the costs of fieldwork, the money spent on radiocarbon dates, the time required for a trained analysis to identify specimens, etc. A rough time/cost estimate for a single vertebrate fossil record is on the order of two years and $30,000.  Given this, give an order-of-magnitude estimate of the number of person-years and dollars it took to generate these fossil vertebrate records now stored in Neotoma. (Order-of-magnitude = 10 person-years?  100 person-years? 1000? etc.)</p>
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 6**:  The generation of fossil records is labor intensive and hence expensive - *e.g.* the costs of fieldwork, the money spent on radiocarbon dates, the time required for a trained analysis to identify specimens, etc. A rough time/cost estimate for a single vertebrate fossil record is on the order of two years and $30,000.  Given this, give an order-of-magnitude estimate of the number of person-years and dollars it took to generate the fossil records now stored in Neotoma. (Order-of-magnitude = 10 person-years?  100 person-years? 1000? etc.)</p>
   
 ####	Multi-Taxon Search
   1. **Find all sites with at least 20% *Picea* pollen between 15,000 and 12,000 years ago.**
@@ -359,6 +362,7 @@ Install the `neotoma` package, then add it to your programming environment
 # install.packages('devtools')
 # devtools::install_github('ropensci/neotoma')
 
+# Add the packages to your programming environment 
 library(neotoma)
 ```
 

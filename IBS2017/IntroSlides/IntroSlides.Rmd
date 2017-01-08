@@ -23,7 +23,7 @@ Workshop participants will learn:
 
 ## Agenda
 * 1 - 1:30pm: Getting started
-    + Introductions  
+    + Introductions- why are you in this workshop?  
     + Getting set up for the day
 * 1:30 - 2:00pm: Overview of paleoecological data
 * 2:00 - 2:30pm: Neotoma web explorer
@@ -58,7 +58,32 @@ devtools::install_github("ropensci/neotoma")
 ```
  
 ## Paleoecological data and the Neotoma Paleoecology Database
-- We will discuss different types of paleo data in the context of Neotoma [www.neotomadb.org](www.neotomadb.org), a database that houses different data from the more recent periods of Earth history
+- Paleo data for biogeographers
+    - taxon occurrences in space and time
+    - taxon attributes
+    - paleoenvironmental data
+    
+## Taxon occurrences:
+    - [Neotoma Paleoecology Database](www.neotomadb.org) (multiproxy)
+    - [Paleobiology Database](https://paleobiodb.org/#/) (multiproxy)
+    - [NOW database](http://www.helsinki.fi/science/now/) (mammals)
+    - [PaleoPortal](http://paleoportal.org/index.php?globalnav=doing_paleo&sectionnav=more_submissions&state_id=0&submission_type_id=28&type_id=5&page_num=1) (links to several sites)
+
+## Taxon morpohological or functional attributes:
+    - Sometimes associated with the data in databases (e.g., mammal body size in PBDB)
+    - [MOM](http://biology.unm.edu/fasmith/Datasets/) (late Quaternary mammal body mass)
+    - [iDigBio](https://www.idigbio.org/)
+    - Modern databases (Pantheria, TRY, etc)
+    
+## Paleoenvironmental data:
+    - CCSM3:
+        - Paleo (CCSM3 & ECBilt) to future climate [Lorenz et al. 2016](http://www.nature.com/articles/sdata201648)
+        - Related: [PaleoView](http://www.fordhamlab.com/climate-geography) from the Fordham lab
+    - HadCM3 from [Singarayer & Valdes, 2010](http://www.sciencedirect.com/science/article/pii/S0277379109003564)
+    - [Worldclim (6000 and 22000 ybp, based on CMIP5)](http://www.worldclim.org/paleo-climate1)
+
+## Paleoecological data and the Neotoma Paleoecology Database
+- We will discuss attributes of paleo data in the context of Neotoma [www.neotomadb.org](www.neotomadb.org), a database that houses different data from the more recent periods of Earth history
 
 ## What is Neotoma?
 - Neotoma is a database *consortium*: [www.neotomadb.org](www.neotomadb.org)
@@ -97,7 +122,7 @@ devtools::install_github("ropensci/neotoma")
     - Occurrence records and taxonomy
     - Orienting occurrences in space
     - Orienting occurrences in time
-- Some key references
+- Some key taphonomy references
     - Behrensmeyer AK, Kidwell S, Gastaldo R. 2000. Taphonomy and paleobiology. Paleobiology. 26(sp4):103–47
     - Jackson ST. 2012. Representation of flora and vegetation in Quaternary fossil assemblages: known and unknown knowns and unknowns. Quaternary Science Reviews. 49:1–16
 
