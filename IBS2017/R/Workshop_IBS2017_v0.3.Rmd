@@ -453,7 +453,7 @@ marion.meta.dataset
 
 Both *Marion Lake (CA: British Columbia)* and *Marion Landfill* have a geochronology dataset, while *Marion Lake (CA: British Columbia)* has a pollen dataset and *Marion Landfill* a vertebrate fauna dataset. The third site, *Marion Lake*, has a diatom dataset and a water chemistry dataset.
 
-<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**Question 13**: Are Marion Lake (CA: British Columbia) and Marion Lake the same site? Try using the `browse` function.</p>
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**Question 13**: Are Marion Lake (CA: British Columbia) and Marion Lake the same site? Try using the `browse` function; i.e., `browse(marion.meta.dataset)`</p>
 
 Further searches (*i.e.*, to examine the lat/longs) or consulting the literature would be required. This illustrates the caution needed when using this, or any other, database. Human judgement still needs to be exercised when examining results from databases.  The `get_publication()` function can return citation information if neccessary, but often using the `browse()` function is very helpful in examining a database further.
 
