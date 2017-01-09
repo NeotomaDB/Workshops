@@ -14,6 +14,8 @@ Neotoma is a multiproxy paleo-database that stores a range of paleoecological & 
 
 More teaching materials can be found [in Neotoma's educational resources](http://www.neotomadb.org/education/category/higher_ed/).
 
+This workshop is available on GitHub, in the NeotomaDB [repository](https://github.com/NeotomaDB/Workshops/tree/master/IBS2017).  
+
 # Finding Data
 
 ## Explorer
@@ -80,10 +82,11 @@ c.  Add the modern species range onto the search: Click on the red polygon at th
 <p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 5**:  What state has the easternmost location of *Antilocapra* in this search?  (For comparison, the eastern range limit of *Antilocapra* today is in western Iowa).</p>
 
   
-####	Find all vertebrate records in North America 
+####	Find all vertebrate and pollen records in the database 
   1. **Search window, Advanced Tab, Dataset type = "Vertebrate fauna"**
+  2. **Search window, Advanced Tab, Dataset type = "Pollen"**
   
-<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 6**:  The generation of fossil records is labor intensive and hence expensive - *e.g.* the costs of fieldwork, the money spent on radiocarbon dates, the time required for a trained analysis to identify specimens, etc. A rough time/cost estimate for a single vertebrate fossil record is on the order of two years and $30,000.  Given this, give an order-of-magnitude estimate of the number of person-years and dollars it took to generate these fossil vertebrate records now stored in Neotoma. (Order-of-magnitude = 10 person-years?  100 person-years? 1000? etc.)</p>
+<p style="border:3px; border-style:solid; border-color:#a9a9a9; padding: 1em;">**QUESTION 6**:  The generation of fossil records is labor intensive and hence expensive - *e.g.* the costs of fieldwork, the money spent on radiocarbon dates, the time required for a trained analysis to identify specimens, etc. A rough time/cost estimate for a single vertebrate fossil record is on the order of two years and $30,000.  Given this, give an order-of-magnitude estimate of the number of person-years and dollars it took to generate the fossil records now stored in Neotoma. (Order-of-magnitude = 10 person-years?  100 person-years? 1000? etc.)</p>
   
 ####	Multi-Taxon Search
   1. **Find all sites with at least 20% *Picea* pollen between 15,000 and 12,000 years ago.**
@@ -312,10 +315,10 @@ str(response)
 ##   ..$ SiteLatitudeSouth: num [1:34] 34.3 29.9 31.1 29.6 36.2 ...
 ##   ..$ TaxonName        : chr [1:34] "Smilodon fatalis" "Smilodon fatalis" "Smilodon sp." "Smilodon fatalis" ...
 ##   ..$ VariableElement  : chr [1:34] "bone/tooth" "bone/tooth" "bone/tooth" "bone/tooth" ...
-##   ..$ Value            : num [1:34] 1 1 1 1 29 88 2 1 61 24 ...
+##   ..$ Value            : num [1:34] 1 1 1 1 88 29 2 1 61 24 ...
 ##   ..$ VariableContext  : logi [1:34] NA NA NA NA NA NA ...
 ##   ..$ TaxaGroup        : chr [1:34] "MAM" "MAM" "MAM" "MAM" ...
-##   ..$ SampleAgeYounger : num [1:34] 15332 9419 11417 11417 10640 ...
+##   ..$ SampleAgeYounger : num [1:34] 15332 9419 11417 11417 1 ...
 ##   ..$ SampleAgeOlder   : num [1:34] 30041 13854 40350 23956 11549 ...
 ##   ..$ SiteLongitudeEast: num [1:34] -103.3 -91.8 -98.8 -98.4 -86.8 ...
 ##   ..$ SiteAltitude     : num [1:34] 1280 NA NA NA 113 113 113 54 54 54 ...
@@ -346,8 +349,8 @@ head(response$data)
 ## 2     1              NA       MAM             9419          13854
 ## 3     1              NA       MAM            11417          40350
 ## 4     1              NA       MAM            11417          23956
-## 5    29              NA       MAM            10640          11549
-## 6    88              NA       MAM                1          11549
+## 5    88              NA       MAM                1          11549
+## 6    29              NA       MAM            10640          11549
 ##   SiteLongitudeEast SiteAltitude  VariableUnits DatasetID SampleAge
 ## 1        -103.31667         1280 present/absent      4564        NA
 ## 2         -91.75000           NA present/absent      4939        NA
