@@ -4,12 +4,12 @@ author: Jessica Blois, Scott Farley, with contributions from Simon Goring, Jack 
   Eric C. Grimm, and Edward Davis
 date: "9 January 2017 | IBS 2017 | Tucson, AZ"
 output:
+  beamer_presentation: default
+  html_document: default
   ioslides_presentation:
     css: styles/styles.css
     logo: images/Packrat.png
     widescreen: yes
-  html_document: default
-  beamer_presentation: default
   pdf_document:
     latex_engine: xelatex
 ---
@@ -193,4 +193,3 @@ devtools::install_github("ropensci/neotoma")
     - Eric Grimm, [eric.c.grimm@outlook.com](mailto:eric.c.grimm@outlook.com)
     - Jack Williams, [jww@geography.wisc.edu](mailto:jww@geography.wisc.edu)
     - Simon Goring, [simon.j.goring@gmail.com](mailto:simon.j.goring@gmail.com)
-
