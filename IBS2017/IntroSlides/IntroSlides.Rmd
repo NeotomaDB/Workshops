@@ -4,12 +4,12 @@ author: Jessica Blois, Scott Farley, with contributions from Simon Goring, Jack 
   Eric C. Grimm, and Edward Davis
 date: "9 January 2017 | IBS 2017 | Tucson, AZ"
 output:
-  beamer_presentation: default
-  html_document: default
   ioslides_presentation:
     css: styles/styles.css
     logo: images/Packrat.png
     widescreen: yes
+  html_document: default
+  beamer_presentation: default
   pdf_document:
     latex_engine: xelatex
 ---
@@ -35,8 +35,9 @@ Workshop participants will learn:
 ## Getting started
 ### Resources
 - Following along today
-    - Intro/Background slides can be viewed through this link:
+    - Intro/Background slides can be viewed through these links:
     https://rawgit.com/NeotomaDB/Workshops/master/IBS2017/IntroSlides/IntroSlides.html
+    https://speakerdeck.com/jessicablois/analyzing-paleo-data-intro-slides
     
     - The primary workshop document can be viewed through this link:
     https://rawgit.com/NeotomaDB/Workshops/master/IBS2017/R/Workshop_IBS2017_v0.3.html
