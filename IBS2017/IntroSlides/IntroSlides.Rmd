@@ -4,12 +4,14 @@ author: Jessica Blois, Scott Farley, with contributions from Simon Goring, Jack 
   Eric C. Grimm, and Edward Davis
 date: "9 January 2017 | IBS 2017 | Tucson, AZ"
 output:
-  beamer_presentation: default
   ioslides_presentation:
     css: styles/styles.css
     logo: images/Packrat.png
     widescreen: yes
-  pdf_document: default
+  html_document: default
+  beamer_presentation: default
+  pdf_document:
+    latex_engine: xelatex
 ---
 
 ## Learning Objectives
@@ -34,23 +36,23 @@ Workshop participants will learn:
 ### Resources
 - Following along today
     - Intro/Background slides can be viewed through this link:
-    https://speakerdeck.com/jessicablois/analyzing-paleo-data-intro-slides
+    https://rawgit.com/NeotomaDB/Workshops/master/IBS2017/IntroSlides/IntroSlides.html
     
     - The primary workshop document can be viewed through this link:
-    https://cdn.rawgit.com/NeotomaDB/Workshops/master/SVP2016/R/Workshop_SVP2016_v0.1.html  # Need to update!!
-
+    https://rawgit.com/NeotomaDB/Workshops/master/IBS2017/R/Workshop_IBS2017_v0.3.html
+    
 - All slides and materials are on GitHub
     - The Neotoma Paleoecology Database
     https://github.com/NeotomaDB
     - The Workshops section
-    https://github.com/NeotomaDB/Workshops/tree/master/SVP2016
+    https://github.com/NeotomaDB/Workshops/
 
 ## Getting started
 ### Installations
   1. Download and install R (available at https://cran.r-project.org/)
   2. Download and install RStudio Desktop (https://www.rstudio.com/products/rstudio/download3/)
-  3. Install the following R packages: **RJSONIO**, **RCurl**, **neotoma**
-    + Open up R Studio, then type: install.packages(‘RJSONIO’, ‘RCurl’)
+  3. Install the following R packages: **RJSONIO**, **jsonlite**, **RCurl**, **neotoma**
+    + Open up R Studio, then type: install.packages(c(‘RJSONIO’, ‘RCurl’, 'jsonlite'))
     + Install the `neotoma` package:
 ```R
 install.packages('devtools')
@@ -64,26 +66,29 @@ devtools::install_github("ropensci/neotoma")
     - paleoenvironmental data
     
 ## Taxon occurrences:
-    - [Neotoma Paleoecology Database](www.neotomadb.org) (multiproxy)
-    - [Paleobiology Database](https://paleobiodb.org/#/) (multiproxy)
-    - [NOW database](http://www.helsinki.fi/science/now/) (mammals)
-    - [PaleoPortal](http://paleoportal.org/index.php?globalnav=doing_paleo&sectionnav=more_submissions&state_id=0&submission_type_id=28&type_id=5&page_num=1) (links to several sites)
+- [Neotoma Paleoecology Database](www.neotomadb.org) (multiproxy)
+- [Paleobiology Database](https://paleobiodb.org/#/) (multiproxy)
+- [NOW database](http://www.helsinki.fi/science/now/) (mammals)
+- [PaleoPortal](http://paleoportal.org/index.php?globalnav=doing_paleo&sectionnav=more_submissions&state_id=0&submission_type_id=28&type_id=5&page_num=1) (contains links to several sites)
+- [GBIF](http://www.gbif.org/) 
+- Others?
 
 ## Taxon morpohological or functional attributes:
-    - Sometimes associated with the data in databases (e.g., mammal body size in PBDB)
-    - [MOM](http://biology.unm.edu/fasmith/Datasets/) (late Quaternary mammal body mass)
-    - [iDigBio](https://www.idigbio.org/)
-    - Modern databases (Pantheria, TRY, etc)
+- Sometimes associated with the data in databases (e.g., mammal body size in PBDB)
+- [MOM](http://biology.unm.edu/fasmith/Datasets/) (late Quaternary mammal body mass)
+- [iDigBio](https://www.idigbio.org/)
+- Modern databases (Pantheria, TRY, BIEN, etc)
     
 ## Paleoenvironmental data:
-    - CCSM3:
-        - Paleo (CCSM3 & ECBilt) to future climate [Lorenz et al. 2016](http://www.nature.com/articles/sdata201648)
-        - Related: [PaleoView](http://www.fordhamlab.com/climate-geography) from the Fordham lab
+- CCSM3:
+    - Paleo (CCSM3 & ECBilt) to future climate [Lorenz et al. 2016](http://www.nature.com/articles/sdata201648)
+    - Related: [PaleoView](http://www.fordhamlab.com/climate-geography) from the Fordham lab
     - HadCM3 from [Singarayer & Valdes, 2010](http://www.sciencedirect.com/science/article/pii/S0277379109003564)
-    - [Worldclim (6000 and 22000 ybp, based on CMIP5)](http://www.worldclim.org/paleo-climate1)
+    - [Worldclim](http://www.worldclim.org/paleo-climate1) (6000 and 22000 ybp, based on CMIP5)
+    - Others?
 
 ## Paleoecological data and the Neotoma Paleoecology Database
-- We will discuss attributes of paleo data in the context of Neotoma [www.neotomadb.org](www.neotomadb.org), a database that houses different data from the more recent periods of Earth history
+- We will discuss attributes of paleo data in the context of Neotoma ([www.neotomadb.org](www.neotomadb.org)), a database that houses different data from the more recent periods of Earth history
 
 ## What is Neotoma?
 - Neotoma is a database *consortium*: [www.neotomadb.org](www.neotomadb.org)
@@ -118,43 +123,34 @@ devtools::install_github("ropensci/neotoma")
 - Before going 'live', data need to be validated by a data steward
 
 ## Key elements of paleoecological data
-- Fundamental message: need to know the **taphonomy** of your study system in order to accurately infer biogeographic patterns across space and time
+- **Fundamental message:** user beware. You should understand the **taphonomy** of your study system in order to accurately infer biogeographic patterns across space and time
     - Occurrence records and taxonomy
     - Orienting occurrences in space
     - Orienting occurrences in time
 - Some key taphonomy references
-    - Behrensmeyer AK, Kidwell S, Gastaldo R. 2000. Taphonomy and paleobiology. Paleobiology. 26(sp4):103–47
-    - Jackson ST. 2012. Representation of flora and vegetation in Quaternary fossil assemblages: known and unknown knowns and unknowns. Quaternary Science Reviews. 49:1–16
+    - Behrensmeyer AK, Kidwell S, Gastaldo R. 2000. [Taphonomy and paleobiology.](http://dx.doi.org/10.1666/0094-8373(2000)26[103:TAP]2.0.CO;2) Paleobiology. 26(sp4):103–47
+    - Jackson ST. 2012. [Representation of flora and vegetation in Quaternary fossil assemblages: known and unknown knowns and unknowns.](http://dx.doi.org/10.1016/j.quascirev.2012.05.020) Quaternary Science Reviews. 49:1–16
 
 ## Occurrence records and taxonomy
 - Each occurrence is associated with a **taxonomic identification**
 - Paleo data are often, though not always, less precise taxonomically than present-day data
 - Different proxy types are recorded in different ways
     - Vertebrate data: MNI/NISP/Presence
-    - Pollen data: originally counts per total pollen count, usually converted to relative abundance
+    - Pollen data: counts per total pollen count, usually converted to relative abundance
 
 ## Spatial precision
 - lat-long coordinates, similar to present-day data
 - **Different proxy types**, different taxa, and different depositional environments **record different levels of spatial precision**
-    - Plant macrofossils vs pollen
-    - Cave deposits vs fluvial deposits
+    - Plant macrofossils vs. pollen
+    - Cave deposits vs. fluvial deposits
 
 ## Example: Fossil pollen from lake sediments
 ![](images/FossilPollen.jpg)
-
 
 ## Temporal precision
 - Every occurrence is associated with an inference about the *time* the organism died
 - There are different dating methods, each with their own assumptions and associated strengths and weaknesses
 - **Different proxy types and depositional environments will be associated with different amounts of time-averaging**
-
-## Dataflow
-### Getting data out of Neotoma
-- Focus of this workshop!
-    - Neotoma Explorer
-    - API
-    - R
-    - Database snapshots (housed at [www.neotomadb.org/snapshots](www.neotomadb.org/snapshots))
 
 ## Key caveats* 
 - Errors or omissions in the data
@@ -167,6 +163,12 @@ devtools::install_github("ropensci/neotoma")
 - When in doubt, record and store as much information as possible.
 
 *for Neotoma and all other databases!
+
+## Getting data out of Neotoma
+- Neotoma Explorer
+- API
+- R
+- Database snapshots (housed at [www.neotomadb.org/snapshots](www.neotomadb.org/snapshots))
 
 ## Major activities
 - Adding new data (MIOMAP, ANTIGUA, MQMD)
