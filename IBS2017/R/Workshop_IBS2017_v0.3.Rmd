@@ -1,9 +1,12 @@
 ---
 title: "International Biogeography Society Workshop"
-author: "Jessica Blois, Scott Farley, Simon Goring, Edward Davis, Jack Williams, Eric C. Grimm"
+author: Jessica Blois, Scott Farley, Simon Goring, Edward Davis, Jack Williams, Eric
+  C. Grimm
 date: "09 January 2017"
-csl: ecology.csl
 output:
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
   html_document:
     includes:
       after_body: styles/footer.html
@@ -12,13 +15,11 @@ output:
     number_sections: yes
     toc: yes
     toc_depth: 2
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
   word_document:
     reference_docx: styles/word-styles-reference-01.docx
     toc: yes
     toc_depth: '3'
+csl: ecology.csl
 bibliography: workshop.bib
 ---
 
