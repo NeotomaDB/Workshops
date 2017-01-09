@@ -4,12 +4,12 @@ author: Jessica Blois, Scott Farley, with contributions from Simon Goring, Jack 
   Eric C. Grimm, and Edward Davis
 date: "9 January 2017 | IBS 2017 | Tucson, AZ"
 output:
-  beamer_presentation: default
-  html_document: default
   ioslides_presentation:
     css: styles/styles.css
     logo: images/Packrat.png
     widescreen: yes
+  html_document: default
+  beamer_presentation: default
   pdf_document:
     latex_engine: xelatex
 ---
@@ -31,6 +31,7 @@ Workshop participants will learn:
 * 2:00 - 2:30pm: Neotoma web explorer
 * 2:30 - 300pm: Intro to API and JSON queries
 * 3:00 - 4:00pm: R Neotoma 
+* 4:00 - 4:30pm: Buffer, sandbox time
 
 ## Getting started
 ### Resources
@@ -68,13 +69,13 @@ devtools::install_github("ropensci/neotoma")
     
 ## Taxon occurrences:
 - [Neotoma Paleoecology Database](www.neotomadb.org) (multiproxy)
-- [Paleobiology Database](https://paleobiodb.org/#/) (multiproxy)
+- [Paleobiology Database](https://paleobiodb.org/#/) (PBDB)(multiproxy)
 - [NOW database](http://www.helsinki.fi/science/now/) (mammals)
 - [PaleoPortal](http://paleoportal.org/index.php?globalnav=doing_paleo&sectionnav=more_submissions&state_id=0&submission_type_id=28&type_id=5&page_num=1) (contains links to several sites)
 - [GBIF](http://www.gbif.org/) 
 - Others?
 
-## Taxon morpohological or functional attributes:
+## Taxon morphological or functional attributes:
 - Sometimes associated with the data in databases (e.g., mammal body size in PBDB)
 - [MOM](http://biology.unm.edu/fasmith/Datasets/) (late Quaternary mammal body mass)
 - [iDigBio](https://www.idigbio.org/)
@@ -84,9 +85,9 @@ devtools::install_github("ropensci/neotoma")
 - CCSM3:
     - Paleo (CCSM3 & ECBilt) to future climate [Lorenz et al. 2016](http://www.nature.com/articles/sdata201648)
     - Related: [PaleoView](http://www.fordhamlab.com/climate-geography) from the Fordham lab
-    - HadCM3 from [Singarayer & Valdes, 2010](http://www.sciencedirect.com/science/article/pii/S0277379109003564)
-    - [Worldclim](http://www.worldclim.org/paleo-climate1) (6000 and 22000 ybp, based on CMIP5)
-    - Others?
+- HadCM3 from [Singarayer & Valdes, 2010](http://www.sciencedirect.com/science/article/pii/S0277379109003564)
+- [Worldclim](http://www.worldclim.org/paleo-climate1) (6000 and 22000 ybp, based on CMIP5)
+- Others?
 
 ## Paleoecological data and the Neotoma Paleoecology Database
 - We will discuss attributes of paleo data in the context of Neotoma ([www.neotomadb.org](www.neotomadb.org)), a database that houses different data from the more recent periods of Earth history
@@ -101,11 +102,12 @@ devtools::install_github("ropensci/neotoma")
 
 ## The Neotoma ecosystem
 - Faunal data
-    - FAUNMAP, FAUNMAP2 (in progress)
-    - MIOMAP (with Tony Barnosky)
-    - ANTIGUA (South America megafaunal dates, in progress, with Tony Barnoksy and Emily Lindsey)
-    - MQMD (Mexico, in progress, with Joaquin Arroyo Cabrales)
+    - FAUNMAP
+    - Other datasets in progress (FAUNMAP2, MIOMAP, ANTIGUA, MQMD):
 - Pollen and plant macros
+    - North America Pollen Database
+    - European Pollen Database
+    - Latin American Pollen Database
 - Packrat midden database
 - Ostracodes, Diatoms
 - Isotopes (coming online soon)
@@ -193,3 +195,6 @@ devtools::install_github("ropensci/neotoma")
     - Eric Grimm, [eric.c.grimm@outlook.com](mailto:eric.c.grimm@outlook.com)
     - Jack Williams, [jww@geography.wisc.edu](mailto:jww@geography.wisc.edu)
     - Simon Goring, [simon.j.goring@gmail.com](mailto:simon.j.goring@gmail.com)
+- Ostracodes:
+    - Alison Smith, [alisonjs@kent.edu](mailto:alisonjs@kent.edu)
+- [Neotoma Leadership Council](http://www.neotomadb.org/about/category/governance)
