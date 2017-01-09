@@ -156,14 +156,14 @@ An API is a structured and documented way for computer applications to talk to e
   
   - Can be used to communicate with web services and incorporate them into your own scripts.
   - Often used to access a database, such as Neotoma, iDigBio, or the Paleobiology Database.
-  - Calls are usually sent as URL strings: values appended to a URL after a `?`  are processed as parameters to be passed to the server.  Most APIs use calls to different URLs and parameters to return the specific data that meets your query, such as a different resource (for example, sites, dataasets, or samples) or data format (text, json, or xml). 
+  - Calls are usually sent as URL strings: values appended to a URL after a `?`  are processed as parameters to be passed to the server.  Most APIs use calls to different URLs and parameters to return the specific data that meets your query, such as a different resource (for example, sites, datasets, or samples) or data format (text, json, or xml). 
   
 We can think of http://google.com/?q=bananas as if it were an R function called `search()`, passed as `search(q="bananas")`.
 
     + URL = Uniform Resource Locator -- address of a web page. 
     + URI = Uniform Resource Identifier -- web address of a service, like an API.
 
-Many public APIs exist allowing your programs to tie into many existing web serives.  For example, Google has APIs for most of its products. You could write an R (or Python, etc.) script that would connect to the Google Calendar API to allow you to automatically change events on your calendar or report agenda items back to you in your own custom environment.  [Hilary Parker](https://hilaryparker.com/) has a nice example for [adding sunsets to Google Calendar](https://hilaryparker.com/2014/05/27/sunsets-in-google-calendar-using-r/) using R.
+Many public APIs exist allowing your programs to tie into many existing web services.  For example, Google has APIs for most of its products. You could write an R (or Python, etc.) script that would connect to the Google Calendar API to allow you to automatically change events on your calendar or report agenda items back to you in your own custom environment.  [Hilary Parker](https://hilaryparker.com/) has a nice example for [adding sunsets to Google Calendar](https://hilaryparker.com/2014/05/27/sunsets-in-google-calendar-using-r/) using R.
 
 APIs are an important part of many important biological and paleobiological databases, because they allow users to filter, search, and download records using custom scripts in their favorite language. Different database APIs have different parameter names, structures, and can produce different types of returns, including raw text, comma-delimited test, and JSON (**J**ava**S**cript **O**bject **N**otation), so make sure you review the documentation specific to the API you're trying to use. 
 
@@ -171,7 +171,7 @@ We will work through examples from the Paleobiology Database and Neotoma.
 
 ## Example 1: Text returns from the Paleobiology database
 
-**Goal:** Get all occurrences of *Camelidae* in the Paleobiology database that are dated to the Pliestocene, returning the spatial location of the occurrence. Get the response as comma-separated text (CSV format).
+**Goal:** Get all occurrences of *Camelidae* in the Paleobiology database that are dated to the Pleistocene, returning the spatial location of the occurrence. Get the response as comma-separated text (CSV format).
 
 **Steps:**
 
@@ -207,7 +207,7 @@ A successful call should return something like this:
 
 
 
-There are many useful parameters to facilitate searching occurreneces in the Paleobiology database, including:
+There are many useful parameters to facilitate searching occurrences in the Paleobiology database, including:
 
   - taxonomy
   - age
@@ -315,7 +315,11 @@ str(response)
 ##   ..$ SiteLatitudeSouth: num [1:34] 34.3 29.9 31.1 29.6 36.2 ...
 ##   ..$ TaxonName        : chr [1:34] "Smilodon fatalis" "Smilodon fatalis" "Smilodon sp." "Smilodon fatalis" ...
 ##   ..$ VariableElement  : chr [1:34] "bone/tooth" "bone/tooth" "bone/tooth" "bone/tooth" ...
+<<<<<<< HEAD
 ##   ..$ Value            : num [1:34] 1 1 1 1 29 2 88 1 61 24 ...
+=======
+##   ..$ Value            : num [1:34] 1 1 1 1 88 2 29 1 61 24 ...
+>>>>>>> origin/master
 ##   ..$ VariableContext  : logi [1:34] NA NA NA NA NA NA ...
 ##   ..$ TaxaGroup        : chr [1:34] "MAM" "MAM" "MAM" "MAM" ...
 ##   ..$ SampleAgeYounger : num [1:34] 15332 9419 11417 11417 10640 ...
@@ -349,7 +353,11 @@ head(response$data)
 ## 2     1              NA       MAM             9419          13854
 ## 3     1              NA       MAM            11417          40350
 ## 4     1              NA       MAM            11417          23956
+<<<<<<< HEAD
 ## 5    29              NA       MAM            10640          11549
+=======
+## 5    88              NA       MAM                1          11549
+>>>>>>> origin/master
 ## 6     2              NA       MAM             2408          10640
 ##   SiteLongitudeEast SiteAltitude  VariableUnits DatasetID SampleAge
 ## 1        -103.31667         1280 present/absent      4564        NA
@@ -383,7 +391,7 @@ This sort of searching would be cumbersome if you were to do it by hand, but for
 
 Other APIs also have wrapper packages to simplify data calls in R, including the paleobiology database (`paleobioDB`) and iDigBio (`ridigbio`).  Currently, a large group of collaborators is working on a single API and wrapping R package to access both PaleoBioDB and Neotoma at the same time, as well as linking to many online museum databases and iDigBio. 
 
-While these packages are a great convenience and the `neotoma` package is the subject of our next module, we wanted to introduce you to the underlying architecture here so you would understand what these packages are doing. If they cannot give you the data or fomat you need for your work, the API can be cracked open and a custom solution can be easily put together.
+While these packages are a great convenience and the `neotoma` package is the subject of our next module, we wanted to introduce you to the underlying architecture here so you would understand what these packages are doing. If they cannot give you the data or format you need for your work, the API can be cracked open and a custom solution can be easily put together.
 
 # The `neotoma` Package
 
