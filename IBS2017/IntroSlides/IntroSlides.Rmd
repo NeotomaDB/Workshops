@@ -123,7 +123,7 @@ devtools::install_github("ropensci/neotoma")
 - Before going 'live', data need to be validated by a data steward
 
 ## Key elements of paleoecological data
-- **Fundamental message:** user beware. You should understand the **taphonomy** of your study system in order to accurately infer biogeographic patterns across space and time
+- Fundamental message: user beware. You should understand the **taphonomy** of your study system in order to accurately infer biogeographic patterns across space and time
     - Occurrence records and taxonomy
     - Orienting occurrences in space
     - Orienting occurrences in time
