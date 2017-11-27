@@ -15,7 +15,7 @@ This tutorial does not cover age modeling.  Students interested in learning how 
 
 ```r
 # Uncomment this line if you haven't already installed any of these packages
-install.packages(c("neotoma", "analogue", "rworldmap"))
+# install.packages(c("neotoma", "analogue", "rworldmap"))
 
 #Add the neotoma package to your programming environment (we'll add analogue and rworldmap later)
 library(neotoma)
