@@ -1,0 +1,44 @@
+:root {
+    --main-bg: #f94d59ee;
+    --light-bg: #fdd0ffee;
+    --dark-bg: #c00030ee;
+    --main-code-bg: #eeeeeeee;
+    --main-gray: #e2e2e2ee;
+    --dark-gray: #616161ee;
+    --main-secnd: #9770cbee;
+    --ligh-secnd: #c99fffee;
+}
+
+#buttons ul {
+  display: table-row;
+  vertical-align:middle;
+}
+
+#buttons li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: var(--ligh-secnd);
+  margin-right: 30px;
+  width: 98%;
+  font-size:1.3rem;
+  margin: 0 3px 3px 0;
+  padding: 3px 3px 3px 3px;
+  height:75px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#buttons li:hover {
+  text-decoration: none;
+  color: #000000;
+  background-color: var(--main-secnd);
+}
+
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}

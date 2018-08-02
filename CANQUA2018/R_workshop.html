@@ -1,0 +1,469 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Neotoma CANQUA Workshop</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<!-- <link rel="stylesheet" href="css/theme/white.css"> -->
+		<link rel="stylesheet" href="css/theme/pres_custom/slide_divs.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<section>Introduction</section>
+				</section>
+				<section>
+					<section>Exploring With Neotoma</section>
+					<section id="installation" class="codeexample">
+					  <div class="codecontainer">
+					    <div class="codetitle"><h1>Install <code>neotoma</code></h1></div>
+					    <div class="codebox">
+								<pre><code>
+# Uncomment this line if you haven't already installed any of these packages:
+# install.packages(c("neotoma", "analogue"))
+
+# Add the neotoma package to your programming environment (we'll add analogue later)
+library(neotoma)
+					    	</code></pre>
+							</div>
+					  </div>
+					  Install everything.
+					</section>
+					<section>
+							<code>neotoma</code> has three fundamental commands:
+						<ul id="buttons">
+							<li id="buttons">get_site()</li>
+							<li id="buttons">get_dataset()</li>
+							<li id="buttons">get_download()</li>
+						</ul>
+						The first two return metadata for sites and datasets; the latter returns data.
+					</section>
+					<section id="sites">
+						<div class="title"><h1>Finding sites</h1></div>
+						<div class="codecontainer">
+							<div class="codetitle">
+								<h2><code>get_site()</code></h2>
+							</div>
+							<div class="codebox">
+								<pre><code>
+marion_site &lt;&#8209; get_site(sitename = 'Marion%')
+								</pre></code>
+							</div>
+							<div class="belowText">
+								<code>get_site()</code> returns a <code>data.frame</code> with minimal metadata. Search by site name. It's often good practice to first search using a wildcard character.
+							</div>
+						</div>
+					</section>
+					<section id="site-code" data-gif="repeat">
+						<img src="images/gifs/Marion_search.gif">
+					</section>
+
+					<section>
+						<div class="title"><code>print(marion_site)</code></div>
+						<div class="codecontainer">
+							<div class="codetitle">
+								<h2>Spatial Searches</h2>
+							</div>
+							<div class="codebox">
+								<pre><code>
+# Search by lat/lon bounding box.  This one roughly corresponds to Florida.
+fl_sites <&#8209; get_site(loc = c(-88, -79, 25, 30))
+								</code></pre>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="codecontainer">
+							<div class="codetitle">
+								<h2>Geopolitical Searches</h2>
+							</div>
+							<div class="codebox">
+								<pre><code>
+# get all sites in New Mexico (gpid=7956)
+NM_sites &lt;&#8209; get_site(gpid = 7956)
+
+# get all sites in Wisconsin
+WI_sites &lt;&#8209; get_site(gpid = "Wisconsin")
+								</code></pre>
+							</div>
+						</div>
+					</section>
+					<section id="datasets">
+						<h1>Getting Datasets</h1>
+
+						The structure of the Neotoma data model, as expressed through the API is roughly: "`counts` within `download`s, `download`s within `dataset`s, `dataset`s within `site`s".  So a `dataset` contains more information than a site, about a particular dataset from that site.  A site may have a single associated dataset, or multiple.  For example:
+
+						<div class="condecontainer">
+							<div class="codebox">
+								<pre><code>
+get_dataset(marion_site[1,])
+
+# get_dataset returns a list of datasets containing the metadata for each dataset
+# We can pass output from get_site to get_dataset
+
+marion.dataset  &lt;&#8209; get_dataset(marion.site)
+
+# Let's look at the metadata returned for Marion Lake and Marion Landfill.  Both
+# have a geochronology dataset, while one has a pollen dataset and the other a
+# vertebrate fauna dataset
+marion.dataset
+								</code></pre>
+							</div>
+						</div>
+					</section>
+					<section>
+						<h1>get_download()</h1>
+
+						`get_download` returns a list which stores a list of download objects - one for each retrieved dataset.  Each download object contains a suite of data for the samples in that dataset.  Get all datasets for both Marion Site and Marion Landfill. `get_download` will accept an object of class dataset:
+
+						<code>
+
+						marion_all &lt;&#8209; get_download(marion_site)
+
+						print(marion_all)
+						</code>
+
+						There are a number of messages that appear.  These should be suppressed with the flag `verbose = FALSE` in the function call.  One thing you'll note is that not all of the datasets can be downloaded directly to a `download` objct.  This is because `geochronologic` datasets have a different data structure than other data, requiring different fields, and as such, they can be obtained using the `get_geochron` function:
+
+						<code>
+
+						marion_geochron &lt;&#8209; get_geochron(marion_site)
+
+						print(marion_geochron)
+						</code>
+
+						The result is effectively the inverse of the first.
+
+						<code>
+							# Get all datasets for just Marion Lake (BC):
+							marion_bc &lt;&#8209; get_download(marion_site[1,])
+						</code>
+
+						Within the download object, `sample.meta` stores the core depth and age information for that dataset. We just want to look at the first few lines, so are  using the head function.
+
+						<code>
+							head(marion_bc[[1]]$sample.meta)
+
+							#taxon.list stores a list of taxa found  in the  dataset
+							head(marion_bc[[1]]$taxon.list)
+
+							#counts stores the the counts, presence/absence data, or percentage data for each taxon for each sample
+							head(marion_bc[[1]]$counts)
+
+							#lab.data stores any associated  laboratory measurements in the dataset
+							#For Marion Lake, this returns the Microsphere suspension used as a spike to calculate
+							#concentrations
+							head(marion_bc[[1]]$lab.data)
+						</code>
+					</section>
+				</section>
+				<section>
+					<section>Exploring With Neotoma</section>
+					<section>
+						<h1>Helper functions</h1>
+					</section>
+					<section>
+
+						<h1>`compile_taxa`</h1>
+
+						The level of taxonomic resolution can vary among analysts.  Often for multi-site analyses it is helpful to aggregate to a common taxonomic resolution. The `compile_taxa` function in `neotoma` will do this.  To help support rapid prototyping, `neotoma` includes a few pre-built taxonomic lists, **however**, the function also supports the use of a custom-built `data.frame` for aligning taxonomies.  Because new taxa are added to Neotoma regularly (based on analyst identification), it is worthwhile to check the assignments performed by the `compile_taxa` function, and to build your own explicit compilation table.
+
+						<code>
+							marion_bc &lt;&#8209; compile_taxa(marion_bc, list.name = "P25")
+						</code>
+
+						You'll notice that warning messages return  a number of taxa that cannot be onverted using the existing data table.  Are these taxa important?  They may be important for you.  Check to see which taxa have been converted by looking at the new taxon table:
+
+						<code>
+							marion_bc[[1]]$taxon.list[,c("compressed", "taxon.name")]
+						</code>
+
+						And note that if you look at the names of the objects in the new `download` (using `names(marion_bc[[1]]))`, there is now a `full.counts` object.  This allows you to continue using the original counts, while also retaining the new compiled counts.
+					</section>
+					<section>
+						<h1>Plotting</h1>
+
+						There are several options for plotting stratigraphic data in R.  The `rioja` package [@rioja_package] and `analogue` [@analogue_package] each have methods, and other possibilities exist.  Here we will show simple plotting using the `analogue` package. To make it clear which functions come from the `analogue` package I will use `analogue::` before the function names.  This is just an explicit way to state the function source.  If you choose not to do this you will not encounter any problems unless multiple packages have similarly name functions.
+
+						<code>
+							library("analogue")
+
+							# Convert the Marion Lake pollen data to percentages
+							marion_bc_pct &lt;&#8209; analogue::tran(x = marion_bc[[1]]$counts, method = 'percent')
+
+							# Drop rare taxa:
+							marion_bc_pct &lt;&#8209; marion_bc_pct[, colMeans(marion_bc_pct, na.rm = TRUE) > 2]
+
+							analogue::Stratiplot(x = marion_bc_pct[ , order(colMeans(marion_bc_pct, na.rm = TRUE),
+							                                                decreasing = TRUE)],
+							                     y = marion_bc[[1]]$sample.meta$age,
+							                     ylab = marion_bc[[1]]$sample.meta$age.type[1],
+							                     xlab = " Pollen Percentage")
+						</code>
+					</section>
+				</section>
+				<section>
+					<section>Synthesizing With Neotoma</section>
+					<section>
+						<h1>Age-Depth Models</h1>
+						We can use the Neotoma package, along with other tools to rebuild age models. Many of the age modeling tools require additional files to be installed.  One such program is [Bacon](http://chrono.qub.ac.uk/blaauw/bacon.html) [@].  Here we will rebuild a Baysian age model for a site in Wisconsin.
+
+						We've looked in detail at Marion Lake, let's choose another site from our pool of Wisconsin sites earlier.  First we need to get Bacon set up:
+
+						<code>
+							source("Bacon.R")
+						</code>
+					</section>
+					<section>
+						Now let's look for Lake O' Pines:
+
+						<code>
+							lake_o &lt;&#8209; get_site(sitename = "Lake O' Pines")
+							lake_o_ds &lt;&#8209; get_dataset(lake_o)
+
+							print(lake_o_ds)
+						</code>
+
+						Lake O' Pines has three dataset types, a geochronolgic, a pollen and a plant macrofossil dataset.  We only want to reconstruct the pollen dataset (Dataset ID `15925`).  Bacon requires a specific data format and the `neotoma` package provides a wrapper for it with the `write_agefile` function.  One thing to keep in mind is that datasets might have multiple chronologies, and these chronologies can be based on different subsets of data.  Let's look at the chronological controls used
+
+						<code>
+							# Get the download object:
+							lake_o_dl &lt;&#8209; get_download(15925)
+
+							names(lake_o_dl$`15925`$chronologies)
+
+							# There's only one chronology, lets take a look at it:
+
+							lake_o_chron &lt;&#8209; get_chroncontrol(lake_o_dl$`15925`)
+
+							print(lake_o_chron)
+						</code>
+					</section>
+					<section>
+						So we can see that there's a relatively good number of radiocarbon dates, a modern sample, and it ought to make the basis of a decent age model.
+
+						<code>
+
+							# Write the bacon formatted file to disk for Bacon:
+							write_agefile(lake_o_dl[[1]], chronology = 1, path = ".",
+							              corename = "LAKEPINES", cal.prog = 'Bacon')
+
+							# Did it work?
+							list.files("Cores")
+
+						</code>
+					</section>
+					<section>
+						The function puts a new directory into the `Cores` folder, Bacon's default read/write folder.  Again, you must make sure you're in the right working directory for this to work.
+
+						Next, we start Bacon:
+
+						<code>
+							# Note, these are very 'default' settings, mostly to ensure that this will run:
+
+							tester &lt;&#8209; Bacon('LAKEPINES', acc.mean = 10, thick = 50, plot.pdf = FALSE,
+							                depths.file = TRUE, suggest = FALSE, ask = FALSE)
+
+						</code>
+
+						Bacon itself doesn't return data back into R, so I'm just timing the function so we know how long it takes.  The last run of Lake O' Pines took 153 seconds to run.
+					</section>
+					<section>
+						After running, the output is then available in the `Cores/LAKEPINES` folder.  We can read it back in using the `read_bacon` method.  We can either make a new `chronology` table on its own:
+
+						<code>
+							# We have to do this because we can't change the working directory in a knit document.
+							lake_o_dl[[1]] &lt;&#8209; read_bacon("LAKEPINES", add = TRUE, path = ".",
+							                             download = lake_o_dl[[1]], sections = 17)
+
+							head(read_bacon("LAKEPINES", add = FALSE, sections = 17, path = "."))
+
+						</code>
+					</section>
+					<section>
+						We can see it has the same structure as the original `chronology` table in the `lake_o_dl` object.  We can add it to the `download`, and make it our default model if we want:
+
+						<code>
+
+							lake_o_dl[[1]] &lt;&#8209; read_bacon("LAKEPINES", add = TRUE, chron_name = "workshop",
+							                             download = lake_o_dl[[1]], sections = 17)
+
+						</code>
+					</section>
+					<section>
+						Now we've got our new age model, we can compare the ages from the two models:
+
+						<code>
+							plot(lake_o_dl[[1]]$chronologies[[2]]$age, # the new age model
+							     lake_o_dl[[1]]$chronologies[[1]]$age - lake_o_dl[[1]]$chronologies[[2]]$age,
+							     xlab = "Calibrated Years BP",
+							     ylab = "Age correction (+: new model younger)")
+							abline(h = 0)
+						</code>
+
+						So we can immediately see the difference a new model makes (positive values indicate that the original chronology was older than the new model), and since we've set the new model as the default we can now carry that forward into subsequent analysis with the newly revised `lake_o_dl`.  But we shouldn't, because our new model isn't very good.
+					</section>
+					<section>
+						<h1>Multi-Site Analysis</h1>
+
+						So now we know how to download for a single site and re-build chronologies.  What if we want to look at mltiple sites?  We can use the same set of `get_dataset` and `get_download` functions we used earlier, but add some specialized functions for compiling the datasets to help improve our ability to analyze the data.  Lets start by looking for sites with hemlock pollen in the upper Midwest, and we'll border the dates using a buffer around the hemlock decline.
+
+						<code>
+
+							if (!"hem_dl.rds" %in% list.files('data')) {
+							  hem_dec &lt;&#8209; get_dataset(taxonname = "Tsuga*",
+							                       datasettype = "pollen",
+							                       loc = c(-98.6, 36.5, -66.1, 49.75),
+							                       ageyoung = 4500, ageold = 6000)
+							  hem_dec_dl &lt;&#8209; get_download(hem_dec)
+							  saveRDS(hem_dec, "data/hem_ds.rds")
+							  saveRDS(hem_dec_dl, "data/hem_dl.rds")
+							} else {
+							  hem_dec &lt;&#8209; readRDS("data/hem_ds.rds")
+							  hem_dec_dl &lt;&#8209; readRDS("data/hem_dl.rds")
+							}
+						</code>
+					</section>
+					<section>
+						<code>
+							hem_dec &lt;&#8209; get_dataset(taxonname = "Tsuga*",
+							                       datasettype = "pollen",
+							                       loc = c(-98.6, 36.5, -66.1, 49.75),
+							                       ageyoung = 4500, ageold = 6000)
+
+							hem_dec_dl &lt;&#8209; get_download(hem_dec)
+						</code>
+					</section>
+					<section>
+						Let's see where the sites are:
+
+						<code>
+							# Note, a search for `Tsuga canadensis` returns only 49 records, because American scientists don't
+							# like using the word Canada.  The broader search returns ~260 samples.
+
+
+							plot(hem_dec)
+							browse(hem_dec)
+							plot_leaflet(hem_dec)
+
+							library(rworldmap)
+							map &lt;&#8209; getMap()
+							plot(map, add = TRUE)
+
+						</code>
+					</section>
+					<section>
+						Now we use the function `compile_download` to combine the records.  We're really only interested in the *Tsuga* in this case, so we can search to *Tsuga* related columns.  `compile_download` also adds critical content to the first 10 columns of the output `data.frame`, so we want to keep those as well.
+
+						<code>
+
+							hem_compiled &lt;&#8209; compile_downloads(hem_dec_dl)
+
+							# A fun way of getting all the taxon tables out.  This gives us 18241 rows:
+							all_taxa &lt;&#8209; do.call(rbind.data.frame, lapply(hem_dec_dl, function(x)x$taxon.list[,1:6]))
+
+							# and we're limited now to 892 (and some of these are "LABO" which means lab analyses)
+							all_taxa &lt;&#8209; all_taxa[!duplicated(all_taxa),]
+
+							# Limit the taxa to everything that is a tree or shrub, or upland herbs.
+							# Because columns in R by default change all punctuation and spaces to periods we have
+							#  to take advantage of regular expressions to change spaces `[ ]` and punctuation
+							#  `[[:punct:]]` to a period using the `gsub` command.
+
+							good_cols &lt;&#8209; c(1:10, which(colnames(hem_compiled) %in%
+							                            gsub("[ ]|[[:punct:]]", ".",
+							                                 all_taxa[all_taxa$ecological.group %in%
+							                                            c("TRSH", "UPHE"),1])))
+							# Take just those trees, shrubs & herbs and transform the values to proportions:
+							hem_compiled &lt;&#8209; hem_compiled[ ,good_cols]
+							hem_pct &lt;&#8209; hem_compiled[,11:ncol(hem_compiled)] / rowSums(hem_compiled[,11:ncol(hem_compiled)],
+							                                                          na.rm = TRUE)
+
+							hem_only &lt;&#8209; rowSums(hem_pct[,grep("Tsuga", colnames(hem_pct))], na.rm = TRUE)
+						</code>
+					</section>
+					<section>
+
+						This gives us `r ncol(hem_compiled) - 10` unique taxa (the first ten columns of `hem_compiled` are all informational, not taxonomic), from across the `r length(hem_dec_dl)` downloads.  We then isolate only trees, shrubs & upland herbs, convert to proportion and then isolate the *Tsuga* samples.  We can pull ages from the `compiled_downloads` object - `hem_compiled` - by taking the `rowMeans` of the age columns, and try plotting it all out to see if we see a pattern:
+
+						<code>
+							age_cols &lt;&#8209; grep("^age", colnames(hem_compiled))
+
+							hemlock_all &lt;&#8209; data.frame(ages = rowMeans(hem_compiled[,age_cols], na.rm = TRUE),
+							                          prop = hem_only)
+
+							plot(hemlock_all, col = rgb(0.1, 0.1, 0.1, 0.3), pch = 19, cex = 0.4,
+							     xlim = c(0, 20000),
+							     ylab = "Proportion of Hemlock", xlab = "Years Before Present")
+						</code>
+
+					</section>
+					<section>
+						And we can now see how rapidly the *Tsuga* decline affects the northeastern United States and Canada.  Note the large number of "zero" points.  It's also worth noting that there are a number of records that are only in Radiocarbon years.  This is critically important.  The plot looks somewhat different if we separate radiocarbon years from other date types:
+						<code>
+							plot(hemlock_all,
+							     col = c(rgb(0.1, 0.1, 0.1, 0.3),
+							             rgb(1, 0, 0, 0.3))[(hem_compiled$date.type == "Radiocarbon years BP") + 1],
+							     pch = 19, cex = 0.4,
+							     xlim = c(0, 20000),
+							     ylab = "Proportion of Hemlock", xlab = "Years Before Present")
+						</code>
+
+						If you look closely you can clearly see the offest at the time of the Decline between the Radiocarbon ages and the calibrated dates.  Obviously, more data cleaning needs to be done here.
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				controlsTutorial: true,
+				center:false,
+				width: "100%",
+				height: "100%",
+				margin: 0,
+				minScale: 1,
+				maxScale: 1,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+
+			// Added from: https://github.com/hakimel/reveal.js/issues/1694
+			Reveal.addEventListener('slidechanged', function(event) {
+				var gifAttr = event.currentSlide.getAttribute('data-gif');
+				if (gifAttr && gifAttr === 'repeat') {
+					var img = event.currentSlide.querySelector('img');
+					var gif = img.getAttribute('src');
+
+					img.setAttribute('src', gif + '?t=' + (new Date().getTime()));
+				}
+			}, false);
+		</script>
+	</body>
+</html>
