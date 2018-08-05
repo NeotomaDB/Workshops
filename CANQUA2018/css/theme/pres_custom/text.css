@@ -48,3 +48,8 @@
 
 .reveal h4 {
   font-size: 1em; }
+
+.reveal pre code {
+  padding-left: 10px;
+
+}

@@ -42,14 +42,35 @@ div.fignotes{
 div.codecontainer{
   width:80%;
   text-align: center;
-  padding-top:5%;
+  padding-top:1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1%;
   height:80%;
   margin:auto;
-  color: #000000cc;
+  background-color: var(--main-code-bg);
   margin-bottom: 6%;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
 }
 
-div.codetitle {
+div.codebox {
+  display: inline-block;
+  white-space:normal !important;
+  postition: relative;
+  width: 76%;
+  height: 60%;
+  margin-left: 1%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 1%;
+  text-align: left;
+  font-size: 1rem;
+  font-family: monospace;
+  line-height: 1.2rem;
+  word-wrap: break-word;
+}
+
+div.codetitle .figtitle {
   display: inline-block;
   text-align:left;
   padding-left:3%;
@@ -66,28 +87,6 @@ div.belowText {
   padding-right: 2%;
   padding-bottom: 1%;
   padding-top: 2%;
-}
-
-div.codebox {
-  display: inline-block;
-  white-space:normal !important;
-  postition: relative;
-  width: 76%;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-bottom: 1%;
-  height: 60%;
-  background-color: var(--main-code-bg);
-  margin-left: 1%;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-top: 1%;
-  text-align: left;
-  font-size: 1rem;
-  font-family: monospace;
-  line-height: 1.2rem;
-  word-wrap: break-word;
-  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
 }
 
 div.title {
