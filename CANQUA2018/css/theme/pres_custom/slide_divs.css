@@ -10,25 +10,108 @@
 
 }
 
-div.leftCol {
-    float:left;
-    width:100%
-    margin: auto;
-}
-
-div.rightCol {
-  float:right;
-  margin: auto;
-}
+/* Main containers.
+   figcontainer
+   codecontainer
+*/
 
 div.figcontainer{
-  width:80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width:90%;
   text-align: center;
   padding-top:5%;
   height:80%;
   margin:auto;
   color: #000000cc;
 }
+
+div.textcontainer{
+  display: flex;
+  flex-direction: column;
+  width:90%;
+  padding-top: 2%;
+  align-content: flex-start;
+  justify-content: center;
+  margin:auto;
+  color: #000000cc;
+}
+
+div.codecontainer{
+  display:block;
+  width:90%;
+  min-height:90%;
+  text-align: left;
+  padding-top:1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+  margin:auto;
+}
+
+/* Child containers */
+/* These are the things that are filled inside the containers */
+
+div.title {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+  vertical-align: middle;
+  background-color: var(--light-bg);
+  display: block;
+}
+
+div.codetitle .figtitle .texttitle {
+  display: inline-block;
+  text-align:left;
+  padding-left:3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width:77%;
+  margin-bottom: 5px;
+  background-color: var(--main-secnd);
+}
+
+div.listbox {
+  margin: auto;
+  width: 90%;
+}
+
+div.textbox {
+  text-align: left;
+  padding: 1%;
+  margin-top: 1%;
+  font-family: 'Raleway';
+  font-size: 2em;
+  width: 80%;
+}
+
+div.codebox {
+  display: inline-block;
+  white-space:normal !important;
+  postition: relative;
+  width: 76%;
+  margin-left: 1%;
+  margin-top: auto;
+  margin-bottom: 1%;
+  padding: 2%;
+  text-align: left;
+  font-size: 1rem;
+  font-family: monospace;
+  line-height: 1.2rem;
+  word-wrap: break-word;
+  background-color: var(--main-code-bg);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+
+/* Other things */
+
 
 div.fignotes{
   width:80%;
@@ -39,48 +122,6 @@ div.fignotes{
   color: #000000cc;
 }
 
-div.codecontainer{
-  width:80%;
-  text-align: center;
-  padding-top:1%;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-bottom: 1%;
-  height:80%;
-  margin:auto;
-  background-color: var(--main-code-bg);
-  margin-bottom: 6%;
-  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
-}
-
-div.codebox {
-  display: inline-block;
-  white-space:normal !important;
-  postition: relative;
-  width: 76%;
-  height: 60%;
-  margin-left: 1%;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-top: 1%;
-  text-align: left;
-  font-size: 1rem;
-  font-family: monospace;
-  line-height: 1.2rem;
-  word-wrap: break-word;
-}
-
-div.codetitle .figtitle {
-  display: inline-block;
-  text-align:left;
-  padding-left:3%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  width:77%;
-  margin: 0px;
-  background-color: var(--main-secnd);
-}
-
 div.belowText {
   display: inline-block;
   padding-left: 2%;
@@ -89,11 +130,34 @@ div.belowText {
   padding-top: 2%;
 }
 
-div.title {
-  width: 100%;
-  padding: 1 1 1 1%
-  position: absolute;
-  text-align: left;
-  vertical-align: middle;
-  background-color: var(--light-bg);
+.reveal div.header {
+    top: 0;
+    left: 0;
+    padding: 10px;
+    margin: 0;
+    width:100%;
+    height:200%;
+    background-color: var(--main-bg);
+    text-align: left;
+}
+
+div.seeIt {
+  text-align: right;
+  margin-top: 1%;
+  padding-right: 1%;
+  border-style: solid;
+  border-width: 0px 2px 0px 0px;
+  border-color: red;
+  font-size: 1em;
+}
+
+div.leftCol {
+    float:left;
+    width:100%
+    margin: auto;
+}
+
+div.rightCol {
+  float:right;
+  margin: auto;
 }

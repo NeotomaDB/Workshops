@@ -51,5 +51,9 @@
 
 .reveal pre code {
   padding-left: 10px;
+}
 
+code {
+  font-family: monospace !important;
+  background-color: var(--ligh-secnd: #c99fffee) !important;
 }

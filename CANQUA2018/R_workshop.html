@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="author" content="Simon Goring">
 
-		<title>Neotoma CANQUA Workshop</title>
+		<title>Neotoma CANQUA/AMQUA Workshop</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<!-- <link rel="stylesheet" href="css/theme/white.css"> -->
@@ -30,103 +31,172 @@
 			<div class="slides">
 				<section>
 					<section>
-						<div class="title">
+						<div id="head">
+							<div class="header">
+								<b>Neotoma Paleoecology Database CANQUA Workshop</b>
+							</div>
+						</div>
+						<div class="title" data-background-color=#fdd0ffee>
 							<h1>Introduction</h1>
 						</div>
-						</section>
+					</section>
+					<section id="neotomaSummary">
+						<div class="textcontainer">
+							<div class="title">
+								<h1>About neotoma</h1>
+							</div>
+							<div class="textbox">
+								<ul id="buttons">
+									<li id="buttons">15,000+ Sample Sites</li>
+									<li id="buttons">63,000+ Datasets</li>
+									<li id="buttons">27 Dataset Types</li>
+									<li id="buttons">XX Dataset PIs</li>
+									<li id="buttons">Hits/yr</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="textcontainer">
+							<div class="title">
+								<h1>Current and Ongoing Work</h1>
+							</div>
+							<div class="textbox">
+								<ul id="buttons">
+									<!-- TODO - add href links -->
+									<li id="buttons">Migration from SQL Server & .NET to Postgres/node.js</li>
+									<li id="buttons">DOI System Developed</li>
+									<li id="buttons">Embargo System Development</li>
+									<li id="buttons">EarthLife Consortium</li>
+									<li id="buttons">Throughput System</li>
+								</ul>
+							</div>
+						</div>
+					</section>
 				</section>
 				<section>
 					<section>
-						<h1>Exploring With Neotoma</h1>
+						<div class="figcontainer">
+							<div class="title" data-background-color=#fdd0ffee>
+								<h1>Exploring With Neotoma</h1>
+							</div>
+							<div class="figbox">
+								<img src="images/neotoma_sites_exploration.png">
+							</div>
+						</div>
 					</section>
 					<section id="installation" class="codeexample">
 					  <div class="codecontainer">
-								<div class="codetitle"><h1>Install <code class="R">neotoma</code></h1></div>
-								<div class="codebox">
+							<div class="title">
+								<h1>Install <code class="R">neotoma</code></h1>
+							</div>
+							<div class="codebox">
 								<pre><code class="R">
 # Uncomment this line if you haven't already installed any of these packages:
 # install.packages(c("neotoma", "analogue"))
 
 # Add the neotoma package to your programming environment (we'll add analogue later)
 library(neotoma)
-					    	</code></pre>
+					  		</code></pre>
 							</div>
 					  </div>
 					</section>
 					<section id="neotomaCommands">
-							<div class="figcontainer">
+							<div class="textcontainer">
 								<div class="title">
 									<h1>Core <code class="R">neotoma</code> commands</h1>
 								</div>
-								<div>
+								<div class="listbox">
 									<ul id="buttons">
 										<li id="buttons">get_site()</li>
 										<li id="buttons">get_dataset()</li>
 										<li id="buttons">get_download()</li>
 									</ul>
 								</div>
-							The first two return metadata for sites and datasets; the latter returns data.
+								<div class="textbox">
+									The first two return metadata for sites and datasets; the latter returns data.
+								</div>
+							</div>
+					</section>
+					<section id="siteConcepts">
+						<div class="figcontainer">
+							<div class="title">
+								<h1>Function Relationships</h1>
+							</div>
+							<div class="figbox">
+								<img src="images/download_concept.svg" height="70%">
+							</div>
 						</div>
 					</section>
 					<section id="sites">
-						<div class="title"><h1>Finding sites</h1></div>
 						<div class="codecontainer">
-							<div class="codetitle">
-								<h2><code class="R">get_site()</code></h2>
+							<div class="title">
+								<h1>Finding sites</h1>
 							</div>
 							<div class="codebox">
+								<div class="codetitle">
+									<h2><code class="R">get_site()</code></h2>
+								</div>
 								<pre><code class="R">
 marion_site &lt;&#8209; get_site(sitename = 'Marion%')
 								</pre></code>
 							</div>
-							<div class="belowText">
+							<div class="textbox">
 								<code class="R">get_site()</code> returns a <code class="R">data.frame</code> with minimal metadata. Search by site name. It's often good practice to first search using a wildcard character.
+								<div class="seeIt"><a href="images/gifs/Marion_search.gif" target="_blank">See it in action</a></p>
 							</div>
 						</div>
 					</section>
-					<section id="site-code" data-gif="repeat">
-						<img src="images/gifs/Marion_search.gif">
-					</section>
-
 					<section>
-						<h2>Spatial Searches</h2>
 						<div class="codecontainer">
+							<div class="title">
+								<h1>Finding sites</h1>
+							</div>
 							<div class="codebox">
+								<h2>Spatial Searches</h2>
 								<pre><code class="R">
 # Search by lat/lon bounding box.  This one roughly corresponds to Florida.
 fl_sites <&#8209; get_site(loc = c(-88, -79, 25, 30))
 								</code></pre>
 							</div>
+							<div class="textbox">
+								Search by bounding box <code>c(WEST, SOUTH, EAST NORTH)</code>
+								<div class="seeIt"><a href="images/gifs/get_sites_bc.gif" target="_blank">See it in action</a></div>
+							</div>
 						</div>
 					</section>
 
 					<section>
-						<h1>Geopolitical Searches</h1>
 						<div class="codecontainer">
+							<div class="title">
+								<h1>Geopolitical Searches</h1>
+							</div>
 							<div class="codebox">
 								<pre><code class="R">
 # get all sites in New Mexico (gpid=7956)
 # You cen find the gpid directly using `get_table('geopoliticalunits')`
 NM_sites &lt;&#8209; get_site(gpid = 7956)
-
+								</code></pre>
+							</div>
+							<div class="textbox">
+								<div class="seeIt"><a href="images/gifs/get_on_sites.gif" target="_blank">See it in action</a></div>
+							</div>
+							<div class="codebox">
+								<pre><code class="R">
 # get all sites in Wisconsin
 WI_sites &lt;&#8209; get_site(gpid = "Wisconsin")
 								</code></pre>
+							</div>
+							<div class="textbox">
+								<div class="seeIt"><a href="images/gifs/get_on_sites_byname.gif" target="_blank">See it in action</a></div>
 							</div>
 						</div>
 					</section>
 
 					<section id="datasets">
-						<h1>Getting Datasets</h1>
-
 						<div class="codecontainer">
-							<div>
-								<p>The structure of the Neotoma data model, as expressed through the API is:<br>
-								<code class="R">counts</code> within <code class="R">download</code>s<br>
-								<code class="R">download</code>s within <code class="R">dataset</code>s<br>
-								<code class="R">dataset</code>s within <code class="R">site</code>s"</p>
-								A <code class="R">dataset</code> contains more information than a site, about a particular dataset from that site.
-								A site may have a single associated dataset, or multiple.  For example:
+							<div class="title">
+								<h1>Getting Datasets</h1>
 							</div>
 							<div class="codebox">
 								<pre><code class="R">
@@ -143,30 +213,41 @@ marion.dataset  &lt;&#8209; get_dataset(marion.site)
 marion.dataset
 								</code></pre>
 							</div>
+							<div class="textbox">
+								<!-- TODO add a figure here -->
+								<p>The structure of the Neotoma data model, as expressed through the API is:<br>
+								<code class="R">counts</code> within <code class="R">download</code>s<br>
+								<code class="R">download</code>s within <code class="R">dataset</code>s<br>
+								<code class="R">dataset</code>s within <code class="R">site</code>s"</p>
+								A <code class="R">dataset</code> contains more information than a site, about a particular dataset from that site.
+								A site may have a single associated dataset, or multiple.  For example:
+							</div>
 						</div>
 					</section>
 
 					<section id="downloads">
-						<h1>get_download()</h1>
-
 						<div class="codecontainer">
-							<div>
+							<div class="title">
+								<h1>get_download()</h1>
+							</div>
+							<div class="codebox">
 								<code class="R">get_download()</code> returns a list which stores a list of download objects - one for each retrieved dataset.<br>
 								Each download object contains a suite of data for the samples in that dataset.<br>
 								<code class="R">get_download</code> will accept an object of class dataset:
 							</div>
 							<div class="codebox">
 								<pre><code class="R">
-
 marion_all &lt;&#8209; get_download(marion_site)
 print(marion_all)
 								</code></pre>
+							</div>
 						</div>
 					</section>
 					<section>
-						<h1>get_download()</h1>
-
 						<div class="codecontainer">
+							<div class="title">
+								<h1>get_download()</h1>
+							</div>
 							<div class="textbox">
 								There are a number of messages that appear.
 								These should be suppressed with the flag <code class="R">verbose = FALSE</code> in the function call.
@@ -191,7 +272,6 @@ marion_bc &lt;&#8209; get_download(marion_site[1,])
 							<div class="textbox">
 								Within the download object, <code class="R">sample.meta</code> stores the core depth and age information for that dataset. We just want to look at the first few lines, so are  using the head function.
 							</div>
-
 							<div class="codebox">
 								<pre><code class="R">
 head(marion_bc[[1]]$sample.meta)
@@ -213,12 +293,20 @@ head(marion_bc[[1]]$lab.data)
 				</section>
 
 				<section>
-					<section>Exploring With Neotoma</section>
+					<section id="synthesis">
+						<div class="figcontainer">
+							<div class="title" data-background-color=#fdd0ffee>
+								<h1>Synthesis With Neotoma</h1>
+							</div>
+							<div class="figbox">
+								<img src="images/neotoma_sites_exploration.png">
+							</div>
+						</div>
+					</section>
 					<section>
 						<h1>Helper functions</h1>
 					</section>
 					<section>
-
 						<h1><code>compile_taxa()</code></h1>
 						<div class="codecontainer">
 							<div class="textbox">
