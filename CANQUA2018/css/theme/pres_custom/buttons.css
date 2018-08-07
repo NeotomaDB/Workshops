@@ -12,6 +12,7 @@
 #buttons ul {
   display: table-row;
   vertical-align:middle;
+  text-align: center;
 }
 
 #buttons li {

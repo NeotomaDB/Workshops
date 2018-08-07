@@ -10,6 +10,11 @@
 
 }
 
+/* Section containers: */
+section.darkSlide {
+  data-background-color:#f94d59ee;
+}
+
 /* Main containers.
    figcontainer
    codecontainer
@@ -23,7 +28,7 @@ div.figcontainer{
   width:90%;
   text-align: center;
   padding-top:5%;
-  height:80%;
+  max-height:80%;
   margin:auto;
   color: #000000cc;
 }
@@ -33,7 +38,7 @@ div.textcontainer{
   flex-direction: column;
   width:90%;
   padding-top: 2%;
-  align-content: flex-start;
+  align-content: center;
   justify-content: center;
   margin:auto;
   color: #000000cc;
@@ -44,6 +49,8 @@ div.codecontainer{
   width:90%;
   min-height:90%;
   text-align: left;
+  align-content: center;
+  justify-content: center;
   padding-top:1%;
   padding-left: 2%;
   padding-right: 2%;
@@ -81,6 +88,12 @@ div.listbox {
   width: 90%;
 }
 
+div.figbox {
+  margin: auto;
+  flex: flex-shrink;
+  height: 30%;
+}
+
 div.textbox {
   text-align: left;
   padding: 1%;
@@ -109,9 +122,7 @@ div.codebox {
 
 }
 
-
 /* Other things */
-
 
 div.fignotes{
   width:80%;
@@ -151,13 +162,9 @@ div.seeIt {
   font-size: 1em;
 }
 
-div.leftCol {
-    float:left;
-    width:100%
-    margin: auto;
-}
-
-div.rightCol {
-  float:right;
+.reveal section img {
   margin: auto;
+  max-width: 80%;
+  max-height: 85%;
+  margin: 1%;
 }
