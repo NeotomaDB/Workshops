@@ -4,7 +4,7 @@
 
 ## Leader:  Jessica Blois
 
-This workshop will provide introductory training in exploring and teaching with Neotoma Database resources, using Neotoma Explorer, Tilia, the Neotoma DOIs and landing pages (new!), and curricular materials available at SERC.  This workshop assumes some disciplinary familiarity with geoscientific fundamental concepts and paleoecological data but does not require programming experience.  
+This workshop will provide introductory training in exploring, visualizing, and teaching with Neotoma Database resources, using Neotoma Explorer, Tilia, the Neotoma DOIs and landing pages (new!), and curricular materials available at SERC.  This workshop assumes some disciplinary familiarity with geoscientific fundamental concepts and paleoecological data but does not require programming experience.  
 
 Eric Grimm and other experienced Neotoma Data Stewards will also be on site to support a help desk for Stewards working on data uploads to Neotoma via Tilia.
 
