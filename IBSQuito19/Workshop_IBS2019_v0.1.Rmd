@@ -19,7 +19,7 @@ output:
     toc: yes
     toc_depth: '3'
 csl: ecology.csl
-bibliography: workshop.bib
+bibliography: workshop.bib # check this
 ---
 
 # Introduction
