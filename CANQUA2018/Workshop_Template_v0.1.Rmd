@@ -143,18 +143,18 @@ The result is effectively the inverse of the first.
 marion_bc <- get_download(marion_site[1,])
 ```
 
-Within the download object, `sample.meta` stores the core depth and age information for that dataset. We just want to look at the first few lines, so are  using the head function.
+Within the download object, `sample.meta` stores the core depth and age information for that dataset. We just want to look at the first few lines, so we use the head function.
 
 ```{r, message=FALSE, warning=FALSE}
 head(marion_bc[[1]]$sample.meta)
 
-#taxon.list stores a list of taxa found  in the  dataset
+#taxon.list stores a list of taxa found in the dataset
 head(marion_bc[[1]]$taxon.list)
 
-#counts stores the the counts, presence/absence data, or percentage data for each taxon for each sample
+#counts stores the counts, presence/absence data, or percentage data for each taxon for each sample
 head(marion_bc[[1]]$counts)
 
-#lab.data stores any associated  laboratory measurements in the dataset
+#lab.data stores any associated laboratory measurements in the dataset
 #For Marion Lake, this returns the Microsphere suspension used as a spike to calculate
 #concentrations
 head(marion_bc[[1]]$lab.data)
@@ -170,7 +170,7 @@ The level of taxonomic resolution can vary among analysts.  Often for multi-site
 marion_bc <- compile_taxa(marion_bc, list.name = "P25")
 ```
 
-You'll notice that warning messages return  a number of taxa that cannot be onverted using the existing data table.  Are these taxa important?  They may be important for you.  Check to see which taxa have been converted by looking at the new taxon table:
+You'll notice that warning messages return  a number of taxa that cannot be converted using the existing data table.  Are these taxa important?  They may be important for you.  Check to see which taxa have been converted by looking at the new taxon table:
 
 ```{r, message=FALSE, warning=FALSE}
 marion_bc[[1]]$taxon.list[,c("compressed", "taxon.name")]
@@ -234,7 +234,7 @@ lake_o_dl <- get_download(15925)
 
 names(lake_o_dl$`15925`$chronologies)
 
-# There's only one chronology, lets take a look at it:
+# There's only one chronology, let's take a look at it:
 
 lake_o_chron <- get_chroncontrol(lake_o_dl$`15925`)
 
@@ -397,7 +397,7 @@ plot(hemlock_all,
      ylab = "Proportion of Hemlock", xlab = "Years Before Present")
 ```
 
-If you look closely you can clearly see the offest at the time of the Decline between the Radiocarbon ages and the calibrated dates.  Obviously, more data cleaning needs to be done here.
+If you look closely you can clearly see the offset at the time of the decline between the Radiocarbon ages and the calibrated dates.  Obviously, more data cleaning needs to be done here.
 
 # Conclusions
 
