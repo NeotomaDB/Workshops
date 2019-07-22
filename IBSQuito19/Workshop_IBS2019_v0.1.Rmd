@@ -18,8 +18,6 @@ output:
     reference_docx: styles/word-styles-reference-01.docx
     toc: yes
     toc_depth: '3'
-csl: ecology.csl
-bibliography: workshop.bib # check this
 ---
 
 # Introduction
@@ -164,7 +162,7 @@ library(neotoma)
 
 ### Finding sites
 
-We'll start with `get_site`.  `get_site` returns a `data.frame` with metadata about sites. You can use this to find the spatial coverage of data in a region (using `get_site` with a bounding box), or to get explicit site information easily from more complex data objects.  Use the command `?get_site` to see all the options available.
+We'll start with `get_site`.  `get_site` returns a `data.frame` with metadata about sites. You can use this to find the spatial coverage of data in a region (e.g. using `get_site` with a bounding box), or to get explicit site information easily from more complex data objects.  Use the command `?get_site` to see all the options available.
 
 You can easily search by site name, for example, finding "Cayambe", a site close to Quito.
 ```{r, results= "hide"}
@@ -179,7 +177,7 @@ print(cayambe_site)
 
 The print out might look a bit different to you than a standard `data.frame`, but this is done so that it allows you to use this dataframe easily with other `neotoma` functions, such as the **get_download** and **get_data** which we will look into later on.
 
-By default the search string is explicit, but you can also first search using a wildcard character (%). For example, searching for any pollen site name that has "cocha" (meaning "lake!") returns five sites:
+By default the search string is explicit, but you can also first search using a wildcard character (%). For example, searching for any pollen site name that has "cocha" (common name of "lake" in the Andes) returns five sites:
 
 ```{r, results= "hide"}
 cocha_sites <- get_site(sitename = '%Cocha%')
@@ -217,19 +215,17 @@ plot_leaflet(datasets_andes)
 
 ```
 
-`data.frame` stores vectors of equal length.  The nice thing about a `data.frame` is that each vector can be of a different type (character, numeric values, *etc*.). In RStudio, you can use the Environment panel in upper right to explore variables. 
-
 
 ### Getting Datasets
 
-The structure of the Neotoma data model, as expressed through the API is roughly: "`counts` within `download`, `download` within `dataset`, `dataset` within `site`".  So a `dataset` contains more information than a `site`, about a particular dataset from that site. 
+The structure of the Neotoma data model, as expressed through the API, is roughly: "`counts` within `download`, `download` within `dataset`, `dataset` within `site`".  So a `dataset` contains more information than a `site`, about a particular dataset from that site. 
 
 <figure style="float:right; margin-left:10px" >
 <img src="objects/Goring_Fig1.PNG" width="300">
 <figcaption><i>Figure 1: Major classes in Neotoma, their relations to one another and the associated methods (functions). Taken from Goring et al. 2015. Open Quaternary</i></figcaption>
 </figure>
 
-A site may have a single associated dataset, or multiple.The Neotoma function `get_dataset` returns a list of datasets containing the **metadata** for each **dataset**. We can pass output from `get_site` (site metadata) to `get_dataset`, even if `get_site` returns multiple sites. For example:
+A site may have a single associated dataset, or multiple. The Neotoma function `get_dataset` returns a list of datasets containing the **metadata** for each **dataset**. We can pass output from `get_site` (site metadata) to `get_dataset`, even if `get_site` returns multiple sites. For example:
 
 ```{r, results= "hide"}
 
@@ -243,9 +239,9 @@ Both *Laguna Huatacocha* and *Laguna De La Cocha* have two datasets, while *Lagu
 
 ### Get_Download
 
-The Neotoma function `get_download()` returns a `list` that stores a list of `download` objects - one for each retrieved `dataset`.  Note that `get_download()` returns the actual data associated with each dataset, rather than a list of the available datasets, as in `get_dataset()` above. Each download object contains a suite of data for the samples in that dataset.  
+The Neotoma function `get_download()` returns a `list` that stores a list of `download` objects - one for each retrieved `dataset`.  Note that `get_download()` returns the actual (raw) data associated with each dataset, rather than a list of the available datasets, as in `get_dataset()` above. Each download object contains a suite of data for the samples in that dataset.  
 
-Get data for all datasets with sites that have "cocha" in the name. Using the `get_download()` will accept an object of class `dataset` (ie, `cocha_dataset`), but also of class `site`, since it will automatically query for the datasets associated in each site.  
+Here we will get data for all datasets with sites that have "cocha" in the name. Using the `get_download()` will accept an object of class `dataset` (ie, `cocha_dataset`), but also of class `site`, since it will automatically query for the datasets associated in each site.  
 
 ```{r, results= "hide", message=F, cache = TRUE}
 
@@ -262,9 +258,9 @@ cocha_geochron <- get_geochron(cocha_sites)
 
 print(cocha_geochron)
 ```
+Here you see the chronological information of the five sites, explaning how many chronological control points there are, what the minimum and maximum age is of the records.
 
-
-Get the pollen datasets for just Laguna Pallcacocha (dataset 1631):
+Let's get the pollen datasets for just Laguna Pallcacocha (dataset 1631):
 ```{r, results= "hide"}
 huata_pd <- get_download(1631)
 ```
@@ -294,15 +290,18 @@ Within the download object, `sample.meta` stores the core depth and age informat
 ```{r, results= "hide"}
 head(huata_pd[[1]]$sample.meta)
 
-#taxon.list stores a list of taxa found in the  dataset
+#taxon.list stores a list of taxa found in the dataset
 head(huata_pd[[1]]$taxon.list)
 
 #counts stores the the counts, presence/absence data, or percentage data for each taxon for each sample
 head(huata_pd[[1]]$counts)
 ```
 
-```{r, results= "hide"}
-huata_publ <- get_publication(datasetid = 1631)
+Here we can get to the papers that published about a site of interest:
+
+```{r get the citation of the dataset of interest, results= "hide"}
+
+get_publication(datasetid = 1631)
 
 ```
 
@@ -326,15 +325,16 @@ library("gridExtra")
 
 
 ```{r}
-
+# let's first see where all sites of the Latin American Pollen Database are.
 all.sites <- get_site(loc = c(-82, -57, -13, 7))
 
-all.datasets <- get_dataset(loc = c(-82, -57, -13, 7), datasettype = "pollen", taxonname = "Mauritia%")
+# Now we will only select sites that have pollen and Mauritia
+all.datasets.mau <- get_dataset(loc = c(-82, -57, -13, 7), datasettype = "pollen", taxonname = "Mauritia%")
 
 
 ```
 
-Let's see where the sites are:
+Let's map it out!
 
 ```{r, message=FALSE, warning=FALSE}
 #library(rworldmap)
@@ -343,27 +343,23 @@ map <- map_data('world')
 ggplot(data = data.frame(map), aes(long, lat))+
   geom_polygon(aes(group = group), color = 'steelblue', alpha = 0.2) +
   geom_point(data = all.sites, aes(x = long, y = lat)) +
-  geom_point(data = get_site(all.datasets),
+  geom_point(data = get_site(all.datasets.mau),
              aes(x = long, y = lat), color = 2) +
   xlab('Long west') +
   ylab('Lat South') +
   coord_map(projection = 'albers', lat0 = 0, latl = 0,
             xlim = c(-84, -35), ylim = c(-58,12))
 
-
-
 ```
 
 ```{r, results= "hide"}
-mauritia_data <- get_download(mauritia_list)
+mauritia_data <- get_download(all.datasets.mau)
 
 print(mauritia_data)
 ````
 
 
-The sample data (“counts”) contained in each “download” in the “download_list” are converted
-into percentages using tran() from the analogue package (Simpson, 2007). We can then compare
-Manihot pollen percentages from these two locations to learn about....
+The sample data (`counts`) contained in each `download` in the `download_list` are converted into percentages using `tran()` from the analogue package (Simpson, 2007). We can then compare Mauritia pollen percentages from these two locations to learn about....
 
 ```{r}
 library("analogue")
@@ -376,10 +372,6 @@ taxa_df <- data.frame(taxa = c(site1_taxa, site2_taxa),
                                   mauritia_data$`21580`$sample.meta$age),
                          site = c(rep('Site1', length(site1_taxa)),
                                   rep('Site2', length(site2_taxa))))
-                         
-regress 
-
-
 
 plot(taxa ~ ages, data = taxa_df, col = taxa_df$site, pch = 19,
      xlab = 'Years Before Present', ylab = 'Percent taxa')
@@ -400,7 +392,10 @@ plot(taxa ~ ages, data = taxa_df, col = taxa_df$site, pch = 19,
     * The PaleobioDB R Package: [https://github.com/ropensci/paleobioDB]()
     * iDigBio: [https://github.com/iDigBio]()
     * The ridigbio R package: [https://github.com/iDigBio/ridigbio]()
-* All of these resources to access the data go only so far - we will need human eyes on our data and analyses to detect and correct errors. You can report errors via GitHub "issues", or by emailing Jessica directly.
+* All of these resources to access the data go only so far - we will need human eyes on our data and analyses to detect and correct errors. You can report errors via GitHub "issues", or by emailing Simon Goring directly.
 * All of these resources can only access the data that is stored, with both their strengths and limitations.  Making sure any data you contribute or work with are high-quality is a necessary but enormous amount of work, with huge payoffs for you and everyone else in the community.
   
 # References
+
+* Goring et al. (xxx)
+* Flantua et al. 2016 ()
