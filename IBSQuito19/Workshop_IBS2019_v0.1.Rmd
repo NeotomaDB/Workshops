@@ -1,7 +1,7 @@
 ---
 title: "International Biogeography Society Workshop"
 author: Suzette Flantua, Anna George
-date: "05 July 2019"
+date: "05 August 2019"
 output:
   pdf_document:
     toc: yes
@@ -39,13 +39,11 @@ This workshop is available on GitHub, in the NeotomaDB [repository](https://gith
 
 ### Getting Started
 
-<figure style="float:right; margin-left:10px" >
-<img src="objects/explorer.PNG" width="300">
-<figcaption><i>This is what you see when you're in the right place.</i></figcaption>
-</figure>
-
   1. Go to [http://www.neotomadb.org/](http://www.neotomadb.org/) and click on the 'Explorer' picture, or navigate directly to the [Explorer App](http://apps.neotomadb.org/Explorer/)
   2. Pan (by dragging), or change the zoom so that your window is centered on South America.
+  
+  
+![This is what you see when you're in the right place](objects/explorer.PNG){width=100% }
 
 ### Search for Data
 
@@ -77,6 +75,12 @@ Let's see how many are currently in Neotoma:
 <img src="objects/Zea_mays.jpg" width="300">
 <figcaption><i>Corn!!</i> <br>[Image credit: <a href="https://en.wikipedia.org/wiki/Zea_(plant)">Wikimedia Foundation</a>]</figcaption>
 </figure>
+
+![Corn!](objects/Zea_mays.jpg){ width=50% }
+<figure style="float:right; margin-left:10px" >
+
+
+
 
   1. **Search for a single taxon.**
     a. Search Window, Basic Tab, use Taxon field
@@ -202,8 +206,10 @@ dataset_types <- c("pollen",
 dataset_lists <- lapply(dataset_types,
                         function(x) {
                           get_dataset(datasettype=x,
-                                      loc = c(-84,-18,-67,12)) # more or less the Northern and Central Andes
+                                      loc = c(-80,-15,-70,12)) 
+                          # more or less the Northern and Central Andes
                         })
+
 # Using do.call here to make sure that we don't have to split the list out.
 datasets_andes <- do.call(bind, dataset_lists)
 
@@ -220,10 +226,13 @@ plot_leaflet(datasets_andes)
 
 The structure of the Neotoma data model, as expressed through the API, is roughly: "`counts` within `download`, `download` within `dataset`, `dataset` within `site`".  So a `dataset` contains more information than a `site`, about a particular dataset from that site. 
 
+
+![Figure: Major classes in Neotoma, their relations to one another and the associated methods (functions). Taken from Goring et al. 2015. Open Quaternary](objects/Goring_Fig1.PNG){ width=80% }
+<figcaption><i>Figure: Major classes in Neotoma, their relations to one another and the associated methods (functions). Taken from Goring et al. 2015. Open Quaternary</i> 
 <figure style="float:right; margin-left:10px" >
-<img src="objects/Goring_Fig1.PNG" width="300">
-<figcaption><i>Figure 1: Major classes in Neotoma, their relations to one another and the associated methods (functions). Taken from Goring et al. 2015. Open Quaternary</i></figcaption>
-</figure>
+
+
+
 
 A site may have a single associated dataset, or multiple. The Neotoma function `get_dataset` returns a list of datasets containing the **metadata** for each **dataset**. We can pass output from `get_site` (site metadata) to `get_dataset`, even if `get_site` returns multiple sites. For example:
 
@@ -329,7 +338,8 @@ library("gridExtra")
 all.sites <- get_site(loc = c(-82, -57, -13, 7))
 
 # Now we will only select sites that have pollen and Mauritia
-all.datasets.mau <- get_dataset(loc = c(-82, -57, -13, 7), datasettype = "pollen", taxonname = "Mauritia%")
+all.datasets.mau <- get_dataset(loc = c(-82, -57, -13, 7), datasettype = "pollen", 
+                                taxonname = "Mauritia%")
 
 
 ```
@@ -352,7 +362,7 @@ ggplot(data = data.frame(map), aes(long, lat))+
 
 ```
 
-```{r, results= "hide"}
+```{r, results= "hide", verbose = FALSE}
 mauritia_data <- get_download(all.datasets.mau)
 
 print(mauritia_data)
@@ -379,9 +389,6 @@ plot(taxa ~ ages, data = taxa_df, col = taxa_df$site, pch = 19,
 ````
 
 
-
-
-
 # A few final thoughts
 
 * All of these tools are evolving, at times daily, and so make sure to update packages frequently
@@ -397,5 +404,5 @@ plot(taxa ~ ages, data = taxa_df, col = taxa_df$site, pch = 19,
   
 # References
 
-* Goring et al. (xxx)
-* Flantua et al. 2016 ()
+* Goring, S., Dawson, A., Simpson, G., Ram, K., Graham, R., Grimm, E., & Williams, J. (2015). Neotoma: A programmatic interface to the Neotoma Paleoecological Database. Open Quaternary, 1(1).
+* Flantua, S. G., Hooghiemstra, H., Grimm, E. C., Behling, H., Bush, M. B., González-Arango, C., ... & Prieto, A. R. (2015). Updated site compilation of the Latin American Pollen Database. Review of Palaeobotany and Palynology, 223, 104-115.
