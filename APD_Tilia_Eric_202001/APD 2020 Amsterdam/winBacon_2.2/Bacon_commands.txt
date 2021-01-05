@@ -1,0 +1,6 @@
+Bacon commands:
+
+source("Bacon.R")
+
+Bacon("ANDOLO",thick=5,acc.mean=20,depths.file=TRUE)
+Bacon("MAHOMA",thick=10,acc.mean=35,d.max=570,depths.file=TRUE)
