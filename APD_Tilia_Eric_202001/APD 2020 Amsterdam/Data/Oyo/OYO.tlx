@@ -1,0 +1,10392 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--written 26-Jan-2020 6:00:56 PM-->
+<TiliaFile>
+<Version>
+<Application>Tilia</Application>
+<MajorVersion>2</MajorVersion>
+<MinorVersion>6</MinorVersion>
+<Release>1</Release>
+</Version>
+<Contacts>
+<Contact ID="1">
+<NeotomaContactID>16051</NeotomaContactID>
+<NeotomaAliasID>16051</NeotomaAliasID>
+<FullContactName>Eyles, Carolyn H.</FullContactName>
+<ShortContactName>Eyles, C.H.</ShortContactName>
+<FamilyName>Eyles</FamilyName>
+<GivenNames>Carolyn H.</GivenNames>
+<LeadingInitials>C.H.</LeadingInitials>
+<Title>Dr.</Title>
+<Status>active</Status>
+<Telephone>+1-905-525-9140 ext. 23524</Telephone>
+<Fax>+1-905-546-0463</Fax>
+<Email>eylesc@mcmaster.ca</Email>
+<URL>https://www.science.mcmaster.ca/geo/component/comprofiler/userprofile/eylesc.html</URL>
+<Address>
+<AddressLine>School of Geography and Earth Sciences</AddressLine>
+<AddressLine>McMaster University</AddressLine>
+<AddressLine>1280 Main Street West</AddressLine>
+<AddressLine>Hamilton, Ontario L8S 4K1</AddressLine>
+<AddressLine>Canada</AddressLine>
+</Address>
+</Contact>
+<Contact ID="2">
+<NeotomaContactID>537</NeotomaContactID>
+<NeotomaAliasID>537</NeotomaAliasID>
+<FullContactName>Haynes, C. Vance, Jr.</FullContactName>
+<ShortContactName>Haynes, C.V., Jr.</ShortContactName>
+<FamilyName>Haynes</FamilyName>
+<GivenNames>C. Vance</GivenNames>
+<LeadingInitials>C.V.</LeadingInitials>
+<Suffix>Jr.</Suffix>
+<Status>retired</Status>
+<Telephone>+1-520-621-6307</Telephone>
+<Address>
+<AddressLine>School of Anthropology</AddressLine>
+<AddressLine>University of Arizona</AddressLine>
+<AddressLine>P.O. Box 210030</AddressLine>
+<AddressLine>Tucson, Arizona 85721-0030</AddressLine>
+<AddressLine>USA</AddressLine>
+</Address>
+</Contact>
+<Contact ID="3">
+<NeotomaContactID>86</NeotomaContactID>
+<NeotomaAliasID>86</NeotomaAliasID>
+<FullContactName>Ritchie, James C.</FullContactName>
+<ShortContactName>Ritchie, J.C.</ShortContactName>
+<FamilyName>Ritchie</FamilyName>
+<GivenNames>James C.</GivenNames>
+<LeadingInitials>J.C.</LeadingInitials>
+<Title>Dr.</Title>
+<Status>deceased</Status>
+</Contact>
+</Contacts>
+<Publications>
+<Publication ID="1" Primary="true">
+<PublicationType>journal article</PublicationType>
+<NeotomaID>16226</NeotomaID>
+<DOI>10.1177/095968369400400102</DOI>
+<PublicationYear>1994</PublicationYear>
+<Citation>Ritchie, J.C. 1994. Holocene pollen spectra from Oyo, northwestern Sudan: problems of interpretation in a hyperarid environment. The Holocene 4(1):9-15. [DOI: 10.1177/095968369400400102]</Citation>
+<Authors>
+<Author>
+<Contact ID="3"/>
+<LastName>Ritchie</LastName>
+<Initials>J.C.</Initials>
+</Author>
+</Authors>
+<Title>Holocene pollen spectra from Oyo, northwestern Sudan: problems of interpretation in a hyperarid environment</Title>
+<Journal>The Holocene</Journal>
+<Volume>4</Volume>
+<Issue>1</Issue>
+<Pages>9-15</Pages>
+</Publication>
+<Publication ID="2" Primary="false">
+<PublicationType>journal article</PublicationType>
+<NeotomaID>16227</NeotomaID>
+<DOI>10.1038/314352a0</DOI>
+<PublicationYear>1985</PublicationYear>
+<Citation>Ritchie, J.C., C.H. Eyles, and C.V. Haynes. 1985. Sediment and pollen evidence for an early to mid-Holocene humid period in the eastern Sahara. Nature 314(6009):352-355. [DOI: 10.1038/314352a0]</Citation>
+<Authors>
+<Author>
+<Contact ID="3"/>
+<LastName>Ritchie</LastName>
+<Initials>J.C.</Initials>
+</Author>
+<Author>
+<Contact ID="1"/>
+<LastName>Eyles</LastName>
+<Initials>C.H.</Initials>
+</Author>
+<Author>
+<Contact ID="2"/>
+<LastName>Haynes</LastName>
+<Initials>C.V.</Initials>
+</Author>
+</Authors>
+<Title>Sediment and pollen evidence for an early to mid-Holocene humid period in the eastern Sahara</Title>
+<Journal>Nature</Journal>
+<Volume>314</Volume>
+<Issue>6009</Issue>
+<Pages>352-355</Pages>
+</Publication>
+</Publications>
+<SpreadSheetBook>
+<SpreadSheetOptions>
+<HeaderRow>0</HeaderRow>
+<FontName>Arial</FontName>
+<FontSize>9</FontSize>
+<DefaultColWidth>64</DefaultColWidth>
+<DefaultRowHeight>18</DefaultRowHeight>
+<PercentDecimalPlaces>1</PercentDecimalPlaces>
+<CheckDupCodes>True</CheckDupCodes>
+<CaseSensitiveCodes>False</CaseSensitiveCodes>
+<CodesVisible>True</CodesVisible>
+<ElementsVisible>False</ElementsVisible>
+<UnitsVisible>False</UnitsVisible>
+<ContextsVisible>False</ContextsVisible>
+<TaphonomyVisible>False</TaphonomyVisible>
+<GroupsVisible>True</GroupsVisible>
+<GroupCategories>
+<GroupCategory>bryophytes</GroupCategory>
+<GroupCategory>vascular plants</GroupCategory>
+</GroupCategories>
+</SpreadSheetOptions>
+<SpreadSheet page="0" name="Data">
+<Col ID="1" Width="64">
+<cell row="3">
+<text>#Samp.Analyst</text>
+</cell>
+</Col>
+<Col ID="2" Width="180">
+<cell row="3">
+<text>Sample Analyst</text>
+</cell>
+<cell row="4">
+<text>Artemisia</text>
+</cell>
+<cell row="5">
+<text>Ephedra</text>
+</cell>
+<cell row="6">
+<text>Erica arborea</text>
+</cell>
+<cell row="7">
+<text>Aerva</text>
+</cell>
+<cell row="8">
+<text>Commicarpus-type</text>
+</cell>
+<cell row="9">
+<text>Cornulaca</text>
+</cell>
+<cell row="10">
+<text>Cruciferae</text>
+</cell>
+<cell row="11">
+<text>Salvadora</text>
+</cell>
+<cell row="12">
+<text>Tamarix</text>
+</cell>
+<cell row="13">
+<text>Tribulus</text>
+</cell>
+<cell row="14">
+<text>Ziziphus</text>
+</cell>
+<cell row="15">
+<text>Abutilon</text>
+</cell>
+<cell row="16">
+<text>Acacia</text>
+</cell>
+<cell row="17">
+<text>Ambrosia</text>
+</cell>
+<cell row="18">
+<text>Balanites</text>
+</cell>
+<cell row="19">
+<text>Blepharis</text>
+</cell>
+<cell row="20">
+<text>Borreria</text>
+</cell>
+<cell row="21">
+<text>Cf Boscia</text>
+</cell>
+<cell row="22">
+<text>Cf Cadaba</text>
+</cell>
+<cell row="23">
+<text>Cf Capparis</text>
+</cell>
+<cell row="24">
+<text>Cassia</text>
+</cell>
+<cell row="25">
+<text>Chrozophora</text>
+</cell>
+<cell row="26">
+<text>Cleome</text>
+</cell>
+<cell row="27">
+<text>Commiphora-type</text>
+</cell>
+<cell row="28">
+<text>Corchorus</text>
+</cell>
+<cell row="29">
+<text>Cucumis</text>
+</cell>
+<cell row="30">
+<text>Dalechampia</text>
+</cell>
+<cell row="31">
+<text>Grewia</text>
+</cell>
+<cell row="32">
+<text>Indigofera</text>
+</cell>
+<cell row="33">
+<text>Laurembergia</text>
+</cell>
+<cell row="34">
+<text>Maerua</text>
+</cell>
+<cell row="35">
+<text>Merremia</text>
+</cell>
+<cell row="36">
+<text>Mitracarpus</text>
+</cell>
+<cell row="37">
+<text>Pavonia</text>
+</cell>
+<cell row="38">
+<text>Peristrophe</text>
+</cell>
+<cell row="39">
+<text>Phyllanthus</text>
+</cell>
+<cell row="40">
+<text>Polygala</text>
+</cell>
+<cell row="41">
+<text>Oldenlandia</text>
+</cell>
+<cell row="42">
+<text>Tephrosia</text>
+</cell>
+<cell row="43">
+<text>Burkea</text>
+</cell>
+<cell row="44">
+<text>Combretaceae</text>
+</cell>
+<cell row="45">
+<text>Celtis</text>
+</cell>
+<cell row="46">
+<text>Delonix</text>
+</cell>
+<cell row="47">
+<text>Hyphaene-type</text>
+</cell>
+<cell row="48">
+<text>Jatrophe/Croton</text>
+</cell>
+<cell row="49">
+<text>Justicia</text>
+</cell>
+<cell row="50">
+<text>Lannea</text>
+</cell>
+<cell row="51">
+<text>Mitragyna</text>
+</cell>
+<cell row="52">
+<text>Piliostigma</text>
+</cell>
+<cell row="53">
+<text>Ruellia</text>
+</cell>
+<cell row="54">
+<text>Vernonia</text>
+</cell>
+<cell row="55">
+<text>Gramineae</text>
+</cell>
+<cell row="56">
+<text>Cyperaceae</text>
+</cell>
+<cell row="57">
+<text>Typha</text>
+</cell>
+<cell row="58">
+<text>Chenopodiaceae/Amaranthaceae</text>
+</cell>
+<cell row="59">
+<text>Compositae</text>
+</cell>
+<cell row="60">
+<text>Fenestrae</text>
+</cell>
+</Col>
+<Col ID="8" Width="64">
+<cell row="1">
+<value>170</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>1</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>1</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>2</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>3</value>
+</cell>
+<cell row="19">
+<value>7</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>2</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>3</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>7</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>3</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>43</value>
+</cell>
+<cell row="56">
+<value>129</value>
+</cell>
+<cell row="57">
+<value>0</value>
+</cell>
+<cell row="58">
+<value>43</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="9" Width="64">
+<cell row="1">
+<value>180</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>3</value>
+</cell>
+<cell row="6">
+<value>2</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>5</value>
+</cell>
+<cell row="13">
+<value>2</value>
+</cell>
+<cell row="14">
+<value>8</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>6</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>21</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>11</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>1</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>6</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>268</value>
+</cell>
+<cell row="56">
+<value>535</value>
+</cell>
+<cell row="57">
+<value>0</value>
+</cell>
+<cell row="58">
+<value>37</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="10" Width="64">
+<cell row="1">
+<value>190</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>2</value>
+</cell>
+<cell row="7">
+<value>4</value>
+</cell>
+<cell row="8">
+<value>2</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>4</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>4</value>
+</cell>
+<cell row="15">
+<value>5</value>
+</cell>
+<cell row="16">
+<value>12</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>4</value>
+</cell>
+<cell row="19">
+<value>9</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>8</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>9</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>1</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>2</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>190</value>
+</cell>
+<cell row="56">
+<value>427</value>
+</cell>
+<cell row="57">
+<value>0</value>
+</cell>
+<cell row="58">
+<value>38</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="11" Width="64">
+<cell row="1">
+<value>195</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>2</value>
+</cell>
+<cell row="6">
+<value>1</value>
+</cell>
+<cell row="7">
+<value>22</value>
+</cell>
+<cell row="8">
+<value>5</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>2</value>
+</cell>
+<cell row="12">
+<value>6</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>4</value>
+</cell>
+<cell row="16">
+<value>12</value>
+</cell>
+<cell row="17">
+<value>3</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>17</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>3</value>
+</cell>
+<cell row="27">
+<value>1</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>4</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>11</value>
+</cell>
+<cell row="45">
+<value>7</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>441</value>
+</cell>
+<cell row="56">
+<value>873</value>
+</cell>
+<cell row="57">
+<value>6</value>
+</cell>
+<cell row="58">
+<value>29</value>
+</cell>
+<cell row="59">
+<value>4</value>
+</cell>
+<cell row="60">
+<value>8</value>
+</cell>
+</Col>
+<Col ID="12" Width="64">
+<cell row="1">
+<value>200</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>2</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>10</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>3</value>
+</cell>
+<cell row="17">
+<value>3</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>9</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>2</value>
+</cell>
+<cell row="28">
+<value>1</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>20</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>1</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>0</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>1145</value>
+</cell>
+<cell row="56">
+<value>1769</value>
+</cell>
+<cell row="57">
+<value>21</value>
+</cell>
+<cell row="58">
+<value>67</value>
+</cell>
+<cell row="59">
+<value>8</value>
+</cell>
+<cell row="60">
+<value>6</value>
+</cell>
+</Col>
+<Col ID="13" Width="64">
+<cell row="1">
+<value>205</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>4</value>
+</cell>
+<cell row="7">
+<value>5</value>
+</cell>
+<cell row="8">
+<value>2</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>1</value>
+</cell>
+<cell row="13">
+<value>1</value>
+</cell>
+<cell row="14">
+<value>2</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>7</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>7</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>5</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>19</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>3</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>694</value>
+</cell>
+<cell row="56">
+<value>827</value>
+</cell>
+<cell row="57">
+<value>163</value>
+</cell>
+<cell row="58">
+<value>28</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="14" Width="64">
+<cell row="1">
+<value>210</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>2</value>
+</cell>
+<cell row="6">
+<value>2</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>4</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>2</value>
+</cell>
+<cell row="14">
+<value>4</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>4</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>2</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>6</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>9</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>6</value>
+</cell>
+<cell row="45">
+<value>2</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>776</value>
+</cell>
+<cell row="56">
+<value>1447</value>
+</cell>
+<cell row="57">
+<value>48</value>
+</cell>
+<cell row="58">
+<value>83</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="15" Width="64">
+<cell row="1">
+<value>215</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>2</value>
+</cell>
+<cell row="6">
+<value>7</value>
+</cell>
+<cell row="7">
+<value>8</value>
+</cell>
+<cell row="8">
+<value>4</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>2</value>
+</cell>
+<cell row="12">
+<value>4</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>7</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>1</value>
+</cell>
+<cell row="19">
+<value>23</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>6</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>10</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>1</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>4</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>228</value>
+</cell>
+<cell row="56">
+<value>335</value>
+</cell>
+<cell row="57">
+<value>11</value>
+</cell>
+<cell row="58">
+<value>15</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>15</value>
+</cell>
+</Col>
+<Col ID="16" Width="64">
+<cell row="1">
+<value>220</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>3</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>3</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>2</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>10</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>1</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>5</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>5</value>
+</cell>
+<cell row="45">
+<value>2</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>361</value>
+</cell>
+<cell row="56">
+<value>694</value>
+</cell>
+<cell row="57">
+<value>11</value>
+</cell>
+<cell row="58">
+<value>20</value>
+</cell>
+<cell row="59">
+<value>2</value>
+</cell>
+<cell row="60">
+<value>4</value>
+</cell>
+</Col>
+<Col ID="17" Width="64">
+<cell row="1">
+<value>225</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>2</value>
+</cell>
+<cell row="7">
+<value>9</value>
+</cell>
+<cell row="8">
+<value>4</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>3</value>
+</cell>
+<cell row="12">
+<value>3</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>3</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>12</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>4</value>
+</cell>
+<cell row="27">
+<value>2</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>10</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>1</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>5</value>
+</cell>
+<cell row="45">
+<value>1</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>242</value>
+</cell>
+<cell row="56">
+<value>374</value>
+</cell>
+<cell row="57">
+<value>0</value>
+</cell>
+<cell row="58">
+<value>17</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>4</value>
+</cell>
+</Col>
+<Col ID="18" Width="64">
+<cell row="1">
+<value>230</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>3</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>5</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>8</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>3</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>5</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>14</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>9</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>12</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>0</value>
+</cell>
+<cell row="45">
+<value>7</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>1205</value>
+</cell>
+<cell row="56">
+<value>1161</value>
+</cell>
+<cell row="57">
+<value>3</value>
+</cell>
+<cell row="58">
+<value>56</value>
+</cell>
+<cell row="59">
+<value>5</value>
+</cell>
+<cell row="60">
+<value>4</value>
+</cell>
+</Col>
+<Col ID="19" Width="64">
+<cell row="1">
+<value>235</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>3</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>11</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>9</value>
+</cell>
+<cell row="19">
+<value>29</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>8</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>19</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>7</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>1061</value>
+</cell>
+<cell row="56">
+<value>1300</value>
+</cell>
+<cell row="57">
+<value>10</value>
+</cell>
+<cell row="58">
+<value>65</value>
+</cell>
+<cell row="59">
+<value>15</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="20" Width="64">
+<cell row="1">
+<value>240</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>2</value>
+</cell>
+<cell row="6">
+<value>2</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>3</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>3</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>4</value>
+</cell>
+<cell row="17">
+<value>3</value>
+</cell>
+<cell row="18">
+<value>4</value>
+</cell>
+<cell row="19">
+<value>18</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>2</value>
+</cell>
+<cell row="27">
+<value>6</value>
+</cell>
+<cell row="28">
+<value>1</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>21</value>
+</cell>
+<cell row="35">
+<value>1</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>2</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>0</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>1</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>1358</value>
+</cell>
+<cell row="56">
+<value>1516</value>
+</cell>
+<cell row="57">
+<value>11</value>
+</cell>
+<cell row="58">
+<value>66</value>
+</cell>
+<cell row="59">
+<value>6</value>
+</cell>
+<cell row="60">
+<value>1</value>
+</cell>
+</Col>
+<Col ID="21" Width="64">
+<cell row="1">
+<value>244</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>2</value>
+</cell>
+<cell row="6">
+<value>8</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>4</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>5</value>
+</cell>
+<cell row="17">
+<value>2</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>8</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>5</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>17</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>7</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>743</value>
+</cell>
+<cell row="56">
+<value>1415</value>
+</cell>
+<cell row="57">
+<value>5</value>
+</cell>
+<cell row="58">
+<value>67</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>4</value>
+</cell>
+</Col>
+<Col ID="22" Width="64">
+<cell row="1">
+<value>245</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>2</value>
+</cell>
+<cell row="7">
+<value>44</value>
+</cell>
+<cell row="8">
+<value>2</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>8</value>
+</cell>
+<cell row="12">
+<value>3</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>6</value>
+</cell>
+<cell row="16">
+<value>18</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>5</value>
+</cell>
+<cell row="19">
+<value>20</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>5</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>6</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>6</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>1687</value>
+</cell>
+<cell row="56">
+<value>2634</value>
+</cell>
+<cell row="57">
+<value>0</value>
+</cell>
+<cell row="58">
+<value>196</value>
+</cell>
+<cell row="59">
+<value>24</value>
+</cell>
+<cell row="60">
+<value>13</value>
+</cell>
+</Col>
+<Col ID="23" Width="64">
+<cell row="1">
+<value>258</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>8</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>10</value>
+</cell>
+<cell row="10">
+<value>4</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>3</value>
+</cell>
+<cell row="17">
+<value>2</value>
+</cell>
+<cell row="18">
+<value>4</value>
+</cell>
+<cell row="19">
+<value>13</value>
+</cell>
+<cell row="20">
+<value>3</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>8</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>9</value>
+</cell>
+<cell row="45">
+<value>1</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>644</value>
+</cell>
+<cell row="56">
+<value>809</value>
+</cell>
+<cell row="57">
+<value>15</value>
+</cell>
+<cell row="58">
+<value>60</value>
+</cell>
+<cell row="59">
+<value>9</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="24" Width="64">
+<cell row="1">
+<value>261</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>6</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>2</value>
+</cell>
+<cell row="9">
+<value>8</value>
+</cell>
+<cell row="10">
+<value>7</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>1</value>
+</cell>
+<cell row="17">
+<value>1</value>
+</cell>
+<cell row="18">
+<value>1</value>
+</cell>
+<cell row="19">
+<value>5</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>6</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>4</value>
+</cell>
+<cell row="27">
+<value>4</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>6</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>0</value>
+</cell>
+<cell row="45">
+<value>3</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>771</value>
+</cell>
+<cell row="56">
+<value>1007</value>
+</cell>
+<cell row="57">
+<value>8</value>
+</cell>
+<cell row="58">
+<value>13</value>
+</cell>
+<cell row="59">
+<value>1</value>
+</cell>
+<cell row="60">
+<value>1</value>
+</cell>
+</Col>
+<Col ID="25" Width="64">
+<cell row="1">
+<value>270</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>2</value>
+</cell>
+<cell row="6">
+<value>1</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>6</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>1</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>7</value>
+</cell>
+<cell row="19">
+<value>13</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>1</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>3</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>2</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>8</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>0</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>379</value>
+</cell>
+<cell row="56">
+<value>1075</value>
+</cell>
+<cell row="57">
+<value>14</value>
+</cell>
+<cell row="58">
+<value>35</value>
+</cell>
+<cell row="59">
+<value>4</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="26" Width="64">
+<cell row="1">
+<value>275</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>2</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>3</value>
+</cell>
+<cell row="19">
+<value>4</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>7</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>1</value>
+</cell>
+<cell row="45">
+<value>4</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>296</value>
+</cell>
+<cell row="56">
+<value>779</value>
+</cell>
+<cell row="57">
+<value>9</value>
+</cell>
+<cell row="58">
+<value>62</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>3</value>
+</cell>
+</Col>
+<Col ID="27" Width="64">
+<cell row="1">
+<value>285</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>1</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>4</value>
+</cell>
+<cell row="17">
+<value>1</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>3</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>2</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>3</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>2</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>6</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>4</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>173</value>
+</cell>
+<cell row="56">
+<value>874</value>
+</cell>
+<cell row="57">
+<value>2</value>
+</cell>
+<cell row="58">
+<value>10</value>
+</cell>
+<cell row="59">
+<value>5</value>
+</cell>
+<cell row="60">
+<value>1</value>
+</cell>
+</Col>
+<Col ID="28" Width="64">
+<cell row="1">
+<value>290</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>2</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>2</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>7</value>
+</cell>
+<cell row="17">
+<value>3</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>3</value>
+</cell>
+<cell row="20">
+<value>2</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>6</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>0</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>358</value>
+</cell>
+<cell row="56">
+<value>590</value>
+</cell>
+<cell row="57">
+<value>7</value>
+</cell>
+<cell row="58">
+<value>18</value>
+</cell>
+<cell row="59">
+<value>7</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="29" Width="64">
+<cell row="1">
+<value>300</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>3</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>6</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>3</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>8</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>3</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>2</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>3</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>5</value>
+</cell>
+<cell row="45">
+<value>3</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>338</value>
+</cell>
+<cell row="56">
+<value>804</value>
+</cell>
+<cell row="57">
+<value>7</value>
+</cell>
+<cell row="58">
+<value>23</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="30" Width="64">
+<cell row="1">
+<value>305</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>1</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>1</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>3</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>2</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>1</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>3</value>
+</cell>
+<cell row="19">
+<value>5</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>5</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>1</value>
+</cell>
+<cell row="31">
+<value>1</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>5</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>1</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>3</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>290</value>
+</cell>
+<cell row="56">
+<value>691</value>
+</cell>
+<cell row="57">
+<value>5</value>
+</cell>
+<cell row="58">
+<value>10</value>
+</cell>
+<cell row="59">
+<value>6</value>
+</cell>
+<cell row="60">
+<value>3</value>
+</cell>
+</Col>
+<Col ID="31" Width="64">
+<cell row="1">
+<value>310</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>5</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>2</value>
+</cell>
+<cell row="8">
+<value>4</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>2</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>10</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>1</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>1</value>
+</cell>
+<cell row="27">
+<value>3</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>18</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>1</value>
+</cell>
+<cell row="45">
+<value>1</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>434</value>
+</cell>
+<cell row="56">
+<value>833</value>
+</cell>
+<cell row="57">
+<value>12</value>
+</cell>
+<cell row="58">
+<value>44</value>
+</cell>
+<cell row="59">
+<value>2</value>
+</cell>
+<cell row="60">
+<value>3</value>
+</cell>
+</Col>
+<Col ID="32" Width="64">
+<cell row="1">
+<value>312</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>8</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>8</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>13</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>8</value>
+</cell>
+<cell row="45">
+<value>11</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>633</value>
+</cell>
+<cell row="56">
+<value>1329</value>
+</cell>
+<cell row="57">
+<value>11</value>
+</cell>
+<cell row="58">
+<value>58</value>
+</cell>
+<cell row="59">
+<value>4</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="33" Width="64">
+<cell row="1">
+<value>315</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>3</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>1</value>
+</cell>
+<cell row="7">
+<value>3</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>2</value>
+</cell>
+<cell row="17">
+<value>1</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>1</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>1</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>0</value>
+</cell>
+<cell row="45">
+<value>1</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>130</value>
+</cell>
+<cell row="56">
+<value>266</value>
+</cell>
+<cell row="57">
+<value>0</value>
+</cell>
+<cell row="58">
+<value>40</value>
+</cell>
+<cell row="59">
+<value>3</value>
+</cell>
+<cell row="60">
+<value>4</value>
+</cell>
+</Col>
+<Col ID="34" Width="64">
+<cell row="1">
+<value>320</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>2</value>
+</cell>
+<cell row="6">
+<value>4</value>
+</cell>
+<cell row="7">
+<value>3</value>
+</cell>
+<cell row="8">
+<value>5</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>3</value>
+</cell>
+<cell row="17">
+<value>1</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>3</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>19</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>1</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>1</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>5</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>7</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>4</value>
+</cell>
+<cell row="40">
+<value>1</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>21</value>
+</cell>
+<cell row="45">
+<value>12</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>433</value>
+</cell>
+<cell row="56">
+<value>733</value>
+</cell>
+<cell row="57">
+<value>17</value>
+</cell>
+<cell row="58">
+<value>122</value>
+</cell>
+<cell row="59">
+<value>6</value>
+</cell>
+<cell row="60">
+<value>6</value>
+</cell>
+</Col>
+<Col ID="35" Width="64">
+<cell row="1">
+<value>322</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>3</value>
+</cell>
+<cell row="6">
+<value>4</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>5</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>5</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>7</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>7</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>10</value>
+</cell>
+<cell row="35">
+<value>1</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>7</value>
+</cell>
+<cell row="45">
+<value>6</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>558</value>
+</cell>
+<cell row="56">
+<value>667</value>
+</cell>
+<cell row="57">
+<value>7</value>
+</cell>
+<cell row="58">
+<value>55</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="36" Width="64">
+<cell row="1">
+<value>325</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>2</value>
+</cell>
+<cell row="6">
+<value>1</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>2</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>2</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>2</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>4</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>3</value>
+</cell>
+<cell row="32">
+<value>2</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>8</value>
+</cell>
+<cell row="45">
+<value>4</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>2</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>386</value>
+</cell>
+<cell row="56">
+<value>492</value>
+</cell>
+<cell row="57">
+<value>18</value>
+</cell>
+<cell row="58">
+<value>30</value>
+</cell>
+<cell row="59">
+<value>8</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="37" Width="64">
+<cell row="1">
+<value>327</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>2</value>
+</cell>
+<cell row="6">
+<value>3</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>3</value>
+</cell>
+<cell row="16">
+<value>2</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>3</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>10</value>
+</cell>
+<cell row="22">
+<value>10</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>10</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>3</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>2</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>2</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>18</value>
+</cell>
+<cell row="45">
+<value>8</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>243</value>
+</cell>
+<cell row="56">
+<value>157</value>
+</cell>
+<cell row="57">
+<value>4</value>
+</cell>
+<cell row="58">
+<value>15</value>
+</cell>
+<cell row="59">
+<value>3</value>
+</cell>
+<cell row="60">
+<value>10</value>
+</cell>
+</Col>
+<Col ID="38" Width="64">
+<cell row="1">
+<value>330</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>3</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>2</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>2</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>8</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>2</value>
+</cell>
+<cell row="20">
+<value>2</value>
+</cell>
+<cell row="21">
+<value>2</value>
+</cell>
+<cell row="22">
+<value>2</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>5</value>
+</cell>
+<cell row="26">
+<value>2</value>
+</cell>
+<cell row="27">
+<value>2</value>
+</cell>
+<cell row="28">
+<value>2</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>6</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>2</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>7</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>4</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>10</value>
+</cell>
+<cell row="45">
+<value>1</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>396</value>
+</cell>
+<cell row="56">
+<value>743</value>
+</cell>
+<cell row="57">
+<value>9</value>
+</cell>
+<cell row="58">
+<value>55</value>
+</cell>
+<cell row="59">
+<value>2</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="39" Width="64">
+<cell row="1">
+<value>335</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>6</value>
+</cell>
+<cell row="6">
+<value>4</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>4</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>7</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>1</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>2</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>7</value>
+</cell>
+<cell row="28">
+<value>1</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>8</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>1</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>16</value>
+</cell>
+<cell row="45">
+<value>5</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>342</value>
+</cell>
+<cell row="56">
+<value>536</value>
+</cell>
+<cell row="57">
+<value>4</value>
+</cell>
+<cell row="58">
+<value>55</value>
+</cell>
+<cell row="59">
+<value>4</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="40" Width="64">
+<cell row="1">
+<value>338</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>2</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>2</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>2</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>1</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>1</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>1</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>3</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>1</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>4</value>
+</cell>
+<cell row="45">
+<value>2</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>132</value>
+</cell>
+<cell row="56">
+<value>248</value>
+</cell>
+<cell row="57">
+<value>2</value>
+</cell>
+<cell row="58">
+<value>44</value>
+</cell>
+<cell row="59">
+<value>1</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="41" Width="64">
+<cell row="1">
+<value>340</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>1</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>3</value>
+</cell>
+<cell row="23">
+<value>1</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>2</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>3</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>8</value>
+</cell>
+<cell row="45">
+<value>1</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>128</value>
+</cell>
+<cell row="56">
+<value>115</value>
+</cell>
+<cell row="57">
+<value>0</value>
+</cell>
+<cell row="58">
+<value>32</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="42" Width="64">
+<cell row="1">
+<value>345</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>1</value>
+</cell>
+<cell row="6">
+<value>1</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>1</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>2</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>3</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>2</value>
+</cell>
+<cell row="27">
+<value>1</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>4</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>2</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>20</value>
+</cell>
+<cell row="45">
+<value>3</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>943</value>
+</cell>
+<cell row="56">
+<value>1971</value>
+</cell>
+<cell row="57">
+<value>97</value>
+</cell>
+<cell row="58">
+<value>117</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="43" Width="64">
+<cell row="1">
+<value>350</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>1</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>1</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>11</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>18</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>12</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>12</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>18</value>
+</cell>
+<cell row="45">
+<value>12</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>668</value>
+</cell>
+<cell row="56">
+<value>777</value>
+</cell>
+<cell row="57">
+<value>8</value>
+</cell>
+<cell row="58">
+<value>19</value>
+</cell>
+<cell row="59">
+<value>3</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="44" Width="64">
+<cell row="1">
+<value>353</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>3</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>3</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>6</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>2</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>5</value>
+</cell>
+<cell row="45">
+<value>5</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>0</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>238</value>
+</cell>
+<cell row="56">
+<value>136</value>
+</cell>
+<cell row="57">
+<value>5</value>
+</cell>
+<cell row="58">
+<value>10</value>
+</cell>
+<cell row="59">
+<value>6</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="45" Width="64">
+<cell row="1">
+<value>355</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>3</value>
+</cell>
+<cell row="20">
+<value>3</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>1</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>3</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>4</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>1</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>6</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>2</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>1</value>
+</cell>
+<cell row="55">
+<value>531</value>
+</cell>
+<cell row="56">
+<value>98</value>
+</cell>
+<cell row="57">
+<value>7</value>
+</cell>
+<cell row="58">
+<value>13</value>
+</cell>
+<cell row="59">
+<value>3</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="46" Width="64">
+<cell row="1">
+<value>360</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>2</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>5</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>5</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>7</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>5</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>441</value>
+</cell>
+<cell row="56">
+<value>107</value>
+</cell>
+<cell row="57">
+<value>51</value>
+</cell>
+<cell row="58">
+<value>15</value>
+</cell>
+<cell row="59">
+<value>6</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="47" Width="64">
+<cell row="1">
+<value>380</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>1</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>1</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>1</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>1</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>3</value>
+</cell>
+<cell row="45">
+<value>1</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>2</value>
+</cell>
+<cell row="53">
+<value>1</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>521</value>
+</cell>
+<cell row="56">
+<value>253</value>
+</cell>
+<cell row="57">
+<value>9</value>
+</cell>
+<cell row="58">
+<value>13</value>
+</cell>
+<cell row="59">
+<value>2</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="48" Width="64">
+<cell row="1">
+<value>383</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>1</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>1</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>2</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>3</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>4</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>9</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>2</value>
+</cell>
+<cell row="55">
+<value>1036</value>
+</cell>
+<cell row="56">
+<value>217</value>
+</cell>
+<cell row="57">
+<value>43</value>
+</cell>
+<cell row="58">
+<value>11</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="49" Width="64">
+<cell row="1">
+<value>386</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>3</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>3</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>2</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>1</value>
+</cell>
+<cell row="52">
+<value>2</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>214</value>
+</cell>
+<cell row="56">
+<value>39</value>
+</cell>
+<cell row="57">
+<value>17</value>
+</cell>
+<cell row="58">
+<value>11</value>
+</cell>
+<cell row="59">
+<value>6</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="50" Width="64">
+<cell row="1">
+<value>390</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>1</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>1</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>3</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>3</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>2</value>
+</cell>
+<cell row="44">
+<value>3</value>
+</cell>
+<cell row="45">
+<value>7</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>9</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>749</value>
+</cell>
+<cell row="56">
+<value>263</value>
+</cell>
+<cell row="57">
+<value>58</value>
+</cell>
+<cell row="58">
+<value>22</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="51" Width="64">
+<cell row="1">
+<value>395</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>4</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>4</value>
+</cell>
+<cell row="41">
+<value>2</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>4</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>2</value>
+</cell>
+<cell row="52">
+<value>4</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>512</value>
+</cell>
+<cell row="56">
+<value>117</value>
+</cell>
+<cell row="57">
+<value>2</value>
+</cell>
+<cell row="58">
+<value>7</value>
+</cell>
+<cell row="59">
+<value>2</value>
+</cell>
+<cell row="60">
+<value>2</value>
+</cell>
+</Col>
+<Col ID="52" Width="64">
+<cell row="1">
+<value>398</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>0</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>1</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>13</value>
+</cell>
+<cell row="45">
+<value>2</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>3</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>5</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>443</value>
+</cell>
+<cell row="56">
+<value>175</value>
+</cell>
+<cell row="57">
+<value>84</value>
+</cell>
+<cell row="58">
+<value>8</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="53" Width="64">
+<cell row="1">
+<value>402</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>2</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>4</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>3</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>1</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>1</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>1</value>
+</cell>
+<cell row="39">
+<value>1</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>3</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>2</value>
+</cell>
+<cell row="45">
+<value>3</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>2</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>4</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>335</value>
+</cell>
+<cell row="56">
+<value>60</value>
+</cell>
+<cell row="57">
+<value>51</value>
+</cell>
+<cell row="58">
+<value>4</value>
+</cell>
+<cell row="59">
+<value>1</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="54" Width="64">
+<cell row="1">
+<value>427</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>3</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>1</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>2</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>4</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>1</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>4</value>
+</cell>
+<cell row="43">
+<value>1</value>
+</cell>
+<cell row="44">
+<value>13</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>2</value>
+</cell>
+<cell row="52">
+<value>5</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>695</value>
+</cell>
+<cell row="56">
+<value>125</value>
+</cell>
+<cell row="57">
+<value>4</value>
+</cell>
+<cell row="58">
+<value>53</value>
+</cell>
+<cell row="59">
+<value>9</value>
+</cell>
+<cell row="60">
+<value>10</value>
+</cell>
+</Col>
+<Col ID="55" Width="64">
+<cell row="1">
+<value>428</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>2</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>1</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>4</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>0</value>
+</cell>
+<cell row="42">
+<value>6</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>4</value>
+</cell>
+<cell row="45">
+<value>7</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>5</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>1079</value>
+</cell>
+<cell row="56">
+<value>190</value>
+</cell>
+<cell row="57">
+<value>14</value>
+</cell>
+<cell row="58">
+<value>71</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="56" Width="64">
+<cell row="1">
+<value>430</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>2</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>2</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>2</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>2</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>3</value>
+</cell>
+<cell row="45">
+<value>3</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>3</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>780</value>
+</cell>
+<cell row="56">
+<value>271</value>
+</cell>
+<cell row="57">
+<value>34</value>
+</cell>
+<cell row="58">
+<value>24</value>
+</cell>
+<cell row="59">
+<value>6</value>
+</cell>
+<cell row="60">
+<value>5</value>
+</cell>
+</Col>
+<Col ID="57" Width="64">
+<cell row="1">
+<value>431</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>2</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>3</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>3</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>3</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>6</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>3</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>502</value>
+</cell>
+<cell row="56">
+<value>239</value>
+</cell>
+<cell row="57">
+<value>24</value>
+</cell>
+<cell row="58">
+<value>24</value>
+</cell>
+<cell row="59">
+<value>1</value>
+</cell>
+<cell row="60">
+<value>1</value>
+</cell>
+</Col>
+<Col ID="58" Width="64">
+<cell row="1">
+<value>442</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>2</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>2</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>2</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>2</value>
+</cell>
+<cell row="41">
+<value>2</value>
+</cell>
+<cell row="42">
+<value>2</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>0</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>2</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>11</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>617</value>
+</cell>
+<cell row="56">
+<value>112</value>
+</cell>
+<cell row="57">
+<value>4</value>
+</cell>
+<cell row="58">
+<value>13</value>
+</cell>
+<cell row="59">
+<value>2</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="59" Width="64">
+<cell row="1">
+<value>473</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>2</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>2</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>2</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>2</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>3</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>4</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>0</value>
+</cell>
+<cell row="45">
+<value>2</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>2</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>8</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>423</value>
+</cell>
+<cell row="56">
+<value>79</value>
+</cell>
+<cell row="57">
+<value>261</value>
+</cell>
+<cell row="58">
+<value>21</value>
+</cell>
+<cell row="59">
+<value>2</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+<Col ID="60" Width="64">
+<cell row="1">
+<value>496</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>3</value>
+</cell>
+<cell row="17">
+<value>0</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>1</value>
+</cell>
+<cell row="32">
+<value>0</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>1</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>2</value>
+</cell>
+<cell row="45">
+<value>0</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>1</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>0</value>
+</cell>
+<cell row="50">
+<value>1</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>3</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>827</value>
+</cell>
+<cell row="56">
+<value>345</value>
+</cell>
+<cell row="57">
+<value>73</value>
+</cell>
+<cell row="58">
+<value>27</value>
+</cell>
+<cell row="59">
+<value>2</value>
+</cell>
+<cell row="60">
+<value>1</value>
+</cell>
+</Col>
+<Col ID="61" Width="64">
+<cell row="1">
+<value>506</value>
+</cell>
+<cell row="3">
+<text>Ritchie, J.C.</text>
+<contact ID="3"/>
+</cell>
+<cell row="4">
+<value>0</value>
+</cell>
+<cell row="5">
+<value>0</value>
+</cell>
+<cell row="6">
+<value>0</value>
+</cell>
+<cell row="7">
+<value>0</value>
+</cell>
+<cell row="8">
+<value>0</value>
+</cell>
+<cell row="9">
+<value>0</value>
+</cell>
+<cell row="10">
+<value>0</value>
+</cell>
+<cell row="11">
+<value>0</value>
+</cell>
+<cell row="12">
+<value>0</value>
+</cell>
+<cell row="13">
+<value>0</value>
+</cell>
+<cell row="14">
+<value>0</value>
+</cell>
+<cell row="15">
+<value>0</value>
+</cell>
+<cell row="16">
+<value>1</value>
+</cell>
+<cell row="17">
+<value>1</value>
+</cell>
+<cell row="18">
+<value>0</value>
+</cell>
+<cell row="19">
+<value>0</value>
+</cell>
+<cell row="20">
+<value>0</value>
+</cell>
+<cell row="21">
+<value>0</value>
+</cell>
+<cell row="22">
+<value>0</value>
+</cell>
+<cell row="23">
+<value>0</value>
+</cell>
+<cell row="24">
+<value>0</value>
+</cell>
+<cell row="25">
+<value>0</value>
+</cell>
+<cell row="26">
+<value>0</value>
+</cell>
+<cell row="27">
+<value>0</value>
+</cell>
+<cell row="28">
+<value>0</value>
+</cell>
+<cell row="29">
+<value>0</value>
+</cell>
+<cell row="30">
+<value>0</value>
+</cell>
+<cell row="31">
+<value>0</value>
+</cell>
+<cell row="32">
+<value>2</value>
+</cell>
+<cell row="33">
+<value>0</value>
+</cell>
+<cell row="34">
+<value>0</value>
+</cell>
+<cell row="35">
+<value>0</value>
+</cell>
+<cell row="36">
+<value>0</value>
+</cell>
+<cell row="37">
+<value>0</value>
+</cell>
+<cell row="38">
+<value>0</value>
+</cell>
+<cell row="39">
+<value>0</value>
+</cell>
+<cell row="40">
+<value>0</value>
+</cell>
+<cell row="41">
+<value>8</value>
+</cell>
+<cell row="42">
+<value>0</value>
+</cell>
+<cell row="43">
+<value>0</value>
+</cell>
+<cell row="44">
+<value>2</value>
+</cell>
+<cell row="45">
+<value>7</value>
+</cell>
+<cell row="46">
+<value>0</value>
+</cell>
+<cell row="47">
+<value>0</value>
+</cell>
+<cell row="48">
+<value>0</value>
+</cell>
+<cell row="49">
+<value>1</value>
+</cell>
+<cell row="50">
+<value>0</value>
+</cell>
+<cell row="51">
+<value>0</value>
+</cell>
+<cell row="52">
+<value>5</value>
+</cell>
+<cell row="53">
+<value>0</value>
+</cell>
+<cell row="54">
+<value>0</value>
+</cell>
+<cell row="55">
+<value>809</value>
+</cell>
+<cell row="56">
+<value>388</value>
+</cell>
+<cell row="57">
+<value>14</value>
+</cell>
+<cell row="58">
+<value>29</value>
+</cell>
+<cell row="59">
+<value>0</value>
+</cell>
+<cell row="60">
+<value>0</value>
+</cell>
+</Col>
+</SpreadSheet>
+</SpreadSheetBook>
+<Site>
+<SiteName>Oyo</SiteName>
+<LongEast>26.45</LongEast>
+<LongWest>26.45</LongWest>
+<LatNorth>19.3</LatNorth>
+<LatSouth>19.3</LatSouth>
+<Altitude>510</Altitude>
+<Area>0</Area>
+<SiteDescription>Deflationary depression. Physiography: Evaporite basin. Surrounding vegetation: absent.</SiteDescription>
+</Site>
+<CollectionUnit>
+<Handle>OYO</Handle>
+<CollectionType>Sediment core</CollectionType>
+<CollectionDevice>Livingstone piston corer</CollectionDevice>
+<Collectors>
+<Contact ID="3"/>
+</Collectors>
+<CollectionDate>31048</CollectionDate>
+<DepositionalEnvironment>Lacustrine</DepositionalEnvironment>
+</CollectionUnit>
+<Datasets>
+<Dataset>
+<DatasetType>pollen</DatasetType>
+<Notes>Local vegetation: Absent.</Notes>
+<IsSSamp>False</IsSSamp>
+<WhitmoreData>False</WhitmoreData>
+<IsAggregate>False</IsAggregate>
+<Investigators>
+<Contact ID="3"/>
+</Investigators>
+</Dataset>
+</Datasets>
+<GeochronDataset>
+<Geochronology AnalysisUnitID="Depth">
+<GeochronSample ID="1">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>175</Depth>
+<Thickness>10</Thickness>
+<LabNumber>A-2820</LabNumber>
+<Age>4590</Age>
+<ErrorOlder>140</ErrorOlder>
+<ErrorYounger>140</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>140</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>conventional radiometric</Value>
+</Parameter>
+</Parameters>
+<MaterialDated>Algal sapropel</MaterialDated>
+</GeochronSample>
+<GeochronSample ID="2">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>175</Depth>
+<Thickness>10</Thickness>
+<LabNumber>SMU-1232</LabNumber>
+<Age>4920</Age>
+<ErrorOlder>200</ErrorOlder>
+<ErrorYounger>200</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>200</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>conventional radiometric</Value>
+</Parameter>
+</Parameters>
+<MaterialDated>Algal sapropel</MaterialDated>
+</GeochronSample>
+<GeochronSample ID="3">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>275</Depth>
+<Thickness>10</Thickness>
+<LabNumber>SMU-1223</LabNumber>
+<Age>5880</Age>
+<ErrorOlder>80</ErrorOlder>
+<ErrorYounger>80</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>80</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>conventional radiometric</Value>
+</Parameter>
+</Parameters>
+</GeochronSample>
+<GeochronSample ID="4">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>315</Depth>
+<Thickness>10</Thickness>
+<LabNumber>SMU-1231</LabNumber>
+<Age>6100</Age>
+<ErrorOlder>80</ErrorOlder>
+<ErrorYounger>80</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>80</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>conventional radiometric</Value>
+</Parameter>
+</Parameters>
+<MaterialDated>Algal sapropel</MaterialDated>
+</GeochronSample>
+<GeochronSample ID="5">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>335</Depth>
+<Thickness>10</Thickness>
+<LabNumber>AA-1020</LabNumber>
+<Age>6700</Age>
+<ErrorOlder>130</ErrorOlder>
+<ErrorYounger>130</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>130</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>accelerator mass spectrometry</Value>
+</Parameter>
+</Parameters>
+</GeochronSample>
+<GeochronSample ID="6">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>350</Depth>
+<Thickness>10</Thickness>
+<LabNumber>AA-1018</LabNumber>
+<Age>6490</Age>
+<ErrorOlder>220</ErrorOlder>
+<ErrorYounger>220</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>220</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>conventional radiometric</Value>
+</Parameter>
+</Parameters>
+</GeochronSample>
+<GeochronSample ID="7">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>350</Depth>
+<Thickness>10</Thickness>
+<LabNumber>AA-1019</LabNumber>
+<Age>6770</Age>
+<ErrorOlder>130</ErrorOlder>
+<ErrorYounger>130</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>130</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>accelerator mass spectrometry</Value>
+</Parameter>
+</Parameters>
+</GeochronSample>
+<GeochronSample ID="8">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>370</Depth>
+<Thickness>10</Thickness>
+<LabNumber>AA-1017</LabNumber>
+<Age>6180</Age>
+<ErrorOlder>110</ErrorOlder>
+<ErrorYounger>110</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>110</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>accelerator mass spectrometry</Value>
+</Parameter>
+</Parameters>
+</GeochronSample>
+<GeochronSample ID="9">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>370</Depth>
+<Thickness>10</Thickness>
+<LabNumber>AA-1016</LabNumber>
+<Age>6220</Age>
+<ErrorOlder>150</ErrorOlder>
+<ErrorYounger>150</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>150</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>accelerator mass spectrometry</Value>
+</Parameter>
+</Parameters>
+</GeochronSample>
+<GeochronSample ID="10">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>415</Depth>
+<Thickness>10</Thickness>
+<LabNumber>AA-1015</LabNumber>
+<Age>7450</Age>
+<ErrorOlder>90</ErrorOlder>
+<ErrorYounger>90</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>90</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>accelerator mass spectrometry</Value>
+</Parameter>
+</Parameters>
+</GeochronSample>
+<GeochronSample ID="11">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>460</Depth>
+<Thickness>10</Thickness>
+<LabNumber>SMU-1230</LabNumber>
+<Age>7790</Age>
+<ErrorOlder>280</ErrorOlder>
+<ErrorYounger>280</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>280</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>accelerator mass spectrometry</Value>
+</Parameter>
+</Parameters>
+<MaterialDated>Algal sapropel</MaterialDated>
+</GeochronSample>
+<GeochronSample ID="12">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>460</Depth>
+<Thickness>10</Thickness>
+<LabNumber>AA-253</LabNumber>
+<Age>8490</Age>
+<ErrorOlder>170</ErrorOlder>
+<ErrorYounger>170</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>170</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>accelerator mass spectrometry</Value>
+</Parameter>
+</Parameters>
+<MaterialDated>Charcoal</MaterialDated>
+</GeochronSample>
+<GeochronSample ID="13">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>490</Depth>
+<Thickness>10</Thickness>
+<LabNumber>A-2951</LabNumber>
+<Age>8720</Age>
+<ErrorOlder>170</ErrorOlder>
+<ErrorYounger>170</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>170</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>conventional radiometric</Value>
+</Parameter>
+</Parameters>
+<MaterialDated>Charcoal</MaterialDated>
+</GeochronSample>
+<GeochronSample ID="14">
+<Method>Carbon-14</Method>
+<AgeUnits>Radiocarbon years BP</AgeUnits>
+<Depth>490</Depth>
+<Thickness>10</Thickness>
+<LabNumber>A-2826</LabNumber>
+<Age>8900</Age>
+<ErrorOlder>120</ErrorOlder>
+<ErrorYounger>120</ErrorYounger>
+<Sigma>1</Sigma>
+<StdDev>120</StdDev>
+<GreaterThan>False</GreaterThan>
+<Parameters>
+<Parameter>
+<Name>Method</Name>
+<Value>conventional radiometric</Value>
+</Parameter>
+</Parameters>
+<MaterialDated>Charcoal</MaterialDated>
+</GeochronSample>
+</Geochronology>
+</GeochronDataset>
+<Lithology>
+<LithologyUnit>
+<DepthTop>0</DepthTop>
+<DepthBottom>10</DepthBottom>
+<Description>Trona</Description>
+<LowerBoundary>Abrupt</LowerBoundary>
+</LithologyUnit>
+<LithologyUnit>
+<DepthTop>10</DepthTop>
+<DepthBottom>90</DepthBottom>
+<Description>Loose sand and trona</Description>
+<LowerBoundary>Abrupt</LowerBoundary>
+</LithologyUnit>
+<LithologyUnit>
+<DepthTop>90</DepthTop>
+<DepthBottom>180</DepthBottom>
+<Description>Laminated sand</Description>
+<LowerBoundary>Abrupt</LowerBoundary>
+</LithologyUnit>
+<LithologyUnit>
+<DepthTop>180</DepthTop>
+<DepthBottom>200</DepthBottom>
+<Description>Bedded and bleached aeolian sands</Description>
+<LowerBoundary>Abrupt</LowerBoundary>
+</LithologyUnit>
+<LithologyUnit>
+<DepthTop>200</DepthTop>
+<DepthBottom>300</DepthBottom>
+<Description>deformed muds and sands</Description>
+<LowerBoundary>Abrupt</LowerBoundary>
+</LithologyUnit>
+<LithologyUnit>
+<DepthTop>300</DepthTop>
+<DepthBottom>310</DepthBottom>
+<Description>Laminated carbonate muds</Description>
+<LowerBoundary>Abrupt</LowerBoundary>
+</LithologyUnit>
+<LithologyUnit>
+<DepthTop>310</DepthTop>
+<DepthBottom>500</DepthBottom>
+<Description>Dolomite with an olive-green color</Description>
+<LowerBoundary>Abrupt</LowerBoundary>
+</LithologyUnit>
+</Lithology>
+</TiliaFile>
