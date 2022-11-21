@@ -1,0 +1,302 @@
+units,context,element,taxonid,symmetry,taxongroup,elementtype,variablename,ecologicalgroup,sites,samples
+NISP,NA,valve,10152,NA,Diatoms,valve,Achnanthidium minutissimum,DIAT,2,378
+NISP,NA,valve,10247,NA,Diatoms,valve,Achnanthes conspicua,DIAT,1,50
+NISP,NA,valve,10248,NA,Diatoms,valve,Achnanthes delicatula,DIAT,1,34
+NISP,NA,valve,10266,NA,Diatoms,valve,Achnanthes brevipes,DIAT,1,45
+NISP,NA,valve,10279,NA,Diatoms,valve,Achnanthes distincta,DIAT,1,6
+NISP,NA,valve,10306,NA,Diatoms,valve,Achnanthes spp.,DIAT,4,454
+NISP,NA,valve,10327,NA,Diatoms,valve,Amphora veneta,DIAT,3,585
+NISP,NA,valve,10330,NA,Diatoms,valve,Amphora coffeaeformis,DIAT,2,66
+NISP,NA,valve,10337,NA,Diatoms,valve,Amphora libyca,DIAT,2,20
+NISP,NA,valve,10342,NA,Diatoms,valve,Amphora pediculus,DIAT,2,376
+NISP,NA,valve,10369,NA,Diatoms,valve,Anomoeoneis sphaerophora,DIAT,2,407
+NISP,NA,valve,10374,NA,Diatoms,valve,Anomoeoneis sp. 1 ?,DIAT,1,1
+NISP,NA,valve,10385,NA,Diatoms,valve,Aulacoseira crenulata,DIAT,1,1
+NISP,NA,valve,10390,NA,Diatoms,valve,Aulacoseira distans,DIAT,1,6
+NISP,NA,valve,10391,NA,Diatoms,valve,Aulacoseira lirata,DIAT,1,4
+NISP,NA,valve,10395,NA,Diatoms,valve,Aulacoseira granulata,DIAT,4,520
+NISP,NA,valve,10396,NA,Diatoms,valve,Aulacoseira italica,DIAT,1,3
+NISP,NA,valve,10397,NA,Diatoms,valve,Aulacoseira alpigena,DIAT,1,5
+NISP,NA,valve,10404,NA,Diatoms,valve,Caloneis bacillum,DIAT,3,395
+NISP,NA,valve,10445,NA,Diatoms,valve,Chaetoceros spp.,DIAT,2,75
+NISP,NA,valve,10448,NA,Diatoms,valve,Cocconeis placentula,DIAT,6,1161
+NISP,NA,valve,10452,NA,Diatoms,valve,Cocconeis disculus,DIAT,1,2
+NISP,NA,valve,10458,NA,Diatoms,valve,Cocconeis pseudothumensis,DIAT,1,10
+NISP,NA,valve,10461,NA,Diatoms,valve,Cocconeis neothumensis,DIAT,1,2
+NISP,NA,valve,10462,NA,Diatoms,valve,Cocconeis spp.,DIAT,3,214
+NISP,NA,valve,10479,NA,Diatoms,valve,Cyclotella meneghiniana,DIAT,7,973
+NISP,NA,valve,10482,NA,Diatoms,valve,Cyclotella stelligera,DIAT,3,544
+NISP,NA,valve,10508,NA,Diatoms,valve,Cyclotella spp.,DIAT,2,382
+NISP,NA,valve,10524,NA,Diatoms,valve,Cymbella cistula,DIAT,3,626
+NISP,NA,valve,10529,NA,Diatoms,valve,Cymbella microcephala,DIAT,1,385
+NISP,NA,valve,10537,NA,Diatoms,valve,Cymbella pusilla,DIAT,2,458
+NISP,NA,valve,10593,NA,Diatoms,valve,Cymbella cymbiformis,DIAT,2,171
+NISP,NA,valve,10614,NA,Diatoms,valve,Cymbella spp.,DIAT,3,115
+NISP,NA,valve,10622,NA,Diatoms,valve,Denticula elegans,DIAT,2,390
+NISP,NA,valve,10625,NA,Diatoms,valve,Denticula subtilis,DIAT,1,34
+NISP,NA,valve,10628,NA,Diatoms,valve,Denticula kuetzingii,DIAT,1,1
+NISP,NA,valve,10631,NA,Diatoms,valve,Diatoma mesodon,DIAT,1,1
+NISP,NA,valve,10648,NA,Diatoms,valve,Diploneis subovalis,DIAT,1,1
+NISP,NA,valve,10662,NA,Diatoms,valve,Diploneis spp.,DIAT,3,136
+NISP,NA,valve,10668,NA,Diatoms,valve,Entomoneis spp.,DIAT,1,9
+NISP,NA,valve,10672,NA,Diatoms,valve,Epithemia adnata,DIAT,4,772
+NISP,NA,valve,10673,NA,Diatoms,valve,Epithemia turgida,DIAT,1,2
+NISP,NA,valve,10674,NA,Diatoms,valve,Epithemia argus,DIAT,1,91
+NISP,NA,valve,10682,NA,Diatoms,valve,Epithemia spp.,DIAT,2,279
+NISP,NA,valve,10866,NA,Diatoms,valve,Eunotia spp.,DIAT,2,4
+NISP,NA,valve,10881,NA,Diatoms,valve,Fragilaria capucina,DIAT,1,8
+NISP,NA,valve,10886,NA,Diatoms,valve,Fragilaria construens,DIAT,2,37
+NISP,NA,valve,10891,NA,Diatoms,valve,Fragilaria crotonensis,DIAT,3,442
+NISP,NA,valve,10899,NA,Diatoms,valve,Fragilaria pinnata,DIAT,2,108
+NISP,NA,valve,10903,NA,Diatoms,valve,Fragilaria vaucheriae,DIAT,1,444
+NISP,NA,valve,10938,NA,Diatoms,valve,Fragilaria capucina var. vaucheriae,DIAT,1,176
+NISP,NA,valve,10939,NA,Diatoms,valve,Fragilaria fasciculata,DIAT,2,130
+NISP,NA,valve,10951,NA,Diatoms,valve,Fragilaria pseudoconstruens,DIAT,1,4
+NISP,NA,valve,10957,NA,Diatoms,valve,Fragilaria tenera,DIAT,2,8
+NISP,NA,valve,10963,NA,Diatoms,valve,Fragilaria capensis,DIAT,1,1
+NISP,NA,valve,10971,NA,Diatoms,valve,Fragilaria spp.,DIAT,2,73
+NISP,NA,valve,11006,NA,Diatoms,valve,Gomphonema acuminatum,DIAT,1,95
+NISP,NA,valve,11008,NA,Diatoms,valve,Gomphonema angustatum,DIAT,1,1
+NISP,NA,valve,11015,NA,Diatoms,valve,Gomphonema parvulum,DIAT,1,2
+NISP,NA,valve,11083,NA,Diatoms,valve,Gomphonema pumilum,DIAT,2,263
+NISP,NA,valve,11086,NA,Diatoms,valve,Gomphonema angustum,DIAT,1,1
+NISP,NA,valve,11101,NA,Diatoms,valve,Gomphonema minutum,DIAT,1,107
+NISP,NA,valve,11104,NA,Diatoms,valve,Gomphonema spp.,DIAT,4,637
+NISP,NA,valve,11124,NA,Diatoms,valve,Gyrosigma spp.,DIAT,2,69
+NISP,NA,valve,11129,NA,Diatoms,valve,Hantzschia amphioxys,DIAT,1,2
+NISP,NA,valve,11135,NA,Diatoms,valve,Hantzschia sp. 1?,DIAT,1,1
+NISP,NA,valve,11139,NA,Diatoms,valve,Mastogloia smithii,DIAT,1,6
+NISP,NA,valve,11207,NA,Diatoms,valve,Melosira spp.,DIAT,1,8
+NISP,NA,valve,11216,NA,Diatoms,valve,Navicula angusta,DIAT,1,3
+NISP,NA,valve,11227,NA,Diatoms,valve,Navicula cryptocephala,DIAT,1,2
+NISP,NA,valve,11237,NA,Diatoms,valve,Navicula halophila,DIAT,2,396
+NISP,NA,valve,11263,NA,Diatoms,valve,Navicula pygmaea,DIAT,1,20
+NISP,NA,valve,11264,NA,Diatoms,valve,Navicula radiosa,DIAT,3,441
+NISP,NA,valve,11351,NA,Diatoms,valve,Navicula vulpina,DIAT,2,410
+NISP,NA,valve,11369,NA,Diatoms,valve,Navicula capitata var. hungarica,DIAT,1,5
+NISP,NA,valve,11370,NA,Diatoms,valve,Navicula cari,DIAT,2,31
+NISP,NA,valve,11459,NA,Diatoms,valve,Navicula diluviana,DIAT,1,1
+NISP,NA,valve,11486,NA,Diatoms,valve,Navicula peregrina,DIAT,1,33
+NISP,NA,valve,11499,NA,Diatoms,valve,Navicula pusilla,DIAT,1,5
+NISP,NA,valve,11509,NA,Diatoms,valve,Navicula cincta,DIAT,1,44
+NISP,NA,valve,11530,NA,Diatoms,valve,Navicula salinicola,DIAT,2,44
+NISP,NA,valve,11562,NA,Diatoms,valve,Navicula veneta,DIAT,2,541
+NISP,NA,valve,11567,NA,Diatoms,valve,Navicula cryptotenella,DIAT,3,525
+NISP,NA,valve,11641,NA,Diatoms,valve,Navicula spp.,DIAT,6,608
+NISP,NA,valve,11718,NA,Diatoms,valve,Nitzschia amphibia,DIAT,2,42
+NISP,NA,valve,11721,NA,Diatoms,valve,Nitzschia denticula,DIAT,3,335
+NISP,NA,valve,11725,NA,Diatoms,valve,Nitzschia fonticola,DIAT,1,1
+NISP,NA,valve,11727,NA,Diatoms,valve,Nitzschia frustulum,DIAT,2,258
+NISP,NA,valve,11809,NA,Diatoms,valve,Nitzschia dissipata var. media,DIAT,2,435
+NISP,NA,valve,11828,NA,Diatoms,valve,Nitzschia perminuta,DIAT,2,397
+NISP,NA,valve,11830,NA,Diatoms,valve,Nitzschia aequorea,DIAT,1,6
+NISP,NA,valve,11845,NA,Diatoms,valve,Nitzschia liebethruthii,DIAT,2,145
+NISP,NA,valve,11865,NA,Diatoms,valve,Nitzschia brevissima,DIAT,1,1
+NISP,NA,valve,11878,NA,Diatoms,valve,Nitzschia bacillum,DIAT,1,12
+NISP,NA,valve,11879,NA,Diatoms,valve,Nitzschia elegantula,DIAT,1,1
+NISP,NA,valve,11880,NA,Diatoms,valve,Nitzschia valdecostata,DIAT,1,48
+NISP,NA,valve,11927,NA,Diatoms,valve,Nitzschia lacuum,DIAT,1,2
+NISP,NA,valve,11932,NA,Diatoms,valve,Nitzschia perspicua,DIAT,1,3
+NISP,NA,valve,11946,NA,Diatoms,valve,Nitzschia spp.,DIAT,4,535
+NISP,NA,valve,11947,NA,Diatoms,valve,Nitzschia sp. 1?,DIAT,1,381
+NISP,NA,valve,11976,NA,Diatoms,valve,Pinnularia borealis,DIAT,2,35
+NISP,NA,valve,11999,NA,Diatoms,valve,Pinnularia maior,DIAT,1,372
+NISP,NA,valve,12027,NA,Diatoms,valve,Pinnularia viridis,DIAT,1,3
+NISP,NA,valve,12117,NA,Diatoms,valve,Pinnularia spp.,DIAT,3,51
+NISP,NA,valve,12143,NA,Diatoms,valve,Rhopalodia gibba,DIAT,2,2
+NISP,NA,valve,12147,NA,Diatoms,valve,Rhopalodia gibberula,DIAT,1,2
+NISP,NA,valve,12150,NA,Diatoms,valve,Rhopalodia acuminata,DIAT,1,5
+NISP,NA,valve,12156,NA,Diatoms,valve,Rhopalodia spp.,DIAT,3,30
+NISP,NA,valve,12196,NA,Diatoms,valve,Stauroneis tackei,DIAT,1,2
+NISP,NA,valve,12236,NA,Diatoms,valve,Stephanodiscus spp.,DIAT,1,2
+NISP,NA,valve,12285,NA,Diatoms,valve,Surirella striatula,DIAT,1,8
+NISP,NA,valve,12309,NA,Diatoms,valve,Surirella spp.,DIAT,2,50
+NISP,NA,valve,12310,NA,Diatoms,valve,Surirella sp. 1?,DIAT,1,1
+NISP,NA,valve,12337,NA,Diatoms,valve,Synedra tenera,DIAT,2,660
+NISP,NA,valve,12338,NA,Diatoms,valve,Synedra ulna,DIAT,2,100
+NISP,NA,valve,12373,NA,Diatoms,valve,Synedra spp.,DIAT,1,1
+NISP,NA,valve,12403,NA,Diatoms,valve,Pseudostaurosira brevistriata,DIAT,5,779
+NISP,NA,valve,12404,NA,Diatoms,valve,Pseudostaurosira pseudoconstruens,DIAT,1,1
+NISP,NA,valve,12408,NA,Diatoms,valve,Campylodiscus clypeus,DIAT,1,2
+NISP,NA,valve,12438,NA,Diatoms,valve,Encyonema minutum,DIAT,1,5
+NISP,NA,valve,12452,NA,Diatoms,valve,Fallacia pygmaea,DIAT,1,8
+NISP,NA,valve,12460,NA,Diatoms,valve,Karayevia clevei,DIAT,1,41
+NISP,NA,valve,12464,NA,Diatoms,valve,Luticola cohnii,DIAT,1,4
+NISP,NA,valve,12469,NA,Diatoms,valve,Martyana martyi,DIAT,2,58
+NISP,NA,valve,12471,NA,Diatoms,valve,Planothidium lanceolatum,DIAT,2,121
+NISP,NA,valve,12474,NA,Diatoms,valve,Sellaphora laevissima,DIAT,1,393
+NISP,NA,valve,12476,NA,Diatoms,valve,Sellaphora pupula,DIAT,2,493
+NISP,NA,valve,12483,NA,Diatoms,valve,Staurosira construens,DIAT,1,12
+NISP,NA,valve,12484,NA,Diatoms,valve,Staurosira construens var. binodis,DIAT,1,1
+NISP,NA,valve,12485,NA,Diatoms,valve,Staurosira construens var. venter,DIAT,1,262
+NISP,NA,valve,12487,NA,Diatoms,valve,Staurosirella leptostauron,DIAT,1,3
+NISP,NA,valve,12489,NA,Diatoms,valve,Staurosirella pinnata,DIAT,5,820
+NISP,NA,valve,12499,NA,Diatoms,valve,Tryblionella hungarica,DIAT,1,5
+NISP,NA,valve,12536,NA,Diatoms,valve,Cavinula pseudoscutiformis,DIAT,1,2
+NISP,NA,valve,12547,NA,Diatoms,valve,Tabularia tabulata,DIAT,2,96
+NISP,NA,valve,12548,NA,Diatoms,valve,Tabularia fasciculata,DIAT,1,7
+NISP,NA,valve,12551,NA,Diatoms,valve,Encyonopsis microcephala,DIAT,1,94
+NISP,NA,valve,12574,NA,Diatoms,valve,Staurosira construens var. subsalina,DIAT,3,617
+NISP,NA,valve,12585,NA,Diatoms,valve,Nitzschia archibaldii,DIAT,1,1
+NISP,NA,valve,12593,NA,Diatoms,valve,Aulacoseira spp.,DIAT,2,11
+NISP,NA,valve,12645,NA,Diatoms,valve,Paralia sulcata,DIAT,2,7
+NISP,NA,valve,12647,NA,Diatoms,valve,Cyclotella cryptica,DIAT,1,5
+NISP,NA,valve,12675,NA,Diatoms,valve,Nitzschia rosenstockii,DIAT,1,3
+NISP,NA,valve,12680,NA,Diatoms,valve,Mastogloia spp.,DIAT,3,102
+NISP,NA,valve,12769,NA,Diatoms,valve,Planothidium delicatulum,DIAT,2,91
+NISP,NA,valve,12776,NA,Diatoms,valve,Planothidium granum,DIAT,1,24
+NISP,NA,valve,12824,NA,Diatoms,valve,Hippodonta capitata,DIAT,3,516
+NISP,NA,valve,12825,NA,Diatoms,valve,Hippodonta hungarica,DIAT,3,169
+NISP,NA,valve,12870,NA,Diatoms,valve,Tryblionella acuminata,DIAT,1,5
+NISP,NA,valve,12880,NA,Diatoms,valve,Rhoicosphenia abbreviata,DIAT,1,3
+NISP,NA,valve,12944,NA,Diatoms,valve,Cyclostephanos spp.,DIAT,1,16
+NISP,NA,valve,12962,NA,Diatoms,valve,Undetermined diatom Chrysophyte Statocysts FRITZ,DIAT,1,71
+NISP,NA,valve,12967,NA,Diatoms,valve,Navicula cf. recens FRITZ,DIAT,1,46
+NISP,NA,valve,12968,NA,Diatoms,valve,Undetermined diatom Phytoliths,DIAT,1,22
+NISP,NA,valve,12969,NA,Diatoms,valve,Undetermined diatom Songe spicules,DIAT,1,10
+NISP,NA,valve,12971,NA,Diatoms,valve,Melosira sp. ind. FRITZ,DIAT,1,10
+NISP,NA,valve,12972,NA,Diatoms,valve,Achnanthes brevipes var. intermedia,DIAT,1,14
+NISP,NA,valve,12973,NA,Diatoms,valve,Cocconeis titicacaensis,DIAT,2,17
+NISP,NA,valve,12974,NA,Diatoms,valve,Navicula sp. A Uyuni FRITZ,DIAT,1,3
+NISP,NA,valve,12975,NA,Diatoms,valve,Sellaphora spp.,DIAT,1,2
+NISP,NA,valve,12977,NA,Diatoms,valve,Chaetoceros muelleri,DIAT,1,22
+NISP,NA,valve,12978,NA,Diatoms,valve,Undetermined diatom unknown resting spores FRITZ,DIAT,1,38
+NISP,NA,valve,12980,NA,Diatoms,valve,Denticula seriata FRITZ,DIAT,1,25
+NISP,NA,valve,12982,NA,Diatoms,valve,Tryblionella constricta & hungarica FRITZ,DIAT,1,60
+NISP,NA,valve,12987,NA,Diatoms,valve,Pseudostaurosira zeilleri,DIAT,4,736
+NISP,NA,valve,12988,NA,Diatoms,valve,Fragilaria sp. indet. B FRITZ,DIAT,1,2
+NISP,NA,valve,12989,NA,Diatoms,valve,Fragilaria sp. indet. A FRITZ,DIAT,1,1
+NISP,NA,valve,12997,NA,Diatoms,valve,Achnanthes atacamae FRITZ,DIAT,1,57
+NISP,NA,valve,12999,NA,Diatoms,valve,Cymbella sp. ind. A FRITZ,DIAT,1,16
+NISP,NA,valve,13033,NA,Diatoms,valve,Ulnaria ulna,DIAT,1,1
+NISP,NA,valve,13088,NA,Diatoms,valve,Discostella stelligera,DIAT,3,193
+NISP,NA,valve,13202,NA,Diatoms,valve,Navicula digitoradiata,DIAT,2,32
+NISP,NA,valve,13361,NA,Diatoms,valve,Staurosira spp.,DIAT,1,6
+NISP,NA,valve,13362,NA,Diatoms,valve,Pseudostaurosira spp.,DIAT,2,43
+NISP,NA,valve,24294,NA,Diatoms,valve,Hantzschia spp.,DIAT,1,26
+NISP,NA,valve,24351,NA,Diatoms,valve,Luticola spp.,DIAT,2,16
+NISP,NA,valve,24466,NA,Diatoms,valve,Amphora spp.,DIAT,2,109
+NISP,NA,valve,24586,NA,Diatoms,valve,Synedra acus,DIAT,1,1
+NISP,NA,valve,24648,NA,Diatoms,valve,Fragilaria zeilleri,DIAT,2,245
+NISP,NA,valve,24662,NA,Diatoms,valve,Staurosira construens var. construens,DIAT,1,4
+NISP,NA,valve,24673,NA,Diatoms,valve,Achnanthes atacamae,DIAT,1,8
+NISP,NA,valve,24682,NA,Diatoms,valve,Cyclotella stelligera (complex),DIAT,1,80
+NISP,NA,valve,24758,NA,Diatoms,valve,Achnanthes amoena,DIAT,1,12
+NISP,NA,valve,24780,NA,Diatoms,valve,Gomphonema exiguum,DIAT,1,1
+NISP,NA,valve,24876,NA,Diatoms,valve,Achnanthes cf. exigua,DIAT,1,19
+NISP,NA,valve,25133,NA,Diatoms,valve,Gomphonema cf. pumilum,DIAT,1,30
+NISP,NA,valve,25135,NA,Diatoms,valve,Cyclotella sp. 1,DIAT,1,1
+NISP,NA,valve,25136,NA,Diatoms,valve,Navicula suchlandtii,DIAT,1,1
+NISP,NA,valve,25139,NA,Diatoms,valve,Staurosira brevistriata,DIAT,1,6
+NISP,NA,valve,25166,NA,Diatoms,valve,Staurosira elliptica,DIAT,1,11
+NISP,NA,valve,25324,NA,Diatoms,valve,Fragilaria biceps,DIAT,1,441
+NISP,NA,valve,25325,NA,Diatoms,valve,Surirella wetzeli,DIAT,1,10
+NISP,NA,valve,25395,NA,Diatoms,valve,Achnanthes cf. conspicua,DIAT,1,318
+NISP,NA,valve,25396,NA,Diatoms,valve,Planothidium cf. delicatulum,DIAT,1,387
+NISP,NA,valve,25397,NA,Diatoms,valve,Craticula pampeana,DIAT,1,407
+NISP,NA,valve,25417,NA,Diatoms,valve,Cyclostephanos andinus,DIAT,5,931
+NISP,NA,valve,25418,NA,Diatoms,valve,Gomphonema vibrio,DIAT,1,479
+NISP,NA,valve,25419,NA,Diatoms,valve,Gomphonema vibrio var. pumilum,DIAT,1,483
+NISP,NA,valve,25421,NA,Diatoms,valve,Cymbella cf. cymbiformis,DIAT,1,381
+NISP,NA,valve,25423,NA,Diatoms,valve,Pseudostaurosira construens var. venter,DIAT,2,493
+NISP,NA,valve,25424,NA,Diatoms,valve,Nitzschia cf. frustulum,DIAT,1,464
+NISP,NA,valve,25425,NA,Diatoms,valve,Navicula cf. cari,DIAT,1,381
+NISP,NA,valve,25426,NA,Diatoms,valve,Nitzschia fonticola/N. lacuum,DIAT,1,388
+NISP,NA,valve,25427,NA,Diatoms,valve,Fragilaria spp. (planktonic),DIAT,1,379
+NISP,NA,valve,27000,NA,Diatoms,valve,Sellaphora sp. 1?,DIAT,1,1
+NISP,NA,valve,27142,NA,Diatoms,valve,Navicula sp.,DIAT,1,129
+NISP,NA,valve,27263,NA,Diatoms,valve,Nitzschia sp. 1,DIAT,1,1
+NISP,NA,valve,27264,NA,Diatoms,valve,Nitzschia sp. 2,DIAT,1,1
+NISP,NA,valve,27982,NA,Diatoms,valve,Undetermined diatom,DIAT,3,704
+NISP,NA,valve,28116,NA,Diatoms,valve,Undetermined Centric,DIAT,1,60
+NISP,NA,valve,28199,NA,Diatoms,valve,Luticola sp. 1?,DIAT,1,1
+NISP,NA,valve,28468,NA,Diatoms,valve,Placoneis sp. 1?,DIAT,1,1
+NISP,NA,valve,28469,NA,Diatoms,valve,Planothidium spp.,DIAT,3,105
+NISP,NA,valve,28693,NA,Diatoms,valve,Achnanthidium spp.,DIAT,1,1
+NISP,NA,valve,28701,NA,Diatoms,valve,Eolimna cf. minima,DIAT,1,379
+NISP,NA,valve,28734,NA,Diatoms,valve,Pinnularia cf. borealis,DIAT,1,6
+NISP,NA,valve,30639,NA,Diatoms,valve,Achnanthes cf. saccula,DIAT,1,29
+NISP,NA,valve,30640,NA,Diatoms,valve,Unknown diatom (girdle view),DIAT,1,177
+NISP,NA,valve,30641,NA,Diatoms,valve,Fragilaria ulna/ Synedra acus,DIAT,1,44
+NISP,NA,valve,30642,NA,Diatoms,valve,Gomphonema pumilum (girdle view),DIAT,1,28
+NISP,NA,valve,30643,NA,Diatoms,valve,Mastogloia braunii,DIAT,1,20
+NISP,NA,valve,30644,NA,Diatoms,valve,Nitzschia sp. (fonticola? + palea),DIAT,1,262
+NISP,NA,valve,30645,NA,Diatoms,valve,Amphora copulata (libyca),DIAT,1,443
+NISP,NA,valve,30647,NA,Diatoms,valve,cf. Cavinula mollicula,DIAT,1,381
+NISP,NA,valve,30648,NA,Diatoms,valve,Undetermined Cymbelloid,DIAT,1,393
+NISP,NA,valve,30779,NA,Diatoms,valve,Amphora atacamae,DIAT,1,1
+NISP,NA,valve,30780,NA,Diatoms,valve,Cocconeis scutellum var. parva,DIAT,1,1
+NISP,NA,valve,30781,NA,Diatoms,valve,Encyonema rumrichae,DIAT,1,1
+NISP,NA,valve,30782,NA,Diatoms,valve,Navicula cf. veneta,DIAT,1,86
+NISP,NA,valve,30783,NA,Diatoms,valve,Navicula circumtexta,DIAT,1,60
+NISP,NA,valve,30784,NA,Diatoms,valve,Navicula incarum,DIAT,1,74
+NISP,NA,valve,30785,NA,Diatoms,valve,Navicula lauca,DIAT,1,84
+NISP,NA,valve,30786,NA,Diatoms,valve,Navicula supergregaria,DIAT,1,2
+NISP,NA,valve,30787,NA,Diatoms,valve,Nitzschia chungara,DIAT,1,58
+NISP,NA,valve,30788,NA,Diatoms,valve,Nitzschia semirobusta,DIAT,1,15
+NISP,NA,valve,30789,NA,Diatoms,valve,Placoneis tersa,DIAT,1,1
+NISP,NA,valve,30790,NA,Diatoms,valve,Tryblionella constricta,DIAT,1,105
+NISP,NA,valve,30791,NA,Diatoms,valve,Tryblionella compressa var. vexans,DIAT,1,8
+NISP,NA,valve,30792,NA,Diatoms,valve,Tryblionella compressa var. compressa,DIAT,1,21
+NISP,NA,valve,30847,NA,Diatoms,valve,Achnanthes brevipes var. brevipes,DIAT,1,6
+NISP,NA,valve,30848,NA,Diatoms,valve,Encyonopsis spp.,DIAT,1,2
+NISP,NA,valve,30849,NA,Diatoms,valve,Naviculadicta spp.,DIAT,1,2
+NISP,NA,valve,30850,NA,Diatoms,valve,Naviculadicta submuralis,DIAT,1,3
+NISP,NA,valve,30851,NA,Diatoms,valve,Naviculadicta utermoehlii,DIAT,1,71
+NISP,NA,valve,30852,NA,Diatoms,valve,Pinnuavis spp.,DIAT,1,14
+NISP,NA,valve,30853,NA,Diatoms,valve,Staurosira cf. construens var. venter,DIAT,1,140
+NISP,NA,valve,30854,NA,Diatoms,valve,Staurosirella spp.,DIAT,1,1
+NISP,NA,valve,35889,NA,Diatoms,valve,Tryblionella spp.,DIAT,1,10
+NISP,NA,valve,36039,NA,Diatoms,valve,Campylodiscus spp.,DIAT,1,17
+NISP,NA,valve,38499,NA,Diatoms,valve,Martyana spp.,DIAT,2,76
+NISP,NA,valve,38500,NA,Diatoms,valve,Campylodiscus sp.1 ?,DIAT,1,1
+NISP,NA,valve,38501,NA,Diatoms,valve,Cavinula sp. 1 ?,DIAT,2,2
+NISP,NA,valve,38502,NA,Diatoms,valve,Fragilaria venter,DIAT,2,84
+NISP,NA,valve,38503,NA,Diatoms,valve,Amphora cf. libyca,DIAT,1,16
+NISP,NA,valve,38505,NA,Diatoms,valve,Entomoneis cf. paludosa subsalina,DIAT,1,8
+NISP,NA,valve,38506,NA,Diatoms,valve,Entomoneis cf. pseudoduplex,DIAT,1,1
+NISP,NA,valve,38507,NA,Diatoms,valve,Pseudostaurosira cf. dicipiens,DIAT,2,3
+NISP,NA,valve,39184,NA,Diatoms,valve,Halamphora spp.,DIAT,1,4
+percent,NA,valve,10306,NA,Diatoms,valve,Achnanthes spp.,DIAT,1,51
+percent,NA,valve,10395,NA,Diatoms,valve,Aulacoseira granulata,DIAT,1,15
+percent,NA,valve,10404,NA,Diatoms,valve,Caloneis bacillum,DIAT,1,10
+percent,NA,valve,10448,NA,Diatoms,valve,Cocconeis placentula,DIAT,1,130
+percent,NA,valve,10462,NA,Diatoms,valve,Cocconeis spp.,DIAT,1,226
+percent,NA,valve,10479,NA,Diatoms,valve,Cyclotella meneghiniana,DIAT,1,289
+percent,NA,valve,10614,NA,Diatoms,valve,Cymbella spp.,DIAT,1,114
+percent,NA,valve,10662,NA,Diatoms,valve,Diploneis spp.,DIAT,1,141
+percent,NA,valve,10682,NA,Diatoms,valve,Epithemia spp.,DIAT,1,285
+percent,NA,valve,10866,NA,Diatoms,valve,Eunotia spp.,DIAT,1,3
+percent,NA,valve,10886,NA,Diatoms,valve,Fragilaria construens,DIAT,1,36
+percent,NA,valve,10899,NA,Diatoms,valve,Fragilaria pinnata,DIAT,1,86
+percent,NA,valve,10939,NA,Diatoms,valve,Fragilaria fasciculata,DIAT,1,143
+percent,NA,valve,10957,NA,Diatoms,valve,Fragilaria tenera,DIAT,1,6
+percent,NA,valve,10971,NA,Diatoms,valve,Fragilaria spp.,DIAT,1,65
+percent,NA,valve,11104,NA,Diatoms,valve,Gomphonema spp.,DIAT,1,235
+percent,NA,valve,11124,NA,Diatoms,valve,Gyrosigma spp.,DIAT,1,2
+percent,NA,valve,11641,NA,Diatoms,valve,Navicula spp.,DIAT,1,115
+percent,NA,valve,11946,NA,Diatoms,valve,Nitzschia spp.,DIAT,1,141
+percent,NA,valve,12117,NA,Diatoms,valve,Pinnularia spp.,DIAT,1,61
+percent,NA,valve,12156,NA,Diatoms,valve,Rhopalodia spp.,DIAT,1,34
+percent,NA,valve,12309,NA,Diatoms,valve,Surirella spp.,DIAT,1,69
+percent,NA,valve,12338,NA,Diatoms,valve,Synedra ulna,DIAT,1,92
+percent,NA,valve,12680,NA,Diatoms,valve,Mastogloia spp.,DIAT,1,85
+percent,NA,valve,12825,NA,Diatoms,valve,Hippodonta hungarica,DIAT,1,74
+percent,NA,valve,12973,NA,Diatoms,valve,Cocconeis titicacaensis,DIAT,1,1
+percent,NA,valve,12975,NA,Diatoms,valve,Sellaphora spp.,DIAT,1,6
+percent,NA,valve,13088,NA,Diatoms,valve,Discostella stelligera,DIAT,1,156
+percent,NA,valve,24294,NA,Diatoms,valve,Hantzschia spp.,DIAT,1,29
+percent,NA,valve,24351,NA,Diatoms,valve,Luticola spp.,DIAT,1,39
+percent,NA,valve,24648,NA,Diatoms,valve,Fragilaria zeilleri,DIAT,1,248
+percent,NA,valve,25417,NA,Diatoms,valve,Cyclostephanos andinus,DIAT,1,261
+percent,NA,valve,28469,NA,Diatoms,valve,Planothidium spp.,DIAT,1,77
+percent,NA,valve,28734,NA,Diatoms,valve,Pinnularia cf. borealis,DIAT,1,35
+percent,NA,valve,35889,NA,Diatoms,valve,Tryblionella spp.,DIAT,1,15
+percent,NA,valve,36039,NA,Diatoms,valve,Campylodiscus spp.,DIAT,1,24
+percent,NA,valve,38499,NA,Diatoms,valve,Martyana spp.,DIAT,1,79
+percent,NA,valve,38501,NA,Diatoms,valve,Cavinula sp. 1 ?,DIAT,1,1
+percent,NA,valve,38502,NA,Diatoms,valve,Fragilaria venter,DIAT,1,72
+percent,NA,valve,38503,NA,Diatoms,valve,Amphora cf. libyca,DIAT,1,109
+percent,NA,valve,38505,NA,Diatoms,valve,Entomoneis cf. paludosa subsalina,DIAT,1,8
+percent,NA,valve,38506,NA,Diatoms,valve,Entomoneis cf. pseudoduplex,DIAT,1,6
+percent,NA,valve,39184,NA,Diatoms,valve,Halamphora spp.,DIAT,1,7
