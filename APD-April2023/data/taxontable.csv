@@ -1,0 +1,440 @@
+taxonid,variablename,harmonizedname,ecologicalgroup,samples,sites
+1,Abies,Abies,TRSH,200,7
+1580,Acacia,Acacia,TRSH,256,18
+37408,Acacia (group I),Acacia,TRSH,31,3
+45963,Acacia (group II),Acacia,TRSH,8,2
+37409,Acacia (group III),Acacia,TRSH,9,1
+46327,Acacia albida,Acacia,TRSH,3,1
+43585,Acacia mellifera (smooth),Acacia,TRSH,18,1
+20612,Acacia/Albizia,Acacia,TRSH,17,1
+338,Acer,Acer,TRSH,377,14
+37410,Adansonia,Adansonia,TRSH,1,1
+39997,Adenium,Adenium,TRSH,1,1
+40292,Adina-type,Adina-type,TRSH,23,1
+20613,Aegle marmelos,Aegle marmelos,TRSH,1,1
+2499,Aeschynomene,Aeschynomene,TRSH,1,1
+47313,Aeschynomene afraspera-type,Aeschynomene,TRSH,1,1
+11,Aesculus,Aesculus,TRSH,4,1
+37852,Alangium,Alangium,TRSH,1,1
+9833,Albizia,Albizia,TRSH,2,1
+1708,Alchornea,Alchornea,TRSH,14,4
+1822,Allophylus,Allophylus,TRSH,1,1
+330,Alnus,Alnus,TRSH,341,20
+558,Amelanchier,Amelanchier,TRSH,1,1
+347,Anacardiaceae,Anacardiaceae,TRSH,35,4
+5382,Andrachne,Andrachne,TRSH,5,2
+9841,Antidesma,Antidesma,TRSH,1,1
+37854,Aphanamixis-type,Aphanamixis-type,TRSH,1,1
+37855,Aporosa,Aporosa,TRSH,10,1
+3834,Arbutus,Arbutus,TRSH,154,4
+23,Arceuthobium,Arceuthobium,TRSH,15,1
+199,Arecaceae,Arecaceae,PALM,4,1
+910,Arecaceae undiff.,Arecaceae,PALM,1,1
+47403,Arthrocaulon-type,Arthrocaulon-type,TRSH,51,1
+20564,Atalantia,Atalantia,TRSH,3,1
+5207,Atraphaxis,Atraphaxis,TRSH,14,2
+31241,Atraphaxis-type,Atraphaxis,TRSH,2,1
+1131,Avicennia,Avicennia,MANG,75,3
+20614,Azadirachta indica,Azadirachta indica,TRSH,2,1
+36762,Balanites,Balanites,TRSH,75,7
+43676,Barbeya oleoides,Barbeya oleoides,TRSH,1,1
+37773,Barleria,Barleria,TRSH,1,1
+1631,Berberis,Berberis,TRSH,27,4
+29,Betula,Betula,TRSH,179,14
+1885,Bignoniaceae,Bignoniaceae,TRSH,2,1
+3290,Bignoniaceae undiff.,Bignoniaceae,TRSH,1,1
+37774,Blepharis,Blepharis,TRSH,104,6
+40009,Blepharis-type,Blepharis,TRSH,53,2
+9885,Bombax,Bombax,TRSH,1,1
+20566,Borassus,Borassus,PALM,6,1
+20615,Borassus flabellifer,Borassus,PALM,3,1
+36771,Boscia,Boscia,TRSH,20,3
+47314,Boscia-type angustifolia,Boscia,TRSH,4,1
+47315,Boscia-type salicifolia,Boscia,TRSH,8,1
+47405,Boscia/Cadaba,Boscia,TRSH,1,1
+28521,Boswellia,Boswellia,TRSH,6,1
+2348,Brachystegia,Brachystegia,TRSH,1,1
+2353,Bridelia,Bridelia,TRSH,2,2
+36774,Brucea,Brucea,TRSH,1,1
+37776,Burkea,Burkea,TRSH,2,1
+37777,Cadaba,Cadaba,TRSH,17,2
+47316,Cadaba-type,Cadaba-type,TRSH,5,1
+2331,Caesalpinia-type,Caesalpinia-type,TRSH,4,2
+2151,Caesalpinioideae undiff.,Caesalpinioideae undiff.,TRSH,2,2
+31396,Calicotome villosa,Calicotome villosa,TRSH,3,1
+5181,Calligonum,Calligonum,TRSH,146,9
+33651,Calligonum polygonoides,Calligonum polygonoides,TRSH,13,1
+5184,Calligonum/Pteropyrum,Calligonum/Pteropyrum,TRSH,8,1
+33650,Calligonum/Pteropyrum-type,Calligonum/Pteropyrum-type,TRSH,14,1
+2415,Canthium,Canthium,TRSH,1,1
+2105,Capparaceae,Capparaceae,TRSH,10,4
+36777,Capparaceae undiff.,Capparaceae,TRSH,7,1
+3990,Capparis,Capparis,TRSH,27,8
+40359,Capparis fascicularis-type,Capparis,TRSH,4,1
+42698,Capparis tomentosa-type,Capparis,TRSH,3,1
+43701,Capparis/Cadaba,Capparis,TRSH,5,1
+394,Caprifoliaceae,Caprifoliaceae,TRSH,3,1
+43,Caprifoliaceae undiff.,Caprifoliaceae,TRSH,2,1
+20616,Careya/Barringtonia,Careya/Barringtonia,TRSH,2,1
+40167,Carissa,Carissa,TRSH,1,1
+47317,Carissa spinarum-type,Carissa,TRSH,3,1
+1429,Carpinus,Carpinus,TRSH,64,7
+1319,Carpinus betulus,Carpinus,TRSH,45,6
+1332,Carpinus orientalis,Carpinus,TRSH,180,4
+44,Carya,Carya,TRSH,50,5
+2056,Cassia,Cassia,TRSH,55,7
+1958,Cassia-type,Cassia,TRSH,64,3
+20617,Cassia/Senna,Cassia,TRSH,12,1
+20568,Cassine,Cassine,TRSH,2,1
+47,Castanea,Castanea,TRSH,38,6
+2657,Castanea sativa,Castanea,TRSH,1,1
+9601,Castanopsis,Castanopsis,TRSH,53,1
+2704,Casuarina,Casuarina,TRSH,34,7
+28979,Catalpa,Catalpa,TRSH,1,1
+45939,Caucanthus-type,Caucanthus-type,TRSH,1,1
+2249,Cedrus,Cedrus,TRSH,433,16
+3997,Cedrus libani,Cedrus,TRSH,50,2
+1562,Celastraceae,Celastraceae,TRSH,12,1
+49,Celtis,Celtis,TRSH,108,11
+5322,Ceratonia,Ceratonia,TRSH,106,7
+3479,Cercis,Cercis,TRSH,168,4
+3733,cf. Abies,Abies,TRSH,1,1
+40366,cf. Boscia,Boscia,TRSH,3,1
+40367,cf. Cadaba,Cadaba,TRSH,17,1
+37909,cf. Cadaba/Maerua,Cadaba,TRSH,1,1
+40368,cf. Capparis,Capparis,TRSH,4,1
+37910,cf. Cayratia,Cayratia,TRSH,1,1
+39554,cf. Celastraceae,Celastraceae,TRSH,1,1
+2631,cf. Celtis,Celtis,TRSH,12,1
+44949,cf. Combretum,Combretum,TRSH,21,1
+4473,cf. Loranthaceae,Loranthaceae,TRSH,1,1
+2571,cf. Populus,Populus,TRSH,1,1
+1075,cf. Rhus,Rhus,TRSH,1,1
+4217,cf. Thymelaeaceae,Thymelaeaceae,TRSH,2,1
+1113,cf. Trema,Trema,TRSH,1,1
+20618,Chloroxylon swietenia,Chloroxylon swietenia,TRSH,2,1
+40320,Chrozophora brocchiana-type,Chrozophora brocchiana-type,TRSH,25,1
+36782,Cissampelos,Cissampelos,TRSH,2,1
+43373,Cissampelos-type mucronata,Cissampelos,TRSH,1,1
+2096,Cissus,Cissus,TRSH,12,6
+3420,Cistus,Cistus,TRSH,320,11
+31629,Cistus-type,Cistus,TRSH,17,1
+37649,Cocculus pendulus,Cocculus pendulus,TRSH,4,2
+42702,Cocculus pendulus-type,Cocculus pendulus-type,TRSH,3,1
+9617,Cocos,Cocos,PALM,2,1
+9618,Cocos nucifera,Cocos,PALM,4,1
+2333,Combretaceae,Combretaceae,TRSH,126,11
+257,Combretaceae/Melastomataceae,Combretaceae,TRSH,59,3
+29848,Combretum,Combretum,TRSH,25,1
+3234,Combretum-type,Combretum,TRSH,16,1
+45969,Combretum-type aculeatum,Combretum,TRSH,28,2
+43578,Combretum-type molle,Combretum,TRSH,45,4
+43375,Commelina-type benghalensis,Commelina-type benghalensis,TRSH,1,1
+2378,Commiphora,Commiphora,TRSH,87,12
+40369,Commiphora-type,Commiphora,TRSH,29,1
+1944,Coniferae,Coniferae,TRSH,1,1
+1724,Cordia,Cordia,TRSH,2,2
+40127,Cordia africana-type,Cordia,TRSH,1,1
+361,Cornus,Cornus,TRSH,1,1
+67,Corylus,Corylus,TRSH,181,19
+20681,Cotinus,Cotinus,TRSH,1,1
+1430,Crataegus,Crataegus,TRSH,182,4
+69,Crataegus-type,Crataegus,TRSH,67,2
+36789,Crateva adansonii,Crateva adansonii,TRSH,5,1
+1770,Croton,Croton,TRSH,2,2
+1925,Croton-type,Croton,TRSH,20,1
+36790,Crudia,Crudia,TRSH,1,1
+72,Cupressaceae,Cupressaceae,TRSH,163,5
+1476,Cupressus,Cupressus,TRSH,17,1
+1017,Dacrydium,Dacrydium,TRSH,1,1
+1833,Dalechampia,Dalechampia,TRSH,2,1
+2680,Daphne,Daphne,TRSH,21,4
+4214,Daphne/Thymelaea,Daphne,TRSH,1,1
+37787,Delonix,Delonix,TRSH,5,1
+37426,Detarium,Detarium,TRSH,1,1
+36936,Dialium,Dialium,TRSH,1,1
+43111,Dichrostachys cinerea-type,Dichrostachys cinerea-type,TRSH,2,1
+852,Diospyros,Diospyros,TRSH,6,3
+43522,Dipterygium,Dipterygium,TRSH,64,2
+47412,Dissotis-type,Dissotis-type,TRSH,1,1
+80,Dodonaea,Dodonaea,TRSH,157,5
+20639,Dodonaea viscosa,Dodonaea,TRSH,32,3
+2433,Dodonaea viscosa-type,Dodonaea,TRSH,12,2
+20642,Drypetes sepiaria,Drypetes undiff.,TRSH,21,1
+20644,Drypetes undiff.,Drypetes undiff.,TRSH,21,1
+84,Elaeagnus,Elaeagnus,TRSH,127,6
+37428,Elaeis,Elaeis,PALM,1,1
+37429,Elaeis guineensis,Elaeis,PALM,2,1
+3640,Engelhardia,Engelhardia,TRSH,1,1
+37680,Entada,Entada,TRSH,3,1
+366,Ephedra,Ephedraceae,TRSH,235,15
+44952,Ephedra (non smooth),Ephedraceae,TRSH,7,1
+44951,Ephedra (smooth),Ephedraceae,TRSH,10,1
+3421,Ephedra distachya,Ephedraceae,TRSH,34,2
+3572,Ephedra distachya-type,Ephedraceae,TRSH,192,11
+3422,Ephedra fragilis,Ephedraceae,TRSH,227,7
+3578,Ephedra fragilis-type,Ephedraceae,TRSH,364,12
+43583,Ephedra fragilis-type (smooth),Ephedraceae,TRSH,5,1
+32757,Ephedra intermedia-type,Ephedraceae,TRSH,4,2
+32758,Ephedra major-type,Ephedraceae,TRSH,67,1
+23490,Ephedraceae,Ephedraceae,TRSH,1,1
+2903,Erica,Erica,TRSH,36,4
+4250,Erica arborea,Erica,TRSH,29,2
+47319,Erica-type arborea,Erica,TRSH,41,1
+92,Ericaceae,Ericaceae,TRSH,239,16
+1249,Eucalyptus,Eucalyptus,TRSH,11,3
+36807,Eugenia/Syzygium,Eugenia/Syzygium,TRSH,6,1
+37861,Eurya-type,Eurya-type,TRSH,32,1
+32818,Fagonia,Fagonia,TRSH,28,5
+107,Fagus,Fagus,TRSH,36,8
+43113,Faidherbia albida,Faidherbia albida,TRSH,21,1
+1727,Ficus,Ficus,TRSH,46,6
+36810,Flacourtia,Flacourtia,TRSH,3,1
+47320,Flueggea virosa,Flueggea virosa,TRSH,4,1
+4299,Frankenia,Frankenia,TRSH,1,1
+5202,Frankenia hirsuta-type,Frankenia,TRSH,3,1
+369,Fraxinus,Fraxinus,TRSH,422,16
+3579,Fraxinus excelsior,Fraxinus,TRSH,33,4
+4301,Fraxinus excelsior-type,Fraxinus,TRSH,12,1
+3580,Fraxinus ornus,Fraxinus,TRSH,204,6
+32843,Fraxinus ornus-type,Fraxinus,TRSH,2,1
+46160,Fraxinus syriaca,Fraxinus,TRSH,21,1
+5461,Fumana-type,Fumana-type,TRSH,2,1
+2386,Garcinia,Garcinia,TRSH,1,1
+3449,Genista-type,Genista-type,TRSH,4,2
+20571,Grewia,Grewia,TRSH,77,6
+37718,Grewia-type,Grewia-type,TRSH,20,1
+47322,Guiera senegalensis,Guiera senegalensis,TRSH,39,1
+2411,Hagenia abyssinica,Hagenia abyssinica,TRSH,4,4
+3125,Hamamelidaceae,Hamamelidaceae,TRSH,6,1
+20671,Hardwickia binata,Hardwickia binata,TRSH,23,1
+2684,Hedera,Hedera,TRSH,148,4
+20578,Helicteres,Helicteres,TRSH,6,1
+1732,Hibiscus,Hibiscus,TRSH,10,1
+37666,Hibiscus-type,Hibiscus,TRSH,1,1
+37874,Hippocastanoideae undiff.,Hippocastanoideae undiff.,TRSH,4,1
+3574,Hippocratea,Hippocratea,TRSH,1,1
+2677,Hippophaë,Hippophaë,TRSH,177,6
+1306,Hippophaë rhamnoides,Hippophaë,TRSH,3,1
+20579,Hiptage,Hiptage,TRSH,7,1
+20580,Holoptelea,Holoptelea,TRSH,1,1
+20674,Holoptelea integrifolia,Holoptelea,TRSH,23,1
+20599,Hopea/Shorea,Hopea/Shorea,TRSH,23,1
+2523,Hyphaene,Hyphaene,PALM,34,3
+2524,Hyphaene cf. H. thebaica,Hyphaene,PALM,1,1
+40360,Hyphaene-type,Hyphaene,PALM,31,2
+37793,Icacinaceae,Icacinaceae,TRSH,26,2
+135,Ilex,Ilex,TRSH,22,1
+4406,Ilex aquifolium,Ilex,TRSH,1,1
+856,Illicium,Illicium,TRSH,8,1
+29798,Indigofera,Indigofera,TRSH,51,8
+29799,Indigofera-type,Indigofera,TRSH,1,1
+20581,Isonandra,Isonandra,TRSH,1,1
+2010,Ixora,Ixora,TRSH,2,1
+20676,Ixora-type,Ixora,TRSH,9,1
+3195,Jatropha,Jatropha,TRSH,1,1
+40370,Jatropha/Croton,Jatropha,TRSH,1,1
+372,Juglans,Juglans,TRSH,410,15
+983,Juniperus,Juniperus,TRSH,476,18
+363,Juniperus-type,Juniperus,TRSH,9,1
+29163,Keetia,Keetia,TRSH,1,1
+36966,Kohautia,Kohautia,TRSH,25,3
+20680,Lagerstroemia parviflora,Lagerstroemia parviflora,TRSH,19,1
+20585,Lannea,Lannea,TRSH,51,5
+2347,Lannea-type,Lannea,TRSH,5,1
+20682,Lannea/Rhus,Lannea,TRSH,23,1
+2640,Lauraceae,Lauraceae,TRSH,1,1
+5305,Laurus,Laurus,TRSH,152,4
+40389,Lawsonia,Lawsonia,TRSH,1,1
+40070,Leptaulus,Leptaulus,TRSH,1,1
+4435,Ligustrum-type,Ligustrum-type,TRSH,1,1
+37921,Linociera,Linociera,TRSH,2,2
+36838,Lippia,Lippia,TRSH,2,1
+36839,Lippia-type,Lippia,TRSH,1,1
+162,Liquidambar,Liquidambar,TRSH,32,1
+164,Lonicera,Lonicera,TRSH,157,6
+776,Loranthaceae,Loranthaceae,TRSH,13,3
+3583,Loranthus,Loranthus,TRSH,2,2
+4474,Loranthus europaeus,Loranthus,TRSH,1,1
+9701,Macaranga,Macaranga,TRSH,1,1
+2355,Macaranga-type,Macaranga,TRSH,5,1
+20586,Madhuca,Madhuca,TRSH,22,1
+28523,Maerua,Maerua,TRSH,120,7
+2349,Maerua-type,Maerua,TRSH,34,3
+2398,Maesa,Maesa,TRSH,2,1
+3395,Magnoliaceae,Magnoliaceae,TRSH,25,1
+3329,Mallotus,Mallotus,TRSH,1,1
+47356,Mangifera indica,Mangifera,TRSH,1,1
+20683,Mangifera/Anacardium,Mangifera,TRSH,3,1
+1622,Maytenus,Maytenus,TRSH,8,4
+1701,Melastomataceae,Melastomataceae,TRSH,5,1
+2364,Meliaceae,Meliaceae,TRSH,1,1
+3288,Meliaceae undiff.,Meliaceae,TRSH,20,2
+786,Mimosa,Mimosa,TRSH,1,1
+39458,Mimosa pigra-type,Mimosa,TRSH,6,1
+29012,mimosoid clade,Mimosa,TRSH,1,1
+29018,mimosoid clade undiff.,Mimosa,TRSH,5,1
+2525,Mimusops,Mimusops,TRSH,1,1
+37922,Mimusops-type,Mimusops,TRSH,3,1
+29159,Mitragyna,Mitragyna,TRSH,3,1
+40390,Mitriostigma,Mitriostigma,TRSH,1,1
+185,Moraceae,Moraceae,TRSH,46,1
+36853,Morelia senegalensis,Morelia senegalensis,TRSH,1,1
+37931,Morella cf. M. kandtiana,Morella,TRSH,3,1
+37929,Morella cf. M. salicifolia,Morella,TRSH,1,1
+186,Morus,Morus,TRSH,6,2
+383,Myrica,Myrica,TRSH,118,10
+883,Myrtaceae,Myrtaceae,TRSH,7,4
+4556,Myrtus,Myrtus,TRSH,189,5
+37673,Nauclea,Nauclea,TRSH,2,1
+5248,Nerium,Nerium,TRSH,155,3
+5247,Nitraria,Nitraria,TRSH,28,4
+29516,Nuxia,Nuxia,TRSH,1,1
+2338,Olea,Olea,TRSH,748,27
+36856,Olea capensis,Olea,TRSH,3,1
+2401,Olea capensis-type,Olea,TRSH,8,1
+37938,Olea cf. O. capensis subsp. hochstetteri,Olea,TRSH,2,1
+37934,Olea cf. O. europaea subsp. cuspidata,Olea,TRSH,3,1
+4582,Olea europaea,Olea,TRSH,27,2
+37933,Olea europaea subsp. cuspidata,Olea,TRSH,4,1
+2402,Olea europaea-type,Olea,TRSH,22,1
+5512,Olea-type,Olea,TRSH,141,1
+2339,Oleaceae,Oleaceae,TRSH,15,5
+674,Oleaceae undiff.,Oleaceae undiff.,TRSH,55,3
+1237,Ostrya,Ostrya,TRSH,29,4
+3588,Ostrya/Carpinus orientalis,Ostrya,TRSH,40,4
+3339,Palaquium,Palaquium,TRSH,1,1
+3589,Paliurus,Paliurus,TRSH,3,3
+3340,Pandanus,Pandanus,TRSH,1,1
+36866,Pavetta,Pavetta,TRSH,1,1
+5239,Periploca,Periploca,TRSH,1,1
+3425,Phillyrea,Phillyrea,TRSH,401,10
+4090,Phillyrea-type,Phillyrea,TRSH,66,1
+2403,Phoenix,Phoenix,PALM,33,6
+47901,Phoenix dactylifera,Phoenix,PALM,25,1
+47135,Phyllanthus-type maderaspatensis,Phyllanthus-type maderaspatensis,TRSH,9,1
+210,Picea,Picea,TRSH,71,9
+37744,Piliostigma,Piliostigma,TRSH,83,4
+329,Pinaceae,Pinaceae,TRSH,1,1
+64,Pinaceae undiff.,Pinaceae,TRSH,7,3
+385,Pinus,Pinus,TRSH,1376,31
+4618,Pinus halepensis,Pinus,TRSH,6,1
+388,Pistacia,Pistacia,TRSH,785,20
+46086,Pistacia atlantica,Pistacia,TRSH,123,2
+46087,Pistacia palaestina,Pistacia,TRSH,152,2
+222,Platanus,Platanus,TRSH,207,10
+33523,Platanus orientalis,Platanus,TRSH,72,1
+3641,Platycarya,Platycarya,TRSH,27,1
+1028,Podocarpus,Podocarpus,TRSH,158,15
+389,Populus,Populus,TRSH,238,9
+38461,Populus sp.,Populus,TRSH,1,1
+40391,Pouchetia,Pouchetia,TRSH,1,1
+1494,Prosopis,Prosopis,TRSH,53,7
+35171,Prosopis-type,Prosopis,TRSH,27,1
+37806,Protea,Protea,TRSH,1,1
+715,Prunus,Prunus,TRSH,143,3
+37960,Prunus africana,Prunus,TRSH,1,1
+245,Prunus-type,Prunus,TRSH,93,4
+37867,Pseudolarix,Pseudolarix,TRSH,1,1
+27355,Pterocarpus,Pterocarpus,TRSH,19,1
+2667,Pterocarya,Pterocarya,TRSH,56,3
+37941,Pterolobium,Pterolobium,TRSH,1,1
+5193,Punica granatum,Punica granatum,TRSH,4,2
+251,Quercus,Quercus,TRSH,173,8
+2342,Quercus (deciduous),Quercus,TRSH,245,6
+2532,Quercus (evergreen),Quercus,TRSH,252,5
+4713,Quercus cerris-type,Quercus,TRSH,196,3
+4716,Quercus coccifera,Quercus,TRSH,606,9
+3592,Quercus coccifera-type,Quercus,TRSH,206,5
+4717,Quercus ilex,Quercus,TRSH,158,2
+2929,Quercus ilex-type,Quercus,TRSH,15,3
+46157,Quercus indet.,Quercus,TRSH,170,2
+33668,Quercus infectoria subsp. veneris-type,Quercus,TRSH,47,1
+33691,Quercus ithaburensis,Quercus,TRSH,392,6
+33692,Quercus ithaburensis-type,Quercus,TRSH,158,2
+3593,Quercus robur-type,Quercus,TRSH,8,1
+33676,Quercus sect. Cyclobalanopsis,Quercus,TRSH,52,1
+4721,Quercus suber-type,Quercus,TRSH,2,1
+2529,Randia,Randia,TRSH,1,1
+9785,Randia-type,Randia,TRSH,8,1
+1405,Rapanea,Rapanea,TRSH,1,1
+37868,Reevesia,Reevesia,TRSH,2,1
+256,Rhamnaceae,Rhamnaceae,TRSH,43,7
+785,Rhamnus,Rhamnus,TRSH,312,10
+3072,Rhamnus-type,Rhamnus,TRSH,3,2
+47401,Rhanterium-type,Rhanterium-type,TRSH,6,1
+258,Rhizophora,Rhizophora,MANG,62,2
+260,Rhus,Rhus,TRSH,214,11
+27625,Rhus-type,Rhus,TRSH,9,4
+733,Rubiaceae,Rubiaceae,TRSH,272,10
+266,Rubiaceae undiff.,Rubiaceae,TRSH,7,3
+267,Rubus,Rubus,TRSH,84,2
+390,Rutaceae,Rutaceae,TRSH,1,1
+1220,Rutaceae undiff.,Rutaceae,TRSH,12,1
+29556,Salicaceae undiff.,Rutaceae,TRSH,9,1
+271,Salix,Salix,TRSH,434,21
+37435,Salvadora,Salvadoraceae,TRSH,75,6
+37748,Salvadora persica,Salvadoraceae,TRSH,17,3
+47262,Salvadora persica-type,Salvadoraceae,TRSH,62,1
+33882,Salvadoraceae,Salvadoraceae,TRSH,10,4
+275,Sambucus,Sambucus,TRSH,17,6
+3597,Sambucus nigra-type,Sambucus,TRSH,4,1
+1231,Sapindaceae undiff.,Sapindaceae undiff.,TRSH,7,2
+2043,Sapium,Sapium,TRSH,2,1
+1847,Sapotaceae,Sapotaceae,TRSH,1,1
+2100,Sapotaceae undiff.,Sapotaceae,TRSH,9,3
+2375,Schefflera,Schefflera,TRSH,1,1
+37870,Schima-type,Schima-type,TRSH,14,1
+37871,Schisandra,Schisandra,TRSH,1,1
+20684,Schleichera oleosa,Schisandra,TRSH,22,1
+2495,Securinega,Securinega,TRSH,21,1
+37749,Securinega virosa,Securinega,TRSH,1,1
+37809,Sherbournia,Sherbournia,TRSH,1,1
+24463,Skimmia,Skimmia,TRSH,2,1
+36879,Sorindeia,Sorindeia,TRSH,1,1
+1748,Spondias-type,Spondias-type,TRSH,1,1
+22707,Sterculia,Sterculia,TRSH,1,1
+1813,Styracaceae,Styracaceae,TRSH,2,1
+1812,Styrax,Styrax,TRSH,158,4
+29508,Styrax-type,Styrax,TRSH,1,1
+1269,Symphoricarpos,Symphoricarpos,TRSH,2,1
+297,Symplocos,Symplocos,TRSH,16,1
+20591,Syzygium,Syzygium,TRSH,4,1
+2368,Syzygium-type,Syzygium,TRSH,2,2
+20686,Syzygium/Psidium,Syzygium,TRSH,7,1
+20592,Tamarindus,Tamarindus,TRSH,2,1
+20687,Tamarindus indica,Tamarindus,TRSH,5,1
+46017,Tamarindus-type indica,Tamarindus,TRSH,11,1
+2344,Tamarix,Tamarix,TRSH,579,31
+36889,Tapinanthus,Tapinanthus,TRSH,3,1
+36890,Tapinanthus-type,Tapinanthus,TRSH,1,1
+299,Taxus,Taxus,TRSH,2,2
+37943,Teclea,Teclea,TRSH,1,1
+20688,Tectona grandis,Tectona grandis,TRSH,8,1
+30622,Terminalia,Terminalia,TRSH,14,1
+37872,Tetracentron,Tetracentron,TRSH,2,1
+43556,Tetraena simplex-type,Tetraena simplex-type,TRSH,12,1
+4216,Thymelaea,Thymelaea,TRSH,26,4
+302,Tilia,Tilia,TRSH,24,7
+1752,Tournefortia,Tournefortia,TRSH,1,1
+304,Trema,Trema,TRSH,29,1
+20690,Trema orientalis,Trema,TRSH,5,1
+3117,Trichilia,Trichilia,TRSH,3,1
+9812,Triumfetta,Triumfetta,TRSH,1,1
+9813,Triumfetta-type,Triumfetta,TRSH,4,1
+306,Tsuga,Tsuga,TRSH,3,1
+37873,Tsuga dumosa,Tsuga,TRSH,52,1
+2358,Uapaca,Uapaca,TRSH,4,2
+310,Ulmus,Ulmus,TRSH,263,12
+4933,Ulmus/Zelkova,Ulmus,TRSH,55,2
+2864,Urticaceae/Moraceae,Urticaceae/Moraceae,TRSH,8,3
+397,Viburnum,Viburnum,TRSH,23,2
+3603,Viburnum-type,Viburnum,TRSH,1,1
+1334,Viscum,Viscum,TRSH,1,1
+37450,Vitaceae undiff.,Vitaceae undiff.,TRSH,4,2
+320,Vitis,Vitis,TRSH,377,18
+5763,Waltheria,Waltheria,TRSH,1,1
+809,Zanthoxylum,Zanthoxylum,TRSH,2,1
+9828,Ziziphus,Ziziphus,TRSH,243,11
+42758,Ziziphus-type,Ziziphus,TRSH,34,4
+2135,Zygophyllaceae,Zygophyllaceae,TRSH,110,5
