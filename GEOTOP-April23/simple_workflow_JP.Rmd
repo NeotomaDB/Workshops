@@ -1,0 +1,822 @@
+---
+title: "簡単なワークフロー"
+author: "Simon Goring, Socorro Dominguez Vidaña"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    code_folding: show
+    fig_caption: yes
+    keep_md: yes
+    self_contained: yes
+    theme: readable
+    toc: yes
+    toc_float: yes
+    css: "text.css"
+  pdf_document:
+    pandoc_args: "-V geometry:vmargin=1in -V geometry:hmargin=1in"
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, echo=FALSE}
+options(warn = -1)
+pacman::p_load(neotoma2, dplyr, ggplot2, sf, geojsonsf, leaflet, terra, DT, readr, stringr, rioja)
+```
+
+## 1. はじめに
+
+このドキュメントは、新しい Neotoma
+Rパッケージ`neotoma2`を使用するための入門書として機能することを目的としています。
+一部のユーザーは、Binderインスタンスが存在するワークショップの一環としてこのドキュメントを使用している可能性があります。
+Binderインスタンスは、必要なパッケージがすべてインストールされた状態で、ブラウザーで
+RStudio を実行します。
+
+このワークフローを単独で使用している場合、またはパッケージを直接使用したい場合は、[`neotoma2`
+パッケージ](https://github.com/NeotomaDB/neotoma2)をCRANで次のコマンドを実行して利用できます。
+
+``` r
+install.packages('neotoma2')
+library(neotoma2)
+```
+
+このワークショップには他のパッケージも必要です。このドキュメントの流れを維持するために、ドキュメントの最後にある「[独自でパッケージをインストール方法](#localinstall)」というセクションに手順を記載しました。
+
+## 2. 学習目標
+
+この指導書では、次の方法を学びます。
+
+*サイト名と地理的パラメータを使用してサイトを検索 --
+[サイト検索](#3-site-searches)*
+時間的および空間的パラメータを使用して結果をフィルタリング --
+[フィルタ結果](#33-filter-records-tabset)
+*選択したdatasetのサンプル情報を取得します --
+[サンプル情報](#34-pulling-in-sample-data)*
+ラスターからの気候データの使用を含む基本的な分析を実行します --
+[基本分析](#4-simple-analytics)
+
+### 2.1. Neotomaの助けを求める
+
+Neotomaとの連携を計画している場合は、[Slack](https://join.slack.com/t/neotomadb/shared_invite/zt-cvsv53ep-wjGeCTkq7IhP6eUNA9NxYQ)に参加してください。ここでは、Rパッケージに関する質問のためのチャンネルを管理しています。Google Groups のメーリングリストに参加することもできます。　[追加するには、お問い合わせください](mailto:neotoma-contact@googlegroups.com)。
+
+### 2.2 Neotoma のデータ構造を理解する
+
+Neotomaデータベース内のデータ自体は、古生態学的分析のさまざまな要素(空間と時間、生データ、科学的手法、データモデル)を表現する　一連のリンクされた関係として構造化されています。古生態学は非常に幅広い分野であるため、これらの関係は複雑になる可能性があり、そのためデータベース自体が高度に構造化されています。データベース内の概念をよりよく理解したい場合は、[Neotoma データベース マニュアル](https://open.neotomadb.org/manual)を読むか、[データベース スキーマ自体](https://%20open.neotomadb.org/dbschema)を参照してください。
+
+このワークショップでは、次の2つの主要な構造概念に焦点を当てたいと思います。
+
+1.  Neotomaにデータが概念的に構造化される方法
+    (`sites`、`collection units`、`datasets`)。
+2.  この構造が`neotoma2`R\`パッケージ内で適応される方法。
+
+### Neotomaデータベースのデータの構造
+
+![**図**。*Neotoma
+内のサイト、収集ユニット、およびdatasetの構造。サイトには 1
+つ以上のcollection
+unitが含まれます。年表は収集単位に関連付けられます。一般的なタイプのデータ
+(花粉、珪藻、脊椎動物相)
+がdatasetに割り当てられます。*](images/sitecollunitdataset.png){width="50%"}
+
+Neotomaのデータは、緯度/経度の座標を持つ特定の場所であるサイトに関連付けられています。
+
+**site**内には、1 つ以上の [**collection
+unit**](https://open.neotomadb.org/manual/dataset-collection-related-tables-1.html#CollectionUnits)
+が存在する場合があります - -
+サイト内でサンプルが物理的に収集される場所。たとえば、考古学的な**site**
+には、より広い発掘現場内に1 つ以上の**collection unit**
+、つまり穴が存在する場合があります。湖上の花粉採取**site**には、複数の**collection
+unit** (湖流域内のコア サイト)
+が存在する場合があります。収集ユニットには、サイトの位置よりも高解像度の
+GPS
+位置が含まれる場合がありますが、より広範なサイトの一部とみなされます。
+
+**collection unit**内のデータは、さまざまな[**analysis
+units**](https://open.neotomadb.org/manual/sample-related-tables-1.html#AnalysisUnits)で収集されます。分析ユニット内でサンプリングされたデータはすべて、datasetタイプ
+(木炭、珪藻、渦鞭毛藻など)
+ごとにグループ化され、[**sample**](https://open.neotomadb.org/manual/sample-related-tables-1.html#Samples)に集約されます。特定のdatasetタイプのcollection
+unitのサンプル
+セットは、[**dataset**](https://open.neotomadb.org/manual/dataset-collection-related-tables-1.html#Datasets)
+に割り当てられます。dataset)。
+
+### 2.2.2 `neotoma2`のデータ構造
+
+![**図**。*NeotomaRのパッケージ図。各ボックスはパッケージ内のデータ
+クラスを表します。個々のボックスには、クラス
+オブジェクト、その名前、プロパティ、およびそれらのオブジェクトに適用できる関数が表示されます。たとえば、`sites`オブジェクトには`sites`プロパティ、つまりリストがあります。`plotLeaflet()`関数は`sites`
+オブジェクトで使用できます。*](images/neotomaUML_as.svg)
+
+``` neotoma2``R ```パッケージ内のオブジェクトの[UML図](https://en.wikipedia.org/wiki/Unified_Modeling_Language)を見ると、データ構造がデータベース自体内の構造を一般的に模倣していることがわかります。[サイト検索セクション](#3-site-searches)で説明するように、これらのオブジェクトを検索し、操作を開始できます。
+([単純な分析セクション](#4-simple-analytics))
+
+*注意事項:* `neotoma2`
+`R`パッケージ内では、ほとんどのオブジェクトは`sites`オブジェクトであり、多かれ少なかれデータが含まれています。`sites`上で動作できる一連の関数があります。`get_datasets()`または`get_downloads()`を使用して`sites`オブジェクトを追加すると、これらのヘルパー関数をさらに使用できるようになります。
+
+### 2.2.3 `R`のパイプ演算子 {.tabset}
+
+パイプは、データ
+オブジェクトに対する複数の操作を連鎖させるプロセスを簡素化する手法です。これには、次の演算子のいずれかを使用する必要があります:
+`|>`または`%>%`。 `|>`は基本的な`R` 演算子ですが、R
+の`tidyverse`エコシステムから`%>%`は来ています。`neotoma2`では`%>%`を使用しています。
+
+パイプオペレーターは、水をある場所から別の場所に運ぶ実際のパイプとして機能します。プログラミングでは、パイプの左側の関数の出力は、パイプの右側の関数の最初の引数として取得されます。コードを書きやすく、読みやすくするのに役立ちます。さらに、データ処理中に作成される中間オブジェクトの数が減り、コードのメモリ効率が向上し、高速化されます。
+
+パイプを使用せずに、`neotoma2`
+`R`パッケージを使用してサイトを取得し、次のようにプロットすることができます。
+
+``` r
+# Retrieve the site
+plot_site <- neotoma2::get_sites(sitename = "%Swamp%")
+# Plot the site
+neotoma2::plotLeaflet(object = plot_site)
+```
+
+これにより変数`plot_site`が作成されますがこれはもう必要ありません、しかし`plotLeaflet()`関数に渡すためには必要でした。
+
+パイプ (`%>%`)
+を使用すると変数を作成する必要がなく、コードを書き直すだけで済みます。`get_sites(sitename = "%Swamp%")`の応答が関数に直接渡されるため、`plotLeaflet()`にはオブジェクト引数が必要ないことに注意してください。
+
+#### 2.2.3.1. コード
+
+```{r piping code, eval=FALSE}
+# get_sites and pipe. The `object` parameter for plotLeaflet will be the
+# result of the `get_sites()` function.
+get_sites(sitename = "%Swamp%") %>%
+  plotLeaflet()
+```
+
+#### 2.2.3.2. 結果
+
+```{r piping result, echo=FALSE}
+# get_sites and pipe
+get_sites(sitename = "%Swamp%") %>%
+  plotLeaflet()
+```
+
+## 3. サイト検索
+
+### 3.1. `get_sites()`
+
+`neotoma2`でサイトを見つける方法はいくつかありますが、sitesは主に空間オブジェクトであると考えられます。これらには名前と場所があり、地政学的単位のコンテキスト内で見つかりますが、APIとパッケージ内では、サイト自体には分類群、データセットの種類、または年代に関する関連情報がありません。これは単にその情報を追加するコンテナです。したがって、サイトを検索するときは、次の方法で検索できます。
+
+| パラメータ  | 説明                                                                               |
+|---------------------------------|---------------------------------------|
+| sitename    | ワイルドカードとして % を使用した有効なサイト名 (大文字と小文字は区別されません)。 |
+| siteid      | Neotoma データベースからの一意の数値サイト ID                                      |
+| loc         | バウンディング ボックス ベクトル、geoJSON または WKT 文字列。                      |
+| altmin      | より低い高度でサイトに向かいます。                                                 |
+| altmax      | サイトの場所の上限高度。                                                           |
+| database    | レコードの取得元となる構成データベース。                                           |
+| datasettype | データセットの種類(`get_tables(datasettypes)`を参照）)                             |
+| datasetid   | Neotoma内の固有の数値データセット識別子                                            |
+| doi         | Neotoma の有効なデータセット DOI                                                   |
+| gpid        | Neotoma                                                                            |
+| keywords    | Neotoma のレコードのユニークなサンプル キーワード。                                |
+| contacts    | サイトに関連付けられた個人の名前または数値 ID。                                    |
+| taxa        | サイトに関連付けられた一意の数値識別子または分類群名。                             |
+
+Neotoma のすべてのサイトには 1
+つ以上のデータセットが含まれています。これらの検索パラメーターの結果は若干予期しないものになる可能性があることに注意してください。たとえば、サイト名、緯度、または高度でサイトを検索すると、特定のサイトのすべてのデータセットが返されます。`datasettype`、`datasetid`、`taxa`
+などの用語を検索するとサイトが返されますが、返されるデータセットはデータセット固有の検索用語に一致するデータセットのみです。これについては後で説明します。
+
+#### 3.1.1. サイト名: `sitename="%Lac%"` {.tabset}
+
+私たちは探しているサイト(「Lac des
+Nuages」)を正確に知っているかもしれませんし、サイト名についておおよその推測を持っているかもしれません
+(たとえば、「Nuages Lac」または「Nuages Lac
+Nuages」のようなものであることはわかっていますが、具体的にどのように入力されたのかはわかりません)、または*Lac*などの特定の用語を含むすべてのサイトを検索したい場合もあります。
+
+名前による検索には、一般的な形式`get_sites(sitename="%Lac%")`を使用します。
+
+PostgreSQL (および API)
+は、ワイルドカードとしてパーセント記号を使用します。したがって、`"%Lac%"`は
+["Lac du Diable"](https://data.neotomadb.org/691) を選択します
+(そして、「Devon Island Glacier」と「Blackhoof Site」も選択します)。
+
+検索クエリでは大文字と小文字が区別されないため、単純に`"%LAC%"`と記述することもできます。
+
+##### 3.1.1.1. コード
+
+```{r sitename, eval=FALSE}
+lac_sites <- neotoma2::get_sites(sitename = "%Lac %")
+plotLeaflet(lac_sites)
+```
+
+##### 3.1.1.2. 結果
+
+```{r sitenamePlot, echo=FALSE}
+lac_sites <- neotoma2::get_sites(sitename = "%Lac %")
+plotLeaflet(lac_sites)
+```
+
+#### 3.1.2. Location: `loc=c()` {.tabset}
+
+`neotoma`パッケージは、緯度と経度の値のベクトル`c(xmin, ymin, xmax, ymax)`として構造化された位置の境界ボックスを使用しました。`neotoma2`
+`R`パッケージは、この単純な境界ボックスだけでなく、[`sf`パッケージ](https://r-spatial.github.io/sf/)を使用したより複雑な空間オブジェクトの両方もサポートします。
+`sf`パッケージを使用すると、`R`でラスター データとポリゴン
+データをより簡単に操作し、より複雑な空間オブジェクトからサイトを選択できるようになります。`loc`パラメーターは、`R`の単純なベクター、[WKT](https://arthur-e.github.io/Wicket/sandbox-gmaps3.html)、[geoJSON](http://geojson.io/#map=2/20.0/0.0)オブジェクト、および`sf`
+オブジェクトで動作します。
+
+位置情報を使用してサイトを検索します。アフリカの大まかな表現を載せています。`R`
+でこの空間オブジェクトを操作するために、`geoJSON` 要素を `sf`
+パッケージのオブジェクトに変換しました。 `R`
+では空間オブジェクトを操作するためのツールが他にもたくさんあります。データを
+R に取り込む方法に関係なく、`neotoma2` は `sf`
+パッケージ内のほぼすべてのオブジェクトで動作します。
+
+```{r boundingBox}
+geoJSON <- '{"coordinates":
+  [[
+      [-77.18,63.49],
+      [-80.55,60.10],
+      [-81.15,52.43],
+      [-80.24,45.68],
+      [-74.02,44.31],
+      [-64.29,47.16],
+      [-56.91,50.78],
+      [-53.65,53.86],
+      [-60.70,60.71],
+      [-77.18,63.49]]],
+  "type":"Polygon"}'
+
+quebec_sf <- geojsonsf::geojson_sf(geoJSON)
+
+# Note here we use the `all_data` flag to capture all the sites.
+quebec_sites <- neotoma2::get_sites(loc = quebec_sf, all_data = TRUE)
+```
+
+いつでも単純に`sites`オブジェクトを`plot()`することができますが、地理的コンテキストの一部が失われます。
+`plotLeaflet()`関数は、`leaflet`マップを返し、それをさらにカスタマイズしたり、追加の空間データを追加したりできます
+(`R` `leaflet`パッケージと直接連携するオリジナルの境界ポリゴン、`sa_sf`
+など)。
+
+##### 3.1.2.1. コード
+
+```{r plotL, eval=FALSE}
+neotoma2::plotLeaflet(quebec_sites) %>% 
+  leaflet::addPolygons(map = ., 
+                       data = quebec_sf, 
+                       color = "green")
+```
+
+##### 3.1.2.2. 結果
+
+```{r plotLeaf, echo=FALSE}
+neotoma2::plotLeaflet(quebec_sites) %>% 
+  leaflet::addPolygons(map = ., 
+                       data = quebec_sf, 
+                       color = "green")
+```
+
+#### 3.1.3. サイトヘルパー {.tabset}
+
+`neotoma2`
+`R`パッケージ内のオブジェクトの[データ構造図](#222-data-structions-in-neotoma2)を見ると、`sites`上で動作できる一連の関数があることがわかります。
+`get_datasets()`または`get_downloads()`を使用して`sites`オブジェクトを追加すると、これらのヘルパー関数をさらに使用できるようになります。
+
+現状では、`summary()` のような関数を利用して、`quebec_sites`
+にあるデータの種類をより完全に把握することができます。次のコードは概要テーブルを提供します。
+ここでは、データの表示方法を変更する (データを `datatable()`
+オブジェクトに変換する) ために `R` マジックを実行しますが、主要な部分は
+`summary()` 呼び出しです。
+
+##### 3.1.3.1. コード
+
+```{r summary_sites, eval=FALSE}
+# Give information about the sites themselves, site names &cetera.
+neotoma2::summary(quebec_sites)
+# Give the unique identifiers for sites, collection units and datasets found at those sites.
+neotoma2::getids(quebec_sites)
+```
+
+##### 3.1.3.2. 結果
+
+```{r summarySitesTable, eval=TRUE, echo=FALSE}
+neotoma2::summary(quebec_sites) %>%
+  DT::datatable(data = ., rownames = FALSE, 
+                options = list(scrollX = "100%", dom = 't'))
+```
+
+このドキュメントでは、最初の 10 レコードのみをリストします
+(さらに多くのレコードがあります。取得したデータセットの数を確認するには、`length(quebec_sites)`を使用します)。
+`site`オブジェクトに関連付けられた年表がないことがわかります。これは、現時点では必要な`datasets`情報を取り込んでいないためです。Neotomaでは、年表は`collection units`に関連付けられます。
+そして、そのメタデータは`get_datasets()`または`get_downloads()`によって取得されます。`get_sites()`から分かることは、持っているデータセットの種類と、そのデータセットを含むサイトの場所だけです。
+
+### 3.2. データセットの検索: {.tabset}
+
+Neotomaには、`collection units`と`datasets`が`sites`内に含まれていることはわかっています。同様に、`sites`
+オブジェクトには、`datasets`を含む`collectionunits`が含まれます。
+上の表から、私たちが調べたサイトの一部には花粉の記録、一部には地質年代データ、また一部には他の種類のデータセットが含まれていることがわかります。`table(summary(quebec_sites)$types)`のように記述すると、さまざまなデータセットタイプとその数を確認できます。
+
+`sites`オブジェクトを使用すると、`get_datasets()`を直接呼び出して、データセットに関するさらに多くのメタデータを取得できます。`get_datasets()`
+方法は、上記の[サイト検索](#3-site-searches)セクションにリストされている検索用語のいずれもサポートしています。
+
+いつでも
+`datasets()`を使用して、`sites`オブジェクトに含まれる可能性のあるデータセットに関する詳細情報を取得できます。以下を使用して、`datasets(quebec_sites)`
+の出力を同様の呼び出しの出力と比較します。
+
+#### 3.2.1. コード
+
+```{r datasetsFromSites, eval=FALSE}
+# This is slow, because there's a lot of sites!
+# quebec_datasets <- neotoma2::get_datasets(quebec_sites, all_data = TRUE)
+
+quebec_datasets <- neotoma2::get_datasets(loc = quebec_sf, datasettype = "pollen", all_data = TRUE)
+
+datasets(quebec_datasets)
+```
+
+#### 3.2.2. 結果
+
+```{r datasetsFromSitesResult, echo=FALSE, message=FALSE}
+quebec_datasets <- neotoma2::get_datasets(loc = quebec_sf, datasettype = "pollen", all_data = TRUE)
+datasets(quebec_datasets) %>% 
+  as.data.frame() %>% 
+  DT::datatable(data = ., 
+                options = list(scrollX = "100%", dom = 't'))
+```
+
+これにより、サイトではなく、特定のdatasetに関する情報のみが提供されることがわかります。より完全な記録を得るには、サイトとそこに含まれるすべての収集単位およびdatasetをリンクする
+`getids()` 関数を使用して、`datasets()` を使用して、`summary()`
+からのサイト情報をdataset情報に結合できます。
+
+### 3.3. 記録のフィルター {.tabset}
+
+単一のデータセット
+タイプのみに関する情報を取り込むことを選択した場合、またはデータをダウンロードする前に追加のフィルタリングを実行したい場合は、`filter()`
+関数を使用できます。
+
+たとえば、(花粉表面サンプルとは対照的に)堆積花粉記録のみが必要で、既知の年表を持つレコードが必要な場合は、`datasettype`と`age_range_young`の存在によってフィルター処理できます。これは、記録内の年齢の範囲を定義する年表があることを示します。
+
+#### 3.3.1. コード
+
+```{r downloads, eval=FALSE}
+quebec_records <- quebec_datasets %>% 
+  neotoma2::filter(!is.na(age_range_young))
+
+neotoma2::summary(quebec_records)
+
+# We've removed records, so the new object should be shorter than the original.
+length(quebec_records) < length(quebec_datasets)
+```
+
+#### 3.3.2. 結果
+
+```{r downloadsCode, echo = FALSE}
+quebec_records <- quebec_datasets %>% 
+  neotoma2::filter(!is.na(age_range_young))
+
+neotoma2::summary(quebec_records) %>% DT::datatable(data = ., 
+                options = list(scrollX = "100%", dom = 't'))
+```
+
+データテーブルが異なって見え([上のテーブル](#322-result)と比較すると)、　合計サイト数が減っていることがわかります。繰り返しますが、これらの記録には明確な年表はありません。これらの記録を完全にダウンロードする必要がありますが、どのような種類のデータがあるのかを把握し始めます。
+
+### 3.4. `sample()` データの取り込み
+
+サンプルデータは多くのオーバーヘッドを追加するため
+(この花粉データの場合、サンプルを含む`datasets`のオブジェクトはデータセット単体の20倍の大きさです)、予備的なフィルター処理を行った後に
+`get_downloads()`を呼び出すようにします。
+`get_datasets()`を実行すると、場所、時間境界、データセットタイプに基づいてフィルタリングするのに十分な情報が得られます。`get_downloads()`
+に移行すると、分析単位または分類群レベルでさらに微調整されたフィルタリングを行うことができます。
+
+次の呼び出しには時間がかかることがありますが、オブジェクトは RDS データ
+ファイルとして凍結されています。このコマンドを自分で実行して少しの間実行することも、単にオブジェクトをロードすることもできます。
+
+```{r taxa}
+## This line is commented out because we've already run it for you.
+## quebec_dl <- quebec_records %>% get_downloads(all_data = TRUE)
+## saveRDS(quebec_dl, "data/qcDownload.RDS")
+quebec_dl <- readRDS("data/qcDownload.RDS")
+```
+
+ダウンロードが完了すると、関連するすべての収集単位、dataset、および各datasetのdatasetに関連付けられたすべてのサンプルに関する各サイトの情報が得られます。すべてのサンプルを抽出するには、次のように呼び出すことができます。
+
+```{r allSamples}
+allSamp <- samples(quebec_dl)
+```
+
+これを完了すると、長さ`r nrow(allSamp)`行、幅 `r ncol(allSamp)`列の
+`data.frame`
+が得られます。テーブルが非常に広い理由は、データを長い**long**形式で返すためです。各行にはそれを正しく解釈するために必要なすべての情報が含まれています。
+
+```{r colNamesAllSamp, echo = FALSE}
+colnames(allSamp)
+```
+
+一部のデータセット タイプや分析では、これらの列の一部は必要ない場合がありますが、他のデータセット タイプでは非常に重要になる場合があります。　`neotoma2`
+パッケージがコミュニティにとって可能な限り役立つように、できるだけ多くのパッケージを含めました。
+
+#### 3.4.1. 分類群の抽出 {.tabset}
+
+記録にどの分類群があるかを知りたい場合は、*sites*オブジェクトでヘルパー関数　`taxa()`を使用できます。
+
+`taxa()`関数は、固有の分類群だけでなく、2つの追加の列を提供します。これらの列は、`sites`と`samples`分類群がどのくらい多くのサイトに出現するか、またその分類群がどのくらいのサンプルに出現するかを示し、個々の分類群がどの程度一般的であるかをより深く理解するのに役立ちます。
+
+##### 3.4.1.1. コード
+
+```{r taxa2, eval=FALSE}
+neotomatx <- neotoma2::taxa(quebec_dl)
+```
+
+##### 3.4.1.2. 結果
+
+```{r taxaprint, echo=FALSE, message=FALSE}
+neotomatx <- neotoma2::taxa(quebec_dl)
+neotomatx %>% 
+  DT::datatable(data = head(neotomatx, n = 20), rownames = FALSE, 
+                options = list(scrollX = "100%", dom = 't'))
+```
+
+#### 3.4.2. Neotomaの分類法を理解する {.unnumbered}
+
+Neotomaの分類法は、私たちが期待するほど単純ではありません。古生態学における分類学的同定は複雑になる可能性があり、同定しようとしているオブジェクトの形態、古古形態の状態、分析者の専門知識、その他の条件の影響を受けます。Neotomaの分類概念の詳細については、Neotoma
+マニュアルの
+[分類概念に関するセクション](https://open.neotomadb.org/manual/database-design-concepts.html#taxonomy-and-synonymy)
+を参照してください。
+
+一意の識別子 (`taxonid`、`siteid`、`analysisunitid` など)
+は、レコード間のリンクに役立つため、パッケージ全体で使用します。
+`taxa()`呼び出しによって返される `taxonid`値は、`samples`テーブルの
+`taxonid`列にリンクできます。これにより、必要に応じて分類群調和テーブルを構築できるようになります。
+また、分類名`taxonname`がフィールド変数名(variablename)に含まれていることにも注意してください。Neotomaでは、個々のサンプル数が[変数として報告されます](https://open.neotomadb.org/manual/taxonomy-related-tables-1.html#Variables)。「変数」は、種、実験室測定値のようなもの、または木炭やXRF測定値のような非有機的代用値のいずれかであり、測定単位と値が含まれます。
+
+#### 3.4.3. シンプルな調和 {.tabset}
+
+*Quercus*分類群が報告されているすべてのサンプルを*Quercus-undiff*という
+1つの疑似分類群にグループ化したいとします。 **注**
+これは生態学的に有用なグループ分けではありませんが、説明のために使用されています。
+
+分類群をグループ化するにはいくつかの方法があり、ファイルをエクスポートして個々のセルを直接編集するか、外部の「調和」テーブルを作成する
+(前の `neotoma` パッケージで実行しました) かのいずれかです。
+まず、これらの記録の中で*Pinus*がどのように異なる形で現れるかを調べてみましょう。`stringr`
+パッケージの関数
+`str_detect()`を使用してパターンを検索し、文字列が検出された場合に`TRUE`
+または `FALSE` を返すことができます：
+
+```{r echo = FALSE}
+# How many different "Pinus" taxa have been identified?
+neotomatx %>%
+  filter(stringr::str_detect(variablename, "Pinus"))
+```
+
+さまざまな方法で分類群ごとに調和させることができます。1
+つの方法は*Pinus*
+分類群のすべてのインスタンスを取得し、それらを直接変更することです。
+ここでは、`allSamp` オブジェクトから列の`variablename`を取得しています
+(ここにカウントデータがあります)。角括弧はどの行を変更するかを示しています。ここでは変数名に「Pinus」が検出された行のみを示します。
+これらの各行のその列に、値「Pinus undiff」を割り当てます。
+
+```{r echo = FALSE, eval=FALSE}
+# Don't run this!
+allSamp$variablename[stringr::str_detect(allSamp$variablename, "Pinus")] <- "Pinus undiff."
+```
+
+もともと*Pinus*属内にあると識別された`r sum(stringr::str_detect(neotomatx$variablename, "Pinus.*"))`
+の異なる分類群がありました (*Pinus*., *Pinus strobus*, および *Pinus
+banksiana/P.resinosa*)。上記のコードは、それらすべてを単一の分類グループ*Pinus
+undiff*にまとめます。
+
+これにより、`allSamp` オブジェクト内の
+*Pinus*のみが変更され、ダウンロードされたオブジェクト内の *Pinus*
+は変更されないことに注意してください。もう一度`samples()`を呼び出すと、分類法は元の形式に戻ります。
+
+選択したアーティファクトが必要な場合は、外部テーブルを使用できます。たとえば、ペア(変更する内容と、それを置き換える名前)
+のテーブルを生成でき、正規表現を含めることができます (必要に応じて)。
+
+| オリジナル    | 交換              |
+|---------------|-------------------|
+| Pinus.\*      | Pinus-undiff      |
+| Picea.\*      | Picea-undiff      |
+| Tamarindus.\* | Tamarindus-undiff |
+| Quercus.\*    | Quercus-undiff    |
+| ...           | ...               |
+
+`taxa()` 呼び出しから直接元の名前のリストを取得し、サンプルを含むsites
+オブジェクトに適用して、`write.csv()` を使用してエクスポートできます。
+
+```{r countbySitesSamples, eval=FALSE}
+taxaplots <- taxa(quebec_dl)
+# Save the taxon list to file so we can edit it subsequently.
+readr::write_csv(taxaplots, "data/mytaxontable.csv")
+```
+
+#### 分類構造を見る {.tabset}
+
+`taxa()`関数はすべての分類学的情報を返します。また、いくつかの追加情報、分類群を含むすべてのデータセットにわたるサンプル数を記録する列`samples`と`sites`、および分類群を含むサイトの数も提供します。
+
+以下のプロットは、サンプルとサイトの関係を示していますが、実際は多少歪んでいると予想されます
+
+##### 3.4.3.1. コード
+
+```{r PlotTaxonCountsFirst, fig.cap="**Figure**. *A plot of the number of sites a taxon appears in, against the number of samples a taxon appears in.*", eval=FALSE}
+taxaplots <- taxa(quebec_dl)
+ggplot(data = taxaplots, aes(x = sites, y = samples)) +
+  geom_point() +
+  stat_smooth(method = 'glm', 
+              method.args = list(family = 'poisson')) +
+  xlab("Number of Sites") +
+  ylab("Number of Samples") +
+  theme_bw()
+```
+
+##### 3.4.3.2. 結果
+
+```{r PlotTaxonCounts, echo=FALSE, fig.cap="**Figure**. *A plot of the number of sites a taxon appears in, against the number of samples a taxon appears in.*", message=FALSE}
+taxaplots <- taxa(quebec_dl)
+ggplot(data = taxaplots, aes(x = sites, y = samples)) +
+  geom_point() +
+  stat_smooth(method = 'glm', 
+              method.args = list(family = 'poisson')) +
+  xlab("Number of Sites") +
+  ylab("Number of Samples") +
+  theme_bw()
+```
+
+#### 3.4.4. 分類表の編集 {.unnumbered}
+
+上記のプロットは主に説明のためのものですが、健全性をチェックするために、関係が予想どおりであることがわかります。めったに存在しない分類群が多数ありますが、非常に一般的な分類群もいくつかあります。
+
+分類群テーブルを`.csv`ファイルにエクスポートすると、テーブルを編集し、生態学的グループや分類群グループなどのコンテキスト情報に基づいて分類群をフィルタリングおよび選択できるようになります。
+
+変換テーブルをクリーンアップしたら、それをロードして(別のファイル名で保存してみてください)、変換を適用できます：
+
+```{r translationTable, message=FALSE, eval=FALSE}
+translation <- readr::read_csv("data/taxontable.csv")
+```
+
+ここでたくさんの仕事をしました。。。それからそれを読み込んでいきます。
+
+```{r translationDisplay, message=FALSE, echo = FALSE}
+translation <- readr::read_csv("data/taxontable.csv")
+DT::datatable(translation, rownames = FALSE, 
+                options = list(scrollX = "100%", dom = 't'))
+```
+
+分類群テーブル内の分類群名の一部が変更されていることがわかります。
+`samples()`
+出力内の名前を置き換えるには、`inner_join()`を使用して2つのテーブルを結合します
+(つまり、結果を含めるには`variablename`が両方のテーブルに存在する必要があります)。
+そして、次に分類群の新しい名前としてHarmonized
+name列を使用して、後の分析に関連するサンプルテーブルの要素のみを選択します：
+
+```{r joinTranslation, eval = FALSE}
+allSamp <- samples(quebec_dl)
+
+allSamp <- allSamp %>%
+  inner_join(translation, by = c("variablename" = "variablename")) %>% 
+  dplyr::select(!c("variablename")) %>% 
+  group_by(siteid, sitename, harmonizedname,
+           sampleid, units, age,
+           agetype, depth, datasetid,
+           long, lat) %>%
+  summarise(value = sum(value), .groups='keep')
+```
+
+```{r harmonizationTableOut, message = FALSE, echo=FALSE}
+cleanSamp <- samples(quebec_dl) %>%
+  inner_join(translation, by = c("variablename" = "variablename")) %>% 
+  dplyr::select(!c("variablename")) %>% 
+  group_by(siteid, sitename, harmonizedname,
+           sampleid, units, age,
+           agetype, depth, datasetid,
+           long, lat) %>%
+  summarise(value = sum(value), .groups='keep') %>%
+  arrange(sitename, age, harmonizedname)
+
+DT::datatable(head(cleanSamp, n = 50), rownames = FALSE,
+                options = list(scrollX = "100%", dom = 't'))
+```
+
+調和化と、調和化テーブルから非**TRSH**分類群の多くを削除したため、元のテーブルと比較してよりクリーンな分類群名のセットが得られました。同じ分類群のセットを新しい調和された名前でプロットすると、次のプロットが得られます。
+
+```{r origTableOut, message = FALSE, echo=FALSE, fig.cap="**Figure**. *The same site/sample plot as above, with with the new harmonized taxonomy. Note that the distribution of points along the curve is smoother, as we remove some of the taxonomic issues.*"}
+taxaplots <- samples(quebec_dl) %>%
+  inner_join(translation, by = c("variablename" = "variablename")) %>% 
+  dplyr::select(!c("variablename")) %>%
+  group_by(harmonizedname) %>%
+  summarise(sites = length(unique(siteid)), samples = length(unique(sampleid)), .groups='keep')
+
+ggplot(data = taxaplots, aes(x = sites, y = samples)) +
+  geom_point() +
+  stat_smooth(method = 'glm', 
+              method.args = list(family = 'poisson')) +
+  xlab("Number of Sites") +
+  ylab("Number of Samples") +
+  theme_bw()
+```
+
+## 4. シンプルな分析
+
+### 4.1. 層序図化
+
+`rioja`のようなパッケージを使用して単一レコードの層序プロットを行うことができますが、最初にいくつかの異なるデータ管理を行う必要があります。
+再度調和を行うこともできますが、ここでは単に1つのサイトで最も一般的な分類群の上位１０を取り出し、それらを層序図にプロットします。
+
+`arrange()`呼び出しを使用して、分類群がコア内に出現する回数で並べ替えています。このようにしてサンプルを取り出し、`plottingTaxa`
+`data.frame`の最初の10 行に表示される分類群を選択できます。
+
+```{r stratiplot, message = FALSE}
+# Get a particular site, in this case we are simply subsetting the
+# `quebec_dl` object:
+plottingSite <- quebec_dl[[1]]
+
+# Select only pollen measured using NISP and convert to a "wide"
+# table, using proportions. The first column will be "age".
+# This turns our "long" table into a "wide" table:
+counts <- plottingSite %>%
+  samples() %>%
+  toWide(ecologicalgroup = c("TRSH"),
+         unit = c("NISP"),
+         elementtypes = c("pollen"),
+         groupby = "age",
+         operation = "prop") 
+
+counts <- counts[, colSums(counts > 0.01, na.rm = TRUE) > 5]
+```
+
+コードが非常に単純であることを願っています。
+`toWide()`関数を使用すると、`vegan`パッケージやriojaなどのほとんどの統計ツールが使用する幅広いマトリックス
+(分類群`taxon`ごとの深さ`depth`)にデータを取り込む前に、データの分類群、単位、その他の要素を大幅に制御できます。
+
+データをプロットするには`rioja`の`strat.plot()`を使用し、加重平均スコア(`wa.order`)
+を使用して分類群を並べ替えます。
+また、新しいワイド`data.frame`が距離計量関数とどのように連携するかを示すために、プロットの端に*CONISS*プロットを追加しました。
+
+```{r plotStrigraph, message=FALSE, warning=FALSE}
+# Perform constrained clustering:
+clust <- rioja::chclust(dist(sqrt(counts)),
+                        method = "coniss")
+
+# Plot the stratigraphic plot, converting proportions to percentages:
+plot <- rioja::strat.plot(counts[,-1] * 100, yvar = counts$age,
+                  title = quebec_dl[[1]]$sitename,
+                  ylabel = "Calibrated Years BP",
+                  xlabel = "Pollen (% of Trees and Shrubs)",
+                  y.rev = TRUE,
+                  clust = clust,
+                  wa.order = "topleft",
+                  scale.percent = TRUE)
+
+rioja::addClustZone(plot, clust, 4, col = "red")
+```
+
+### 4.2. サイト間の時間の変化
+
+現在、サンプルと分類群名を含む地域全体のサイト情報が得られます。私は、時間にわたる分類群の分布と、それらの存在/非存在の割合を調べることに興味があります。
+上位20分類群を
+(記録に出現する回数に基づいて)選択し、それらの分布を適時に見ていきます。分類群名をクリーンアップするために、調和テーブルを再度使用します。
+
+```{r summarizeByTime, message = FALSE}
+# Harmonize the sample names as above.
+# Note that when we group we are treating `age` in a special way.
+# If we multiply by 2, round to the nearest Thousandth, and then divide
+# by two, we are effectively putting the data into 500 year bins:
+
+# First, get the number of sites at which each taxon appears, within each
+# 500 year bin:
+taxaSitesByAge <- samples(quebec_dl) %>%
+  inner_join(translation, by = c("variablename" = "variablename")) %>% 
+  dplyr::select(!c("variablename")) %>% 
+  group_by(harmonizedname,
+           "age" = round(age * 2, -3) / 2) %>%
+  summarise(n = length(unique(siteid)), .groups = 'keep')
+
+# Then get the total number of sites sampled within each 500 year bin:
+samplesByAge <- samples(quebec_dl) %>%
+  inner_join(translation, by = c("variablename" = "variablename")) %>% 
+  dplyr::select(!c("variablename")) %>% 
+  group_by("age" = round(age * 2, -3) / 2) %>%
+  summarise(samples = length(unique(siteid)), .groups = 'keep')
+
+# Now get the proportion of sites at which each taxon appears:
+groupbyage <- taxaSitesByAge %>%
+  inner_join(samplesByAge, by = "age") %>% 
+  mutate(proportion = n / samples)
+
+# These lines of code give us the most common taxa
+# in this dataset (their count of samples is in the top 5%)
+mostCommon <- taxaSitesByAge %>%
+  group_by(harmonizedname) %>%
+  summarise(count = sum(n)) %>%
+  filter(count > quantile(count, 0.5))
+
+# The last thing to do is to select only some of the taxa:
+subsetTaxa <- groupbyage %>% 
+  filter(harmonizedname %in% mostCommon$harmonizedname, age < 10000) 
+
+# And then plot!
+ggplot(subsetTaxa,
+    aes(x = age, y = proportion)) +
+  geom_point() +
+  geom_smooth() +
+  facet_wrap(~harmonizedname) +
+  coord_cartesian(xlim = c(10000, 0), ylim = c(0, 1)) +
+  scale_x_reverse(breaks = c(10000, 20000)) +
+  xlab("Proportion of Sites with Taxon") +
+  theme_bw()
+```
+
+明確な変化パターンが確認でき、smoothsは`R`の一般化加算モデル「GAM」を使用してモデル化されているため、`gam`または`mgcv`パッケージを使用して実際のモデリングを多かれ少なかれ制御できます。
+データの分割方法に応じて、高度、緯度、経度の変化を調べることもでき、この地域の種の分布と存在量が時間の経過とともにどのように変化したかをよりよく理解できます。
+
+### 4.3.　ラスターからの気候分布 (7月の最高気温)
+
+私たちは時間が環境の変化の代理であると仮定して、分類群と気候の間の相互作用にしばしば興味を持っています。気候に関する大規模な地球規模のデータセットの開発により、クラウドからラスター形式のデータに比較的簡単にアクセスできるようになりました。
+R は、空間データを管理し、データの空間分析をサポートするためのツールを
+(`sf` および `raster` パッケージで) 多数提供します。
+
+最初のステップではサンプルデータを取得し、Rの`sf`パッケージを使用してそれを空間オブジェクトに変換します。
+
+```{r makeSamplesSpatial}
+modern <- samples(quebec_dl) %>% 
+  filter(age < 1000) %>% 
+  filter(ecologicalgroup == "TRSH" & elementtype == "pollen" & units == "NISP")
+
+spatial <- sf::st_as_sf(modern, 
+                        coords = c("long", "lat"),
+                        crs = "+proj=longlat +datum=WGS84")
+```
+
+データは実質的に同じであり、`sf`は`samples()`からのすべての情報を含む`data.frame`である`spatial`と呼ばれるオブジェクトと、空間データを含む列
+(`geometry`)を作成します。
+
+`raster`パッケージの
+[`getData()`関数](https://www.rdocumentation.org/packages/raster/versions/3.5-15/topics/getData)関数を使用して、`WorldClim`から気候データを取得できます。 ここで続く操作は、`raster`オブジェクトとしてRに読み込まれる限り、あらゆる種類のラスター データに適用できます。
+
+ここでは、月ごとの最大気温である $T_{max}$変数の10分の解像度でラスター
+データを取り込みます。 ラスター自体には12 のレイヤーがあり、各月に 1
+つずつ含まれています。 `extract()` 関数を使用すると、7 月目である 7
+月の情報を取得するだけです。
+
+```{r worldTmax}
+worldTmax <- raster::getData('worldclim', var = 'tmax', res = 10)
+spatial$tmax7 <- raster::extract(worldTmax, spatial)[,7]
+```
+
+これにより、各サイトの各分類群の7月の最高気温を含む列が `data.frame`
+`spatial`に追加されます (サイトのすべての分類群は同じ値を共有します)。
+すでにすべての UPHE
+分類群にフィルターをかけていますが、それでも分類群の異なる名前が1つ残っています。
+`dplyr::mutate()`関数を使用して属だけを抽出します。
+
+```{r toGenus}
+spatial <- spatial %>%
+  mutate(variablename = stringr::str_replace(variablename, "[[:punct:]]", " ")) %>% 
+  mutate(variablename = stringr::word(variablename, 1)) %>% 
+  group_by(variablename, siteid) %>% 
+  summarise(tmax7 = max(tmax7), .groups = "keep") %>%
+  group_by(variablename) %>% 
+  filter(n() > 20)
+```
+
+#### 4.3.1. 背景の設定
+
+ケベック州の
+7月の気温のバックグラウンド分布を取得し、気温の最大値を取得して分類群分布をプロットしたいと考えていますが、サイトの値はすべて同じであるため(空間オーバーレイを使用したため)、最大値は次のようになります。現場の実際の7月の気温と同じです。
+
+```{r topten}
+maxsamp <- spatial %>% 
+  dplyr::group_by(siteid) %>% 
+  dplyr::summarise(tmax7 = max(tmax7), .groups = 'keep')
+```
+
+次に、`facet_wrap()`を使用して各分類群を独自のパネルにプロットします。
+
+```{r ggplot}
+ggplot() +
+  geom_density(data = spatial,
+               aes(x = round(tmax7 / 10, 0)), col = 2) +
+  facet_wrap(~variablename) +
+  geom_density(data = maxsamp, aes(x = tmax7 / 10)) +
+  xlab("Maximum July Temperature") +
+  ylab("Kernel Density")
+```
+
+## 5. 結論
+
+私たちはこの例の中で多くのことを行いました。(1)サイト名と地理パラメータを使用してサイトを検索し、(2)時間的および空間パラメータを使用して結果をフィルタリングし、(3)選択したデータセットのサンプル情報を取得し、(4)ラスターからの気候データの使用を含む基本的な分析を実行しました。
+
+これらの例を今後の仕事のテンプレートとして、または新しくてクールなものの構築要素として使用できることを願っています。
+
+## 6. 独自のパッケージをインストールする {#localinstall}
+
+このドキュメントでは、`leaflet`、`sf`などを含むいくつかのパッケージを使用します。
+`pacman`パッケージを使用してパッケージをロードします。パッケージセットにパッケージが現在存在しない場合は、自動的にパッケージがインストールされます。
+
+```{r setupFake, eval=FALSE}
+options(warn = -1)
+pacman::p_load(neotoma2, dplyr, ggplot2, sf, geojsonsf, leaflet, terra, DT, readr, stringr, rioja)
+```
+
+`R`パッケージがロードされる順序に影響されることに注意してください。`neotoma2::`を使用すると、`neotoma2`パッケージを使用して特定の関数を実行したいことが`R`に明示的に伝えられます。
+そのため、`dplyr`などの他のパッケージに存在する`filter()`のような関数では次のようなエラーが表示される場合があります。
+
+``` bash
+Error in UseMethod("filter") : 
+  no applicable method for 'filter' applied to an object of class "sites"
+```
+
+この場合、間違ったパッケージが
+`filter()`を実行しようとしている可能性が高いため、関数名の前に`dplyr::`または`neotoma2::`を明示的に追加する
+(つまり、`neotoma2::filter()`)ことをお勧めします。
