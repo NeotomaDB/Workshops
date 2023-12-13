@@ -106,7 +106,7 @@ if (file.exists('data/waterchem_ds.RDS')) {
 
 This chunk of code creates a map of the distribution of diatom data. There are `r length(diatom_ds)` diatom sites, and there are `r length(waterchem_ds)` water chemistry sites. We want to plot them both. Here we're going to use the interactive `leaflet` package and colour code the plots using the Aggregate Dataset IDs.
 
-```{r mapdiatoms,echo=FALSE,fig.cap='Diatom aggregate surface sample calibration dataset distribution in North America. There are over 2000 sites ranging from Arctic Canada to the southern United States. Most aggregate datasets are limited to relatively small regions (e.g., states). Some datasets are large scale (e.g., EPA’s 2007 National Lake assessment). Observing the current site and aggregate dataset distributions aid in helping create new calibration datasets.'}
+```{r mapdiatoms,echo=FALSE,fig.cap='Diatom aggregate surface sample calibration dataset distribution in North America. There are over 2000 sites ranging from Arctic Canada to the southern United States. Most aggregate datasets are limited to relatively small regions (e.g., states). Some datasets are large scale (e.g., EPA 20R07 National Lake assessment). Observing the current site and aggregate dataset distributions aid in helping create new calibration datasets.'}
 
 diatom_siteloc <- as.data.frame(diatom_ds) %>%
     inner_join(drexel, by = 'siteid') %>%
@@ -120,7 +120,7 @@ leaflet::leaflet() %>%
   addTiles() %>%
   addCircleMarkers(lat = diatom_siteloc$lat,
                    lng = diatom_siteloc$long,
-                   color = pal(diatom_siteloc$aggregateid),
+                   # color = pal(diatom_siteloc$aggregateid),
                    group = "circles") %>%
   addLegend(pal = pal,
     values = diatom_siteloc$aggregatedatasetname,
@@ -188,7 +188,7 @@ There are `r nrow(wc_tx)` rows in the waterchem taxon table.
 
 ##### Water Chemistry Harmonization 
 
-```{r loadHarm, warning=FALSE, echo=FALSE}
+```{r waterHarm, warning=FALSE, echo=FALSE}
 waterchem_hm <- read.csv('data/waterchem_tx_harmonized.csv')
 waterchem_samples <- samples(waterchem_dl)
 
@@ -196,7 +196,7 @@ waterchem_harmonized <- waterchem_samples %>% right_join(waterchem_hm)
 
 w_hz <- waterchem_harmonized %>% 
   group_by(age, units, replacement, depth, siteid, sitename, lat, long, elev) %>%
-  summarise(count = mean(value), n=n())
+  summarise(count = mean(value), n = n())
 ```
 
 ##### Water Chemistry Statistics
