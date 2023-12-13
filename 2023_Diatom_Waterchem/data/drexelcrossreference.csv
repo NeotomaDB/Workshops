@@ -1,0 +1,2381 @@
+aggregateid,siteid,sitename,diatomdatasetid,waterchemdatasetid,aggregatedatasetname,aggregatedatasethandle
+4,17800,Barnes Lake,29964,43076,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,17990,Clear Pong (E.L.),30358,43089,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,720,Deep Lake,30735,43099,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,14223,Lake Arnold,30949,43125,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,18648,Little Echo Pond,31878,43130,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,18650,Merriam Lake,31882,43139,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,18688,Queer Lake,31958,43176,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,710,Arbutus Lake,40402,43074,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,711,Avalanche Lake,40403,43075,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,712,Bear Pond,40404,43077,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,23410,Bog Pond,40455,43081,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,713,Cat Mountain Pond,40456,43085,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,716,Copperas Pond (Fish Creek),40457,43092,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,715,Copperas Pond (Wilmington Notch),40458,43093,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,717,Cowhorn Pond,40459,43094,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,718,Crane Mountain Pond,40460,43095,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,721,Deer Lake,40461,43100,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,722,Dunk Pond,40462,43104,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,723,East Copperas Pond,40463,43105,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,724,Frank Pond,40464,43109,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,725,Giant Washbowl,40465,43110,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,726,Green Pond,40466,43114,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,727,Gull Pond,40467,43116,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,728,Heart Lake,40468,43118,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,729,Huntley Pond,40469,43120,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,730,Lake Madeleine [Jenkins Pond],40470,43121,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,736,Little Shallow Pond,40471,43133,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,737,Heavens Lake [Long Pond (TL)],40473,43137,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,739,Mountain Pond,40474,43143,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,740,Nick's Pond,40475,43168,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,741,Parch Pond,40476,43173,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,742,Pine Pond,40477,43175,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,743,Rock Pond,40478,43179,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,734,Lake Tear of the Clouds,40479,43124,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,22911,Washbowl Pond,40480,43153,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,17914,Big Moose Lake,43079,43079,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,735,Little Pine Pond,43132,43132,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,714,Clear P. (P.L.),43514,43090,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,732,Lake Colden,43515,43126,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24460,Livingston P.,43516,43134,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,744,Round P.,43518,43180,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,746,Wolf L. (H.F.),43519,43158,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24431,Black P.,43526,43080,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24432,Bubb L.,43527,43082,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24466,Moss L.,43528,43142,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24433,Buck P.,43583,43083,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24439,Crystal L.,43584,43096,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24442,Doe P.,43585,43101,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24445,Evergreen L.,43586,43106,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24458,Little Clear P.,43587,43129,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24459,Little Long P.,43588,43131,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24463,Marsh P.,43589,43138,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24495,Sunday P.,43590,43185,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24435,Catamount P.,43591,43086,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24477,Windfall Pond,46236,43157,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,745,Upper Wallface Pond,49249,43190,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24436,Cheney Pond,51982,43087,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24437,Chub L.,51983,43088,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24438,Constable P.,51984,43091,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24440,Curtis L.,51985,43097,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24443,Dry Channel P.,51986,43102,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24444,Duck L.,51987,43103,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24446,Fish Ponds (NE),51988,43107,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24447,Fourth L. (Bisby Lakes),51989,43108,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24456,Lake Frances,51990,43127,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24448,Grass P. (H.W.),51991,43111,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24451,Gull L. (South),51992,43115,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24452,Hawk P.,51993,43117,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24453,Hitchcock L.,51994,43119,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24454,John P.,51995,43122,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24455,Kiwassa L.,51996,43123,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24462,Long P. (K.R.),51997,43136,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24464,Middle P.,51998,43140,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24465,Middle South P.,51999,43141,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24467,Mt. Arab L.,52000,43144,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24483,Mud P. (no name),52001,43166,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24482,Mud L. (S.L.),52002,43165,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24484,Nate P.,52003,43167,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24486,North Branch L.,52004,43170,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24485,Nine Corner L.,52006,43169,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24489,Partlow L.,52007,43174,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24492,South L. (East Branch),52008,43182,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24494,St. John L.,52009,43184,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,13539,Trout L. (Ed.),52010,43187,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24497,Trout L. (P.L.),52011,43188,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24473,Unknown P.,52012,43152,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24475,Whitney L.,52013,43155,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24476,Wilmurt L.,52014,43156,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24478,Wolf L. (W.C.),52015,43159,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24479,Woodhull L.,52016,43160,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,16574,Woods L. (S.L.),52017,43162,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24481,Zack P.,52018,43164,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24430,Bellows L.,,43078,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24434,Cascade L.,,43084,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24441,Dart's L.,,43098,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24449,Grass P. (L.C.),,43112,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24450,Grass P. (S.C.),,43113,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24457,Lake Rondaxe,,43128,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24461,Long L. (C.L.),,43135,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24474,West P.,,43154,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24480,Woodruff P.,,43161,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24487,Otter L.,,43171,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24488,Panther P.,,43172,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24490,Raven L.,,43177,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24491,Rock P. (K.R.),,43178,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,16608,Sagamore Lake,,43181,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24493,Squash P.,,43183,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24496,Townsend P.,,43186,Adirondack Calibration - PIRLA,ADK-PIRLA
+4,24498,Twin Ponds (Eastern),,43189,Adirondack Calibration - PIRLA,ADK-PIRLA
+5,1004,4 [HFL4],39106,39143,Labrador Calibration - Fallu,Labrador-F
+5,1005,5 [HFL5],39112,39149,Labrador Calibration - Fallu,Labrador-F
+5,1006,6 [HFL6],39120,39157,Labrador Calibration - Fallu,Labrador-F
+5,1007,7 [HFL7],39127,39164,Labrador Calibration - Fallu,Labrador-F
+5,1008,8 [HFL8],39128,39165,Labrador Calibration - Fallu,Labrador-F
+5,1009,9 [HFL9],39129,39166,Labrador Calibration - Fallu,Labrador-F
+5,1010,10 [HFL10],39071,39082,Labrador Calibration - Fallu,Labrador-F
+5,1011,11 [HFL11],39072,39083,Labrador Calibration - Fallu,Labrador-F
+5,1012,12 [HFL12],39073,39084,Labrador Calibration - Fallu,Labrador-F
+5,1013,13 [HFL13],39074,39085,Labrador Calibration - Fallu,Labrador-F
+5,1014,14 [HFL14],39075,39086,Labrador Calibration - Fallu,Labrador-F
+5,1015,15 [HFL15],39076,39087,Labrador Calibration - Fallu,Labrador-F
+5,1016,16 [HFL16],39077,39088,Labrador Calibration - Fallu,Labrador-F
+5,1017,17 [HFL17],39078,39089,Labrador Calibration - Fallu,Labrador-F
+5,1018,19 [HFL19],39080,39091,Labrador Calibration - Fallu,Labrador-F
+5,1019,20 [HFL20],39081,39092,Labrador Calibration - Fallu,Labrador-F
+5,1020,21 [HFL21],39093,39130,Labrador Calibration - Fallu,Labrador-F
+5,1021,22 [HFL22],39094,39131,Labrador Calibration - Fallu,Labrador-F
+5,1022,23 [HFL23],39095,39132,Labrador Calibration - Fallu,Labrador-F
+5,1023,24 [HFL24],39096,39133,Labrador Calibration - Fallu,Labrador-F
+5,1024,25 [HFL25],39097,39134,Labrador Calibration - Fallu,Labrador-F
+5,1025,26 [HFL26],39098,39135,Labrador Calibration - Fallu,Labrador-F
+5,1026,27 [HFL27],39099,39136,Labrador Calibration - Fallu,Labrador-F
+5,1028,29 [HFL29],39100,39137,Labrador Calibration - Fallu,Labrador-F
+5,1029,30 [HFL30],39101,39138,Labrador Calibration - Fallu,Labrador-F
+5,1031,32 [HFL32],39102,39139,Labrador Calibration - Fallu,Labrador-F
+5,1036,37 [HFL37],39103,39140,Labrador Calibration - Fallu,Labrador-F
+5,1037,38 [HFL38],39104,39141,Labrador Calibration - Fallu,Labrador-F
+5,1038,39 [HFL39],39105,39142,Labrador Calibration - Fallu,Labrador-F
+5,1039,40 [HFL40],39107,39144,Labrador Calibration - Fallu,Labrador-F
+5,1043,44 [HFL44],39108,39145,Labrador Calibration - Fallu,Labrador-F
+5,1046,47 [HFL47],39109,39146,Labrador Calibration - Fallu,Labrador-F
+5,1048,51 [HFL51],39113,39150,Labrador Calibration - Fallu,Labrador-F
+5,1049,52 [HFL52],39114,39151,Labrador Calibration - Fallu,Labrador-F
+5,1051,54 [HFL54],39115,39152,Labrador Calibration - Fallu,Labrador-F
+5,1052,55 [HFL55],39116,39153,Labrador Calibration - Fallu,Labrador-F
+5,1054,57 [HFL57],39117,39154,Labrador Calibration - Fallu,Labrador-F
+5,1055,58 [HFL58],39118,39155,Labrador Calibration - Fallu,Labrador-F
+5,1056,59 [HFL59],39119,39156,Labrador Calibration - Fallu,Labrador-F
+5,1057,60 [HFL60],39121,39158,Labrador Calibration - Fallu,Labrador-F
+5,1058,61 [HFL61],39122,39159,Labrador Calibration - Fallu,Labrador-F
+5,1059,62 [HFL62],39123,39160,Labrador Calibration - Fallu,Labrador-F
+5,1060,63 [HFL63],39124,39161,Labrador Calibration - Fallu,Labrador-F
+5,1062,65 [HFL65],39125,39162,Labrador Calibration - Fallu,Labrador-F
+5,1066,69 [HFL69],39126,39163,Labrador Calibration - Fallu,Labrador-F
+5,1712,18 [Moraine Lake],39079,39090,Labrador Calibration - Fallu,Labrador-F
+5,22550,48 [HFL48],39110,39147,Labrador Calibration - Fallu,Labrador-F
+5,22551,49 [HFL49],39111,39148,Labrador Calibration - Fallu,Labrador-F
+7,19661,Lake Barco,38921,39012,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,19704,Mirrow Lake [Mulehead Pond],38981,39033,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,19710,Fore lake,38974,39024,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,19711,Lake Lou,38977,39029,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,19712,Lake Mary,38978,39030,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,19713,Lake Suggs,38985,39037,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22463,Baptist,38920,39011,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22464,Boyd,38922,39013,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22465,Catherine,38923,39014,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22466,Lake Charles,38924,39015,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22467,Chain of lakes,38925,39016,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22468,Church (Prairie) Lake,38926,39017,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22469,Clearwater Lake,38927,39018,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22470,Deer Lake,38928,39019,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22471,Lake Delancy,38929,39020,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22472,Doe Lake,38930,39021,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22473,Lake Eaton,38931,39022,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22474,Farles Lake,38932,39023,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22492,Lake Gobbler,38956,39025,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22493,Halfmoon Lake,38957,39026,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22508,Lake Kingsley,38975,39027,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22509,Lake Laura [cat head],38976,39028,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22510,McCloud Lake,38979,39031,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22511,Mill Dam,38980,39032,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22512,North Grasshopper Lake,38982,39034,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22513,Nicatoon Lake,38983,39035,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22514,South Grasshopper Lake,38984,39036,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22515,Sunrise Lake,38986,39038,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22516,Trout Lake,38987,39039,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22517,Waldena Lake,38988,39040,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22518,Yearling Pond,38989,39042,Northern Florida Calibration - PIRLA,NFL-PIRLA
+7,22519,Wildcat,38990,39041,Northern Florida Calibration - PIRLA,NFL-PIRLA
+8,205,Andrus Lake,39276,45771,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,306,Brown Lake,39282,45777,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,326,Camp 12 Lake,39283,45778,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,663,Denton Lake,39289,45784,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,755,Dunnigan Lake,39292,45787,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,1105,Hustler Lake,39297,45792,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,1669,McNearney Lake,39303,45798,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,1735,Nels Lake,39305,45800,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,1781,Otto Mielke Lake,39307,45802,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,2719,Little John Jr. Lake,39299,45794,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22578,Agawato Lake,39275,45770,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22605,Bass Lake,39277,45772,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22606,Bastile Lake,39278,45773,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22607,Big Carr Lake,39279,45774,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22608,Bird Lake,39280,45775,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22609,Bolger Lake,39281,45776,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22610,Camp 8 Lake,39284,45779,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22611,Clear Lake,39285,45780,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22612,Crystal Lake,39286,45781,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22613,Cusino Lake,39287,45782,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22614,Deadman's Lake,39288,45783,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22615,Diamond Lake,39290,45785,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22616,Dorothy Lake,39291,45786,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22617,Franklin Lake,39293,45788,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22618,Gordon Lake,39294,45789,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22619,Grassy Lake,39295,45790,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22620,Hillis Lake,39296,45791,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22621,Kelly Lake,39298,45793,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22622,Little Rock Lake,39300,45795,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22623,Luna Lake,39301,45796,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22624,McGrath Lake,39302,45797,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22625,Morgan,39304,45799,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22626,Nineweb Lake,39306,45801,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22627,Pallette Lake,39308,45803,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22628,Pretty Lake,39309,45804,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22629,Regenbog Lake,39310,45805,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22630,Ruby Lake,39311,45806,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22631,Sand Lake 1,39312,45807,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22632,Sand Lake 2,39313,45808,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22633,Sletten,39314,45809,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22634,Slim Lake,39315,45810,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22635,Stuart Lake,39316,45811,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22636,Sugar Camp,39317,45812,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22637,Summit Lake,39318,45813,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+8,22638,Tee Lake,39319,45814,Northern Great Lakes States Calibration - PIRLA,NGLS-PIRLA
+9,25899,(The) Horns P.,44764,44830,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25900,Bean P.,44765,44831,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25901,Beaver P.,44766,44832,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25902,Black Mountain P.,44767,44833,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25903,Black P.,44768,44834,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,13048,Branch P.,44769,44835,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25904,Carter P. (Upper),44770,44836,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,24185,Cone P.,44771,44837,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25905,Crystal P.,44772,44838,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25906,Darrah P.,44773,44839,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25907,East Chairback P.,44774,44840,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25908,Ethan P.,44775,44841,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25909,Fitts P.,44776,44842,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25910,Goodall P.,44777,44843,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25911,Granger P.,44778,44844,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25912,Griffith P.,44779,44845,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,18865,Haystack P.,44780,44846,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25913,Heald P.,44781,44847,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25914,Horseshoe P.,44782,44848,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25915,Horton P.,44783,44849,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25916,Hough P. (Huff P.),44784,44850,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25917,Hunnewell L.,44785,44851,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25918,Jackson P.,44786,44852,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25919,Jellison Hill P.,44787,44853,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25920,Jimmie P.,44788,44854,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25921,Kiah P.,44789,44855,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25922,Kings Hill P.,44790,44856,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25923,Klondike P.,44791,44857,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25924,Lake Constance,,44858,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25925,Ledge P.,44792,44859,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25926,Levi P.,44793,44860,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25927,Little East P.,44794,44861,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25928,Little Ellis P.,44795,44862,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,18872,Little Long P.,44796,44863,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25929,Little Sebago L.,44797,44864,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25930,Long P. (Beaver Mt.),44798,44865,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25931,Loon P.,44799,44866,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,1615,Lost P.,44800,44867,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25932,Lower Greeley P.,44801,44868,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25933,Middle Hall P.,44802,44869,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25934,Moulton P.,44803,44870,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25935,Mountain P. (Rangeley),44804,44871,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25936,Mud P.,44805,44872,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25937,North Beaverdam L.,44806,44873,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25938,North King P.,44807,44874,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25939,Osmore P.,44808,44875,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25940,Peep L.,44809,44876,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25941,Pigeon P.,44810,44877,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25942,Piper P.,44811,44878,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25943,Salmon P.,44812,44879,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25944,Sand P.,44813,44880,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25945,Sargent Mountain P.,44814,44881,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25946,Solitude P.,44815,44882,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25947,Speck P.,44816,44883,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25948,Tumbledown P.,44817,44884,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25949,Turner P.,44818,44885,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25950,Unknown P.,44819,44886,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25951,Unnamed P.,44820,44887,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25952,Upper Greeley P.,44821,44888,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25953,Walton P.,44822,44889,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25954,West Garland P.,44823,44890,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25955,Westford P.,44824,44891,Northern New England Calibration - PIRLA,NNE-PIRLA
+9,25956,Worthley P.,44825,44892,Northern New England Calibration - PIRLA,NNE-PIRLA
+10,8553,Lake Albert,54039,54105,Northern Great Plains - Fritz,NGPL-Fritz
+10,9770,Alkali Lake,54040,54106,Northern Great Plains - Fritz,NGPL-Fritz
+10,28900,Basin,54041,54110,Northern Great Plains - Fritz,NGPL-Fritz
+10,28901,Big Quill,54042,54111,Northern Great Plains - Fritz,NGPL-Fritz
+10,28902,Bitter,54043,54112,Northern Great Plains - Fritz,NGPL-Fritz
+10,28903,Boucher,54044,54114,Northern Great Plains - Fritz,NGPL-Fritz
+10,24504,Lake Byron,54045,54115,Northern Great Plains - Fritz,NGPL-Fritz
+10,28908,Coldwater,54052,54116,Northern Great Plains - Fritz,NGPL-Fritz
+10,9765,Coon Lake,54053,54117,Northern Great Plains - Fritz,NGPL-Fritz
+10,19022,Deadmoose,54054,54118,Northern Great Plains - Fritz,NGPL-Fritz
+10,28909,Devils,54055,54119,Northern Great Plains - Fritz,NGPL-Fritz
+10,9671,Eckelson Lake,54056,54120,Northern Great Plains - Fritz,NGPL-Fritz
+10,28910,E. Coteau,54057,54121,Northern Great Plains - Fritz,NGPL-Fritz
+10,28911,E. Devils,54058,54122,Northern Great Plains - Fritz,NGPL-Fritz
+10,9679,Elbow Lake,54059,54123,Northern Great Plains - Fritz,NGPL-Fritz
+10,18983,Fife,54060,54125,Northern Great Plains - Fritz,NGPL-Fritz
+10,28912,Fishing,54061,54126,Northern Great Plains - Fritz,NGPL-Fritz
+10,9682,Free Peoples Lake,54062,54127,Northern Great Plains - Fritz,NGPL-Fritz
+10,9681,Lake George,54063,54128,Northern Great Plains - Fritz,NGPL-Fritz
+10,9767,Hazelden Lake,54064,54129,Northern Great Plains - Fritz,NGPL-Fritz
+10,9702,Lake Herman,54065,54130,Northern Great Plains - Fritz,NGPL-Fritz
+10,9750,Horseshoe Lake,54066,54131,Northern Great Plains - Fritz,NGPL-Fritz
+10,13631,Humboldt Lake,54067,54132,Northern Great Plains - Fritz,NGPL-Fritz
+10,9703,Lake Isabel,54068,54133,Northern Great Plains - Fritz,NGPL-Fritz
+10,19033,Lenore,54069,54134,Northern Great Plains - Fritz,NGPL-Fritz
+10,28913,Long,54070,54135,Northern Great Plains - Fritz,NGPL-Fritz
+10,9776,Lake Madison,54072,54136,Northern Great Plains - Fritz,NGPL-Fritz
+10,1676,Medicine Lake,54073,54138,Northern Great Plains - Fritz,NGPL-Fritz
+10,9732,"Devils Lake, Mission Bay",54074,54139,Northern Great Plains - Fritz,NGPL-Fritz
+10,1711,Moon Lake,54075,54140,Northern Great Plains - Fritz,NGPL-Fritz
+10,9772,Lake Norden,54076,54143,Northern Great Plains - Fritz,NGPL-Fritz
+10,9678,Lake Oakwood,54077,54144,Northern Great Plains - Fritz,NGPL-Fritz
+10,18495,Opunitia,54078,54145,Northern Great Plains - Fritz,NGPL-Fritz
+10,28914,Piyas,54079,54146,Northern Great Plains - Fritz,NGPL-Fritz
+10,9775,Lake Poinsett,54080,54147,Northern Great Plains - Fritz,NGPL-Fritz
+10,28915,Porter,54081,54148,Northern Great Plains - Fritz,NGPL-Fritz
+10,28916,Rabbit,54082,54149,Northern Great Plains - Fritz,NGPL-Fritz
+10,17712,Redberry Lake,54083,54150,Northern Great Plains - Fritz,NGPL-Fritz
+10,28917,Reflex,54084,54151,Northern Great Plains - Fritz,NGPL-Fritz
+10,28918,Roslyn Pond,54085,54152,Northern Great Plains - Fritz,NGPL-Fritz
+10,9680,Round Lake,54086,54153,Northern Great Plains - Fritz,NGPL-Fritz
+10,9715,Round Lake,54087,54154,Northern Great Plains - Fritz,NGPL-Fritz
+10,9701,Roy Lake,54088,54155,Northern Great Plains - Fritz,NGPL-Fritz
+10,28919,Sayer,54089,54156,Northern Great Plains - Fritz,NGPL-Fritz
+10,9749,Shin Bone Lake,54090,54158,Northern Great Plains - Fritz,NGPL-Fritz
+10,9739,Spring Lake,54091,54159,Northern Great Plains - Fritz,NGPL-Fritz
+10,1222,Spiritwood Lake,54092,54160,Northern Great Plains - Fritz,NGPL-Fritz
+10,9704,Stink Lake,54093,54161,Northern Great Plains - Fritz,NGPL-Fritz
+10,9709,Stink Lake,54094,54162,Northern Great Plains - Fritz,NGPL-Fritz
+10,28920,Tramping,54095,54163,Northern Great Plains - Fritz,NGPL-Fritz
+10,9716,Twin Lakes (Be),54096,54164,Northern Great Plains - Fritz,NGPL-Fritz
+10,1997,Wakaw,54097,54165,Northern Great Plains - Fritz,NGPL-Fritz
+10,18114,Waldsea,54098,54166,Northern Great Plains - Fritz,NGPL-Fritz
+10,11764,Waubay Lake,54099,54167,Northern Great Plains - Fritz,NGPL-Fritz
+10,9763,West Stump Lake,54100,54170,Northern Great Plains - Fritz,NGPL-Fritz
+10,8556,Alkaline,,54107,Northern Great Plains - Fritz,NGPL-Fritz
+10,28921,Antelope,,54108,Northern Great Plains - Fritz,NGPL-Fritz
+10,28922,Aroma,,54109,Northern Great Plains - Fritz,NGPL-Fritz
+10,9651,Bitter (US),,54113,Northern Great Plains - Fritz,NGPL-Fritz
+10,9764,E. Stump,,54124,Northern Great Plains - Fritz,NGPL-Fritz
+10,28923,Manito,,54137,Northern Great Plains - Fritz,NGPL-Fritz
+10,28924,Muskiki,,54141,Northern Great Plains - Fritz,NGPL-Fritz
+10,28925,N. Blaine,,54142,Northern Great Plains - Fritz,NGPL-Fritz
+10,28926,S. Blaine,,54157,Northern Great Plains - Fritz,NGPL-Fritz
+10,28927,Whiteshore,,54168,Northern Great Plains - Fritz,NGPL-Fritz
+10,28928,Willowbunch,,54169,Northern Great Plains - Fritz,NGPL-Fritz
+11,26507,Amphitheater L.,46137,46182,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26508,Barney L.,46138,46183,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26509,Blue L.,46139,46184,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26510,Breeze L.,46140,46185,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26511,Bright Dot L.,46141,46186,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26512,Bullfrog L.,46142,46187,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26513,Columbine L.,46143,46188,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26514,Constance L.,46144,46189,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26515,Consultation L.,46145,46190,Sierra Nevada Calibration - Whiting,SNEV-W
+11,9712,Convict L.,46146,46191,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26516,Cottonwood L.,46147,46192,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26517,Dade L.,46148,46193,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26518,Dragon L.,46149,46194,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26519,Eastern Brook L.,46150,46195,Sierra Nevada Calibration - Whiting,SNEV-W
+11,13740,Eastern Twin L.,46151,46196,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26520,Edna L.,46152,46197,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26521,Emerald L.,46153,46198,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26522,Fairy Shrimp L.,46154,46199,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26523,Gem L.,46155,46200,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26524,Harriet L.,46156,46201,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26525,Heather (Tahoe) L.,46157,46202,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26526,Kearsarge L.,46158,46203,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26527,Kuna L. (11600),46159,46204,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26528,Lake 45,46160,46205,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26529,Lake 5,46161,46206,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26530,Lake Dorothy,46162,46207,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26531,Lake LeConte,46163,46208,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26532,U Lake Wit-So-Nah-Pah,46164,46209,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26533,Lower Cathedral L.,46165,46210,Sierra Nevada Calibration - Whiting,SNEV-W
+11,13742,Lundy L.,46166,46211,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26534,Mosquito Lake 1,46167,46212,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26535,Mosquito Lake 3,46168,46213,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26536,Mosquito Lake 5,46169,46214,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26537,Parker Pass L.,46170,46215,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26538,Ruby L.,46171,46216,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26539,Summit L.,46172,46217,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26540,Tablemeadow L.,46173,46218,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26541,Upper Angora L.,46174,46219,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26542,Upper Frog L.,46175,46220,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26543,Upper Gaylor L.,46176,46221,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26544,Upper Granite L.,46177,46222,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26545,Upper Rae L.,46178,46223,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26546,Upper Treasure L.,46179,46224,Sierra Nevada Calibration - Whiting,SNEV-W
+11,13741,Western Twin L.,46180,46225,Sierra Nevada Calibration - Whiting,SNEV-W
+11,26547,Woods L.,46181,46226,Sierra Nevada Calibration - Whiting,SNEV-W
+13,26224,Abanaki,49022,45824,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26225,Alder Brook Stream,49023,45825,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26226,Alexandra Lake,49024,45826,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26227,Aspetuck Reservoir,49025,45827,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26228,Barbadoes Pond,49026,45828,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26229,Barker Pond,49027,45829,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26230,Barrowsville Pond,49028,45830,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26231,Bartlett Pond,49029,45831,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26232,Batsto River Reservoir,49030,45832,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26233,Bear Pond,49031,45833,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26234,Bennett Lake,49032,45834,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,24385,Big Reed Pond,49033,45835,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,23285,Bissonette Pond,49034,45836,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26235,Black,49035,45837,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26236,Blenheim Gilboa Rese.,49036,45838,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26237,Blue Mountain Lake,49037,45839,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26238,Bog Pond,49038,45840,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26239,Briscoe Lake,49039,45841,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26240,Brueyer Pond,49040,45842,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26241,Burr Pond,49041,45843,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26242,Canobie Lake,49042,45844,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26243,Cedar Pond,49043,45845,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26244,Chaffin Pond,49044,45846,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26245,Chesham Pond,49045,45847,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26246,Childs Bog,49046,45848,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26247,Clear Lake,49661,45849,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26248,Clear Lake (Erie),49662,45850,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26249,Clough Pond,49663,45851,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26250,Collins Pond,49664,45852,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26251,Community Lake,49665,45853,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26252,Contention Pond,49666,45854,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26253,Cranberry Lake,49667,45855,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26254,Cranberry Pond,49668,45856,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26255,Crawford Lake,49669,45857,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26256,Cross Lake,49670,45858,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26257,Crystal Lake,49671,45859,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26258,Damariscotta Lake,49672,45860,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26259,Daretown Lake,49673,45861,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26260,Davis Pond,49674,45862,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26261,Depot Lake,49675,45863,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,24443,Dry Channel Pond,49676,45864,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26262,Dunklee Pond,49677,45865,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26263,East Branch Lake,49678,45866,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26264,East Creek Pond,49679,45867,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26265,Fairlee,49680,45868,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26266,Fall Mountain Lake,49681,45869,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,23369,Female Pond,49682,45870,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26267,First Debsconeag,49683,45871,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,13108,Flints Pond,49684,45872,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26268,Forth Chain Lake,49685,45873,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,23379,Fourth Machias Lake,49688,45874,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26269,French,49689,45875,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,23382,Gardner Pond,49690,45876,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,24289,Garnet Lake,49691,45877,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26270,Gerlach Pond,49692,45878,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26271,Glen Echo Pond,49693,45879,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26272,Graham Lake,49694,45880,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26273,Green Lake,49695,45881,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,13232,Greenwood Lake,49696,45882,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26274,Groton,49697,45883,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26275,Hancock Brook Lake,49698,45884,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26276,Harding Lakes,49699,45885,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26277,Harrington,49700,45886,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26278,Haunted Lake,49701,45887,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26279,Hemlock Reservoir,49702,45888,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26280,Hidden Lake,49703,45889,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26281,Highlands Forge Lake,49704,45890,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26282,Hitchins Pond,49705,45891,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26343,Holbrook Lake,49706,45961,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26344,Holbrook Pond,49707,45962,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26345,Holden Reservoir,49708,45963,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26346,Horseshoe Lake,49709,45964,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,25914,Horseshoe Pond,49710,45965,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26347,Horshoe Pond (Herkimer),49711,45966,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26348,Hot Pond,49712,45967,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,25916,Huff Pond,49713,45968,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,25917,Hunnewell,49714,45969,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26349,Hyde Lake,49715,45970,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26350,Indian Pond,49716,45971,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26351,Ingham Pond,49717,45972,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26352,Island Pond,49718,45973,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26353,Ivanhoe Pond,49719,45974,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26354,Joes,49720,45975,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26355,Kendall Reservoir,49721,45976,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26356,Kenoza Lake,49722,45977,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26357,Kingsbury Pond,49723,45978,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26358,Kingston Reservoir  #4,49724,45979,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26359,Kusumpe Pond,49725,45980,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26360,Lake Cathance,49726,45981,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26361,Lake Petonia,49727,45982,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26362,Lake Placid,49728,45983,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26363,Lake Pleasant,49729,45984,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26364,Lake Plymouth,49730,45985,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26365,Lake Whalom,49731,45986,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26366,Lake Wyola,49732,45987,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26367,Lily Pond,49733,45988,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26368,Lithia Springs Reservoir,49734,45989,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26369,Little Black Ponds,49735,45990,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26370,Little Cedar Pond,49736,45991,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26371,Little Creeks Pond,49737,45992,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26372,Little Falls Pond,49738,45993,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26373,Little Lilly Pond,49739,45994,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26374,Little Moose Lake,49740,45995,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26375,Little Papoose Pond,49741,45996,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26376,Little Reed Pond,49742,45997,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26377,Lizard Pond,49743,,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26378,Long Pond 256,49744,,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26379,Long Pond,49745,45998,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26380,Loon Lake,49746,45999,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26381,Lower Oxbrook Lake,49747,46000,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26382,Lucky Pond,49748,46001,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26383,Mansi's Pond,49749,46002,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26384,Maranacook Lake,49750,46003,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26385,Mashapoag,49751,46004,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26386,Masick's Pond,49752,46005,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26387,Massabesic Lake,49753,46006,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26388,Mattanawcook Pond,49754,46007,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26389,Medford Lakes,49755,46008,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26390,Melody Lake,49756,46009,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26391,Midnight Pond,49757,46010,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26392,Mill Brook Pond,49758,46011,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26393,Mirror Lake,49759,,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,22384,Mirror Lake (Carroll),49760,46012,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26394,Mirror Lake (Herkimer),49761,46013,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26395,Mohawk Pool,49762,46014,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26396,Moody Pond,49763,46015,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26397,Moose Pond,49764,46016,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26398,Mosko Pond,49765,46017,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26399,Mountain Brook Pond,49766,46018,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,25935,Mountain Pond,49767,46019,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26400,Mountaindale Reservoir,49768,46020,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26401,Moxie Pond,49769,46021,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26402,Mud Pond,49770,,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26403,Mud Pond (Piscataquis),49771,,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26404,Mud Pomd (Hamilton),49772,46022,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26405,Mud Pond (VT),49773,46023,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26406,Muddy Brook Pond,49774,46024,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26407,Muddy Pond,49775,46025,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26408,Munsungan Lake,49776,46026,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26409,Nesowadnehunk,49777,46027,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26410,Nesowadnehunk Lake,49778,46028,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26411,Neversink Reservoir,49779,46029,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26412,New Croton Reservoir,49780,46030,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26413,No Name,49781,46031,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26414,No Name (Hamilton),49782,46032,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26415,No Name (Cortland),49783,46033,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26416,No Name (Caledonia,49784,46034,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26417,No Name (Owego Ibm Pond),49785,46035,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26418,No Name (Renzo Pond),49786,46036,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,13105,North Springfield Reservoir,49787,46037,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26419,Nubanusit,49788,46038,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26420,Number Six Reservoir,49789,46039,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26421,Oakwood Lakes,49790,46040,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26422,Oscawanna Lake,49791,46041,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26423,Otter Pond,49792,46042,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26424,Oxoboxo Lake,49793,46043,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26425,Palmer Pond,49794,46044,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26426,Panther Pond,49795,46045,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26427,Pearl Lake,49796,46046,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26428,Pine Stream Flowage,49797,46047,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26429,Piseco Lake,49798,46048,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,24649,Pleasant Lake,49799,46049,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26430,Pleasant Valley Lake,49800,46050,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26431,Pond North Hills Corner,49801,46051,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26432,Poolville Pond,49802,46052,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26433,Pratt Pond,49803,46053,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26434,Proctor Pond,49804,46054,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26435,Queen Lake,49805,46055,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26436,Quidnick Reservoir,49806,46056,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26437,Reservoir No. 1,49807,46057,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26438,Ringneck Marsh,49808,46058,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26439,Round Pond,49809,46059,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26440,Russell,49810,46060,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26441,Russell Pond,49811,46061,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,13144,Sabin Pond,49812,46062,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26442,Sacandaga Lake,49813,46063,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26443,Savery Pond,49814,46064,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26444,Schroon Lake,49815,46065,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26445,Scokes Pond,49816,46066,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26446,Seavers Reservoir,49817,46067,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26447,Second Connecticut Lake,49818,46068,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26448,Second Lake,49819,46069,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26449,Shadow Lake,49820,46070,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26450,Shaw Pond,49821,46071,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26451,Shellcamp Pond,49822,46072,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26452,Skatutakee Lake,49823,46073,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26453,Spencer Pond,49824,46074,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26454,Splitrock Reservoir,49825,46075,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26455,Square Lake,49826,46076,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26456,Srmack's Quarry,49827,46077,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26457,St.josephs Lake,49828,46078,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26458,Stoughton Pond,49829,46079,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26459,Sturtevant Pond,49830,46080,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26460,Swans Pond,49831,46081,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26461,Swede Pond,49832,46082,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26462,Synders Lake,49833,46083,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26463,Tewksbury,49834,46084,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26464,Tewksbury Pond,49835,46085,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26465,The Lake,49836,46086,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26466,Thurston Pond,49837,46087,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26467,Ticklenaked,49838,46088,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26468,Tildys Pond,49839,46089,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26469,Timber Lake,49840,46090,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26470,Tolman Pond,49841,46091,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26471,Torsey,49842,46092,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26472,Trout Lake,49843,46093,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,24739,Trout Pond,49844,46094,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26473,Trout Pond (St. Lawrence),49845,46095,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26474,Tully Lake,49846,46096,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26475,Turkey Pond,49847,46097,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26476,Twin Island Pond,49848,46098,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26477,Twin Ponds (E),49849,46099,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26478,Umbagog Lake,49850,46100,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26479,Unity Pond,49851,46101,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,24752,Upper,49852,46102,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26480,Upper Artichoke Reservoir,49853,46103,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26481,Upper Jo-mary Lake,49854,46104,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26482,Upper Middle Branch Pond,49855,46105,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26483,Upper Shin Pond,49856,46106,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26484,Upper Sister Lake,49857,46107,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26485,Upper Sysladobsis Lake,49858,,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26486,Walker Pond,49859,46108,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26487,Waterloo Lakes,49860,46109,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26488,Watson Reservoir,49861,46110,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,24361,Weatherhead Hollow Pond,49862,46111,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26489,Webster,49863,46112,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26490,Wheeler Pond,49864,46113,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26491,Wheelock Lake,49865,46114,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26492,White Lake,49866,46115,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26493,Whitins Pond,49867,46116,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26494,Wiccopee Reservoir (N),49868,46117,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26495,Wickett Pond,49869,46118,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26496,Williams Lake,49870,46119,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26497,Willis Pond (E),49871,46120,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26498,Windfall Pond,49872,46121,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26499,Windsor Reservoir,49873,46122,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26500,Withee Pond,49874,46123,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26501,Wolf Pond,49875,46124,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26502,Wreck Pond (Largest),49876,46125,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,13056,Wyassup Lake,49877,46126,EPA EMAP Northeast Surface Waters,EMAP-NESW
+13,26503,Yawgoo Millpond,49878,46127,EPA EMAP Northeast Surface Waters,EMAP-NESW
+14,807,First,45664,45740,Pocono Mountain Calibration,POCOMT
+14,844,Giles,45665,45741,Pocono Mountain Calibration,POCOMT
+14,1530,Lacawac,45672,45748,Pocono Mountain Calibration,POCOMT
+14,2304,Silver,45686,45762,Pocono Mountain Calibration,POCOMT
+14,26174,Barkley,45656,45732,Pocono Mountain Calibration,POCOMT
+14,26175,Beach,45657,45733,Pocono Mountain Calibration,POCOMT
+14,26176,Big Corilla,45658,45734,Pocono Mountain Calibration,POCOMT
+14,26177,Bigelow,45659,45735,Pocono Mountain Calibration,POCOMT
+14,26178,Little Brink Lake (Little Twin Lake),45660,45736,Pocono Mountain Calibration,POCOMT
+14,26179,Bruce,45661,45737,Pocono Mountain Calibration,POCOMT
+14,26180,Chestnut,45662,45738,Pocono Mountain Calibration,POCOMT
+14,26181,Earnest,45663,45739,Pocono Mountain Calibration,POCOMT
+14,26182,Goldkey,45666,45742,Pocono Mountain Calibration,POCOMT
+14,26183,Goose,45667,45743,Pocono Mountain Calibration,POCOMT
+14,26184,Hiawatha,45668,45744,Pocono Mountain Calibration,POCOMT
+14,26185,Hickory,45669,45745,Pocono Mountain Calibration,POCOMT
+14,26186,Little Hickory Lake,45670,45746,Pocono Mountain Calibration,POCOMT
+14,26187,High,45671,45747,Pocono Mountain Calibration,POCOMT
+14,26188,Laura,45673,45749,Pocono Mountain Calibration,POCOMT
+14,26189,Lake Logtavern Lake,45674,45750,Pocono Mountain Calibration,POCOMT
+14,26190,LONG,45675,45751,Pocono Mountain Calibration,POCOMT
+14,26191,Little Mud Pond,45676,45752,Pocono Mountain Calibration,POCOMT
+14,26192,Nichecronk,45677,45753,Pocono Mountain Calibration,POCOMT
+14,26193,Panther,45678,45754,Pocono Mountain Calibration,POCOMT
+14,26194,Paupack,45679,45755,Pocono Mountain Calibration,POCOMT
+14,26195,Porters,45680,45756,Pocono Mountain Calibration,POCOMT
+14,26196,Poyntelle,45681,45757,Pocono Mountain Calibration,POCOMT
+14,26197,Price,45682,45758,Pocono Mountain Calibration,POCOMT
+14,26198,Rock,45683,45759,Pocono Mountain Calibration,POCOMT
+14,26199,Rose,45684,45760,Pocono Mountain Calibration,POCOMT
+14,26200,Scott,45685,45761,Pocono Mountain Calibration,POCOMT
+14,26201,Sly,45687,45763,Pocono Mountain Calibration,POCOMT
+14,26202,Spruce,45688,45764,Pocono Mountain Calibration,POCOMT
+14,26203,Swago,45689,45765,Pocono Mountain Calibration,POCOMT
+14,26204,Tedyusk,45690,45766,Pocono Mountain Calibration,POCOMT
+14,26205,Union,45691,45767,Pocono Mountain Calibration,POCOMT
+14,26206,Welcome,45692,45768,Pocono Mountain Calibration,POCOMT
+14,26207,Whitedeer,45693,45769,Pocono Mountain Calibration,POCOMT
+15,22680,(Unnamed Lake),39389,42614,US EPA National Lake Assesment 2007,NLA-2007
+15,22681,Adder Pond,39390,42615,US EPA National Lake Assesment 2007,NLA-2007
+15,22682,Alkaline Lake,39391,42616,US EPA National Lake Assesment 2007,NLA-2007
+15,22683,Alkaline Lake,39392,42617,US EPA National Lake Assesment 2007,NLA-2007
+15,22684,Allen Lake,39393,42618,US EPA National Lake Assesment 2007,NLA-2007
+15,22685,Alruss,39394,42619,US EPA National Lake Assesment 2007,NLA-2007
+15,22686,American Lake,39395,42620,US EPA National Lake Assesment 2007,NLA-2007
+15,22687,Anawana Lake,39396,42621,US EPA National Lake Assesment 2007,NLA-2007
+15,22688,Angel Lake,39397,42622,US EPA National Lake Assesment 2007,NLA-2007
+15,22689,Antelope Lake,39398,42623,US EPA National Lake Assesment 2007,NLA-2007
+15,22690,Argonne Lake,39399,42624,US EPA National Lake Assesment 2007,NLA-2007
+15,22691,Armington Lake,39400,42625,US EPA National Lake Assesment 2007,NLA-2007
+15,22692,Armstrong Lake,39401,42626,US EPA National Lake Assesment 2007,NLA-2007
+15,22693,Arthur Lake,39402,42627,US EPA National Lake Assesment 2007,NLA-2007
+15,22694,Artichoke Lake,39403,42628,US EPA National Lake Assesment 2007,NLA-2007
+15,22695,Ashley Lake,39404,42629,US EPA National Lake Assesment 2007,NLA-2007
+15,22696,Aspen Lake,39405,42630,US EPA National Lake Assesment 2007,NLA-2007
+15,22697,Atkins Lake,39406,42631,US EPA National Lake Assesment 2007,NLA-2007
+15,22698,August Lake,39407,42632,US EPA National Lake Assesment 2007,NLA-2007
+15,22699,Aurora Pond,39408,42633,US EPA National Lake Assesment 2007,NLA-2007
+15,22700,Baca Lake,39409,42634,US EPA National Lake Assesment 2007,NLA-2007
+15,22701,Back Lake,39410,42635,US EPA National Lake Assesment 2007,NLA-2007
+15,22702,Barbara Lake,39411,42636,US EPA National Lake Assesment 2007,NLA-2007
+15,22703,Bass Lake,39412,42637,US EPA National Lake Assesment 2007,NLA-2007
+15,22704,Bass Lake,39413,42638,US EPA National Lake Assesment 2007,NLA-2007
+15,23272,Bassett Lake,40056,42914,US EPA National Lake Assesment 2007,NLA-2007
+15,23273,Bayley,40057,42915,US EPA National Lake Assesment 2007,NLA-2007
+15,23274,Beach Pond,40058,42916,US EPA National Lake Assesment 2007,NLA-2007
+15,9596,Bean Lake,40059,42917,US EPA National Lake Assesment 2007,NLA-2007
+15,23275,Beardsley Pond,40060,42918,US EPA National Lake Assesment 2007,NLA-2007
+15,9594,Beaver Lake,40061,42919,US EPA National Lake Assesment 2007,NLA-2007
+15,23276,Becoosin Lake,40062,42920,US EPA National Lake Assesment 2007,NLA-2007
+15,23277,Beebe Lake,40063,42921,US EPA National Lake Assesment 2007,NLA-2007
+15,23278,Belleville Pond,40064,42922,US EPA National Lake Assesment 2007,NLA-2007
+15,23279,Bentley Lake,40065,42923,US EPA National Lake Assesment 2007,NLA-2007
+15,2625,Berry Lake,40066,42924,US EPA National Lake Assesment 2007,NLA-2007
+15,23280,Big Alkali Lake,40067,42925,US EPA National Lake Assesment 2007,NLA-2007
+15,23281,Big Barbee Lake,40068,42926,US EPA National Lake Assesment 2007,NLA-2007
+15,23282,Big Chapman,40069,42927,US EPA National Lake Assesment 2007,NLA-2007
+15,23283,Big Gibson Lake,40070,42928,US EPA National Lake Assesment 2007,NLA-2007
+15,13393,Big Lake (1),40071,42929,US EPA National Lake Assesment 2007,NLA-2007
+15,24385,Big Reed Pond,40072,42930,US EPA National Lake Assesment 2007,NLA-2007
+15,23284,Big Stone Lake,40074,42931,US EPA National Lake Assesment 2007,NLA-2007
+15,23285,Bissonnette Pond,40075,42932,US EPA National Lake Assesment 2007,NLA-2007
+15,23286,Black Lake,40076,42933,US EPA National Lake Assesment 2007,NLA-2007
+15,23287,Blackfish Lake,40077,42934,US EPA National Lake Assesment 2007,NLA-2007
+15,23288,Blackman Lake,40078,42935,US EPA National Lake Assesment 2007,NLA-2007
+15,23289,Blanchard Lake,40079,42936,US EPA National Lake Assesment 2007,NLA-2007
+15,23290,Blomgren,40080,42937,US EPA National Lake Assesment 2007,NLA-2007
+15,23295,Blue Lake,40114,42940,US EPA National Lake Assesment 2007,NLA-2007
+15,23295,Blue Lake,40115,42940,US EPA National Lake Assesment 2007,NLA-2007
+15,23295,Blue Lake,40116,42940,US EPA National Lake Assesment 2007,NLA-2007
+15,23296,Blueberry Lake,40117,42941,US EPA National Lake Assesment 2007,NLA-2007
+15,23297,Bogie Lake,40118,42942,US EPA National Lake Assesment 2007,NLA-2007
+15,23298,Bowdish Reservoir,40119,42943,US EPA National Lake Assesment 2007,NLA-2007
+15,23299,Brant Lake,40120,42944,US EPA National Lake Assesment 2007,NLA-2007
+15,23300,Bridge Lake,40121,42945,US EPA National Lake Assesment 2007,NLA-2007
+15,23301,Brierpatch Lake,40122,42946,US EPA National Lake Assesment 2007,NLA-2007
+15,23302,Brooklyn Lake,40123,42947,US EPA National Lake Assesment 2007,NLA-2007
+15,23303,Browns Lake,40124,42948,US EPA National Lake Assesment 2007,NLA-2007
+15,23304,Bruce Lake,40125,42949,US EPA National Lake Assesment 2007,NLA-2007
+15,23305,Brush Lake,40126,42950,US EPA National Lake Assesment 2007,NLA-2007
+15,23306,Buckskin Lake,40127,42951,US EPA National Lake Assesment 2007,NLA-2007
+15,23307,Buffalo Lodge Lake,40128,42952,US EPA National Lake Assesment 2007,NLA-2007
+15,23308,Bull Lake,40129,42953,US EPA National Lake Assesment 2007,NLA-2007
+15,23309,Bull Trout Lake,40130,42954,US EPA National Lake Assesment 2007,NLA-2007
+15,23310,Caddo Lake,40131,42955,US EPA National Lake Assesment 2007,NLA-2007
+15,23311,Camp Lake,40132,42956,US EPA National Lake Assesment 2007,NLA-2007
+15,23312,Campbell Lake,40133,42957,US EPA National Lake Assesment 2007,NLA-2007
+15,23313,Carey Lake,40134,42958,US EPA National Lake Assesment 2007,NLA-2007
+15,23314,Carry Pond,40135,42959,US EPA National Lake Assesment 2007,NLA-2007
+15,23315,Caspian Lake,40136,42960,US EPA National Lake Assesment 2007,NLA-2007
+15,23316,Cass Lake,40137,42961,US EPA National Lake Assesment 2007,NLA-2007
+15,23317,Cassadaga Lake,40138,42962,US EPA National Lake Assesment 2007,NLA-2007
+15,23318,Cavanaugh Lake,40139,42963,US EPA National Lake Assesment 2007,NLA-2007
+15,23319,Cave Lake,40140,42964,US EPA National Lake Assesment 2007,NLA-2007
+15,23320,Cedar Lake,40141,42965,US EPA National Lake Assesment 2007,NLA-2007
+15,23321,Chapman Pond,40142,42966,US EPA National Lake Assesment 2007,NLA-2007
+15,23322,Chase Lake,40143,42967,US EPA National Lake Assesment 2007,NLA-2007
+15,23323,Cheeseboro Lake,40144,42968,US EPA National Lake Assesment 2007,NLA-2007
+15,23324,Clark Lake,40145,42969,US EPA National Lake Assesment 2007,NLA-2007
+15,23325,Clear Lake,40146,42970,US EPA National Lake Assesment 2007,NLA-2007
+15,23326,Clearwater Lake,40147,42971,US EPA National Lake Assesment 2007,NLA-2007
+15,23327,Concord Pond,40148,42972,US EPA National Lake Assesment 2007,NLA-2007
+15,23328,Cottonwood,40149,42973,US EPA National Lake Assesment 2007,NLA-2007
+15,23329,Cottonwood Lake,40150,42974,US EPA National Lake Assesment 2007,NLA-2007
+15,23330,Coursey Pond,40152,42975,US EPA National Lake Assesment 2007,NLA-2007
+15,23331,Cranberry,40153,42976,US EPA National Lake Assesment 2007,NLA-2007
+15,23332,Crescent Lake,40154,42977,US EPA National Lake Assesment 2007,NLA-2007
+15,23333,Crooked Lake,40155,42978,US EPA National Lake Assesment 2007,NLA-2007
+15,23334,Crooked Pond,40156,42979,US EPA National Lake Assesment 2007,NLA-2007
+15,9929,Crow Wing,40157,42980,US EPA National Lake Assesment 2007,NLA-2007
+15,23335,Crystal Lake,40158,42981,US EPA National Lake Assesment 2007,NLA-2007
+15,23336,Cusky Pond,40159,42982,US EPA National Lake Assesment 2007,NLA-2007
+15,23343,Darling,40240,42983,US EPA National Lake Assesment 2007,NLA-2007
+15,23344,Dean Lake,40241,42984,US EPA National Lake Assesment 2007,NLA-2007
+15,23345,Debouille Lake,40242,42985,US EPA National Lake Assesment 2007,NLA-2007
+15,23346,Deer Lake,40243,42986,US EPA National Lake Assesment 2007,NLA-2007
+15,23347,Denny Pond,40244,42987,US EPA National Lake Assesment 2007,NLA-2007
+15,23348,Derby Lake,40245,42988,US EPA National Lake Assesment 2007,NLA-2007
+15,23349,Devils Lake,40246,42989,US EPA National Lake Assesment 2007,NLA-2007
+15,23350,Dewey Lake,40247,42990,US EPA National Lake Assesment 2007,NLA-2007
+15,23351,Dick's Pond,40248,42991,US EPA National Lake Assesment 2007,NLA-2007
+15,23352,Donnell Lake,40249,42992,US EPA National Lake Assesment 2007,NLA-2007
+15,23353,Douglas Pond?,40250,42993,US EPA National Lake Assesment 2007,NLA-2007
+15,23354,Doyles Lake,40251,42994,US EPA National Lake Assesment 2007,NLA-2007
+15,23355,Duck Lake,40252,42995,US EPA National Lake Assesment 2007,NLA-2007
+15,23356,Eagle Lake (1),40253,42996,US EPA National Lake Assesment 2007,NLA-2007
+15,23356,Eagle Lake (1),40254,42996,US EPA National Lake Assesment 2007,NLA-2007
+15,23357,East Twin Lake,40255,42997,US EPA National Lake Assesment 2007,NLA-2007
+15,23358,East Woodcock Lake,40256,42998,US EPA National Lake Assesment 2007,NLA-2007
+15,23359,Echo Lake,40257,42999,US EPA National Lake Assesment 2007,NLA-2007
+15,23360,Eight Point Lake,40258,43000,US EPA National Lake Assesment 2007,NLA-2007
+15,23361,Elbow Lake,40259,43001,US EPA National Lake Assesment 2007,NLA-2007
+15,10091,Elk Lake,40260,43002,US EPA National Lake Assesment 2007,NLA-2007
+15,23362,Enemy Swim Lake,40261,43003,US EPA National Lake Assesment 2007,NLA-2007
+15,23363,Eureka Lake,40262,43004,US EPA National Lake Assesment 2007,NLA-2007
+15,23364,Fairy Lake,40263,43005,US EPA National Lake Assesment 2007,NLA-2007
+15,23365,Fan Lake,40264,43006,US EPA National Lake Assesment 2007,NLA-2007
+15,23366,Fanny Lake,40265,43007,US EPA National Lake Assesment 2007,NLA-2007
+15,23367,Fayant Lake,40266,43008,US EPA National Lake Assesment 2007,NLA-2007
+15,23368,Feather Lake,40267,43009,US EPA National Lake Assesment 2007,NLA-2007
+15,23369,Female Pond,40268,43010,US EPA National Lake Assesment 2007,NLA-2007
+15,23370,Fence Lake,40269,43011,US EPA National Lake Assesment 2007,NLA-2007
+15,23371,Fish Lake (1),40270,43012,US EPA National Lake Assesment 2007,NLA-2007
+15,23371,Fish Lake (1),40271,43012,US EPA National Lake Assesment 2007,NLA-2007
+15,23372,Fitzpatrick Lake,40272,43013,US EPA National Lake Assesment 2007,NLA-2007
+15,23373,Five Island Lake,40273,43014,US EPA National Lake Assesment 2007,NLA-2007
+15,23374,Flat Lake,40274,43015,US EPA National Lake Assesment 2007,NLA-2007
+15,23375,Flat River Reservoir,40275,43016,US EPA National Lake Assesment 2007,NLA-2007
+15,23376,Fletcher Lake,40276,43017,US EPA National Lake Assesment 2007,NLA-2007
+15,23377,Forbes Lake,40277,43018,US EPA National Lake Assesment 2007,NLA-2007
+15,23378,Fourth Debsconeag Lake,40278,43019,US EPA National Lake Assesment 2007,NLA-2007
+15,23379,Fourth Machias Lake,40279,43020,US EPA National Lake Assesment 2007,NLA-2007
+15,23380,Fox Lake (1),40280,43021,US EPA National Lake Assesment 2007,NLA-2007
+15,23380,Fox Lake (1),40281,43021,US EPA National Lake Assesment 2007,NLA-2007
+15,23381,Freemont Lake,40282,43022,US EPA National Lake Assesment 2007,NLA-2007
+15,23382,Gardner Pond,40283,43023,US EPA National Lake Assesment 2007,NLA-2007
+15,23383,George Wyth Lake,40284,43024,US EPA National Lake Assesment 2007,NLA-2007
+15,10365,Goose Lake,40285,43025,US EPA National Lake Assesment 2007,NLA-2007
+15,23384,Goose Pond,40286,43026,US EPA National Lake Assesment 2007,NLA-2007
+15,23385,Gorton Pond,40287,43027,US EPA National Lake Assesment 2007,NLA-2007
+15,23386,Grass Lake,40288,43028,US EPA National Lake Assesment 2007,NLA-2007
+15,24387,Grassy Pond,50248,43029,US EPA National Lake Assesment 2007,NLA-2007
+15,24273,Green Belt Lake,50249,43030,US EPA National Lake Assesment 2007,NLA-2007
+15,24388,Green Lake,50250,43031,US EPA National Lake Assesment 2007,NLA-2007
+15,24389,Grimes,50252,43032,US EPA National Lake Assesment 2007,NLA-2007
+15,24390,Grist Millpond,50253,43033,US EPA National Lake Assesment 2007,NLA-2007
+15,24391,Grittman Lake,50254,43034,US EPA National Lake Assesment 2007,NLA-2007
+15,24392,Groton Reservoir,50255,43035,US EPA National Lake Assesment 2007,NLA-2007
+15,24393,Hackberry Lake,50256,43036,US EPA National Lake Assesment 2007,NLA-2007
+15,24394,Half Moon Lake,50257,43037,US EPA National Lake Assesment 2007,NLA-2007
+15,24395,Halfway Pond,50258,43038,US EPA National Lake Assesment 2007,NLA-2007
+15,24396,Hall Lake,50259,43039,US EPA National Lake Assesment 2007,NLA-2007
+15,24397,Hannaberry Lake,50260,43040,US EPA National Lake Assesment 2007,NLA-2007
+15,24398,Harper Lake,50261,43041,US EPA National Lake Assesment 2007,NLA-2007
+15,24399,Haskell Lake,50262,43042,US EPA National Lake Assesment 2007,NLA-2007
+15,24400,Heart Lake,50263,43043,US EPA National Lake Assesment 2007,NLA-2007
+15,24401,Heggs,50264,43044,US EPA National Lake Assesment 2007,NLA-2007
+15,24402,Henry's Lake,50265,43045,US EPA National Lake Assesment 2007,NLA-2007
+15,24403,Hert Lake,50266,43046,US EPA National Lake Assesment 2007,NLA-2007
+15,24404,Highland Lake,50267,43047,US EPA National Lake Assesment 2007,NLA-2007
+15,24405,Hi-Land Lake,50268,43048,US EPA National Lake Assesment 2007,NLA-2007
+15,24406,Hinkley's Pond,50269,43049,US EPA National Lake Assesment 2007,NLA-2007
+15,24407,Horseshoe Lake,50270,43050,US EPA National Lake Assesment 2007,NLA-2007
+15,24408,Horsfall Lake,50271,43051,US EPA National Lake Assesment 2007,NLA-2007
+15,24409,Hosmer Lake,50272,43052,US EPA National Lake Assesment 2007,NLA-2007
+15,24410,HOWARD POND,50273,43053,US EPA National Lake Assesment 2007,NLA-2007
+15,24411,Howe Lake,50274,43054,US EPA National Lake Assesment 2007,NLA-2007
+15,24295,HUDSON POND,50275,43055,US EPA National Lake Assesment 2007,NLA-2007
+15,24412,Hungry Man Lake,50276,43056,US EPA National Lake Assesment 2007,NLA-2007
+15,24413,Ice Lake,50277,43057,US EPA National Lake Assesment 2007,NLA-2007
+15,24414,Ingham Lake,50278,43058,US EPA National Lake Assesment 2007,NLA-2007
+15,24415,Island Lake,50279,43059,US EPA National Lake Assesment 2007,NLA-2007
+15,24805,Island Lake (GA),50280,43551,US EPA National Lake Assesment 2007,NLA-2007
+15,24806,Island Lake (CA),50281,43552,US EPA National Lake Assesment 2007,NLA-2007
+15,24807,Island Pond (AR),50282,43553,US EPA National Lake Assesment 2007,NLA-2007
+15,24416,Island Pond,50283,43060,US EPA National Lake Assesment 2007,NLA-2007
+15,24808,Island Pond (ES),50284,43554,US EPA National Lake Assesment 2007,NLA-2007
+15,24417,Jobs Pond,50285,43061,US EPA National Lake Assesment 2007,NLA-2007
+15,24418,Johnson Lake,50286,43062,US EPA National Lake Assesment 2007,NLA-2007
+15,24419,Jump-off Joe Lake,50287,43063,US EPA National Lake Assesment 2007,NLA-2007
+15,24420,Kettle Brook Reservoir #1,50288,43064,US EPA National Lake Assesment 2007,NLA-2007
+15,24421,Keula Lake,50289,43065,US EPA National Lake Assesment 2007,NLA-2007
+15,24422,Killarney Lake,50290,43066,US EPA National Lake Assesment 2007,NLA-2007
+15,24423,Kitsap Lake,50292,43067,US EPA National Lake Assesment 2007,NLA-2007
+15,24424,Knowlton Pond,50293,43068,US EPA National Lake Assesment 2007,NLA-2007
+15,24425,Koontz Lake,50294,43069,US EPA National Lake Assesment 2007,NLA-2007
+15,24426,Lake Albert,50295,43070,US EPA National Lake Assesment 2007,NLA-2007
+15,24427,Lake Alice,50296,43071,US EPA National Lake Assesment 2007,NLA-2007
+15,24428,Lake Apopka,50297,43072,US EPA National Lake Assesment 2007,NLA-2007
+15,24429,Lake Au Sable,50298,43073,US EPA National Lake Assesment 2007,NLA-2007
+15,24499,Lake Bailey,50371,43191,US EPA National Lake Assesment 2007,NLA-2007
+15,24500,Lake Blaine,50374,43192,US EPA National Lake Assesment 2007,NLA-2007
+15,24501,Lake Blanchard,50375,43193,US EPA National Lake Assesment 2007,NLA-2007
+15,24502,Lake Brighton,50376,43194,US EPA National Lake Assesment 2007,NLA-2007
+15,24503,Lake Bruin,50377,43195,US EPA National Lake Assesment 2007,NLA-2007
+15,24504,Lake Byron,50378,43196,US EPA National Lake Assesment 2007,NLA-2007
+15,24505,Lake Champlain,50379,43197,US EPA National Lake Assesment 2007,NLA-2007
+15,24506,Lake Chemung,50380,43198,US EPA National Lake Assesment 2007,NLA-2007
+15,24507,Lake Cochrane,50381,43199,US EPA National Lake Assesment 2007,NLA-2007
+15,24508,Lake Coeur D'Alene,50382,43200,US EPA National Lake Assesment 2007,NLA-2007
+15,24509,Lake Concordia,50383,43201,US EPA National Lake Assesment 2007,NLA-2007
+15,24510,Lake Eli,50384,43202,US EPA National Lake Assesment 2007,NLA-2007
+15,24511,Lake Gogebic,50385,43203,US EPA National Lake Assesment 2007,NLA-2007
+15,24512,Lake Griffin,50386,43204,US EPA National Lake Assesment 2007,NLA-2007
+15,24513,Lake Haines,50387,43205,US EPA National Lake Assesment 2007,NLA-2007
+15,24514,Lake Hattie,50388,43206,US EPA National Lake Assesment 2007,NLA-2007
+15,24515,Lake Helen,50389,43207,US EPA National Lake Assesment 2007,NLA-2007
+15,24516,Lake Hinden,50390,43208,US EPA National Lake Assesment 2007,NLA-2007
+15,24517,Lake Isabel,50391,43209,US EPA National Lake Assesment 2007,NLA-2007
+15,24518,Lake Isabella,50392,43210,US EPA National Lake Assesment 2007,NLA-2007
+15,24519,Lake Jennie,50393,43211,US EPA National Lake Assesment 2007,NLA-2007
+15,24520,Lake Kampeska,50394,43212,US EPA National Lake Assesment 2007,NLA-2007
+15,24521,Lake Keewaydin,50395,43213,US EPA National Lake Assesment 2007,NLA-2007
+15,24522,Lake Kegonsa,50396,43214,US EPA National Lake Assesment 2007,NLA-2007
+15,24523,Lake Kenosia,50397,43215,US EPA National Lake Assesment 2007,NLA-2007
+15,24524,Lake Koeneman,50397,43216,US EPA National Lake Assesment 2007,NLA-2007
+15,24525,Lake Linka,50398,43217,US EPA National Lake Assesment 2007,NLA-2007
+15,24526,Lake Louise,50399,43218,US EPA National Lake Assesment 2007,NLA-2007
+15,24527,Lake Mary Ronan,50400,43219,US EPA National Lake Assesment 2007,NLA-2007
+15,24528,Lake Minnehaha,50401,43220,US EPA National Lake Assesment 2007,NLA-2007
+15,24529,Lake Minneola,50402,43221,US EPA National Lake Assesment 2007,NLA-2007
+15,24530,Lake Monroe,50403,43222,US EPA National Lake Assesment 2007,NLA-2007
+15,24531,Lake Myrtle,50404,43223,US EPA National Lake Assesment 2007,NLA-2007
+15,24532,Lake Nephawin,50405,43224,US EPA National Lake Assesment 2007,NLA-2007
+15,11666,Lake Nokomis,50406,43225,US EPA National Lake Assesment 2007,NLA-2007
+15,24533,Lake Oconomowoc,50407,43226,US EPA National Lake Assesment 2007,NLA-2007
+15,24534,Lake of the Woods,50408,43227,US EPA National Lake Assesment 2007,NLA-2007
+15,24535,Lake Okeechobee,50409,43228,US EPA National Lake Assesment 2007,NLA-2007
+15,24536,Lake Ottawa,50410,43229,US EPA National Lake Assesment 2007,NLA-2007
+15,24537,Lake Parker,50411,43230,US EPA National Lake Assesment 2007,NLA-2007
+15,24538,Lake Sainte Kathryn,50412,43231,US EPA National Lake Assesment 2007,NLA-2007
+15,24539,Lake Sammamish,50413,43232,US EPA National Lake Assesment 2007,NLA-2007
+15,24540,Lake Seminole,50414,43233,US EPA National Lake Assesment 2007,NLA-2007
+15,24541,Lake Tarpon,50415,43234,US EPA National Lake Assesment 2007,NLA-2007
+15,24542,Lake Thonotosass,50416,43235,US EPA National Lake Assesment 2007,NLA-2007
+15,24331,Lake Tranquility,50417,43236,US EPA National Lake Assesment 2007,NLA-2007
+15,24543,Lake Victoria,50418,43237,US EPA National Lake Assesment 2007,NLA-2007
+15,24544,Lake View Lake,50419,43238,US EPA National Lake Assesment 2007,NLA-2007
+15,24545,Lake Waramaug,50420,43239,US EPA National Lake Assesment 2007,NLA-2007
+15,24546,Lake Winnebago,51439,43240,US EPA National Lake Assesment 2007,NLA-2007
+15,14288,Lake Wood,51440,43241,US EPA National Lake Assesment 2007,NLA-2007
+15,24547,Lake Woodruff,51441,43242,US EPA National Lake Assesment 2007,NLA-2007
+15,24548,Lake Yale,51442,43243,US EPA National Lake Assesment 2007,NLA-2007
+15,24549,Lake Zoar,51443,43244,US EPA National Lake Assesment 2007,NLA-2007
+15,1564,Lamb Lake,51444,43245,US EPA National Lake Assesment 2007,NLA-2007
+15,24550,Lamoille Lake,51445,43246,US EPA National Lake Assesment 2007,NLA-2007
+15,24551,Laurel Lake,51446,43247,US EPA National Lake Assesment 2007,NLA-2007
+15,24552,Lawne Lake,51447,43248,US EPA National Lake Assesment 2007,NLA-2007
+15,24553,Lewis Lake,51448,43249,US EPA National Lake Assesment 2007,NLA-2007
+15,24554,Lewis Lake (Pi.),51449,43250,US EPA National Lake Assesment 2007,NLA-2007
+15,24555,Likes Lake,51450,43251,US EPA National Lake Assesment 2007,NLA-2007
+15,24556,Little Bear Lake,51451,43252,US EPA National Lake Assesment 2007,NLA-2007
+15,24294,Little Big Wood Pond,51452,43253,US EPA National Lake Assesment 2007,NLA-2007
+15,24557,Little Clear Lake,51453,43254,US EPA National Lake Assesment 2007,NLA-2007
+15,24558,Little Elkhart Lake,51454,43255,US EPA National Lake Assesment 2007,NLA-2007
+15,24319,Little Greenough Pond,51455,43256,US EPA National Lake Assesment 2007,NLA-2007
+15,24559,Little Otter,51456,43257,US EPA National Lake Assesment 2007,NLA-2007
+15,24560,Little Simer Pond,51457,43258,US EPA National Lake Assesment 2007,NLA-2007
+15,13768,Little Wall Lake,51458,43259,US EPA National Lake Assesment 2007,NLA-2007
+15,24561,Long Lake,51459,43260,US EPA National Lake Assesment 2007,NLA-2007
+15,24562,Long Lake(Wr.),51460,43261,US EPA National Lake Assesment 2007,NLA-2007
+15,24563,Long Lake (La.),51461,43262,US EPA National Lake Assesment 2007,NLA-2007
+15,24564,Long Lake(Ca.),51462,43263,US EPA National Lake Assesment 2007,NLA-2007
+15,24565,Long Lake (Ha.),51463,43264,US EPA National Lake Assesment 2007,NLA-2007
+15,24566,Long Lake (Ar.),51464,43265,US EPA National Lake Assesment 2007,NLA-2007
+15,24567,Long Lake (Main Bay),51465,43266,US EPA National Lake Assesment 2007,NLA-2007
+15,24568,Long Lake2,51466,43267,US EPA National Lake Assesment 2007,NLA-2007
+15,24569,Long Pond,51467,43268,US EPA National Lake Assesment 2007,NLA-2007
+15,24570,Long Pond (Hi.),51468,43269,US EPA National Lake Assesment 2007,NLA-2007
+15,24571,Long Pond (Fr.),51469,43270,US EPA National Lake Assesment 2007,NLA-2007
+15,24572,Long Pond (Ba.),51470,43271,US EPA National Lake Assesment 2007,NLA-2007
+15,24573,Lookout Lake,51471,43272,US EPA National Lake Assesment 2007,NLA-2007
+15,24574,Loon Lake,51472,43273,US EPA National Lake Assesment 2007,NLA-2007
+15,24575,Lost Lake,51473,43274,US EPA National Lake Assesment 2007,NLA-2007
+15,24576,Lotto Lake,51474,43275,US EPA National Lake Assesment 2007,NLA-2007
+15,24577,Lower Middle Branch,51475,43276,US EPA National Lake Assesment 2007,NLA-2007
+15,24578,Lower Thompson Lake,51476,43277,US EPA National Lake Assesment 2007,NLA-2007
+15,24579,Lower Twin Lake,51477,43278,US EPA National Lake Assesment 2007,NLA-2007
+15,24580,Lowes Lake,51478,43279,US EPA National Lake Assesment 2007,NLA-2007
+15,24581,Lums Pond,51479,43280,US EPA National Lake Assesment 2007,NLA-2007
+15,24582,Lynn Lake,51480,43281,US EPA National Lake Assesment 2007,NLA-2007
+15,24583,Maidstone Lake,51481,43282,US EPA National Lake Assesment 2007,NLA-2007
+15,24584,Mann Lake,51482,43283,US EPA National Lake Assesment 2007,NLA-2007
+15,24585,Marl Lake,51483,43284,US EPA National Lake Assesment 2007,NLA-2007
+15,24586,Marlette Lake,51484,43285,US EPA National Lake Assesment 2007,NLA-2007
+15,24587,Martin Lake,51485,43286,US EPA National Lake Assesment 2007,NLA-2007
+15,24588,Mary Lake,51486,43287,US EPA National Lake Assesment 2007,NLA-2007
+15,24589,Mayo Lake,51487,43288,US EPA National Lake Assesment 2007,NLA-2007
+15,24590,McClellan Lake,51488,43289,US EPA National Lake Assesment 2007,NLA-2007
+15,24593,McColley Pond,51489,43302,US EPA National Lake Assesment 2007,NLA-2007
+15,24594,McDonald,51490,43303,US EPA National Lake Assesment 2007,NLA-2007
+15,24595,McKeel Lake,51491,43304,US EPA National Lake Assesment 2007,NLA-2007
+15,24596,McLeod Lake,51492,43305,US EPA National Lake Assesment 2007,NLA-2007
+15,24597,Medical Lake,51493,43306,US EPA National Lake Assesment 2007,NLA-2007
+15,24598,Messick Lake,51494,43307,US EPA National Lake Assesment 2007,NLA-2007
+15,24599,Middle Chain Pond,51495,43308,US EPA National Lake Assesment 2007,NLA-2007
+15,24600,Midget Lake,51496,43309,US EPA National Lake Assesment 2007,NLA-2007
+15,24355,Miles Pond,51497,43310,US EPA National Lake Assesment 2007,NLA-2007
+15,24601,Mill Lake,51498,43311,US EPA National Lake Assesment 2007,NLA-2007
+15,24602,Miller Antrim Lake,51499,43312,US EPA National Lake Assesment 2007,NLA-2007
+15,24603,Mims Lake,51500,43313,US EPA National Lake Assesment 2007,NLA-2007
+15,24604,Minnow Lake,51501,43314,US EPA National Lake Assesment 2007,NLA-2007
+15,23384,Mirror Lake,51502,43315,US EPA National Lake Assesment 2007,NLA-2007
+15,24605,Moon Lake,51503,43316,US EPA National Lake Assesment 2007,NLA-2007
+15,24606,Morris Reservoir,51504,43317,US EPA National Lake Assesment 2007,NLA-2007
+15,24607,Moses Lake,51505,43318,US EPA National Lake Assesment 2007,NLA-2007
+15,24608,Mother Lake,51506,43319,US EPA National Lake Assesment 2007,NLA-2007
+15,24609,Mountain Lake,51507,43320,US EPA National Lake Assesment 2007,NLA-2007
+15,24610,Mud Lake,51508,43321,US EPA National Lake Assesment 2007,NLA-2007
+15,24611,Mud Lake (Mc),51509,43322,US EPA National Lake Assesment 2007,NLA-2007
+15,10034,Mud Lake (Ho),51510,43323,US EPA National Lake Assesment 2007,NLA-2007
+15,24612,Muskegon Lake,51511,43324,US EPA National Lake Assesment 2007,NLA-2007
+15,24613,Musquash,51512,43325,US EPA National Lake Assesment 2007,NLA-2007
+15,24614,Mutske,51513,43326,US EPA National Lake Assesment 2007,NLA-2007
+15,24615,Navajo Lake,51514,43327,US EPA National Lake Assesment 2007,NLA-2007
+15,10273,Nesbitt Lake,51515,43328,US EPA National Lake Assesment 2007,NLA-2007
+15,24616,Nest Lake,51516,43329,US EPA National Lake Assesment 2007,NLA-2007
+15,24617,Nolen Blue Hole,51517,43330,US EPA National Lake Assesment 2007,NLA-2007
+15,24618,North Ash Lake,51518,43331,US EPA National Lake Assesment 2007,NLA-2007
+15,24619,North Eagle,51519,43332,US EPA National Lake Assesment 2007,NLA-2007
+15,24620,North Fork Lake,51520,43333,US EPA National Lake Assesment 2007,NLA-2007
+15,24621,North Mayfield,51521,43334,US EPA National Lake Assesment 2007,NLA-2007
+15,24622,North Turn Lake,51522,43335,US EPA National Lake Assesment 2007,NLA-2007
+15,24623,North Twin Lake,51523,43336,US EPA National Lake Assesment 2007,NLA-2007
+15,24624,Norton Reservoir,51524,43337,US EPA National Lake Assesment 2007,NLA-2007
+15,24625,Norway Lake,51525,43338,US EPA National Lake Assesment 2007,NLA-2007
+15,24626,Noxontown Pond,51526,43339,US EPA National Lake Assesment 2007,NLA-2007
+15,24627,Nutleg East,51527,43340,US EPA National Lake Assesment 2007,NLA-2007
+15,24628,Okamanpeedan,51528,43341,US EPA National Lake Assesment 2007,NLA-2007
+15,24629,Olin Lake,51529,43342,US EPA National Lake Assesment 2007,NLA-2007
+15,24630,Oneida Lake,51530,43343,US EPA National Lake Assesment 2007,NLA-2007
+15,24631,Otter Lake,51531,43344,US EPA National Lake Assesment 2007,NLA-2007
+15,24632,Ozette Lake,51532,43345,US EPA National Lake Assesment 2007,NLA-2007
+15,24633,Pachaug Pond,51533,43346,US EPA National Lake Assesment 2007,NLA-2007
+15,24634,Palestine Lake (Ko.),51534,43347,US EPA National Lake Assesment 2007,NLA-2007
+15,24635,Palestine Lake (Un.),51535,43348,US EPA National Lake Assesment 2007,NLA-2007
+15,24636,Palmer Lake,51536,43349,US EPA National Lake Assesment 2007,NLA-2007
+15,24637,Payette Lake,51537,43350,US EPA National Lake Assesment 2007,NLA-2007
+15,24293,Peaked Mountian Pond,51538,43351,US EPA National Lake Assesment 2007,NLA-2007
+15,24638,Pebble Lake,51539,43352,US EPA National Lake Assesment 2007,NLA-2007
+15,24639,Pelican Lake,51540,43353,US EPA National Lake Assesment 2007,NLA-2007
+15,24640,Pelican Lake (Cr),51541,43354,US EPA National Lake Assesment 2007,NLA-2007
+15,24641,Pere Marquette Lake,51542,43355,US EPA National Lake Assesment 2007,NLA-2007
+15,24642,Perkins Lake,51543,43356,US EPA National Lake Assesment 2007,NLA-2007
+15,24643,Phelps Lake,51544,43357,US EPA National Lake Assesment 2007,NLA-2007
+15,24644,Pickerel,51545,43358,US EPA National Lake Assesment 2007,NLA-2007
+15,24645,Pine Lake,51546,43359,US EPA National Lake Assesment 2007,NLA-2007
+15,24646,Pine Lake (Ke),51547,43360,US EPA National Lake Assesment 2007,NLA-2007
+15,24647,Pine Mountian Lake,51548,43361,US EPA National Lake Assesment 2007,NLA-2007
+15,24648,Plainfield Pond,51549,43362,US EPA National Lake Assesment 2007,NLA-2007
+15,24649,Pleasant Lake,51550,43363,US EPA National Lake Assesment 2007,NLA-2007
+15,24650,Pleasant Lake (Ox),51551,43364,US EPA National Lake Assesment 2007,NLA-2007
+15,24651,Plum Lake,51552,43365,US EPA National Lake Assesment 2007,NLA-2007
+15,24652,Price Lake,51553,43366,US EPA National Lake Assesment 2007,NLA-2007
+15,24653,Pushineer Pond,51554,43367,US EPA National Lake Assesment 2007,NLA-2007
+15,24654,Rat Lake,51555,43368,US EPA National Lake Assesment 2007,NLA-2007
+15,24655,Rath Lake,51556,43369,US EPA National Lake Assesment 2007,NLA-2007
+15,24656,Records Pond,51557,43370,US EPA National Lake Assesment 2007,NLA-2007
+15,24657,Red Deer Lake,51558,43371,US EPA National Lake Assesment 2007,NLA-2007
+15,24658,Red Mill Pond,51559,43372,US EPA National Lake Assesment 2007,NLA-2007
+15,24659,Red Rock,51560,43373,US EPA National Lake Assesment 2007,NLA-2007
+15,24660,Red Rock Lake,51561,43374,US EPA National Lake Assesment 2007,NLA-2007
+15,24661,Reedy Lake,51562,43375,US EPA National Lake Assesment 2007,NLA-2007
+15,24662,Rehfeldt Slough,51563,43376,US EPA National Lake Assesment 2007,NLA-2007
+15,24663,Rice Lake,51564,43377,US EPA National Lake Assesment 2007,NLA-2007
+15,24664,Richey Lake,51565,43378,US EPA National Lake Assesment 2007,NLA-2007
+15,24282,Riga Lake,51566,43379,US EPA National Lake Assesment 2007,NLA-2007
+15,24465,Robinson Lake,51567,43380,US EPA National Lake Assesment 2007,NLA-2007
+15,24466,Rock Lake,51568,43381,US EPA National Lake Assesment 2007,NLA-2007
+15,24467,Roderique Pond,51569,43382,US EPA National Lake Assesment 2007,NLA-2007
+15,24468,Roseland Lake,51570,43383,US EPA National Lake Assesment 2007,NLA-2007
+15,24469,Round Lake,51571,43384,US EPA National Lake Assesment 2007,NLA-2007
+15,24470,Round Lake (Po),51572,43385,US EPA National Lake Assesment 2007,NLA-2007
+15,24471,Round Lake (Va),51573,43386,US EPA National Lake Assesment 2007,NLA-2007
+15,24472,Round Lake (Ot),51574,43387,US EPA National Lake Assesment 2007,NLA-2007
+15,24473,Round Lake (Bo),51575,43388,US EPA National Lake Assesment 2007,NLA-2007
+15,24474,Round Lake (St),51576,43389,US EPA National Lake Assesment 2007,NLA-2007
+15,24475,Round Lake (Wh),51577,43390,US EPA National Lake Assesment 2007,NLA-2007
+15,24476,Round Valley Reservoir,51578,43391,US EPA National Lake Assesment 2007,NLA-2007
+15,11767,Roundup Lake,51579,43392,US EPA National Lake Assesment 2007,NLA-2007
+15,24677,Rush Lake,51580,43393,US EPA National Lake Assesment 2007,NLA-2007
+15,24678,Sacheen Lake,51581,43394,US EPA National Lake Assesment 2007,NLA-2007
+15,24679,Saddle Lake,51582,43395,US EPA National Lake Assesment 2007,NLA-2007
+15,24680,Salmon Lake,51583,43396,US EPA National Lake Assesment 2007,NLA-2007
+15,11631,Sarah Lake,51584,43397,US EPA National Lake Assesment 2007,NLA-2007
+15,24681,Schnur Lake,51585,43398,US EPA National Lake Assesment 2007,NLA-2007
+15,24682,School House Pond,51586,43399,US EPA National Lake Assesment 2007,NLA-2007
+15,24683,Sebasticook Lake,51587,43400,US EPA National Lake Assesment 2007,NLA-2007
+15,24684,Sheeler Lake,51588,43401,US EPA National Lake Assesment 2007,NLA-2007
+15,24685,Shell Lake,51589,43402,US EPA National Lake Assesment 2007,NLA-2007
+15,24686,Shepherd Lake,51590,43403,US EPA National Lake Assesment 2007,NLA-2007
+15,24687,Silver Lake Dover,51591,43404,US EPA National Lake Assesment 2007,NLA-2007
+15,24688,Singleton Pond,51592,43405,US EPA National Lake Assesment 2007,NLA-2007
+15,13061,Sip Pond,51593,43406,US EPA National Lake Assesment 2007,NLA-2007
+15,24689,Skinner Lake,51594,43407,US EPA National Lake Assesment 2007,NLA-2007
+15,24276,Slack Reservoir,51595,43408,US EPA National Lake Assesment 2007,NLA-2007
+15,24690,Sloans Lake,51596,43409,US EPA National Lake Assesment 2007,NLA-2007
+15,24345,Sly Pond,51597,43410,US EPA National Lake Assesment 2007,NLA-2007
+15,24691,Smith and Sayles Reservoir,51598,43411,US EPA National Lake Assesment 2007,NLA-2007
+15,24692,Smith Lake,51599,43412,US EPA National Lake Assesment 2007,NLA-2007
+15,24693,Smith Lake (Ga),51600,43413,US EPA National Lake Assesment 2007,NLA-2007
+15,24694,Snail Lake,51601,43414,US EPA National Lake Assesment 2007,NLA-2007
+15,24695,Soper Pond,51602,43415,US EPA National Lake Assesment 2007,NLA-2007
+15,24696,Sophie Lake,51603,43416,US EPA National Lake Assesment 2007,NLA-2007
+15,24697,South Banner Lake,51604,43417,US EPA National Lake Assesment 2007,NLA-2007
+15,24698,South Bay Lake Champlain,51605,43418,US EPA National Lake Assesment 2007,NLA-2007
+15,24699,South Chain Lake,51606,43419,US EPA National Lake Assesment 2007,NLA-2007
+15,24700,South Dry Wood Lake,51607,43420,US EPA National Lake Assesment 2007,NLA-2007
+15,24701,South Lake,51608,43421,US EPA National Lake Assesment 2007,NLA-2007
+15,24702,South Loon Lake,51609,43422,US EPA National Lake Assesment 2007,NLA-2007
+15,24703,South Twin Lake,51610,43423,US EPA National Lake Assesment 2007,NLA-2007
+15,24704,Sparks Lake,51611,43424,US EPA National Lake Assesment 2007,NLA-2007
+15,1222,Spiritwood Lake,51612,43425,US EPA National Lake Assesment 2007,NLA-2007
+15,24705,Spring Lake,51613,43426,US EPA National Lake Assesment 2007,NLA-2007
+15,24706,Spring Lake (Ru),51614,43427,US EPA National Lake Assesment 2007,NLA-2007
+15,24707,Spring Lake (Ca),51615,43428,US EPA National Lake Assesment 2007,NLA-2007
+15,24708,Spring Lake (Ka),51616,43429,US EPA National Lake Assesment 2007,NLA-2007
+15,24709,Spring Lake (Ha),51617,43430,US EPA National Lake Assesment 2007,NLA-2007
+15,24710,Sprinq Lake,51618,43431,US EPA National Lake Assesment 2007,NLA-2007
+15,24711,Squaw Lake,51619,43432,US EPA National Lake Assesment 2007,NLA-2007
+15,24712,Squaw Lakes,51620,43433,US EPA National Lake Assesment 2007,NLA-2007
+15,24713,Starlight Lake,51621,43434,US EPA National Lake Assesment 2007,NLA-2007
+15,24714,Steverson Lake,51622,43435,US EPA National Lake Assesment 2007,NLA-2007
+15,24715,Stoner Lake,51623,43436,US EPA National Lake Assesment 2007,NLA-2007
+15,24716,Straight Lake,51624,43437,US EPA National Lake Assesment 2007,NLA-2007
+15,24717,Strakis Lake,51625,43438,US EPA National Lake Assesment 2007,NLA-2007
+15,24718,Strawberry Lake,51626,43439,US EPA National Lake Assesment 2007,NLA-2007
+15,24719,Stump Pond,51627,43440,US EPA National Lake Assesment 2007,NLA-2007
+15,24720,Sullivan Lake,51628,43440,US EPA National Lake Assesment 2007,NLA-2007
+15,24721,Swamp,51629,43441,US EPA National Lake Assesment 2007,NLA-2007
+15,24722,Swan Lake,51630,43442,US EPA National Lake Assesment 2007,NLA-2007
+15,24723,Swan Lake (Di),51631,43443,US EPA National Lake Assesment 2007,NLA-2007
+15,24724,Sy Lake,51632,43444,US EPA National Lake Assesment 2007,NLA-2007
+15,24725,Tallman Lake,51633,43445,US EPA National Lake Assesment 2007,NLA-2007
+15,24726,Tamarack Lake,51634,43446,US EPA National Lake Assesment 2007,NLA-2007
+15,24727,Thornapple Lake,51635,43447,US EPA National Lake Assesment 2007,NLA-2007
+15,27895,Thornburg Lake,51636,43448,US EPA National Lake Assesment 2007,NLA-2007
+15,24728,Tichigan Lake,51637,43449,US EPA National Lake Assesment 2007,NLA-2007
+15,24729,Tilden Pond,51638,43450,US EPA National Lake Assesment 2007,NLA-2007
+15,24730,Tims Lake,51639,43451,US EPA National Lake Assesment 2007,NLA-2007
+15,24731,Tioga Dam,51640,43452,US EPA National Lake Assesment 2007,NLA-2007
+15,24732,Tippecanoe Lake,51641,43453,US EPA National Lake Assesment 2007,NLA-2007
+15,24733,Tomhegan Pond,51642,43454,US EPA National Lake Assesment 2007,NLA-2007
+15,24734,Topaz Lake,51643,43455,US EPA National Lake Assesment 2007,NLA-2007
+15,24735,Torrey Lake,51644,43456,US EPA National Lake Assesment 2007,NLA-2007
+15,24736,Trail Lake,51645,43457,US EPA National Lake Assesment 2007,NLA-2007
+15,24737,Trappers Lake,51646,43458,US EPA National Lake Assesment 2007,NLA-2007
+15,24738,Trout Lake,51647,43459,US EPA National Lake Assesment 2007,NLA-2007
+15,24739,Trout Pond,51648,43460,US EPA National Lake Assesment 2007,NLA-2007
+15,24740,Turtlefoot Lake,51649,43461,US EPA National Lake Assesment 2007,NLA-2007
+15,24741,Turtlehead Pond,51650,43462,US EPA National Lake Assesment 2007,NLA-2007
+15,24742,Twin Lakes,51651,43463,US EPA National Lake Assesment 2007,NLA-2007
+15,9716,Twin Lakes (Be),51652,43464,US EPA National Lake Assesment 2007,NLA-2007
+15,24743,U Lake,51653,43465,US EPA National Lake Assesment 2007,NLA-2007
+15,24744,Union Pond,51654,43466,US EPA National Lake Assesment 2007,NLA-2007
+15,24745,Union Reservoir,51655,43467,US EPA National Lake Assesment 2007,NLA-2007
+15,24746,Unknown,51656,43468,US EPA National Lake Assesment 2007,NLA-2007
+15,24747,Unnamed Lake,51657,43469,US EPA National Lake Assesment 2007,NLA-2007
+15,24748,Unnamed Lake (Sh),51658,43470,US EPA National Lake Assesment 2007,NLA-2007
+15,24749,Unnamed Lake (St),51659,43471,US EPA National Lake Assesment 2007,NLA-2007
+15,24318,Upper Dan Forth Ponds,51660,43472,US EPA National Lake Assesment 2007,NLA-2007
+15,24750,Upper Dinwoody Lake,51661,43473,US EPA National Lake Assesment 2007,NLA-2007
+15,24751,Upper Hatch,51662,43474,US EPA National Lake Assesment 2007,NLA-2007
+15,13840,Upper Pahranagat Lake,51663,43475,US EPA National Lake Assesment 2007,NLA-2007
+15,24752,Upper Pond,51664,43476,US EPA National Lake Assesment 2007,NLA-2007
+15,24753,Upper Sakatah Lake,51665,43477,US EPA National Lake Assesment 2007,NLA-2007
+15,24754,Upper Scott,51666,43478,US EPA National Lake Assesment 2007,NLA-2007
+15,24755,Van Patten Lake,51667,43479,US EPA National Lake Assesment 2007,NLA-2007
+15,24756,Vesper Lake,51668,43480,US EPA National Lake Assesment 2007,NLA-2007
+15,24757,Voydatch Pond,51669,43481,US EPA National Lake Assesment 2007,NLA-2007
+15,24758,Waldo Lake,51670,43482,US EPA National Lake Assesment 2007,NLA-2007
+15,24759,Waldron Lake,51671,43483,US EPA National Lake Assesment 2007,NLA-2007
+15,24760,Walker Lake,51672,43484,US EPA National Lake Assesment 2007,NLA-2007
+15,13370,Wall Lake,51673,43485,US EPA National Lake Assesment 2007,NLA-2007
+15,24761,Wallace Pond,51674,43486,US EPA National Lake Assesment 2007,NLA-2007
+15,24762,Wallum Lake,51675,43487,US EPA National Lake Assesment 2007,NLA-2007
+15,24763,Wapato,51676,43488,US EPA National Lake Assesment 2007,NLA-2007
+15,24764,Wapogasset Lake,51677,43489,US EPA National Lake Assesment 2007,NLA-2007
+15,24765,Warner Lake,51678,43490,US EPA National Lake Assesment 2007,NLA-2007
+15,24766,Watts Lake,51679,43491,US EPA National Lake Assesment 2007,NLA-2007
+15,24767,Welsh Lake,51680,43492,US EPA National Lake Assesment 2007,NLA-2007
+15,24283,West Hill Pond,51681,43493,US EPA National Lake Assesment 2007,NLA-2007
+15,24768,West Lake,51682,43494,US EPA National Lake Assesment 2007,NLA-2007
+15,24769,West Leaf Lake,51683,43495,US EPA National Lake Assesment 2007,NLA-2007
+15,1766,West Okoboji Lake,51684,43496,US EPA National Lake Assesment 2007,NLA-2007
+15,24771,Whitefish Lake,51685,43497,US EPA National Lake Assesment 2007,NLA-2007
+15,24772,Whitewater Lake,51686,43498,US EPA National Lake Assesment 2007,NLA-2007
+15,24773,Willard Pond,51687,43499,US EPA National Lake Assesment 2007,NLA-2007
+15,24774,Willow Lake,51688,43500,US EPA National Lake Assesment 2007,NLA-2007
+15,24775,Winnisquam Lake,51689,43501,US EPA National Lake Assesment 2007,NLA-2007
+15,24776,Winters Creek Lake,51690,43502,US EPA National Lake Assesment 2007,NLA-2007
+15,24777,Wononpakook Lake,51691,43503,US EPA National Lake Assesment 2007,NLA-2007
+15,24778,Wood Lake,51692,43504,US EPA National Lake Assesment 2007,NLA-2007
+15,24779,Wyckoff Lake,51693,43505,US EPA National Lake Assesment 2007,NLA-2007
+15,24780,Yawgoo Pond,51694,43506,US EPA National Lake Assesment 2007,NLA-2007
+15,24810,Unnamed (Stut),51700,43558,US EPA National Lake Assesment 2007,NLA-2007
+15,,NLA-DIAT06608-0707,51701,,US EPA National Lake Assesment 2007,NLA-2007
+15,,NLA-DIAT06608-1022,51702,,US EPA National Lake Assesment 2007,NLA-2007
+15,24811,NLA-DIAT06608-0259,51703,43559,US EPA National Lake Assesment 2007,NLA-2007
+15,24812,NLA-DIAT06608-0302,51704,43560,US EPA National Lake Assesment 2007,NLA-2007
+15,24813,NLA-DIAT06608-0339,51705,43561,US EPA National Lake Assesment 2007,NLA-2007
+15,,NLA-DIAT06608-0531,51706,,US EPA National Lake Assesment 2007,NLA-2007
+15,24814,NLA-DIAT06608-0407,51707,43562,US EPA National Lake Assesment 2007,NLA-2007
+15,24815,NLA-DIAT06608-0414,51708,43563,US EPA National Lake Assesment 2007,NLA-2007
+15,24816,NLA-DIAT06608-0439,51709,43564,US EPA National Lake Assesment 2007,NLA-2007
+15,,NLA-DIAT06608-1107,51710,,US EPA National Lake Assesment 2007,NLA-2007
+15,,NLA-DIAT06608-1719,51711,,US EPA National Lake Assesment 2007,NLA-2007
+15,24817,NLA-DIAT06608-0442,51712,43565,US EPA National Lake Assesment 2007,NLA-2007
+15,,NLA-DIAT06608-0634,51713,,US EPA National Lake Assesment 2007,NLA-2007
+15,24819,NLA-DIAT06608-0608,51714,43569,US EPA National Lake Assesment 2007,NLA-2007
+15,24821,NLA-DIAT06608-0663,51715,43567,US EPA National Lake Assesment 2007,NLA-2007
+15,24823,NLA-DIAT06608-0899,51716,43571,US EPA National Lake Assesment 2007,NLA-2007
+15,24824,NLA-DIAT06608-0915,51717,43572,US EPA National Lake Assesment 2007,NLA-2007
+15,,NLA-DIAT06608-1143,51718,,US EPA National Lake Assesment 2007,NLA-2007
+15,24826,NLA-DIAT06608-1086,51719,43574,US EPA National Lake Assesment 2007,NLA-2007
+15,24829,NLA-DIAT06608-1155,51720,43577,US EPA National Lake Assesment 2007,NLA-2007
+15,24830,NLA-DIAT06608-1575,51721,43578,US EPA National Lake Assesment 2007,NLA-2007
+15,24381,NLA-DIAT06608-1578,51722,,US EPA National Lake Assesment 2007,NLA-2007
+15,24833,NLA-DIAT06608-1735,51723,43581,US EPA National Lake Assesment 2007,NLA-2007
+16,14195,ELA 93 (Enache et al 2011),22178,22179,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14197,ELA 99 (Enache et al 2011,22182,22183,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14166,ELA 101 (Enache et al 2011),22124,22125,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14167,ELA 109 (Enache et al 2011),22126,22127,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14168,ELA 110 (Enache et al 2011),22128,22129,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14157,ELA 111 (Enache et al 2011),22106,22107,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14169,ELA 114 (Enache et al 2011),22130,22131,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14170,ELA 115 (Enache et al 2011),22131,22132,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14171,ELA 127 (Enache et al 2011),22133,22134,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14172,ELA 129 (Enache et al 2011),22135,22136,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14173,ELA 131 (Enache et al 2011),22137,22138,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14174,ELA 132 (Enache et al 2011),22139,22140,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14175,ELA 149 (Enache et al 2011),22141,22142,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14176,ELA 150 (Enache et al 2011),22143,22144,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14177,ELA 163 (Enache et al 2011),22145,22146,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14164,Wasp Lake [ELA 164 (Enache et al 2011)],22120,22121,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14178,Wasp Lake [ELA 165 (Enache et al 2011)],22147,22148,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14179,ELA 224 (Enache et al 2011),22149,22150,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14180,ELA 226 (Enache et al 2011),22150,22151,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14158,Boundary Lake [ELA 240 (Enache et al 2011)],22108,22109,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14156,Veronica Lake [ELA 256 (Enache et al 2011)],22104,22105,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14181,ELA 257 (Enache et al 2011),22151,22152,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14182,ELA 373 (Enache et al 2011),22153,22154,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14183,ELA 377 (Enache et al 2011),22155,22156,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14184,ELA 378 (Enache et al 2011),22157,22158,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14185,ELA 383 (Enache et al 2011),22159,22160,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14186,ELA 384 (Enache et al 2011),22161,22162,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14159,Windermere Lake [ELA 435 (Enache et al 2011)],22110,22111,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14187,ELA 436 (Enache et al 2011),22163,22164,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14165,ELA 438 (Enache et al 2011),22122,22123,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14160,ELA 468 (Enache et al 2011),22112,22113,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14188,ELA 470 (Enache et al 2011),22165,22166,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14189,ELA 625 (Enache et al 2011),22167,22168,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14190,ELA 626 (Enache et al 2011),22169,22170,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14191,ELA 627 (Enache et al 2011),22171,22172,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14192,ELA 629 (Enache et al 2011),22173,22174,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14161,ELA 631 (Enache et al 2011),22114,22115,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14193,ELA 651 (Enache et al 2011),22175,22176,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14194,ELA 661 (Enache et al 2011),22176,22177,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+16,14196,ELA 938 (Enache et al 2011),22180,22181,Experimental Lakes Area - NW Ont - M Enache,ELA-ME
+17,27905,Inconnu 19,51759,,Abitibi Calibration,Abitibi
+17,27906,Inconnu 24,51760,,Abitibi Calibration,Abitibi
+17,27907,Topus [Inconnu 25],51761,,Abitibi Calibration,Abitibi
+17,27908,Lac Deux Montagnes [Des Montagnes],51762,,Abitibi Calibration,Abitibi
+17,27909,Lac Aldas (Inconnu 39),51763,,Abitibi Calibration,Abitibi
+17,27910,Lac Altura [Altona],51764,,Abitibi Calibration,Abitibi
+17,27911,Lac Arsenault,51765,,Abitibi Calibration,Abitibi
+17,27912,Lac � la Truite [Brunet],51766,,Abitibi Calibration,Abitibi
+17,27913,Lac Debau,51767,,Abitibi Calibration,Abitibi
+17,27914,Lac Dieppe,51768,,Abitibi Calibration,Abitibi
+17,27915,Lac Disson,51769,,Abitibi Calibration,Abitibi
+17,27916,Lac Ducharme,51770,,Abitibi Calibration,Abitibi
+17,27917,Lac Edrien,51771,,Abitibi Calibration,Abitibi
+17,27918,Lac Fabie,51772,,Abitibi Calibration,Abitibi
+17,27919,Lac Pas de Fond,51773,,Abitibi Calibration,Abitibi
+17,27920,Lac Garrot,51774,,Abitibi Calibration,Abitibi
+17,27921,Lac G�rin,51775,,Abitibi Calibration,Abitibi
+17,27922,Lac Highlift,51776,,Abitibi Calibration,Abitibi
+17,27923,Lac Kapekwacata,51777,,Abitibi Calibration,Abitibi
+17,27924,KC (Enache and Prairie 2002),51778,,Abitibi Calibration,Abitibi
+17,27925,Lac Francis [KF (Enache and Prairie 2002)],51779,,Abitibi Calibration,Abitibi
+17,27926,KG (Enache and Prairie 2002),51780,,Abitibi Calibration,Abitibi
+17,27927,KH (Enache and Prairie 2002),51781,,Abitibi Calibration,Abitibi
+17,27928,KI (Enache and Prairie 2002),51782,,Abitibi Calibration,Abitibi
+17,27929,KJ (Enache and Prairie 2002),51783,,Abitibi Calibration,Abitibi
+17,27930,KL (Enache and Prairie 2002),51784,,Abitibi Calibration,Abitibi
+17,27931,Lac Landry,51785,,Abitibi Calibration,Abitibi
+17,27932,Lac Langy,51786,,Abitibi Calibration,Abitibi
+17,27933,Lac Lesage,51787,,Abitibi Calibration,Abitibi
+17,27934,Lac Leslee,51788,,Abitibi Calibration,Abitibi
+17,27935,Lac Long,51789,,Abitibi Calibration,Abitibi
+17,27936,Lac Marlon,51790,,Abitibi Calibration,Abitibi
+17,27937,Lac Matissard,51791,,Abitibi Calibration,Abitibi
+17,27938,Lac Morillon,51792,,Abitibi Calibration,Abitibi
+17,27939,Lac Petit Aldas,51793,,Abitibi Calibration,Abitibi
+17,27940,Lac Petoncle,51794,,Abitibi Calibration,Abitibi
+17,27941,Lac Poison,51795,,Abitibi Calibration,Abitibi
+17,27942,Lac Vert,51796,,Abitibi Calibration,Abitibi
+17,27943,Lac Vose,51797,,Abitibi Calibration,Abitibi
+17,27944,Lac Waite,51798,,Abitibi Calibration,Abitibi
+17,27945,Lac Lassus,51799,,Abitibi Calibration,Abitibi
+17,27946,Lac Rich,51800,,Abitibi Calibration,Abitibi
+18,11863,Anderson Lake,17964,17963,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11864,Bayers,17966,17965,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11865,Bell Lake,17968,17967,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11866,Cranberry Lake,17970,17969,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11867,Frasers Lake,17972,17971,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11868,Kinsac lake,17974,17973,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11869,Little Albro Lake,17976,17975,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11870,Little Springfield,17978,17977,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11871,Maynard Lake,17980,17979,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11872,Miller Lake,17982,17981,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11873,Powder Mill,17984,17983,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11874,Russell Lake,17986,17985,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11875,Soldier Lake,17988,17987,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11879,Thomas Lake,17999,17998,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11880,Whimsical Lake,18001,18000,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11881,Chocolate Lake,18003,18002,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11882,First Chain Lake,18005,18004,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11883,Frenchman Lake,18007,18006,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11884,Lake Major,18009,18008,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11885,Second Lake,18011,18010,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11886,Shubenacadie Grand Lake,18013,18012,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11887,Topsail Lake,18015,18014,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11888,Big Albro Lake,18017,18016,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11892,Frog Pond,18025,18024,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11893,Governor Lake,18027,18026,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11894,Kearney Lake,18029,18028,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11895,Lemont Lake,18031,18030,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11896,Long Lake,18033,18032,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11897,Loon Lake,18035,18034,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11898,McCabe Lake,18037,18036,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11899,Lake MicMac ,18039,18038,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11900,Oat Hill,18041,18040,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11901,Paper Mill,18043,18042,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11902,Powers Pond,18045,18044,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11903,Rocky Lake,18047,18046,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11904,Sandy Lake,18049,18048,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11906,Second Lake,18055,18054,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11908,Springfield Lake,18057,18056,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11911,Lake William,18065,18064,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11912,Williams Lake,18067,18066,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11913,Lake Banook,18069,18068,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11914,Bisset Lake,18071,18070,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11915,Lake Charles,18073,18072,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11916,Fletchers Lake,18075,18074,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11917,Morris Lake,18077,18076,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11918,Pennhorn lake,18079,18078,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+18,11919,Settle Lake,18081,18080,Halifax NS Calibration - 51 lakes - Ginn,Halifax51
+20,11735,Adams Lake,17687,17686,Minnesota surface samples - Brugam,Minn-Brug
+20,11626,Arco Lake,17437,17436,Minnesota surface samples - Brugam,Minn-Brug
+20,11641,Bald Eagle Lake,17469,17468,Minnesota surface samples - Brugam,Minn-Brug
+20,11660,Bass Lake,17514,17513,Minnesota surface samples - Brugam,Minn-Brug
+20,11698,Bass Lake,17601,17600,Minnesota surface samples - Brugam,Minn-Brug
+20,11652,Basset Lake,17494,17493,Minnesota surface samples - Brugam,Minn-Brug
+20,9594,Beaver Lake,17584,17583,Minnesota surface samples - Brugam,Minn-Brug
+20,11741,Big Horseshoe Lake,17699,17698,Minnesota surface samples - Brugam,Minn-Brug
+20,11661,Big Pine,17516,17515,Minnesota surface samples - Brugam,Minn-Brug
+20,11715,Bone Lake,17635,17634,Minnesota surface samples - Brugam,Minn-Brug
+20,11621,Bright Lake,17427,17426,Minnesota surface samples - Brugam,Minn-Brug
+20,11693,Brownie Lake,17590,17589,Minnesota surface samples - Brugam,Minn-Brug
+20,11679,Bryant Lake,17556,17555,Minnesota surface samples - Brugam,Minn-Brug
+20,11623,Budd Lake,17431,17430,Minnesota surface samples - Brugam,Minn-Brug
+20,11618,Buffalo Lake,17421,17420,Minnesota surface samples - Brugam,Minn-Brug
+20,11650,Burnside Lake,17490,17489,Minnesota surface samples - Brugam,Minn-Brug
+20,318,Burntside Lake,17506,17505,Minnesota surface samples - Brugam,Minn-Brug
+20,11656,Caribou Lake,17502,17501,Minnesota surface samples - Brugam,Minn-Brug
+20,11720,Carver Lake,17647,17646,Minnesota surface samples - Brugam,Minn-Brug
+20,344,Cedar Bog,17642,17422,Minnesota surface samples - Brugam,Minn-Brug
+20,11619,Cedar Lake,17423,17517,Minnesota surface samples - Brugam,Minn-Brug
+20,11662,Cedar Lake,17518,,Minnesota surface samples - Brugam,Minn-Brug
+20,11625,Charlotte Lake,17435,17434,Minnesota surface samples - Brugam,Minn-Brug
+20,11695,Christmas Lake,17594,17593,Minnesota surface samples - Brugam,Minn-Brug
+20,11729,Clear Lake,17674,17673,Minnesota surface samples - Brugam,Minn-Brug
+20,11731,Clear Lake,17678,17677,Minnesota surface samples - Brugam,Minn-Brug
+20,11727,Cloverdale Lake,17665,17664,Minnesota surface samples - Brugam,Minn-Brug
+20,11637,Coffee Lake,17461,17460,Minnesota surface samples - Brugam,Minn-Brug
+20,11687,Cokato Lake,17574,17573,Minnesota surface samples - Brugam,Minn-Brug
+20,11737,Comfort Lake,17691,17690,Minnesota surface samples - Brugam,Minn-Brug
+20,7532,Cottonwood Lake,17471,17470,Minnesota surface samples - Brugam,Minn-Brug
+20,13891,Cucumber Lake,21303,21302,Minnesota surface samples - Brugam,Minn-Brug
+20,9940,Dead Coon Lake,17447,17446,Minnesota surface samples - Brugam,Minn-Brug
+20,11628,Deming Lake,17441,17440,Minnesota surface samples - Brugam,Minn-Brug
+20,11726,Devils Lake,17659,17658,Minnesota surface samples - Brugam,Minn-Brug
+20,697,Dogfish Lake,17480,17479,Minnesota surface samples - Brugam,Minn-Brug
+20,11700,Dry Lake,17605,17604,Minnesota surface samples - Brugam,Minn-Brug
+20,11721,East Boot Lake,17649,17648,Minnesota surface samples - Brugam,Minn-Brug
+20,10091,Elk Lake,17645,,Minnesota surface samples - Brugam,Minn-Brug
+20,11644,Fall Lake,17478,17477,Minnesota surface samples - Brugam,Minn-Brug
+20,11657,Fenske Lake,17504,17503,Minnesota surface samples - Brugam,Minn-Brug
+20,11639,First Lake,17465,17464,Minnesota surface samples - Brugam,Minn-Brug
+20,11745,Fish (Dakota),17707,17706,Minnesota surface samples - Brugam,Minn-Brug
+20,11742,Fish Lake,17701,17700,Minnesota surface samples - Brugam,Minn-Brug
+20,11681,Forest Lake,17560,17559,Minnesota surface samples - Brugam,Minn-Brug
+20,11620,Fox Lake,17425,17424,Minnesota surface samples - Brugam,Minn-Brug
+20,11678,Fox Lake,17554,17553,Minnesota surface samples - Brugam,Minn-Brug
+20,11676,Gardner Lake,17548,17547,Minnesota surface samples - Brugam,Minn-Brug
+20,11732,Gervais Lake,17681,17680,Minnesota surface samples - Brugam,Minn-Brug
+20,11648,Gneiss Lake,17487,,Minnesota surface samples - Brugam,Minn-Brug
+20,11740,Goose Lake,17697,17696,Minnesota surface samples - Brugam,Minn-Brug
+20,11686,Green Lake,17572,17571,Minnesota surface samples - Brugam,Minn-Brug
+20,11674,Gull Lake,17544,17543,Minnesota surface samples - Brugam,Minn-Brug
+20,11624,Hall Lake,17433,17432,Minnesota surface samples - Brugam,Minn-Brug
+20,11663,Harriet Lake,17520,17519,Minnesota surface samples - Brugam,Minn-Brug
+20,11665,Hiawatha Lake,17524,17523,Minnesota surface samples - Brugam,Minn-Brug
+20,11697,High Lake,17599,17598,Minnesota surface samples - Brugam,Minn-Brug
+20,11725,Holland Lake,17657,17656,Minnesota surface samples - Brugam,Minn-Brug
+20,11701,Hornby Lake,17607,17606,Minnesota surface samples - Brugam,Minn-Brug
+20,11690,Hunt Lake,17582,17581,Minnesota surface samples - Brugam,Minn-Brug
+20,11705,Indiana Lake,17615,17614,Minnesota surface samples - Brugam,Minn-Brug
+20,11635,Island Lake,17457,17456,Minnesota surface samples - Brugam,Minn-Brug
+20,11627,Josephine Lake,17439,17438,Minnesota surface samples - Brugam,Minn-Brug
+20,11684,Kandyohi Lake,17568,17567,Minnesota surface samples - Brugam,Minn-Brug
+20,9825,Kelly-Dudley Lake,17564,17563,Minnesota surface samples - Brugam,Minn-Brug
+20,11654,Kremer Lake,17498,17497,Minnesota surface samples - Brugam,Minn-Brug
+20,11711,Kroon Lake,17627,17626,Minnesota surface samples - Brugam,Minn-Brug
+20,1526,Kylen Lake,17670,17669,Minnesota surface samples - Brugam,Minn-Brug
+20,29,Lake Allie,17473,17472,Minnesota surface samples - Brugam,Minn-Brug
+20,11718,Lake Andrew,17641,17640,Minnesota surface samples - Brugam,Minn-Brug
+20,11664,Lake Calhoun,17522,17521,Minnesota surface samples - Brugam,Minn-Brug
+20,1548,Lake Carlson,17532,17531,Minnesota surface samples - Brugam,Minn-Brug
+20,11722,Lake Jane,17651,17650,Minnesota surface samples - Brugam,Minn-Brug
+20,11683,Lake Mazaska,17566,17565,Minnesota surface samples - Brugam,Minn-Brug
+20,11642,Lake Minnewashta,17475,17474,Minnesota surface samples - Brugam,Minn-Brug
+20,11666,Lake Nokomis,17526,17525,Minnesota surface samples - Brugam,Minn-Brug
+20,11668,Lake of Isles,17530,17529,Minnesota surface samples - Brugam,Minn-Brug
+20,11614,Lake of the Valley,17413,17412,Minnesota surface samples - Brugam,Minn-Brug
+20,11733,Lake Owasso,17683,17682,Minnesota surface samples - Brugam,Minn-Brug
+20,11680,Lake Riley,17558,17557,Minnesota surface samples - Brugam,Minn-Brug
+20,11633,Lake Shetek,17453,17452,Minnesota surface samples - Brugam,Minn-Brug
+20,11651,Lake South of Burnside,17492,17491,Minnesota surface samples - Brugam,Minn-Brug
+20,11734,Lake Wabasso,17685,17684,Minnesota surface samples - Brugam,Minn-Brug
+20,11685,Lake Wagonga,17570,17569,Minnesota surface samples - Brugam,Minn-Brug
+20,11671,Leavitt Lake,17538,17537,Minnesota surface samples - Brugam,Minn-Brug
+20,10134,Little Horseshoe Lake,17661,17660,Minnesota surface samples - Brugam,Minn-Brug
+20,11615,Long Lake,17415,17414,Minnesota surface samples - Brugam,Minn-Brug
+20,11640,Long Lake,17467,17466,Minnesota surface samples - Brugam,Minn-Brug
+20,11723,Long Lake,17653,17652,Minnesota surface samples - Brugam,Minn-Brug
+20,11638,Lords Lake,17463,17462,Minnesota surface samples - Brugam,Minn-Brug
+20,11699,Low Lake,17603,17602,Minnesota surface samples - Brugam,Minn-Brug
+20,11689,Madison Lake,17578,17577,Minnesota surface samples - Brugam,Minn-Brug
+20,11649,Maraboeuf Lake,17488,,Minnesota surface samples - Brugam,Minn-Brug
+20,11672,Margaret Lake,17540,17539,Minnesota surface samples - Brugam,Minn-Brug
+20,11730,Mays Lake,17676,17675,Minnesota surface samples - Brugam,Minn-Brug
+20,11682,McCarrons Lake,17562,17561,Minnesota surface samples - Brugam,Minn-Brug
+20,1664,McCraney Lake,17411,17410,Minnesota surface samples - Brugam,Minn-Brug
+20,11704,McIntyre Lake,17613,17612,Minnesota surface samples - Brugam,Minn-Brug
+20,11645,Meander Lake,17482,17481,Minnesota surface samples - Brugam,Minn-Brug
+20,11713,Moody Lake,17631,17630,Minnesota surface samples - Brugam,Minn-Brug
+20,11675,Nemec Lake,17546,17545,Minnesota surface samples - Brugam,Minn-Brug
+20,11659,Nickel Lake,17512,17511,Minnesota surface samples - Brugam,Minn-Brug
+20,11632,Oaks Lake,17451,17450,Minnesota surface samples - Brugam,Minn-Brug
+20,1820,Pennington Lake,17679,,Minnesota surface samples - Brugam,Minn-Brug
+20,11714,Peterson Lake,17633,17632,Minnesota surface samples - Brugam,Minn-Brug
+20,11612,Pickerel Lake,17408,17407,Minnesota surface samples - Brugam,Minn-Brug
+20,11673,Pike Lake,17542,17541,Minnesota surface samples - Brugam,Minn-Brug
+20,11658,Pine Lake,17510,17509,Minnesota surface samples - Brugam,Minn-Brug
+20,11703,Pine Lake,17611,17610,Minnesota surface samples - Brugam,Minn-Brug
+20,13887,Pokegamma Lake,21298,21297,Minnesota surface samples - Brugam,Minn-Brug
+20,11724,Powers Lake,17655,17654,Minnesota surface samples - Brugam,Minn-Brug
+20,2548,Quallen Lake [Terhell Pond],17550,17549,Minnesota surface samples - Brugam,Minn-Brug
+20,11708,Railroad Lake,17621,17620,Minnesota surface samples - Brugam,Minn-Brug
+20,11709,Red Lake,17623,17622,Minnesota surface samples - Brugam,Minn-Brug
+20,11646,Saganaga lake,17484,17483,Minnesota surface samples - Brugam,Minn-Brug
+20,10144,Saint Olaf Lake,17580,17579,Minnesota surface samples - Brugam,Minn-Brug
+20,11746,Sakatah lake,17709,17708,Minnesota surface samples - Brugam,Minn-Brug
+20,11717,Sand Lake,17639,17638,Minnesota surface samples - Brugam,Minn-Brug
+20,11631,Sarah Lake,17449,17448,Minnesota surface samples - Brugam,Minn-Brug
+20,11694,School Grove Lake,17592,17591,Minnesota surface samples - Brugam,Minn-Brug
+20,2293,Shagawa Lake,17508,17507,Minnesota surface samples - Brugam,Minn-Brug
+20,11688,Shields Lake,17576,17575,Minnesota surface samples - Brugam,Minn-Brug
+20,11712,Shields Lake,17629,17628,Minnesota surface samples - Brugam,Minn-Brug
+20,11739,Skogman Lake,17695,17694,Minnesota surface samples - Brugam,Minn-Brug
+20,11622,South Silver Lake,17429,17428,Minnesota surface samples - Brugam,Minn-Brug
+20,11716,Square Lake,17637,17636,Minnesota surface samples - Brugam,Minn-Brug
+20,11629,Squaw Lake,17443,17442,Minnesota surface samples - Brugam,Minn-Brug
+20,11636,Sturgeon Lake,17459,17458,Minnesota surface samples - Brugam,Minn-Brug
+20,2524,Sunfish Lake,17663,17662,Minnesota surface samples - Brugam,Minn-Brug
+20,11655,Surprise lake,17500,17499,Minnesota surface samples - Brugam,Minn-Brug
+20,11634,Talcott Lake,17455,17454,Minnesota surface samples - Brugam,Minn-Brug
+20,11762,Tamarack Lake,17771,17770,Minnesota surface samples - Brugam,Minn-Brug
+20,11691,Tetonka Lake,17586,17585,Minnesota surface samples - Brugam,Minn-Brug
+20,11707,Thompson Lake,17619,17618,Minnesota surface samples - Brugam,Minn-Brug
+20,11710,Tony Lake,17625,17624,Minnesota surface samples - Brugam,Minn-Brug
+20,11647,Trout Bay,17486,17485,Minnesota surface samples - Brugam,Minn-Brug
+20,11743,Twin Lake,17703,17702,Minnesota surface samples - Brugam,Minn-Brug
+20,11744,Twin Lake,17705,17704,Minnesota surface samples - Brugam,Minn-Brug
+20,11669,Washburn lake,17534,17533,Minnesota surface samples - Brugam,Minn-Brug
+20,11677,Waubun Lake,17552,17551,Minnesota surface samples - Brugam,Minn-Brug
+20,11738,West Boot Lake,17693,17692,Minnesota surface samples - Brugam,Minn-Brug
+20,11653,Whitefish Lake,17496,17495,Minnesota surface samples - Brugam,Minn-Brug
+20,11692,Willmar Lake,17588,17587,Minnesota surface samples - Brugam,Minn-Brug
+20,11667,Wirth Lake,17528,17527,Minnesota surface samples - Brugam,Minn-Brug
+20,11630,Wood Lake,17445,17444,Minnesota surface samples - Brugam,Minn-Brug
+20,11670,Woods Lake,17536,17535,Minnesota surface samples - Brugam,Minn-Brug
+20,13314,Woodworth Lake 2,19866,19865,Minnesota surface samples - Brugam,Minn-Brug
+20,13313,Woodworth Lake 4,19864,19863,Minnesota surface samples - Brugam,Minn-Brug
+21,13027,A. Clement,19321,19320,New Jersey - New York Paleo,NJ-NYpaleo
+21,13067,Bennetts Pond,19394,19393,New Jersey - New York Paleo,NJ-NYpaleo
+21,13028,Campells Pond,19400,19399,New Jersey - New York Paleo,NJ-NYpaleo
+21,13029,Cedar Lake,19327,19326,New Jersey - New York Paleo,NJ-NYpaleo
+21,13030,Cedar Lake 2,19329,19328,New Jersey - New York Paleo,NJ-NYpaleo
+21,13031,Chesler Lake,19331,19330,New Jersey - New York Paleo,NJ-NYpaleo
+21,13032,Clint Millpond,19333,19332,New Jersey - New York Paleo,NJ-NYpaleo
+21,13033,Cooper River Lake,19335,19334,New Jersey - New York Paleo,NJ-NYpaleo
+21,13034,Crystal Spring Lake,19337,19336,New Jersey - New York Paleo,NJ-NYpaleo
+21,13035,Cumberland Pond,19339,19338,New Jersey - New York Paleo,NJ-NYpaleo
+21,13070,Dennisville Lake,19402,19401,New Jersey - New York Paleo,NJ-NYpaleo
+21,13036,Echo Lake,19340,19691,New Jersey - New York Paleo,NJ-NYpaleo
+21,13071,Flamingo Lake,19404,19403,New Jersey - New York Paleo,NJ-NYpaleo
+21,13037,Gardners Pond,19342,19341,New Jersey - New York Paleo,NJ-NYpaleo
+21,13038,Harrisville Lake,19344,19343,New Jersey - New York Paleo,NJ-NYpaleo
+21,13074,Japanese Garden,19409,,New Jersey - New York Paleo,NJ-NYpaleo
+21,13039,Kittatiny Lake,19346,19345,New Jersey - New York Paleo,NJ-NYpaleo
+21,13072,Lefferts Lake ,19406,19405,New Jersey - New York Paleo,NJ-NYpaleo
+21,13075,Millhurst Pond,19411,19410,New Jersey - New York Paleo,NJ-NYpaleo
+21,13076,Muchshaw Pond,19412,,New Jersey - New York Paleo,NJ-NYpaleo
+21,13078,Brainerd Lake(NJSD17_5),19415,,New Jersey - New York Paleo,NJ-NYpaleo
+21,13080,Saginaw Lake,19417,19416,New Jersey - New York Paleo,NJ-NYpaleo
+22,13045,Spring Grove Pond,19363,,New England Paleo NEIWPCC 2009,NE-Paleo09
+22,13046,Otter Pond ,19364,,New England Paleo NEIWPCC 2009,NE-Paleo10
+22,13047,Little Diamond Pond ,19365,,New England Paleo NEIWPCC 2009,NE-Paleo11
+22,13048,Branch Pond ,19366,,New England Paleo NEIWPCC 2009,NE-Paleo12
+22,13049,Little Averill Pond ,19367,,New England Paleo NEIWPCC 2009,NE-Paleo13
+22,13050,Pocotopaug Lake ,19368,,New England Paleo NEIWPCC 2009,NE-Paleo14
+22,13051,Scott Pond ,19369,,New England Paleo NEIWPCC 2009,NE-Paleo15
+22,13052,Lake Quannapowitt,19370,,New England Paleo NEIWPCC 2009,NE-Paleo16
+22,1688,Flax Pond,19371,,New England Paleo NEIWPCC 2009,NE-Paleo17
+22,13053,White pond ,19372,,New England Paleo NEIWPCC 2009,NE-Paleo18
+22,13054,Bantam Lake ,19373,,New England Paleo NEIWPCC 2009,NE-Paleo19
+22,13055,Hatch Pond ,19374,,New England Paleo NEIWPCC 2009,NE-Paleo20
+22,13056,Wyassup Lake ,19375,,New England Paleo NEIWPCC 2009,NE-Paleo21
+22,13057,Blackmore,19376,,New England Paleo NEIWPCC 2009,NE-Paleo22
+22,13058,Spectacle Pond ,19377,,New England Paleo NEIWPCC 2009,NE-Paleo23
+22,13061,Sip Pond ,19382,,New England Paleo NEIWPCC 2009,NE-Paleo24
+22,13084,Lower Middle Branch Pond,19426,,New England Paleo NEIWPCC 2009,NE-Paleo25
+22,13087,Tripp Pond,19431,,New England Paleo NEIWPCC 2009,NE-Paleo26
+22,1697,Walden Pond ,19434,,New England Paleo NEIWPCC 2009,NE-Paleo27
+22,13090,Keg Lake,19437,,New England Paleo NEIWPCC 2009,NE-Paleo28
+22,13093,Uncas Pond ,19442,,New England Paleo NEIWPCC 2009,NE-Paleo29
+22,13095,Carr Pond ,19445,,New England Paleo NEIWPCC 2009,NE-Paleo30
+22,13096,Billings Lake ,19446,,New England Paleo NEIWPCC 2009,NE-Paleo31
+22,13097,Walkers Pond ,19447,,New England Paleo NEIWPCC 2009,NE-Paleo32
+22,13098,Beseck Lake ,19448,,New England Paleo NEIWPCC 2009,NE-Paleo33
+22,13099,Sheep Pond ,19449,,New England Paleo NEIWPCC 2009,NE-Paleo34
+22,13100,Warwick Pond ,19450,,New England Paleo NEIWPCC 2009,NE-Paleo35
+22,13101,Bashan Lake,19451,,New England Paleo NEIWPCC 2009,NE-Paleo36
+22,13102,White Island Pond ,19452,,New England Paleo NEIWPCC 2009,NE-Paleo37
+22,13103,Boone Lake ,19453,,New England Paleo NEIWPCC 2009,NE-Paleo38
+22,13104,Reservoir Pond ,19454,,New England Paleo NEIWPCC 2009,NE-Paleo39
+22,13105,North Springfield Reservoir ,19455,,New England Paleo NEIWPCC 2009,NE-Paleo40
+22,13106,Lake Mascoma,19456,,New England Paleo NEIWPCC 2009,NE-Paleo41
+22,13107,Success Pond ,19457,,New England Paleo NEIWPCC 2009,NE-Paleo42
+22,13108,Flints Pond,19458,,New England Paleo NEIWPCC 2009,NE-Paleo43
+22,13109,Adder Pond (Hopkins Pond),19459,,New England Paleo NEIWPCC 2009,NE-Paleo44
+22,13110,Lake Winnipesaukee,19460,,New England Paleo NEIWPCC 2009,NE-Paleo45
+22,13111,Sand Pond,19461,,New England Paleo NEIWPCC 2009,NE-Paleo46
+22,13112,Little Sunapee Lake,19462,,New England Paleo NEIWPCC 2009,NE-Paleo47
+22,13113,Kingswood Lake ,19463,,New England Paleo NEIWPCC 2009,NE-Paleo48
+22,13114,Baboosic Lake ,19464,,New England Paleo NEIWPCC 2009,NE-Paleo49
+22,13119,Martin Meadow Pond ,19473,,New England Paleo NEIWPCC 2009,NE-Paleo50
+22,13120,Lake Monnomonac,19474,,New England Paleo NEIWPCC 2009,NE-Paleo51
+22,13122,Howe Reservoir ,19477,,New England Paleo NEIWPCC 2009,NE-Paleo52
+22,13124,Indian Pond ,19480,,New England Paleo NEIWPCC 2009,NE-Paleo53
+22,13126,Canaan Street Lake ,19483,,New England Paleo NEIWPCC 2009,NE-Paleo54
+22,13128,Bow Lake,19486,,New England Paleo NEIWPCC 2009,NE-Paleo55
+22,13130,Cub Pond ,19489,,New England Paleo NEIWPCC 2009,NE-Paleo56
+22,13131,Sunset Lake,19490,,New England Paleo NEIWPCC 2009,NE-Paleo57
+22,13132,Carmi Lake ,19491,,New England Paleo NEIWPCC 2009,NE-Paleo58
+22,13133,Doughty Pond ,19492,,New England Paleo NEIWPCC 2009,NE-Paleo59
+22,13140,North Sibley Pond ,19505,,New England Paleo NEIWPCC 2009,NE-Paleo60
+22,13141,Lake Elmore ,19506,,New England Paleo NEIWPCC 2009,NE-Paleo61
+22,13142,Peacham Pond,19507,,New England Paleo NEIWPCC 2009,NE-Paleo62
+22,13143,Lake Bomoseen ,19508,,New England Paleo NEIWPCC 2009,NE-Paleo63
+22,13144,Sabin Pond ,19509,,New England Paleo NEIWPCC 2009,NE-Paleo64
+22,13145,Indian Brook Reservoir ,19510,,New England Paleo NEIWPCC 2009,NE-Paleo65
+22,13146,Salem Little ,19511,,New England Paleo NEIWPCC 2009,NE-Paleo66
+22,13148,East Long Pond ,19514,,New England Paleo NEIWPCC 2009,NE-Paleo67
+22,13150,Old Marsh Pond,19517,,New England Paleo NEIWPCC 2009,NE-Paleo68
+22,13152,Neal Pond,19520,,New England Paleo NEIWPCC 2009,NE-Paleo69
+22,13154,Iroquois Lake ,19523,,New England Paleo NEIWPCC 2009,NE-Paleo70
+23,13317,Bradford Acres Pond,19872,19871,PA Ponds - Growing Greener,PA-PondsGG
+23,13318,Crawford Pond,19873,19874,PA Ponds - Growing Greener,PA-PondsGG
+23,13319,Crow Hill,19876,19875,PA Ponds - Growing Greener,PA-PondsGG
+23,13320,Flagg Pond,19878,19877,PA Ponds - Growing Greener,PA-PondsGG
+23,13321,Georgia Farm,19880,19879,PA Ponds - Growing Greener,PA-PondsGG
+23,13322,Georgia Farm 2,19881,19879,PA Ponds - Growing Greener,PA-PondsGG
+23,13323,Georgia Farm 3,19882,19879,PA Ponds - Growing Greener,PA-PondsGG
+23,13324,Hamorton Woods,19884,19883,PA Ponds - Growing Greener,PA-PondsGG
+23,13325,Hammer Hallow,19886,19885,PA Ponds - Growing Greener,PA-PondsGG
+23,13326,North Hills,19888,19887,PA Ponds - Growing Greener,PA-PondsGG
+23,13327,Penn Woods,19890,19889,PA Ponds - Growing Greener,PA-PondsGG
+23,13328,Runnymede,19892,19891,PA Ponds - Growing Greener,PA-PondsGG
+23,13329,Vollmecke Farm,19894,19893,PA Ponds - Growing Greener,PA-PondsGG
+23,13330,Wagner Pond,19896,19895,PA Ponds - Growing Greener,PA-PondsGG
+24,13158,Watchu Pond,19531,19530,NJ - Paleo 2010,NJ-Paleo10
+24,13160,Silver Lake ,19535,19534,NJ - Paleo 2010,NJ-Paleo10
+24,13163,Rhodo Lake,19541,19540,NJ - Paleo 2010,NJ-Paleo10
+24,13165,Laurel Lake ,19545,19544,NJ - Paleo 2010,NJ-Paleo10
+24,13167,Lower Sylvan Lake ,19549,19548,NJ - Paleo 2010,NJ-Paleo10
+24,13170,Lummis Mill Pond ,19555,19554,NJ - Paleo 2010,NJ-Paleo10
+24,13172,Hospitality Lake ,19559,19558,NJ - Paleo 2010,NJ-Paleo10
+24,13174,Albert Lake ,19563,19562,NJ - Paleo 2010,NJ-Paleo10
+24,13176,Harrisonville Lake,19567,19566,NJ - Paleo 2010,NJ-Paleo10
+24,13178,Lake Takanassee,19571,19570,NJ - Paleo 2010,NJ-Paleo10
+24,13181,North Hudson Park Lake ,19577,19576,NJ - Paleo 2010,NJ-Paleo10
+24,13182,Allamuchy Pond,19579,19578,NJ - Paleo 2010,NJ-Paleo10
+24,13183,George Lake ,19581,19580,NJ - Paleo 2010,NJ-Paleo10
+24,13190,Amwell Lake ,19594,19593,NJ - Paleo 2010,NJ-Paleo10
+24,13191,Girl Scout Pond ,19596,19595,NJ - Paleo 2010,NJ-Paleo10
+24,13192,Tamarack Lake ,19598,19597,NJ - Paleo 2010,NJ-Paleo10
+24,13193,Glovers Pond ,19600,19599,NJ - Paleo 2010,NJ-Paleo10
+24,13194,Ames Lake ,19602,19601,NJ - Paleo 2010,NJ-Paleo10
+24,13195,Heaters Pond ,19604,19603,NJ - Paleo 2010,NJ-Paleo10
+24,13196,Heratige Lakes,19606,19605,NJ - Paleo 2010,NJ-Paleo10
+24,13197,Scarlet Oak Pond ,19608,19607,NJ - Paleo 2010,NJ-Paleo10
+24,13198,Shepherd Lake ,19610,19609,NJ - Paleo 2010,NJ-Paleo10
+24,13199,Algonquain Waters Lake ,19612,19611,NJ - Paleo 2010,NJ-Paleo10
+24,13200,Panther Lake ,19614,19613,NJ - Paleo 2010,NJ-Paleo10
+24,13201,Stag Pond ,19622,19621,NJ - Paleo 2010,NJ-Paleo10
+24,13202,Culvers Lake ,19624,19623,NJ - Paleo 2010,NJ-Paleo10
+24,13203,Wawayanda Lake,19626,19625,NJ - Paleo 2010,NJ-Paleo10
+24,13204,Rainbow Lakes ,19628,19627,NJ - Paleo 2010,NJ-Paleo10
+24,13205,Ravine Lake ,19630,19629,NJ - Paleo 2010,NJ-Paleo10
+24,13206,Sycamore Lake ,19632,19631,NJ - Paleo 2010,NJ-Paleo10
+24,13207,Stephen Lake ,19634,19633,NJ - Paleo 2010,NJ-Paleo10
+24,13208,Basgalore Lake ,19636,19635,NJ - Paleo 2010,NJ-Paleo10
+24,13209,Bee Meadow Pond ,19638,19637,NJ - Paleo 2010,NJ-Paleo10
+24,13210,Monongahela Lake ,19640,19639,NJ - Paleo 2010,NJ-Paleo10
+24,13211,Lower Aetna Lake ,19644,19643,NJ - Paleo 2010,NJ-Paleo10
+24,13212,Weston Mill Pond ,19650,19648,NJ - Paleo 2010,NJ-Paleo10
+24,13213,Dixons Pond,19654,19653,NJ - Paleo 2010,NJ-Paleo10
+24,13214,Foxs Pond,19656,19655,NJ - Paleo 2010,NJ-Paleo10
+24,13215,Mountain Lake ,19660,19659,NJ - Paleo 2010,NJ-Paleo10
+24,13216,Longwood Lake,19664,19663,NJ - Paleo 2010,NJ-Paleo10
+24,13217,Lower Twin Lake ,19666,19665,NJ - Paleo 2010,NJ-Paleo10
+24,13218,Spring Valley Lake,19668,19667,NJ - Paleo 2010,NJ-Paleo10
+24,13219,Sunfish Pond ,19670,19669,NJ - Paleo 2010,NJ-Paleo10
+24,13220,East Lake ,19672,19671,NJ - Paleo 2010,NJ-Paleo10
+24,13222,Turtle Pond,19676,19675,NJ - Paleo 2010,NJ-Paleo10
+24,13223,Iliff Lake,19678,19677,NJ - Paleo 2010,NJ-Paleo10
+24,13224,Skyline Lakes ,19680,19679,NJ - Paleo 2010,NJ-Paleo10
+24,13225,Stone Tavern ,19682,19681,NJ - Paleo 2010,NJ-Paleo10
+24,13226,Greenwood Pond,19684,19683,NJ - Paleo 2010,NJ-Paleo10
+25,13227,Bells Lake,19686,19685,NJ - Paleo 2011,NJ-Paleo11
+25,13228,Cedar Lake 2,19688,19687,NJ - Paleo 2011,NJ-Paleo11
+25,13229,Chesler Lake ,19690,19689,NJ - Paleo 2011,NJ-Paleo11
+25,13036,Echo Lake,19692,19691,NJ - Paleo 2011,NJ-Paleo11
+25,13231,Farrington Lake,19696,19695,NJ - Paleo 2011,NJ-Paleo11
+25,13037,Gardners Pond,19698,19697,NJ - Paleo 2011,NJ-Paleo11
+25,13232,Greenwood Lake,19700,19699,NJ - Paleo 2011,NJ-Paleo11
+25,13233,Jeddys Pond,19702,19701,NJ - Paleo 2011,NJ-Paleo11
+25,13236,Lefferts Lake,19708,19707,NJ - Paleo 2011,NJ-Paleo11
+25,13237,Liberty Lake,19710,19709,NJ - Paleo 2011,NJ-Paleo11
+25,13079,Saginaw Lake,19714,19713,NJ - Paleo 2011,NJ-Paleo11
+25,13239,Stony Lake ,19716,19715,NJ - Paleo 2011,NJ-Paleo11
+25,13240,Watchung Lake,19718,19717,NJ - Paleo 2011,NJ-Paleo11
+26,13241,Colonial Lake,19720,19719,NJ - Paleo 2014,NJ-Paleo14
+26,13232,Greenwood Lake ,19722,19721,NJ - Paleo 2014,NJ-Paleo14
+26,13242,Braddocks Millpond ,19724,19723,NJ - Paleo 2014,NJ-Paleo14
+26,13178,Lake Takanassee,19726,19725,NJ - Paleo 2014,NJ-Paleo14
+26,13243,Sheppard Pond,19727,,NJ - Paleo 2014,NJ-Paleo14
+26,13244,Panther Lake,19729,19728,NJ - Paleo 2014,NJ-Paleo14
+26,13202,Culvers Lake ,19731,19730,NJ - Paleo 2014,NJ-Paleo14
+26,13203,Wawayanda Lake ,19733,19732,NJ - Paleo 2014,NJ-Paleo14
+26,13209,Bee Meadow Pond,19735,19734,NJ - Paleo 2014,NJ-Paleo14
+26,13245,Weston Mill Pond ,19736,,NJ - Paleo 2014,NJ-Paleo14
+26,13246,Valhalla Lake ,19737,,NJ - Paleo 2014,NJ-Paleo14
+26,13215,Mountain Lake ,19738,,NJ - Paleo 2014,NJ-Paleo14
+26,13247,Crystal Lake,19739,,NJ - Paleo 2014,NJ-Paleo14
+26,13219,Sunfish Pond,19740,,NJ - Paleo 2014,NJ-Paleo14
+26,13223,Iliff Lake,19741,,NJ - Paleo 2014,NJ-Paleo14
+26,13224,Skyline Lakes ,19742,,NJ - Paleo 2014,NJ-Paleo14
+26,13225,Stone Tavern ,19743,,NJ - Paleo 2014,NJ-Paleo14
+26,13248,Marcia Lake,19745,19744,NJ - Paleo 2014,NJ-Paleo14
+26,13249,Decou Pond ,19747,19746,NJ - Paleo 2014,NJ-Paleo14
+26,13250,Terrace Pond,19749,19748,NJ - Paleo 2014,NJ-Paleo14
+26,13251,Surprise Lake ,19751,19750,NJ - Paleo 2014,NJ-Paleo14
+26,13252,Budd Lake ,19752,,NJ - Paleo 2014,NJ-Paleo14
+26,13253,White Lake-Sparta ,19753,,NJ - Paleo 2014,NJ-Paleo14
+26,13254,Laurel Pond ,19754,,NJ - Paleo 2014,NJ-Paleo14
+26,13255,West Pond,19755,19756,NJ - Paleo 2014,NJ-Paleo14
+26,13256,Franklin Pond ,19757,,NJ - Paleo 2014,NJ-Paleo14
+26,13257,Goose pond ,19758,,NJ - Paleo 2014,NJ-Paleo14
+26,13258,Lake Hopatcong,19759,,NJ - Paleo 2014,NJ-Paleo14
+26,953,Green Pond ,19760,,NJ - Paleo 2014,NJ-Paleo14
+26,13259,Green Turtle Lake ,19761,,NJ - Paleo 2014,NJ-Paleo14
+26,13261,Stickle Pond ,19764,,NJ - Paleo 2014,NJ-Paleo14
+26,13263,Howell Pond ,19767,,NJ - Paleo 2014,NJ-Paleo14
+26,13264,Lake Aeroflex,19768,,NJ - Paleo 2014,NJ-Paleo14
+26,13265,Lake Owassa ,19769,,NJ - Paleo 2014,NJ-Paleo14
+26,13266,Little Swartswood Lake ,19770,,NJ - Paleo 2014,NJ-Paleo14
+26,13267,Lake Grinnell (Lanes Pond),19771,,NJ - Paleo 2014,NJ-Paleo14
+26,13268,Swartswood Lake ,19772,,NJ - Paleo 2014,NJ-Paleo14
+26,13269,Sand Pond ,19773,,NJ - Paleo 2014,NJ-Paleo14
+26,13270,Cedar Lake,19774,,NJ - Paleo 2014,NJ-Paleo14
+26,13271,Hoppers Lake ,19775,,NJ - Paleo 2014,NJ-Paleo14
+26,13272,Bunker Pond,19776,,NJ - Paleo 2014,NJ-Paleo14
+26,13273,Upper Blauvelt Lake ,19777,,NJ - Paleo 2014,NJ-Paleo14
+27,14037,Glen Lake,21781,,South Central Ontario,SC-Ont
+27,14006,Kelly Lake,21714,21713,South Central Ontario,SC-Ont
+27,14007,Kennisis Lake,21716,21715,South Central Ontario,SC-Ont
+27,14008,Kushog Lake,21718,21717,South Central Ontario,SC-Ont
+27,14008,Kushog Lake,21720,21719,South Central Ontario,SC-Ont
+27,14014,Leech Lake,21732,21731,South Central Ontario,SC-Ont
+27,14015,Leonard Lake,21734,21733,South Central Ontario,SC-Ont
+27,14009,Little Clear,21722,21721,South Central Ontario,SC-Ont
+27,14013,Little Kennisis Lake,21730,21729,South Central Ontario,SC-Ont
+27,14010,Little Redstone Lake,21724,21723,South Central Ontario,SC-Ont
+27,14016,Maple Lake,21736,21735,South Central Ontario,SC-Ont
+27,14017,McKay Lake,21738,21737,South Central Ontario,SC-Ont
+27,14018,Moose Lake,21740,21739,South Central Ontario,SC-Ont
+27,14019,Muskoka Bay,21742,21741,South Central Ontario,SC-Ont
+27,14021,Oblong Lake,21746,21745,South Central Ontario,SC-Ont
+27,14022,Plastic Lake,21748,21747,South Central Ontario,SC-Ont
+27,14023,Red Chalk Lake,21750,21749,South Central Ontario,SC-Ont
+27,14023,Red Chalk Lake,21752,21751,South Central Ontario,SC-Ont
+27,14024,Red Pine Lake,21754,21753,South Central Ontario,SC-Ont
+27,14025,Redstone Lake,21756,21755,South Central Ontario,SC-Ont
+27,14038,Lake of Bays,21783,21782,South Central Ontario,SC-Ont
+27,14038,Lake of Bays,21785,21784,South Central Ontario,SC-Ont
+27,14026,Solitaire Lake,21758,21757,South Central Ontario,SC-Ont
+27,14027,Soyer's Lake,21760,21759,South Central Ontario,SC-Ont
+27,14034,St. Nora Lake,21776,21775,South Central Ontario,SC-Ont
+27,14035,Walker Lake,21778,21777,South Central Ontario,SC-Ont
+27,14036,Young Lake,21780,21779,South Central Ontario,SC-Ont
+28,14085,Clearwater,21947,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14087,Mountaintop,21949,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14088,Wavy,21951,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14089,Chiniguichi,21953,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14090,Acid,21955,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14093,Johnnie,21961,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14092,Terry,21959,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14091,Swan,21957,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14094,Bell,21963,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14095,Carlyle,21965,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14096,George,21967,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14097,Tyson,21969,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14098,Whitepine,21971,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14099,Whitson,21973,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14100,Labelle,21975,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14102,Baby,21979,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14103,Clarabelle,21981,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14105,Middle,21985,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14106,Round,21987,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14107,Daisy,21989,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14108,Whitepine(Aurora),21991,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14109,Bowland,21993,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14110,Whirligig,21995,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14111,Little Whitepine,21997,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14112,Ramsey,21999,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14113,Nickel,22001,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14114,Blue North,22003,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14114,Blue South,22005,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14115,Cache,22007,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14116,Crab,22009,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14117,Ella South ,22011,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14117,Ella North,22013,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14118,Roland,22015,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14119,Seal,22017,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14120,Skynner,22019,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,,Waddell,22021,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14123,Little Amy,22024,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14124,Selwyn,22026,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14125,Chain,22028,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14126,Clearwater,22030,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14127,David,22032,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14128,Helen,22034,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14129,Ishmael,22036,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14130,Kakakise,22038,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14131,Killarney,22040,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14134,Low,22050,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14135,Nellie,22052,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14136,Norway,22054,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14137,O.S.A,22056,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14138,Partridge,22058,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+28,14139,Teardrop,22060,,Sudbury Ontario Calibration - Dixit,Sudbury-DX
+30,27948,Plateau2,51805,51827,Glacier Bay - Alaska,GlacBay-AK
+30,27949,BurroughsGlacier,51806,51828,Glacier Bay - Alaska,GlacBay-AK
+30,27950,Casement2,51807,51829,Glacier Bay - Alaska,GlacBay-AK
+30,27951,Plateau1,51808,51830,Glacier Bay - Alaska,GlacBay-AK
+30,27952,SealRiver,51809,51831,Glacier Bay - Alaska,GlacBay-AK
+30,27953,Wachusett,51810,51832,Glacier Bay - Alaska,GlacBay-AK
+30,27954,ForestCreek,51811,51833,Glacier Bay - Alaska,GlacBay-AK
+30,27955,WolfCreek,51812,51834,Glacier Bay - Alaska,GlacBay-AK
+30,27956,Nunatak,51813,51835,Glacier Bay - Alaska,GlacBay-AK
+30,27957,KlotzHills,51814,51836,Glacier Bay - Alaska,GlacBay-AK
+30,27958,Charpentier,51815,51837,Glacier Bay - Alaska,GlacBay-AK
+30,27959,HutchinsBay,51816,51838,Glacier Bay - Alaska,GlacBay-AK
+30,27960,BartlettRiver,51817,51839,Glacier Bay - Alaska,GlacBay-AK
+30,27961,RippleCove,51818,51840,Glacier Bay - Alaska,GlacBay-AK
+30,27962,CoalCreek,51819,51841,Glacier Bay - Alaska,GlacBay-AK
+30,27963,RedLoon,51820,51842,Glacier Bay - Alaska,GlacBay-AK
+30,27964,Huscroft,51821,51843,Glacier Bay - Alaska,GlacBay-AK
+30,27965,LaPerouse,51822,51844,Glacier Bay - Alaska,GlacBay-AK
+30,27966,Crillon,51823,51845,Glacier Bay - Alaska,GlacBay-AK
+30,27967,Pleasant1,51824,51846,Glacier Bay - Alaska,GlacBay-AK
+30,27968,PleasantMuskeg,51825,51847,Glacier Bay - Alaska,GlacBay-AK
+30,27969,Pleasant3,51826,51848,Glacier Bay - Alaska,GlacBay-AK
+31,11861,Beaverskin Lake,17958,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+31,11826,Big Dam Lake East,17955,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+31,11827,Big Dam Lake West,17954,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+31,11803,Cradle Lake,17961,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+31,11858,Deer Lake,17952,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+31,11848,Dundas (Lake 4),17962,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+31,11860,Frozen Ocean Lake,17956,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+31,11760,Grafton Lake,17738,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+31,11777,Lake of Islands,17814,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+31,11763,Pebbleloggitch Lake,17772,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+31,11836,Peskawa Lake,17957,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+31,11846,Peskowesk Lake,17953,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+31,11812,Warren Lake,17960,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+31,11782,White Hill Lake,17819,,Nova Scotia 14 lakes -  Ginn,NS-14-Ginn
+32,8587,Bald Hill,49957,51856,Vermont 2011  Next Generation - Reference Sentinel,VT-NG11-RS
+32,24372,Blake (sutton),49958,51859,Vermont 2011  Next Generation - Reference Sentinel,VT-NG11-RS
+32,24369,High (sudbry),49959,51868,Vermont 2011  Next Generation - Reference Sentinel,VT-NG11-RS
+32,24363,Holland,49960,51869,Vermont 2011  Next Generation - Reference Sentinel,VT-NG11-RS
+32,24362,Little Hosmer,49961,51876,Vermont 2011  Next Generation - Reference Sentinel,VT-NG11-RS
+32,24360,Long (grnsbo),49962,51877,Vermont 2011  Next Generation - Reference Sentinel,VT-NG11-RS
+32,24368,Long (shefld),49963,51878,Vermont 2011  Next Generation - Reference Sentinel,VT-NG11-RS
+32,24367,Round (shefld),49964,51891,Vermont 2011  Next Generation - Reference Sentinel,VT-NG11-RS
+32,24366,Schofield,49967,51892,Vermont 2011  Next Generation - Reference Sentinel,VT-NG11-RS
+32,24370,Spruce (orwell),49968,51896,Vermont 2011  Next Generation - Reference Sentinel,VT-NG11-RS
+32,24365,Stannard,49969,51897,Vermont 2011  Next Generation - Reference Sentinel,VT-NG11-RS
+32,24371,Vail,49970,51900,Vermont 2011  Next Generation - Reference Sentinel,VT-NG11-RS
+32,24364,Zack Woods,49971,51902,Vermont 2011  Next Generation - Reference Sentinel,VT-NG11-RS
+33,26224,Abenaki,50077,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27716,Beebe (sundld),50078,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27717,Big Muddy,50079,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27718,Cedar,50080,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27719,Center,50081,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27720,Cranberry Meadow,50082,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27721,Echo (hubdtn),50083,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27722,Glen,50084,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,26274,Groton,50085,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,24417,Jobs,50086,51871,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27723,Kettle,50087,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27724,Little (elmore),50088,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27725,Little (winhll),50089,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,13049,Little Averill,50090,51875,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27726,Mile,50091,51881,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,24355,Miles,50092,51882,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27727,Mud (hydepk),50093,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27728,Mud (leictr),50094,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27729,Mud (peachm),50095,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27730,Mud (westmr)-w,50097,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27731,Nojoe,50098,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,24537,Parker,50099,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27732,Pico,50100,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,24356,Richmond,50101,51889,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27733,Ritterbush,50102,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,13580,Rood,50103,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27734,Salem,50104,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27735,Shippee,50105,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,23152,Silver (leictr),50106,51895,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27736,South America,50107,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27737,South Richford;,50108,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,24706,Spring (shrwby),50109,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27738,Tuttle (hardwk),50110,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27739,Unknown (avgor),50111,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27740,Wallingford,50112,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+33,27741,Woodward,50113,,Vermont 2012  National Lake Assessment T-B,VT-NLA12
+34,25901,Beaver (hollnd),50193,51857,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,13132,Carmi,50194,51861,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,27816,Crystal (barton),50195,51862,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,27817,Gillett,50196,51865,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,27818,Great Averill,50197,51866,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,24369,High (sudbry),50198,51868,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,24417,Jobs,50199,51870,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,27819,Lily (vernon),50200,51872,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,27820,Little (wells),50201,51873,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,13049,Little Averill,50202,51874,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,27821,Mitchell,50203,51884,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,27822,Ninevah,50204,51886,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,27823,Norton,50205,51887,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,13142,Peacham Pond,50206,51888,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,27824,Round (hollnd),50207,51890,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+34,27825,Seymour,50208,51893,Vermont 2013  Next Generation - Lake Assessment,VT-LA13
+35,27829,Mollys Falls,50213,51885,Vermont 2014 Next Generation - 1 watershed,VT-1W14
+35,26467,Ticklenaked,50214,51899,Vermont 2014 Next Generation - 1 watershed,VT-1W14
+35,27826,Beecher,50209,51858,Vermont 2014 Next Generation - 1 watershed,VT-1W14
+35,27827,Hartwell,50210,51867,Vermont 2014 Next Generation - 1 watershed,VT-1W14
+35,24417,Jobs,50211,51871,Vermont 2014 Next Generation - 1 watershed,VT-1W14
+35,27828,Walker (covnty),50212,51901,Vermont 2014 Next Generation - 1 watershed,VT-1W14
+36,27796,Buck,50156,51860,Vermont 2018 Next Generation - Oligotrophic lakes,VT-OL18
+36,27797,Forest (calais),50157,51863,Vermont 2018 Next Generation - Oligotrophic lakes,VT-OL18
+36,27798,Fosters,50158,51864,Vermont 2018 Next Generation - Oligotrophic lakes,VT-OL18
+36,27799,Long (westmr),50159,51879,Vermont 2018 Next Generation - Oligotrophic lakes,VT-OL18
+36,24583,Maidstone Lake,50160,51880,Vermont 2018 Next Generation - Oligotrophic lakes,VT-OL18
+36,27800,Miller,50161,51883,Vermont 2018 Next Generation - Oligotrophic lakes,VT-OL18
+36,26449,Shadow (glover),50162,51894,Vermont 2018 Next Generation - Oligotrophic lakes,VT-OL18
+36,27801,Sunset (benson),50163,51898,Vermont 2018 Next Generation - Oligotrophic lakes,VT-OL18
+37,24281,Allegheny Reservoir,42748,,US EPA National Lake Assesment 2017,NLA-2017
+37,24307,Atwood,42780,,US EPA National Lake Assesment 2017,NLA-2017
+37,8587,Bald Hill,42844,,US EPA National Lake Assesment 2017,NLA-2017
+37,24348,Barber Pond,42825,,US EPA National Lake Assesment 2017,NLA-2017
+37,24324,Beaver Pond,42798,,US EPA National Lake Assesment 2017,NLA-2017
+37,13096,Billings Lake ,42757,,US EPA National Lake Assesment 2017,NLA-2017
+37,23285,Bissonette Pond,42749,,US EPA National Lake Assesment 2017,NLA-2017
+37,24306,Black,42779,,US EPA National Lake Assesment 2017,NLA-2017
+37,13057,Blackamore Pond,42828,,US EPA National Lake Assesment 2017,NLA-2017
+37,24372,Blake (Sutton),42853,,US EPA National Lake Assesment 2017,NLA-2017
+37,24322,Brindle Pond,42796,,US EPA National Lake Assesment 2017,NLA-2017
+37,24342,Brown Lake,42818,,US EPA National Lake Assesment 2017,NLA-2017
+37,24336,Catfish Pond,42812,,US EPA National Lake Assesment 2017,NLA-2017
+37,24343,Clamshell Pond,42819,,US EPA National Lake Assesment 2017,NLA-2017
+37,24304,Cranberry,42777,,US EPA National Lake Assesment 2017,NLA-2017
+37,24315,CROSBY P,42788,,US EPA National Lake Assesment 2017,NLA-2017
+37,24285,Deep Lake,42754,,US EPA National Lake Assesment 2017,NLA-2017
+37,24296,Eighth  Debsconeag,42768,,US EPA National Lake Assesment 2017,NLA-2017
+37,24325,Ellsworth Pond,42799,,US EPA National Lake Assesment 2017,NLA-2017
+37,24312,Fourth St John Pond,42785,,US EPA National Lake Assesment 2017,NLA-2017
+37,24289,Garnet Lake,42759,,US EPA National Lake Assesment 2017,NLA-2017
+37,24305,Gilman,42778,,US EPA National Lake Assesment 2017,NLA-2017
+37,24314,Gould Pond,42787,,US EPA National Lake Assesment 2017,NLA-2017
+37,24287,Grays Pond,42756,,US EPA National Lake Assesment 2017,NLA-2017
+37,24284,Halls Pond,42753,,US EPA National Lake Assesment 2017,NLA-2017
+37,24303,Havener,42776,,US EPA National Lake Assesment 2017,NLA-2017
+37,24369,High (sudbry),42850,,US EPA National Lake Assesment 2017,NLA-2017
+37,24326,Hills Pond,42800,,US EPA National Lake Assesment 2017,NLA-2017
+37,24363,Holland,42843,,US EPA National Lake Assesment 2017,NLA-2017
+37,24295,Hudson Pond,42766,,US EPA National Lake Assesment 2017,NLA-2017
+37,24346,Keech Pond,42822,,US EPA National Lake Assesment 2017,NLA-2017
+37,24328,Kilburn Pond,42802,,US EPA National Lake Assesment 2017,NLA-2017
+37,24341,Koehler's Pond,42817,,US EPA National Lake Assesment 2017,NLA-2017
+37,24339,Lake Sarah,42815,,US EPA National Lake Assesment 2017,NLA-2017
+37,24335,Lake Stockwell,42811,,US EPA National Lake Assesment 2017,NLA-2017
+37,24338,Lake Success,42814,,US EPA National Lake Assesment 2017,NLA-2017
+37,24331,Lake Tranquility,42807,,US EPA National Lake Assesment 2017,NLA-2017
+37,24320,Lake Winnisquam,42793,,US EPA National Lake Assesment 2017,NLA-2017
+37,24549,Lake Zoar,42755,,US EPA National Lake Assesment 2017,NLA-2017
+37,24290,Lawsons Lake,42760,,US EPA National Lake Assesment 2017,NLA-2017
+37,13049,Little Averill,42835,,US EPA National Lake Assesment 2017,NLA-2017
+37,24294,Little Big Wood Pond,42765,,US EPA National Lake Assesment 2017,NLA-2017
+37,24319,Little Greenough Pond,42792,,US EPA National Lake Assesment 2017,NLA-2017
+37,24362,Little Hosmer,42842,,US EPA National Lake Assesment 2017,NLA-2017
+37,24300,Little Pond,42772,,US EPA National Lake Assesment 2017,NLA-2017
+37,24299,Little Watchic,42771,,US EPA National Lake Assesment 2017,NLA-2017
+37,24360,Long (GRNSBO),42840,,US EPA National Lake Assesment 2017,NLA-2017
+37,24368,Long (SHEFLD),42849,,US EPA National Lake Assesment 2017,NLA-2017
+37,24291,Long Pond,42761,,US EPA National Lake Assesment 2017,NLA-2017
+37,24291,Long Pond,42805,,US EPA National Lake Assesment 2017,NLA-2017
+37,24291,Long Pond,42804,,US EPA National Lake Assesment 2017,NLA-2017
+37,24577,Lower Middle Branch,42763,,US EPA National Lake Assesment 2017,NLA-2017
+37,24292,Lower Spectacle Pond,42762,,US EPA National Lake Assesment 2017,NLA-2017
+37,24334,Maple Lake,42810,,US EPA National Lake Assesment 2017,NLA-2017
+37,24311,McLean,42784,,US EPA National Lake Assesment 2017,NLA-2017
+37,24355,Miles Pond,42833,,US EPA National Lake Assesment 2017,NLA-2017
+37,24333,Mirror Lake,42809,,US EPA National Lake Assesment 2017,NLA-2017
+37,13054,Morris Reservoir,42752,,US EPA National Lake Assesment 2017,NLA-2017
+37,24332,Mount Hope Lake,42808,,US EPA National Lake Assesment 2017,NLA-2017
+37,24344,Mud Pond,42820,,US EPA National Lake Assesment 2017,NLA-2017
+37,24310,Myrick,42783,,US EPA National Lake Assesment 2017,NLA-2017
+37,24317,Nassau Lake,42790,,US EPA National Lake Assesment 2017,NLA-2017
+37,24309,Nelson 3610,42782,,US EPA National Lake Assesment 2017,NLA-2017
+37,24357,NHD2267,42837,,US EPA National Lake Assesment 2017,NLA-2017
+37,24323,Ottarnic Pond,42797,,US EPA National Lake Assesment 2017,NLA-2017
+37,24288,Pattaconk Lake,42758,,US EPA National Lake Assesment 2017,NLA-2017
+37,24350,Peace Dale Reservoir,42827,,US EPA National Lake Assesment 2017,NLA-2017
+37,24293,Peaked Mountian Pond,42764,,US EPA National Lake Assesment 2017,NLA-2017
+37,24321,Pequawket Pond,42795,,US EPA National Lake Assesment 2017,NLA-2017
+37,24316,PERLEY POND,42789,,US EPA National Lake Assesment 2017,NLA-2017
+37,1450,Pleasant pond 3446,42767,,US EPA National Lake Assesment 2017,NLA-2017
+37,24340,Point View Reservoir,42816,,US EPA National Lake Assesment 2017,NLA-2017
+37,24351,Posneganset Pond,42829,,US EPA National Lake Assesment 2017,NLA-2017
+37,24349,Randall Pond,42826,,US EPA National Lake Assesment 2017,NLA-2017
+37,24359,Rescue,42839,,US EPA National Lake Assesment 2017,NLA-2017
+37,24356,Richmond,42836,,US EPA National Lake Assesment 2017,NLA-2017
+37,24282,Riga Lake,42750,,US EPA National Lake Assesment 2017,NLA-2017
+37,24352,Rockland Lake,42830,,US EPA National Lake Assesment 2017,NLA-2017
+37,24367,Round (SHEFLD),42848,,US EPA National Lake Assesment 2017,NLA-2017
+37,24353,Round Lake,42831,,US EPA National Lake Assesment 2017,NLA-2017
+37,24366,Schofield,42847,,US EPA National Lake Assesment 2017,NLA-2017
+37,24298,Second buttermilk,42770,,US EPA National Lake Assesment 2017,NLA-2017
+37,23152,Silver (Leictr),42834,,US EPA National Lake Assesment 2017,NLA-2017
+37,24347,Silver Lake,42824,,US EPA National Lake Assesment 2017,NLA-2017
+37,13061,Sip Pond ,42794,,US EPA National Lake Assesment 2017,NLA-2017
+37,24308,Skitacook,42781,,US EPA National Lake Assesment 2017,NLA-2017
+37,23156,Slatersville Reservoir (Upper),42823,,US EPA National Lake Assesment 2017,NLA-2017
+37,24345,Sly Pond,42821,,US EPA National Lake Assesment 2017,NLA-2017
+37,24313,Smiths Mill,42786,,US EPA National Lake Assesment 2017,NLA-2017
+37,24370,Spruce (Orwell),42851,,US EPA National Lake Assesment 2017,NLA-2017
+37,24365,Stannard,42846,,US EPA National Lake Assesment 2017,NLA-2017
+37,24337,Sunset Lake,42813,,US EPA National Lake Assesment 2017,NLA-2017
+37,24330,Third CT Lake,42806,,US EPA National Lake Assesment 2017,NLA-2017
+37,24297,Three corner pond 5384,42769,,US EPA National Lake Assesment 2017,NLA-2017
+37,24302,Unnamed,42775,,US EPA National Lake Assesment 2017,NLA-2017
+37,24354,Upper Cassadaga Lake,42832,,US EPA National Lake Assesment 2017,NLA-2017
+37,24318,Upper Danforth Pond,42791,,US EPA National Lake Assesment 2017,NLA-2017
+37,24327,Upper Kimball Pond,42801,,US EPA National Lake Assesment 2017,NLA-2017
+37,24371,Vail,42852,,US EPA National Lake Assesment 2017,NLA-2017
+37,24358,Waits,42838,,US EPA National Lake Assesment 2017,NLA-2017
+37,24361,Weatherhead Hollow Pond,42841,,US EPA National Lake Assesment 2017,NLA-2017
+37,24283,West Hill Pond,42751,,US EPA National Lake Assesment 2017,NLA-2017
+37,24329,White Lake,42803,,US EPA National Lake Assesment 2017,NLA-2017
+37,24364,Zack Woods,42845,,US EPA National Lake Assesment 2017,NLA-2017
+38,28702,Ash Lake,53603,53643,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28703,Atthilu Lake,53604,53644,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28704,Axe Lake,53605,53645,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28705,Blanchard Lake,53606,53646,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28706,Cub Lake,53607,53647,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28707,Decourcy Lake,53608,53648,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28708,Emerald Lake,53609,53649,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28709,Equisetum,53610,53650,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28710,Fox Point,53611,53651,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28711,Grayling Lake,53612,53652,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28712,Hungry,53613,53653,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28713,Jenny Lake,53614,53654,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28714,Lake K801,53615,53655,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28715,Lake K805,53616,53656,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28716,Lake K819,53617,53657,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28717,Keyhole Lake,53618,53658,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28718,Lake KL1,53619,53659,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28719,Kusawak Lake,53620,53660,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28720,L1,53621,53661,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28721,L2,53622,53662,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28722,Little Hungry Lake,53623,53663,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28723,Long Lake,53624,53664,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28724,Otter Falls Lake,53625,53665,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28725,Patrick Lake,53626,53666,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28726,PC,53627,53667,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28727,Louise Lake,53628,53668,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28728,Pickhandle Lake,53629,53669,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28729,Pine Lake,53630,53670,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28730,Rat Lake,53631,53671,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28731,Small Lake,53632,53672,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28732,St Elias,53633,53673,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28733,Stella Lake,53634,53674,Yukon Calibration - Wilson,Yukon-Wlsn
+38,2522,Sulphur Lake,53635,53675,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28734,Teapot Lake,53636,53676,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28735,Three Guardsmen Lake,53637,53677,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28736,Trout Lake,53638,53678,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28737,West Twin Lake,53639,53679,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28738,WHA,53640,53680,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28739,Wolverine Lake,53641,53681,Yukon Calibration - Wilson,Yukon-Wlsn
+38,28740,YF,53642,53682,Yukon Calibration - Wilson,Yukon-Wlsn
+43,28973,Alda,54320,54397,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28974,Bean,54321,54398,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,23280,Big Alkali,54322,54399,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28975,Big Indian,54323,54400,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28976,Blue Hole,54324,54401,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,22762,Box Butte,54325,54402,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28977,Brady Interchange,54326,54403,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28978,Bufflehead,54327,54404,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28979,Carter P. Johnson,54328,54405,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28980,Chadron,54329,54406,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28981,Champion,54330,54407,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28982,Cheyenne,54331,54408,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28983,Christ,54332,54409,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28984,Claytonia,54333,54410,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28985,Cochran,54334,54411,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28986,Coot Shallow,54335,54412,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28987,Cozad,54336,54413,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28988,Crane,54337,54414,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28989,Cub Creek N,54338,54415,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28990,Cub Creek S,54339,54416,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28991,Dewey,54340,54417,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28992,Diamond Bar,54341,54418,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28993,Dry 2000,54342,54419,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28993,Dry 2002,54343,54420,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,9972,Duck I,54344,54421,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28994,Fremont Slough,54345,54422,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28995,Gillet,54346,54423,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28996,Gimlet,54347,54424,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,27843,Hackberry 2002,54348,54425,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,27843,Hackberry 2003,54349,54426,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28997,Hayes Center,54350,54427,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28998,Heswett,54351,54428,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,28999,Isham Dam,54352,54429,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,24805,Island 1999,54353,54430,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,24805,Island 2000,54354,54431,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29000,Kilpatrick,54355,54432,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29001,Lost,54356,54433,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29002,Lower Harrison,54357,54434,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29003,Maverick,54358,54435,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29004,Minatare,54359,54436,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29005,Morill,54360,54437,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,23102,Ogallala,54361,54438,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29006,Oxbow Trails,54362,54439,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29007,Perin,54363,54440,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29008,Pond 28,54364,54441,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29009,Pony,54365,54442,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29010,Prairie,54366,54443,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29011,Prairie Owl,54367,54444,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29012,Read Head,54368,54445,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29013,Reno,54369,54446,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,11767,Roundup,54370,54447,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29014,Rush,54371,54448,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29015,Schick,54372,54449,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29016,School Section,54373,54450,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29017,Shafer,54374,54451,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29018,Shaup,54375,54452,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,24692,Smith,54376,54453,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29019,Swan,54377,54454,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29020,Tree Claim,54378,54455,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29021,Two Mile,54379,54456,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29022,Upper Tree Claim,54380,54457,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29023,War Axe,54381,54458,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29024,Welfleet,54382,54459,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29025,West Gothenburg,54383,54460,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29026,West Long,54384,54461,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29027,Whitehead,54385,54462,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29028,Whitney,54386,54463,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29029,Wickson,54387,54464,Nebraska Sand Hills - Shinneman,NebSH-Shin
+43,29030,Windmill,54388,54465,Nebraska Sand Hills - Shinneman,NebSH-Shin
+44,29674,Long Lake,56541,56546,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29573,Greeny Lake,56542,56547,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29574,Fly Lake,56543,56548,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29575,Sneezie Lake,56544,56549,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29576,Boitano Lake,56545,56550,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29577,Sorenson Lake,56201,56511,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29578,Westwick Lake,56202,56512,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29579,Alkali Lake,56203,56513,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29580,Sting Lake,56204,56514,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29581,'Putrid Pond',56205,56515,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29582,'White-2 (Le4) Pond',56206,56516,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29583,Beaverdam Lake,56207,56517,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29584,C015 (Wilson et al. 1994),56208,56518,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29585,'Liberty' Lake,56209,56519,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29586,Six-Mile Lake,56210,56520,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29587,Stick Lake ['Lake South Of Kersey'],56211,56521,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29588,Kersey Lake,56212,56522,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29589,Four-Mile Lake ['North Alkali'],56213,56523,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29590,Three-Mile Lake,56214,56524,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29591,Leighwood Lake,56215,56525,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29592,C023 (Wilson et al. 1994),56216,56526,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29593,Eighty-Three Lake,56217,56527,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29594,'East of Eighty-Three',56218,56528,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29595,Colpitt Lake,56219,56529,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29596,Brunson Lake,56220,56530,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29597,McIntyre Lake,56221,56413,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29598,Leeches Lake,56222,56414,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29599,Till Lake,56223,56415,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29600,C031 (Wilson et al. 1994),56224,56416,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29601,'Big' Doc English Lake,56225,56417,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29602,Rock Lake,56226,56418,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29603,East Lake,56227,56419,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29604,C036 (Wilson et al. 1994),56228,56420,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29605,C037 (Wilson et al. 1994),56229,56421,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29606,C038 (Wilson et al. 1994),56230,56422,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29607,C039 (Wilson et al. 1994),56231,56423,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29608,C040 (Wilson et al. 1994),56232,56424,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29609,'Toosey' Lake,56233,56425,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29610,C042 (Wilson et al. 1994),56234,56426,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29611,C043 (Wilson et al. 1994),56235,56427,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29612,C044 (Wilson et al. 1994),56236,56428,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29613,'Lower Doc English' Lake,56237,56429,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29614,Chub Lake,56238,56430,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29615,Timothy Lake,56239,56431,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29616,105 Mile Lake,56240,56432,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29617,C050 (Wilson et al. 1994),56241,56433,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29618,Loch Lomond,56242,56434,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29619,C053 (Wilson et al. 1994),56243,56435,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29620,Dempsey Lake,56244,56436,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29621,Stephenson Lake,56245,56437,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29622,C056 (Wilson et al. 1994),56246,56438,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29623,C057 (Wilson et al. 1994),56247,56439,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29624,C058 (Wilson et al. 1994),56248,56440,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29625,Savon Lake,56249,56441,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29626,C061 (Wilson et al. 1994),56250,56442,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29627,C062 (Wilson et al. 1994),56251,56443,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29628,C063 (Wilson et al. 1994),56252,56444,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29629,C064 (Wilson et al. 1994),56253,56445,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29630,Marsden Lake,56254,56446,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29631,Salt Lake ['Clinton'],56255,56447,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29632,Buse Lake,56256,56448,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29633,Campbell Lake,56257,56449,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29634,Jacko Lake,56258,56450,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29635,Inks Lake,56259,56451,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29636,'Lake North of Inks',56260,56452,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29637,Timber Lake,56261,56453,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29638,'Bestwick' Lake,56262,56454,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29639,Walker Lake,56263,56455,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29640,Shumway Lake,56264,56456,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29641,Batchelor Lake,56265,56457,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29642,Mirror Lake ('LB-1 Pond'),56266,56458,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29643,Lac du Bois,56267,56459,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29644,'McQueen Pond',56268,56460,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29645,Separation Lake,56269,56461,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29646,'East Beresford' Lake,56270,56462,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29647,'North Beresford' Lake,56271,56463,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29648,Lyons Lake,56272,56464,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29649,Little Heffley Lake,56273,56465,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29650,Knouff Lake,56274,56466,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29651,Upper Buse Lake,56275,56467,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29652,Curry Lake,56276,56468,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29653,Scuitto Lake,56277,56469,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29654,Hosli Lake,56278,56470,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29655,Ussher Lake,56279,56471,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29656,K027 (Wilson et al. 1994),56280,56472,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29657,K028 (Wilson et al. 1994),56281,56473,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29658,Long Lake (Kamloops),56282,56474,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29659,Grace Lake ['Southwest of Long'],56283,56475,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29660,Pass Lake,56284,56476,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29661,'North of Knutsford',56285,56477,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29662,'Northeast of Beresford',56286,56478,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29663,Flat Lake,56287,56479,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29664,Edith Lake,56288,56480,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29665,Goose Lake ['Northwest of Edith'],56289,56481,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29666,Stake Lake,56290,56482,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29667,McConnell Lake,56291,56483,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29668,Rush Lake ['North of Timber'],56292,56484,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29669,Bower Lake,56293,56485,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29670,'LB-2 Pond',56294,56486,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29671,Mud Lake ['WSW of McQueen'],56295,56487,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29672,'West of Deep',56296,56488,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+44,29673,K045 (Wilson et al. 1994),56297,56489,Canadian Arctic Calibration - Bouchard etal,CanArctc-B
+45,29691,Monroe Lake,56531,56536,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29692,Pattons Lake,56532,56537,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29693,Mineral Lake,56533,56538,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29694,Horseshoe Lake,56534,56539,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29695,Alkaline Lake,56535,56540,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29469,Flat tire Lake,56085,56313,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29470,Wasa Lake,56086,56314,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29471,Lazy Lake,56087,56315,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29472,Sylvan Lake,56088,56316,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29473,Four Lakes [BC010],56089,56317,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29474,Campbell Lake,56090,56318,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29475,Topaz Lake,56091,56319,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29476,Lillian Lake,56092,56320,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29477,Johnson Lake,56093,56321,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29478,Premier Lake,56094,56322,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29479,Hahas Lake,56095,56323,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29480,McGinty Lake,56096,56324,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29481,Moyie Lake,56097,56325,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29482,Tamarack Lake,56098,56326,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29483,Larchwood Lake,56099,56327,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29675,Horn Lake,56299,56328,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29485,"Green ""South"" Lake",56101,56329,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29486,Mahoney Lake,56102,56330,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29487,Kilpoola Lake,56103,56331,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29488,Blue Lake,56104,56332,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29489,Frank Lake,56105,56333,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29490,Spotted Lake,56106,56334,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29491,Ripley Lake,56107,56335,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29492,Madden Lake,56108,56336,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29493,Burnell Lake,56109,56337,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29494,BC031 (Wilson et al. 1996),56110,56338,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29495,Deadman Lake,56111,56339,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29496,Tugulnuit Lake [Tuc-el-nuit],56112,56340,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29497,Vaseaux Lake,56113,56341,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29498,Fish Lake,56114,56342,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29499,BC036 (Wilson et al. 1996),56115,56343,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29500,BC037 (Wilson et al. 1996),56116,56344,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29501,Twin Lake,56117,56345,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29502,Fox Lake [BC039],56118,56346,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29503,Goose Lake,56119,56347,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29504,Lost Lake,56120,56348,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29505,Drummond Lake,56121,56349,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29506,Soap Lake,56122,56350,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29507,Yorston Lake,56123,56351,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29508,Coyote Lake,56124,56352,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29509,Forest Lake,56125,56353,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29510,McLeese Lake,56126,56354,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29511,Cuisson Lake,56127,56355,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29512,Rimrock Lake,56128,56356,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29513,Parker Lake,56129,56357,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29514,Dingwall Lake,56130,56358,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29515,BC057 (Wilson et al. 1996),56131,56359,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29516,Chimney Lake,56132,56360,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29517,Bobtail Lake,56133,56361,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29518,Island Lake,56134,56362,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29519,McIntosh Lake North,56135,56363,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29520,Miner Lake,56136,56364,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29521,Spokin Lake,56137,56365,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29522,Dewar Lake,56138,56366,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29523,Big Lake,56139,56367,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29524,Whiffle Lake,56140,56368,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29525,Ussa Lake,56141,56369,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29526,Nikwit Lake,56142,56370,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29527,Helena Lake,56143,56371,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29528,Whitehorse Lake,56144,56372,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29529,Rail Lake,56145,56373,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29530,Irish Lake,56146,56374,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29531,Little Green Lake,56147,56375,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29532,Watch Lake,56148,56376,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29533,Little Horse Lake,56149,56377,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29534,Green Lake,56150,56378,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29535,BC078 (Wilson et al. 1996),56151,56379,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29536,Horse Lake,56152,56380,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29537,Valentine Lake,56153,56381,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29538,Big Lake,56154,56382,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29539,Watson Lake,56155,56383,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29540,Last Chance Lake,56156,56384,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29541,Alberta Lake,56157,56385,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29542,White Lake,56158,56386,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29543,Meadow Lake,56159,56387,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29544,Big Bar Lake,56160,56388,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29545,Little White Lake,56161,56389,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29546,Trurans Lake,56162,56390,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29547,BC090 (Wilson et al. 1996),56163,56391,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29548,BC091 (Wilson et al. 1996),56164,56392,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29549,BC094 (Wilson et al. 1996),56165,56393,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29550,Chuwhels,56166,56394,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29551,Dominic Lake,56167,56395,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29552,Durand Lake,56168,56396,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29553,Face Lake,56169,56397,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29554,Lac Le Jeune,56170,56398,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29555,Ironmask Lake,56171,56399,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29556,Peter Hope Lake,56172,56400,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29557,Stump Lake,56173,56401,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29558,Palmer Meadows Lake,56174,56402,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29559,Roche Lake,56175,56403,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29560,Marquart Lake,56176,56404,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29561,Venables Lake,56177,56405,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29562,BC107 (Wilson et al. 1996),56178,56406,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29563,Barnes Lake,56179,56407,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29564,North Barriere Lake,56180,56408,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29565,Scott Lake,56181,56409,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29566,Dunsapie Lake,56182,56410,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29567,Cleland Lake,56183,56411,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+45,29568,Upper Brady Lake,56184,56412,British Columbia Salinity Calibration - Wilson 1996,CC-Salin-W
+47,30338,Alice Lake,57387,57466,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30337,Annie Lake,57386,57467,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30339,Anvil Lake,57388,57468,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30340,Armstrong Lake,57389,57469,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30342,Aston Lake,57391,57471,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30341,Ashagami Lake,57390,57470,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14108,Aurora Whitepine Lake,57392,57472,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14102,Baby Lake,57393,57473,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30343,Barnet Lake,57394,57474,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14094,Bell Lake,57395,57475,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30344,Bennett Lake,57396,57476,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30345,Bluesucker Lake,57397,57477,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30346,Bluewater Lake,57398,57478,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30347,Bob Lake,57399,57479,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14109,Bowland Lake,57400,57480,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30348,Chief Lake,57401,57481,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14089,Chiniguchi Lake,57402,57482,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14085,Clearwater Lake,57403,57483,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30349,Clearwater#2 Lake,57404,57484,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30350,Crooked Lake,57405,57485,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14107,Daisy Lake,57406,57486,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14127,David Lake,57407,57487,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30351,Donald Lake,57408,57488,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30352,Doughtery Lake,57409,57489,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30353,East Bull Lake,57410,57490,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14117,Ella Lake,57411,57491,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30354,Florence Lake,57412,57492,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30355,Fraleck Lake,57413,57493,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30356,Frederick Lake,57414,57494,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30357,Geneva Lake,57415,57495,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14096,George Lake,57416,57496,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30358,Gullrock Lake,57417,57497,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30359,Haentschel Lake,57418,57498,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30360,Hannah Lake,57419,57499,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30361,Hutton Lake,57420,57500,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30362,Jim Edward Lake,57421,57501,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14091,Johnnie Lake,57422,57502,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14131,Killarny Lake,57423,57503,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30363,Klock Lake,57424,57504,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30364,Landers Lake,57425,57505,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30365,Laundrie Lake,57426,57506,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30366,Laurentian Lake,57427,57507,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30367,Lepha Lake,57428,57508,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30368,Little Burwash Lake,57429,57509,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30369,Lohi Lake,57430,57510,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30370,Madawanson Lake,57431,57511,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30371,Mahzenahzing Lake,57432,57512,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30372,Margaret Lake,57433,57513,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30373,Marjorie Lake,57434,57514,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30374,Matagamasi Lake,57435,57515,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30375,Mendelssohn Lake,57436,57516,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14105,Middle Lake,57437,57517,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30376,Mowat Lake,57438,57518,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30377,Murray Lake,57439,57519,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14135,Nellie Lake,57440,57520,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14137,O.S.A. Lake,57441,57521,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30378,Pilgrim Lake,57442,57522,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30379,Reef Lake,57443,57523,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30380,Ruth Roy Lake,57444,57524,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30381,Sam Martin Lake,57445,57525,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30382,Sans Chambre Lake,57446,57526,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30383,Seagram Lake,57447,57527,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30384,Silver Lake,57448,57528,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30385,Silvester Lake,57449,57529,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30386,Stull Lake,57450,57530,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30387,Sugar Lake,57451,57531,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30388,Sunnywater Lake,57452,57532,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14093,Swan Lake,57453,57533,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30389,Telfer Lake,57454,57534,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30390,Tillie Lake,57455,57535,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30391,Tilton Lake,57456,57536,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30392,Totten Lake,57457,57537,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14097,Tyson Lake,57458,57538,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30393,Wabun Lake,57459,57539,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,19190,Washagami Lake,57460,57540,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14088,Wavy Lake,57461,57541,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30394,White Oak Lake,57462,57542,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14098,Whitepine Mcleod Lake,57463,57543,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,14099,Whitson Lake,57464,57544,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg
+47,30395,Wolf Lake,57465,57545,Sudbury Calibration 2022 - Cheng ,Sudbry-Chg

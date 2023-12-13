@@ -1,0 +1,280 @@
+---
+title: "Aggregate_Dataset_R_Project"
+author: "Simon Goring, Socorro Dominguez Vidaña"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    code_folding: show
+    fig_caption: yes
+    keep_md: yes
+    self_contained: yes
+    theme: readable
+    toc: yes
+    toc_float: yes
+    css: "text.css"
+  pdf_document:
+    pandoc_args: "-V geometry:vmargin=1in -V geometry:hmargin=1in"
+---
+
+```{r loadlibraries, warnings=FALSE,echo=FALSE}
+library(neotoma2)
+library(leaflet)
+library(dplyr)
+library(ggplot2)
+library(DT)
+```
+
+## Goals
+
+* Explore distribution patterns of selected diatom taxa in North America.  
+* Examine relationships between % abundance of diatom taxa and climate and water chemistry variables.  
+* Create maps and plots demonstrating these relationships.  
+* Draw conclusions about how these relationships could be used to study the effects of climate change.
+
+## General
+
+Diatoms are excellent paleoecological indicators [@Dixit1992-ul;@smolstormerbook].  When we see changes in the relative abundance of diatom taxa over time they tell us something about how its environment changed.  he simplest approach to using diatoms as indicators is to look at changes in abundance of an individual taxon.  If we know the ecological characteristics of a taxon that changes in abundance, we may be able to say something about the nature, direction and magnitude of ecological change. The best way to quantify the ecological characteristics of taxa is to analyze relationships between surface-sample diatom counts and corresponding environmental data for a large number of lakes. A purpose of this document is to provide code and procedures for getting data from Neotoma in preparation for doing these analyses.
+
+A more sophisticated approach for using diatoms is to quantify mathematical relationships between entire assemblages and environmental characteristics and use them to develop models to infer specific characteristics [@Juggins2012-nf;@Fritz2013-vk;@Wilson1996-hb;@battarbeeReference]. Neotoma offers the possibility of creating new calibration datasets by combining all or some of the existing aggregate datasets. Another purpose of this document is to help users to identify sites, samples and environmental data that can be used to construct new calibration datasets.
+
+Input data for the code in this document is a file with diatom and water chemistry datasetids for over 40 surface sample aggregate datasets in the US and Canada [link](data/drexekcrossreference.csv).  An Excel file with datasetids for individual aggregate datasets is maintained at the Academy of Natural Sciences of Drexel University.
+
+Some questions that users of this document may wish to ask:
+
+* What surface sample datasets are available from Neotoma and where are the sites located?
+* What projects generated the data? 
+* Which sets of sites might have the most consistent taxonomy and require the least amount of harmonization?  
+* Which diatomists did counts for each aggregate dataset?
+* Which sites have environmental characteristics most similar to the ones I am studying? What are the average water chemistry characteristics of each aggregate dataset?
+* What is the distribution of sites with specific taxa that I might be interested in?  Which sites are the most similar to the ones I am studying? (geographically and environmentally)
+
+## Load Data
+
+To first work with this data we need to identify the specific sites and datasets within Neotoma that we're interested in working with. We can either search for the data using the `neotoma2` R package (the `get_sites` and `get_datasets` functions allow us to perform searches) or we can use a pre-compiled set of records from a spreadsheet. In this example, we have a spreadsheet, saved as a CSV:
+
+```{r loaddata, results='hide', echo=TRUE, warning=FALSE}
+drexel <- readr::read_csv(file = 'data/drexelcrossreference.csv', 
+    col_types = list(aggregateid = "i", 
+                     siteid = "c",
+                     sitename = "c",
+                     diatomdatasetid = "c",
+                     waterchemdatasetid = "c",
+                     aggregatedatasetname = "c",
+                     aggregatedatasethandle = "c"))
+
+# The drexelcrossreference.csv file must have the following column headings: 
+# aggregateid, siteid, sitename, diatomdatasetid, waterchemdatasetid
+DT::datatable(drexel)
+```
+
+With the unique IDs for both the diatom and water chemistry datasets we can call `get_datasets()` passing along a dataset ID to Neotoma, to get back the record's associated metadata. This will include the site location and also metadata about the age range of the records and information about the researchers associated with the data analysis. Notably here, the "dataset" metadata does not include the actual counts for individual diatom taxa, or (in the case of water chemistry) the measurements of individual water chemistry elements. This is beacuse people often want to download a large number of records at one time. 
+
+By splitting our calls to Neotoma into:
+
+* `get_sites()` (just spatial metadata)
+* `get_datasets()` (spatial + dataset type and some age metadata)
+* `get_downloads()` (all the above plus the actual sample data)
+
+We can help make some of our workflows a bit faster because we often want to filter based on age ranges, or spatial features before we filter based on species or chemical properties within  records.
+
+Here we're first going to download the dataset metadata, using the unique dataset IDs from our table. Two things to note about the following calls:
+
+1. We wrap the call to the column `drexel$diatomdatasetid` in `na.omit()` to remove all the missing values from the column.
+2. We use `all_data = TRUE` to ensure that all of the record IDs we pass are downloaded. By default the API returns 25 records at a time to help reduce the chance of inadvertently pulling in a large number of records.
+
+Ultimately, even `dataset` records coming from Neotoma are relatively large, so there is some element of dataset processing that takes time. Sometimes we want to test our work using a small subset of the data first (by setting `all_data = FALSE`) before we run everything.
+
+```{r callNeotoma, results='hide', echo=TRUE, warning=FALSE}
+
+if (file.exists('data/diatom_ds.RDS')) {
+  diatom_ds <- readRDS('data/diatom_ds.RDS')
+} else {
+  diatom_ds <- get_datasets(na.omit(as.integer(drexel$diatomdatasetid)), all_data = TRUE)
+  saveRDS(diatom_ds, file = 'data/diatom_ds.RDS')
+}
+
+if (file.exists('data/waterchem_ds.RDS')) {
+  waterchem_ds <- readRDS('data/waterchem_ds.RDS')
+} else {
+  waterchem_ds <- get_datasets(na.omit(as.integer(drexel$waterchemdatasetid)), all_data = TRUE)
+  saveRDS(waterchem_ds, file = 'data/waterchem_ds.RDS')
+}
+
+```
+
+### Site Distribution
+
+This chunk of code creates a map of the distribution of diatom data. There are `r length(diatom_ds)` diatom sites, and there are `r length(waterchem_ds)` water chemistry sites. We want to plot them both. Here we're going to use the interactive `leaflet` package and colour code the plots using the Aggregate Dataset IDs.
+
+```{r mapdiatoms,echo=FALSE,fig.cap='Diatom aggregate surface sample calibration dataset distribution in North America. There are over 2000 sites ranging from Arctic Canada to the southern United States. Most aggregate datasets are limited to relatively small regions (e.g., states). Some datasets are large scale (e.g., EPA’s 2007 National Lake assessment). Observing the current site and aggregate dataset distributions aid in helping create new calibration datasets.'}
+
+diatom_siteloc <- as.data.frame(diatom_ds) %>%
+    inner_join(drexel, by = 'siteid') %>%
+    dplyr::filter(!is.na(lat) & !is.na(long))
+
+pal <- colorFactor(
+  palette = "viridis",
+  domain = diatom_siteloc$aggregateid)
+
+leaflet::leaflet() %>%
+  addTiles() %>%
+  addCircleMarkers(lat = diatom_siteloc$lat,
+                   lng = diatom_siteloc$long,
+                   color = pal(diatom_siteloc$aggregateid),
+                   group = "circles") %>%
+  addLegend(pal = pal,
+    values = diatom_siteloc$aggregatedatasetname,
+    group = "circles") %>%
+  addLayersControl(overlayGroups = c("circles"))
+```
+
+
+```{r mapwaterchem,echo=FALSE,fig.cap='Map of Water Chemistry Distribution in North America. Similar to above.'}
+waterchem_siteloc <- as.data.frame(waterchem_ds) %>%
+    inner_join(drexel, by = 'siteid')
+
+pal <- colorFactor(
+  palette = "viridis",
+  domain = waterchem_siteloc$aggregateid)
+
+leaflet::leaflet() %>%
+  addTiles() %>%
+  addCircleMarkers(lat = waterchem_siteloc$lat,
+                   lng = waterchem_siteloc$long,
+                   color = pal(waterchem_siteloc$aggregateid),
+                   group = "circles") %>%
+  addLegend(pal = pal,
+    values = waterchem_siteloc$aggregatedatasetname,
+    group = "circles") %>%
+  addLayersControl(overlayGroups = c("circles"))
+```
+
+### Diatom Abundance and Distribution
+
+This chunk of code is downloading the diatom data and looking at the total abundance.
+
+```{r downloaddata,echo=FALSE,warning=FALSE}
+if (file.exists('data/diatom_dl.RDS')) {
+  diatom_dl <- readRDS('data/diatom_dl.RDS')
+} else {
+  diatom_dl <- get_downloads(diatom_ds)
+  saveRDS(diatom_dl, file = 'data/diatom_dl.RDS')
+}
+
+if (file.exists('data/waterchem_dl.RDS')) {
+  waterchem_dl <- readRDS('data/waterchem_dl.RDS')
+} else {
+  waterchem_dl <- get_downloads(waterchem_ds)
+  saveRDS(waterchem_dl, file = 'data/waterchem_dl.RDS')
+}
+```
+
+#### Water Chemistry Overview
+
+```{r taxonharm, warning=FALSE, echo=FALSE}
+if (file.exists('data/waterchem_tx.csv')) {
+  waterchem_tx <- read.csv('data/waterchem_tx.csv')
+} else {
+  waterchem_tx <- taxa(waterchem_dl)
+  write.csv(waterchem_tx, file = 'data/waterchem_tx.csv')
+}
+
+wc_tx <- waterchem_tx %>% dplyr::filter(ecologicalgroup == "WCHM")
+
+DT::datatable(wc_tx)
+```
+
+There are `r nrow(wc_tx)` rows in the waterchem taxon table.
+
+##### Water Chemistry Harmonization 
+
+```{r loadHarm, warning=FALSE, echo=FALSE}
+waterchem_hm <- read.csv('data/waterchem_tx_harmonized.csv')
+waterchem_samples <- samples(waterchem_dl)
+
+waterchem_harmonized <- waterchem_samples %>% right_join(waterchem_hm)
+
+w_hz <- waterchem_harmonized %>% 
+  group_by(age, units, replacement, depth, siteid, sitename, lat, long, elev) %>%
+  summarise(count = mean(value), n=n())
+```
+
+##### Water Chemistry Statistics
+
+```{r boxplots}
+w_hz_group <- left_join(w_hz, drexel)
+
+ggplot(w_hz_group %>% filter(replacement == "Color")) +
+  geom_point(aes(x = long, y = lat, color = count)) +
+  facet_wrap(~ aggregatedatasethandle)
+```
+
+-> Same kind of maps as above -- Where things are generally, and possibly colour coded along the axis of the variable.
+-> A set of plots showing box & whisker plots by aggregate dataset.
+
+#### Diatom Taxonomic Overview
+
+This chunk of code looks at the taxonomy.
+If you want to create a new version, add a number to file name in lines 84 and 91.
+
+```{r gettaxa, echo=FALSE}
+if (file.exists('data/diatom_tx.csv')) {
+  diatom_tx <- read.csv('data/diatom_tx.csv')
+} else {
+  diatom_tx <- taxa(diatom_dl)
+  write.csv(diatom_tx, file = 'data/diatom_tx.csv')
+}
+
+
+```
+
+There are `r nrow(diatom_tx)` identified taxa in the data set. The distribution is highly skewed with most taxa appearing very infrequently.
+
+```{r histotaxa, echo=FALSE, fig.cap='A histogram of the number of taxa and the number of samples in the selected sites.'}
+hist(diatom_tx$samples, main = NA, xlab = 'Number of Samples', ylab = 'Number of Taxa', breaks = 8)
+
+toptaxa <- diatom_tx[order(diatom_tx$sites, decreasing = TRUE)[1:6], ]
+```
+
+```{r toptaxatable}
+datatable(toptaxa[ , c("taxonid", "variablename", "sites")])
+```
+
+-> Add a function that creates a folder of PDFs for the taxon and its distribution. Points are colour coded by aggregate dataset. The size represents the proportion of that taxon at the site.
+
+##### Diatom Harmonization
+
+There are `r nrow(diatom_tx)` taxa in the diatom table. This is a result of regional differences in species distributions, identifiability of individual diatom valves, the high diversity of diatom taxa in North America, and individual data quality objectives (i.e., high vs. low taxonomic specificity of research questions).
+
+```{r loadHarm, warning=FALSE, echo=FALSE}
+diatom_hm <- read.csv('data/diatom_tx_harmonized.csv')
+diatom_samples <- samples(diatom_dl)
+```
+
+##### Harmonization step
+
+A section that explains how & why we harmonize, and picks just a subset of the taxa/chem measurements for the remaining analysis.
+
+```{r diatomHarmonization}
+diatom_harmonized <- diatom_samples %>% right_join(diatom_hm)
+d_hz <- diatom_harmonized %>% 
+  group_by(age, units, replacement, depth, siteid, sitename, lat, long, elev) %>%
+  summarise(count = sum(value))
+```
+
+This reduces the set of unique taxa down to `r length(unique(d_hz$replacement)) - 1` and one replacement group named "Other".
+
+#### Taxonomic -- Water Chemistry Overview
+
+ -> Scatterplots of taxonomic abundance vs water chemistry measure.
+ -> Maps with circle size as abundace, vs colour for water chemistry parameter.
+
+## Sample Analysis
+
+```{r getsamples}
+diatom_samp <- samples(diatom_dl)
+diatomwide <- toWide(diatom_samp, ecologicalgroups = 'DIAT', elementtypes = 'valve', unit = 'NISP', groupby = 'depth', operation = 'prop')
+
+waterchem_samp <- samples(waterchem_dl)
+```
+

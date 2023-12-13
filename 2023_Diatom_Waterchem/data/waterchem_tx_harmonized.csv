@@ -1,0 +1,393 @@
+,units,context,element,taxonid,symmetry,taxongroup,elementtype,variablename,ecologicalgroup,samples,sites,replacement
+47,mg/L,NA,lab,25197,NA,Aquatic parameters,lab,Dissolved organic carbon,WCHM,1262,1247,Dissolved organic carbon
+37,mg/L,NA,lab,21270,NA,Water chemistry,lab,Sulfate ions,WCHM,1220,1204,Sulfate ions
+32,mg/L,NA,lab,21263,NA,Water chemistry,lab,Chloride ions,WCHM,1183,1165,Chloride ions
+7,m,NA,field,25382,NA,Aquatic parameters,field,Secchi depth,WCHM,1168,1148,Secchi depth
+44,mg/L,NA,lab,24857,NA,Chemical substance,lab,Potassium,ELEM,1084,1074,Potassium
+39,mg/L,NA,lab,24848,NA,Chemical substance,lab,Calcium,ELEM,1083,1073,Calcium
+54,mg/L,NA,lab,27023,NA,Chemical substance,lab,Magnesium,ELEM,1035,1025,Magnesium
+55,mg/L,NA,lab,27025,NA,Chemical substance,lab,Sodium,ELEM,1035,1025,Sodium
+330,units,NA,field,21266,NA,Water chemistry,field,pH,WCHM,1004,988,pH
+38,mg/L,NA,lab,21272,NA,Chemical substance,lab,Silicon dioxide,IORG,805,796,Silicon dioxide
+379,µS/cm,NA,field,21269,NA,Aquatic parameters,field,Specific conductance,WCHM,732,726,Specific conductance
+364,µg/L,NA,lab,25402,NA,Water chemistry,lab,Total Phosphorus (unfiltered),WCHM,681,681,Total Phosphorus (unfiltered)
+69,mg/L,NA,lab,30911,NA,Water chemistry,lab,Ammonium as N,WCHM,676,676,Ammonium as N
+46,mg/L,NA,lab,25196,NA,Aquatic parameters,lab,Alkalinity,WCHM,662,654,Alkalinity
+363,µg/L,NA,lab,25380,NA,Aquatic parameters,lab,Chlorophyll A,WCHM,650,650,Chlorophyll A
+1,°C,NA,field,22538,NA,Water chemistry,field,Temperature,WCHM,553,549,Temperature
+332,units,NA,lab,21266,NA,Water chemistry,lab,pH,WCHM,527,527,pH
+331,units,NA,field,30576,NA,Water chemistry,field,pH non-aerated,WCHM,489,484,pH non-aerated
+336,µeq/L,NA,lab,27221,NA,Aquatic parameters,lab,Acid neutralizing capacity,WCHM,482,482,Acid neutralizing capacity
+50,mg/L,NA,lab,25381,NA,Water chemistry,lab,Nitrate,WCHM,482,482,Nitrate
+53,mg/L,NA,lab,25400,NA,Water chemistry,lab,Total Nitrogen (unfiltered),WCHM,482,482,Total Nitrogen (unfiltered)
+60,mg/L,NA,lab,28877,NA,Chemical substance,lab,Total organic carbon,ELEM,482,482,Total organic carbon
+315,NTU,NA,lab,27435,NA,Aquatic parameters,lab,Turbidity,WCHM,482,482,Turbidity
+322,Pt-Co units,NA,lab,28942,NA,Water chemistry,lab,Color,WCHM,472,472,Color
+34,mg/L,NA,lab,21265,NA,Water chemistry,lab,Magnesium ions,WCHM,471,471,Magnesium ions
+36,mg/L,NA,lab,21268,NA,Water chemistry,lab,Sodium ions,WCHM,471,471,Sodium ions
+382,µS/cm 25°C,NA,field,21269,NA,Aquatic parameters,field,Specific conductance,WCHM,445,440,Specific conductance
+334,units,NA,lab,35664,NA,Water chemistry,lab,pH aerated,WCHM,440,435,pH aerated
+31,mg/L,NA,lab,21262,NA,Water chemistry,lab,Calcium ions,WCHM,423,423,Calcium ions
+35,mg/L,NA,lab,21267,NA,Water chemistry,lab,Potassium ions,WCHM,423,423,Potassium ions
+52,mg/L,NA,lab,25399,NA,Water chemistry,lab,Total Kjeldahl Nitrogen,WCHM,404,402,Total Kjeldahl Nitrogen
+58,mg/L,NA,lab,27459,NA,Water chemistry,lab,Nitrite + Nitrate as N,WCHM,387,387,Nitrite + Nitrate as N
+51,mg/L,NA,lab,25398,NA,Aquatic parameters,lab,Dissolved inorganic carbon,WCHM,369,368,Dissolved inorganic carbon
+337,μg/L,NA,lab,25201,NA,Water chemistry,lab,Total Phosphorus,WCHM,369,365,Total Phosphorus
+389,NA,NA,NA,21266,NA,Water chemistry,NA,pH,WCHM,349,338,pH
+346,μg/L,NA,NA,25201,NA,Water chemistry,NA,Total Phosphorus,WCHM,352,320,Total Phosphorus
+68,mg/L,NA,lab,30910,NA,Water chemistry,lab,Nitrate as N,WCHM,284,284,Nitrate as N
+74,mg/L,NA,lab,50901,NA,Water chemistry,lab,Chloride,WCHM,282,281,Chloride
+338,μg/L,NA,lab,25380,NA,Aquatic parameters,lab,Chlorophyll A,WCHM,271,271,Chlorophyll A
+61,mg/L,NA,lab,28932,NA,Water chemistry,lab,Silicon ions,WCHM,252,252,Silicon ions
+71,mg/L,NA,lab,35446,NA,Chemical substance,lab,Silicon,ELEM,252,251,Silicon
+77,mg/L,NA,NA,21262,NA,Water chemistry,NA,Calcium ions,WCHM,260,234,Calcium ions
+317,Pt-Co,NA,field,28942,NA,Water chemistry,field,Color,WCHM,234,234,Color
+340,μg/L,NA,lab,29931,NA,Water chemistry,lab,Aluminum,WCHM,232,232,Aluminum
+79,mg/L,NA,NA,21265,NA,Water chemistry,NA,Magnesium ions,WCHM,258,232,Magnesium ions
+82,mg/L,NA,NA,21270,NA,Water chemistry,NA,Sulfate ions,WCHM,257,231,Sulfate ions
+81,mg/L,NA,NA,21268,NA,Water chemistry,NA,Sodium ions,WCHM,222,218,Sodium ions
+9,mg/L,mg/L,lab,25198,NA,Aquatic parameters,lab,Salinity,WCHM,207,206,Salinity
+385,µS/cm at 25°C,µS 25C,field,21269,NA,Aquatic parameters,field,Specific conductance,WCHM,207,206,Specific conductance
+12,mg/L,mg/L,lab,25399,NA,Water chemistry,lab,Total Kjeldahl Nitrogen,WCHM,207,206,Total Kjeldahl Nitrogen
+11,mg/L,mg/L,lab,25398,NA,Aquatic parameters,lab,Dissolved inorganic carbon,WCHM,206,205,Dissolved inorganic carbon
+10,mg/L,mg/L,lab,25201,NA,Water chemistry,lab,Total Phosphorus,WCHM,205,204,Total Phosphorus
+13,mg/L,mg/L,lab,27430,NA,Aquatic parameters,lab,Hardness,WCHM,204,203,Hardness
+321,Pt-Co units,NA,field,35662,NA,Water chemistry,field,Color True,WCHM,202,202,Color True
+5,m,m,field,25382,NA,Aquatic parameters,field,Secchi depth,WCHM,203,202,Secchi depth
+14,mg/L,mg/L,lab,50903,NA,Water chemistry,lab,Sulfate,WCHM,199,198,Sulfate
+80,mg/L,NA,NA,21267,NA,Water chemistry,NA,Potassium ions,WCHM,201,197,Potassium ions
+372,μS,NA,NA,21269,NA,Aquatic parameters,NA,Specific conductance,WCHM,181,180,Specific conductance
+48,mg/L,NA,lab,25200,NA,Water chemistry,lab,Total Nitrogen,WCHM,176,172,Total Nitrogen
+325,umol/L,NA,lab,21264,NA,Water chemistry,lab,Fluoride ions,WCHM,170,170,Fluoride ions
+368,µg/L,NA,lab,35660,NA,Water chemistry,lab,Aluminium Total,WCHM,168,168,Aluminium Total
+99,mg/L CaCO3,NA,NA,25196,NA,Aquatic parameters,NA,Alkalinity,WCHM,184,162,Alkalinity
+83,mg/L,NA,NA,21272,NA,Chemical substance,NA,Silicon dioxide,IORG,182,160,Silicon dioxide
+88,mg/L,NA,NA,25200,NA,Water chemistry,NA,Total Nitrogen,WCHM,164,153,Total Nitrogen
+362,µg/L,NA,lab,25201,NA,Water chemistry,lab,Total Phosphorus,WCHM,152,150,Total Phosphorus
+378,μS/cm,NA,NA,21269,NA,Aquatic parameters,NA,Specific conductance,WCHM,155,144,Specific conductance
+65,mg/L,NA,lab,29931,NA,Water chemistry,lab,Aluminum,WCHM,142,142,Aluminum
+75,mg/L,NA,lab,50902,NA,Water chemistry,lab,Fluoride,WCHM,141,140,Fluoride
+64,mg/L,NA,lab,29930,NA,Water chemistry,lab,Iron,WCHM,140,140,Iron
+326,umol/L,NA,lab,35088,NA,Water chemistry,lab,Aluminium monomeric,WCHM,133,133,Aluminium monomeric
+365,µg/L,NA,lab,28592,NA,Water chemistry,lab,Pheophytin,WCHM,123,123,Pheophytin
+42,mg/L,NA,lab,24855,NA,Chemical substance,lab,Manganese,ELEM,120,120,Manganese
+4,Index,NA,field,27429,NA,Aquatic parameters,field,Forel Color,WCHM,118,118,Forel Color
+8,m,NA,NA,25382,NA,Aquatic parameters,NA,Secchi depth,WCHM,117,117,Secchi depth
+323,Pt-Co units,NA,lab,35662,NA,Water chemistry,lab,Color True,WCHM,116,116,Color True
+87,mg/L,NA,NA,25197,NA,Aquatic parameters,NA,Dissolved organic carbon,WCHM,119,116,Dissolved organic carbon
+78,mg/L,NA,NA,21263,NA,Water chemistry,NA,Chloride ions,WCHM,124,103,Chloride ions
+63,mg/L,NA,lab,29929,NA,Water chemistry,lab,Barium,WCHM,86,86,Barium
+62,mg/L,NA,lab,29928,NA,Water chemistry,lab,Strontium,WCHM,86,86,Strontium
+348,μg/L,NA,NA,25381,NA,Water chemistry,NA,Nitrate,WCHM,85,85,Nitrate
+66,mg/L,NA,lab,30814,NA,Water chemistry,lab,Ammonia + Ammonium,WCHM,80,80,Ammonia + Ammonium
+41,mg/L,NA,lab,24852,NA,Chemical substance,lab,Copper,ELEM,80,80,Copper
+59,mg/L,NA,lab,27946,NA,Water chemistry,lab,Nickel,WCHM,80,80,Nickel
+56,mg/L,NA,lab,27431,NA,Water chemistry,lab,Nitrate + Nitrite,WCHM,80,80,Nitrate + Nitrite
+67,mg/L,NA,lab,30816,NA,Water chemistry,lab,Reactive silicate,WCHM,80,80,Reactive silicate
+76,mg/L,NA,lab,50903,NA,Water chemistry,lab,Sulfate,WCHM,80,80,Sulfate
+45,mg/L,NA,lab,24863,NA,Chemical substance,lab,Zinc,ELEM,80,80,Zinc
+366,µg/L,NA,lab,29931,NA,Water chemistry,lab,Aluminum,WCHM,74,74,Aluminum
+91,mg/L,NA,NA,25381,NA,Water chemistry,NA,Nitrate,WCHM,76,73,Nitrate
+86,mg/L,NA,NA,25196,NA,Aquatic parameters,NA,Alkalinity,WCHM,72,69,Alkalinity
+3,g/L,NA,lab,25198,NA,Aquatic parameters,lab,Salinity,WCHM,66,66,Salinity
+384,µS/cm 25C,NA,field,21269,NA,Aquatic parameters,field,Specific conductance,WCHM,66,66,Specific conductance
+30,mg/L,NA,lab,21261,NA,Water chemistry,lab,Bicarbonate ions,WCHM,64,64,Bicarbonate ions
+70,mg/L,NA,lab,35273,NA,Chemical substance,lab,Carbonate,AION,64,64,Carbonate
+347,μg/L,NA,NA,25380,NA,Aquatic parameters,NA,Chlorophyll A,WCHM,60,60,Chlorophyll A
+29,mg/L,NA,field,35659,NA,Water chemistry,field,Alkalinity Total,WCHM,48,48,Alkalinity Total
+40,mg/L,NA,lab,24849,NA,Chemical substance,lab,Chlorine,ELEM,48,48,Chlorine
+386,NA,NA,field,35664,NA,Water chemistry,field,pH aerated,WCHM,48,48,pH aerated
+377,μS/cm,NA,field,21269,NA,Aquatic parameters,field,Specific conductance,WCHM,48,48,Specific conductance
+94,mg/L,NA,NA,27026,NA,Chemical substance,NA,Aluminum,ELEM,47,47,Aluminum
+327,umol/L,NA,lab,35661,NA,Water chemistry,lab,Aluminum Organic Complex,WCHM,47,47,Aluminum Organic Complex
+92,mg/L,NA,NA,25553,NA,Water chemistry,NA,Ammonium,WCHM,47,47,Ammonium
+90,mg/L,NA,NA,25380,NA,Aquatic parameters,NA,Chlorophyll A,WCHM,47,47,Chlorophyll A
+57,mg/L,NA,lab,27434,NA,Aquatic parameters,lab,Total suspended solids,WCHM,49,47,Total suspended solids
+355,μg/L,NA,NA,27431,NA,Water chemistry,NA,Nitrate + Nitrite,WCHM,46,46,Nitrate + Nitrite
+28,mg/L,NA,field,25196,NA,Aquatic parameters,field,Alkalinity,WCHM,47,45,Alkalinity
+343,μg/L,NA,NA,24855,NA,Chemical substance,NA,Manganese,ELEM,45,45,Manganese
+333,units,NA,lab,30576,NA,Water chemistry,lab,pH non-aerated,WCHM,45,45,pH non-aerated
+380,µS/cm,NA,lab,21269,NA,Aquatic parameters,lab,Specific conductance,WCHM,47,45,Specific conductance
+383,µS/cm 25°C,NA,lab,21269,NA,Aquatic parameters,lab,Specific conductance,WCHM,45,45,Specific conductance
+339,μg/L,NA,lab,25401,NA,Water chemistry,lab,Total Phosphorus (filtered),WCHM,40,40,Total Phosphorus (filtered)
+2,C°,NA,field,22538,NA,Water chemistry,field,Temperature,WCHM,38,38,Temperature
+349,μg/L,NA,NA,25399,NA,Water chemistry,NA,Total Kjeldahl Nitrogen,WCHM,36,36,Total Kjeldahl Nitrogen
+358,μg/L,NA,NA,30814,NA,Water chemistry,NA,Ammonia + Ammonium,WCHM,35,35,Ammonia + Ammonium
+324,TCU,NA,NA,28942,NA,Water chemistry,NA,Color,WCHM,35,35,Color
+43,mg/L,NA,lab,24856,NA,Chemical substance,lab,Molybdenum,ELEM,35,35,Molybdenum
+98,mg/L,NA,NA,30816,NA,Water chemistry,NA,Reactive silicate,WCHM,35,35,Reactive silicate
+352,μg/L,NA,NA,27425,NA,Water chemistry,NA,Ammonia,WCHM,37,34,Ammonia
+72,mg/L,NA,lab,35659,NA,Water chemistry,lab,Alkalinity Total,WCHM,32,32,Alkalinity Total
+73,mg/L,NA,lab,35660,NA,Water chemistry,lab,Aluminium Total,WCHM,32,32,Aluminium Total
+319,Pt-Co,NA,lab,35662,NA,Water chemistry,lab,Color True,WCHM,32,32,Color True
+388,NA,NA,lab,35664,NA,Water chemistry,lab,pH aerated,WCHM,32,32,pH aerated
+387,NA,NA,lab,30576,NA,Water chemistry,lab,pH non-aerated,WCHM,32,32,pH non-aerated
+381,μS/cm 25°C,NA,lab,21269,NA,Aquatic parameters,lab,Specific conductance,WCHM,32,32,Specific conductance
+84,mg/L,NA,NA,24853,NA,Chemical substance,NA,Iron,ELEM,29,29,Iron
+371,μmol/L,NA,lab,35661,NA,Water chemistry,lab,Aluminum Organic Complex,WCHM,28,28,Aluminum Organic Complex
+33,mg/L,NA,lab,21264,NA,Water chemistry,lab,Fluoride ions,WCHM,28,28,Fluoride ions
+49,mg/L,NA,lab,25380,NA,Aquatic parameters,lab,Chlorophyll A,WCHM,27,27,Chlorophyll A
+370,μmol/L,NA,lab,35088,NA,Water chemistry,lab,Aluminium monomeric,WCHM,26,26,Aluminium monomeric
+335,μeq/L,WCHM,lab,27221,NA,Aquatic parameters,lab,Acid neutralizing capacity,WCHM,25,25,Acid neutralizing capacity
+27,mg/L,WCHM,lab,30911,NA,Water chemistry,lab,Ammonium as N,WCHM,25,25,Ammonium as N
+18,mg/L,WCHM,lab,24848,NA,Chemical substance,lab,Calcium,ELEM,25,25,Calcium
+15,mg/L,WCHM,lab,21263,NA,Water chemistry,lab,Chloride ions,WCHM,25,25,Chloride ions
+359,µg/L,WCHM,lab,25380,NA,Aquatic parameters,lab,Chlorophyll A,WCHM,25,25,Chlorophyll A
+320,Pt-Co units,WCHM,lab,28942,NA,Water chemistry,lab,Color,WCHM,25,25,Color
+20,mg/L,WCHM,lab,25197,NA,Aquatic parameters,lab,Dissolved organic carbon,WCHM,25,25,Dissolved organic carbon
+23,mg/L,WCHM,lab,27023,NA,Chemical substance,lab,Magnesium,ELEM,25,25,Magnesium
+21,mg/L,WCHM,lab,25381,NA,Water chemistry,lab,Nitrate,WCHM,25,25,Nitrate
+25,mg/L,WCHM,lab,27459,NA,Water chemistry,lab,Nitrite + Nitrate as N,WCHM,25,25,Nitrite + Nitrate as N
+328,Unit,WCHM,field,21266,NA,Water chemistry,field,pH,WCHM,25,25,pH
+329,Unit,WCHM,lab,21266,NA,Water chemistry,lab,pH,WCHM,25,25,pH
+19,mg/L,WCHM,lab,24857,NA,Chemical substance,lab,Potassium,ELEM,25,25,Potassium
+17,mg/L,WCHM,lab,21272,NA,Chemical substance,lab,Silicon dioxide,IORG,25,25,Silicon dioxide
+24,mg/L,WCHM,lab,27025,NA,Chemical substance,lab,Sodium,ELEM,25,25,Sodium
+376,μS/cm,WCHM,field,21269,NA,Aquatic parameters,field,Specific conductance,WCHM,25,25,Specific conductance
+16,mg/L,WCHM,lab,21270,NA,Water chemistry,lab,Sulfate ions,WCHM,25,25,Sulfate ions
+22,mg/L,WCHM,lab,25400,NA,Water chemistry,lab,Total Nitrogen (unfiltered),WCHM,25,25,Total Nitrogen (unfiltered)
+26,mg/L,WCHM,lab,28877,NA,Chemical substance,lab,Total organic carbon,ELEM,25,25,Total organic carbon
+360,µg/L,WCHM,lab,25402,NA,Water chemistry,lab,Total Phosphorus (unfiltered),WCHM,25,25,Total Phosphorus (unfiltered)
+314,NTU,WCHM,lab,27435,NA,Aquatic parameters,lab,Turbidity,WCHM,25,25,Turbidity
+97,mg/L,NA,NA,28932,NA,Water chemistry,NA,Silicon ions,WCHM,26,23,Silicon ions
+6,m,WCHM,field,25382,NA,Aquatic parameters,field,Secchi depth,WCHM,22,22,Secchi depth
+361,µg/L,NA,lab,25200,NA,Water chemistry,lab,Total Nitrogen,WCHM,22,22,Total Nitrogen
+367,µg/L,NA,lab,29932,NA,Water chemistry,lab,Fucoxanthin,WCHM,20,20,Fucoxanthin
+342,μg/L,NA,NA,24853,NA,Chemical substance,NA,Iron,ELEM,18,18,Iron
+318,Pt-Co,NA,lab,28942,NA,Water chemistry,lab,Color,WCHM,17,17,Color
+93,mg/L,NA,NA,25560,NA,Water chemistry,NA,Phosphate,WCHM,14,14,Phosphate
+369,μmho/cm,NA,NA,21269,NA,Aquatic parameters,NA,Specific conductance,WCHM,12,12,Specific conductance
+391,NA,NA,NA,27429,NA,Aquatic parameters,NA,Forel Color,WCHM,11,11,Forel Color
+95,mg/L,NA,NA,27430,NA,Aquatic parameters,NA,Hardness,WCHM,11,11,Hardness
+96,mg/L,NA,NA,27434,NA,Aquatic parameters,NA,Total suspended solids,WCHM,11,11,Total suspended solids
+316,NTU,NA,NA,27435,NA,Aquatic parameters,NA,Turbidity,WCHM,11,11,Turbidity
+353,μg/L,NA,NA,27426,NA,Aquatic parameters,NA,Dissolved organic nitrogen,WCHM,10,10,Dissolved organic nitrogen
+354,μg/L,NA,NA,27427,NA,Aquatic parameters,NA,Dissolved organic phosphorus,WCHM,10,10,Dissolved organic phosphorus
+356,μg/L,NA,NA,27432,NA,Aquatic parameters,NA,Particulate carbon,WCHM,10,10,Particulate carbon
+357,μg/L,NA,NA,27433,NA,Aquatic parameters,NA,Particulate nitrogen,WCHM,10,10,Particulate nitrogen
+341,μg/L,NA,NA,21272,NA,Chemical substance,NA,Silicon dioxide,IORG,10,10,Silicon dioxide
+345,μg/L,NA,NA,25200,NA,Water chemistry,NA,Total Nitrogen,WCHM,10,10,Total Nitrogen
+351,μg/L,NA,NA,27220,NA,Water chemistry,NA,Orthophosphate as P,WCHM,9,9,Orthophosphate as P
+89,mg/L,NA,NA,25201,NA,Water chemistry,NA,Total Phosphorus,WCHM,7,6,Total Phosphorus
+224,NISP,NA,valve,12005,NA,Diatoms,valve,Pinnularia microstauron,DIAT,7,5,Other
+106,NISP,NA,valve,10185,NA,Diatoms,valve,Achnanthes minutissima,DIAT,7,4,Other
+117,NISP,NA,valve,10389,NA,Diatoms,valve,Aulacoseira ambigua,DIAT,6,4,Other
+118,NISP,NA,valve,10390,NA,Diatoms,valve,Aulacoseira distans,DIAT,6,4,Other
+254,NISP,NA,valve,12617,NA,Diatoms,valve,Aulacoseira nygaardii,DIAT,5,4,Other
+125,NISP,NA,valve,10469,NA,Diatoms,valve,Brachysira brebissonii,DIAT,6,4,Other
+127,NISP,NA,valve,10482,NA,Diatoms,valve,Cyclotella stelligera,DIAT,8,4,Other
+132,NISP,NA,valve,10527,NA,Diatoms,valve,Cymbella hebridica,DIAT,7,4,Other
+164,NISP,NA,valve,10860,NA,Diatoms,valve,Eunotia bilunaris var. mucophila,DIAT,7,4,Other
+145,NISP,NA,valve,10701,NA,Diatoms,valve,Eunotia flexuosa,DIAT,4,4,Other
+149,NISP,NA,valve,10708,NA,Diatoms,valve,Eunotia incisa,DIAT,7,4,Other
+256,NISP,NA,valve,12663,NA,Diatoms,valve,Eunotia nymanniana,DIAT,6,4,Other
+163,NISP,NA,valve,10856,NA,Diatoms,valve,Eunotia rhynchocephala,DIAT,5,4,Other
+190,NISP,NA,valve,11248,NA,Diatoms,valve,Navicula mediocris,DIAT,7,4,Other
+188,NISP,NA,valve,11238,NA,Diatoms,valve,Navicula soehrensis var. hassiaca,DIAT,6,4,Other
+217,NISP,NA,valve,11828,NA,Diatoms,valve,Nitzschia perminuta,DIAT,6,4,Other
+214,NISP,NA,valve,11741,NA,Diatoms,valve,Nitzschia recta,DIAT,4,4,Other
+228,NISP,NA,valve,12100,NA,Diatoms,valve,Pinnularia gibba,DIAT,5,4,Other
+231,NISP,NA,valve,12162,NA,Diatoms,valve,Stauroneis anceps,DIAT,5,4,Other
+237,NISP,NA,valve,12215,NA,Diatoms,valve,Stenopterobia delicatissima,DIAT,6,4,Other
+242,NISP,NA,valve,12381,NA,Diatoms,valve,Tabellaria flocculosa,DIAT,5,4,Other
+245,NISP,NA,valve,12390,NA,Diatoms,valve,Tabellaria ventricosa,DIAT,7,4,Other
+312,NISP,NA,valve,30813,NA,Diatoms,valve,Unknown pennate,DIAT,8,4,Other
+268,NISP,NA,valve,24313,NA,Diatoms,valve,Achnanthes biasolettiana var. subatomus,DIAT,4,3,Other
+109,NISP,NA,valve,10265,NA,Diatoms,valve,Achnanthes laevis,DIAT,5,3,Other
+103,NISP,NA,valve,10179,NA,Diatoms,valve,Achnanthes linearis,DIAT,3,3,Other
+277,NISP,NA,valve,24770,NA,Diatoms,valve,Amphipleura kriegeriana,DIAT,4,3,Other
+116,NISP,NA,valve,10376,NA,Diatoms,valve,Asterionella formosa,DIAT,5,3,Other
+299,NISP,NA,valve,30794,NA,Diatoms,valve,Brachysira intermedia,DIAT,4,3,Other
+267,NISP,NA,valve,24312,NA,Diatoms,valve,Brachysira neoexilis,DIAT,6,3,Other
+126,NISP,NA,valve,10470,NA,Diatoms,valve,Brachysira vitrea,DIAT,4,3,Other
+128,NISP,NA,valve,10484,NA,Diatoms,valve,Cyclotella pseudostelligera,DIAT,3,3,Other
+131,NISP,NA,valve,10526,NA,Diatoms,valve,Cymbella gaeumannii,DIAT,5,3,Other
+139,NISP,NA,valve,10609,NA,Diatoms,valve,Cymbella gracilis,DIAT,6,3,Other
+138,NISP,NA,valve,10602,NA,Diatoms,valve,Cymbella incerta,DIAT,5,3,Other
+135,NISP,NA,valve,10535,NA,Diatoms,valve,Cymbella naviculiformis,DIAT,5,3,Other
+159,NISP,NA,valve,10785,NA,Diatoms,valve,Eunotia pirla,DIAT,4,3,Other
+275,NISP,NA,valve,24734,NA,Diatoms,valve,Fragilaria capucina complex,DIAT,4,3,Other
+166,NISP,NA,valve,10890,NA,Diatoms,valve,Fragilaria construens var. venter,DIAT,5,3,Other
+170,NISP,NA,valve,10947,NA,Diatoms,valve,Fragilaria nanana,DIAT,5,3,Other
+167,NISP,NA,valve,10899,NA,Diatoms,valve,Fragilaria pinnata,DIAT,5,3,Other
+168,NISP,NA,valve,10910,NA,Diatoms,valve,Fragilaria virescens var. exigua,DIAT,5,3,Other
+172,NISP,NA,valve,10979,NA,Diatoms,valve,Frustulia rhomboides,DIAT,6,3,Other
+271,NISP,NA,valve,24536,NA,Diatoms,valve,Navicula bryophila,DIAT,4,3,Other
+184,NISP,NA,valve,11224,NA,Diatoms,valve,Navicula cocconeiformis,DIAT,4,3,Other
+198,NISP,NA,valve,11299,NA,Diatoms,valve,Navicula leptostriata,DIAT,6,3,Other
+191,NISP,NA,valve,11249,NA,Diatoms,valve,Navicula minima,DIAT,4,3,Other
+192,NISP,NA,valve,11259,NA,Diatoms,valve,Navicula pupula,DIAT,4,3,Other
+203,NISP,NA,valve,11652,NA,Diatoms,valve,Neidium affine,DIAT,4,3,Other
+206,NISP,NA,valve,11701,NA,Diatoms,valve,Neidium ampliatum,DIAT,5,3,Other
+204,NISP,NA,valve,11664,NA,Diatoms,valve,Neidium iridis,DIAT,4,3,Other
+216,NISP,NA,valve,11824,NA,Diatoms,valve,Nitzschia inconspicua,DIAT,3,3,Other
+223,NISP,NA,valve,12003,NA,Diatoms,valve,Pinnularia mesolepta,DIAT,5,3,Other
+307,NISP,NA,valve,30807,NA,Diatoms,valve,Pinnularia microstauron morphotype II,DIAT,3,3,Other
+297,NISP,NA,valve,29917,NA,Diatoms,valve,Stauroneis anceps var. gracilis,DIAT,4,3,Other
+234,NISP,NA,valve,12173,NA,Diatoms,valve,Stauroneis phoenicenteron,DIAT,4,3,Other
+236,NISP,NA,valve,12214,NA,Diatoms,valve,Stenopterobia densestriata,DIAT,4,3,Other
+244,NISP,NA,valve,12384,NA,Diatoms,valve,Tabellaria flocculosa var. linearis,DIAT,6,3,Other
+276,NISP,NA,valve,24735,NA,Diatoms,valve,Achnanthes carissima,DIAT,2,2,Other
+269,NISP,NA,valve,24376,NA,Diatoms,valve,Achnanthes chlidanos,DIAT,3,2,Other
+110,NISP,NA,valve,10286,NA,Diatoms,valve,Achnanthes subatomoides,DIAT,2,2,Other
+114,NISP,NA,valve,10351,NA,Diatoms,valve,Anomoeoneis follis,DIAT,2,2,Other
+270,NISP,NA,valve,24379,NA,Diatoms,valve,Aulacoseira distans var. humilis,DIAT,2,2,Other
+266,NISP,NA,valve,24280,NA,Diatoms,valve,Aulacoseira distans var. tenella,DIAT,4,2,Other
+120,NISP,NA,valve,10392,NA,Diatoms,valve,Aulacoseira perglabra var. florinae,DIAT,3,2,Other
+263,NISP,NA,valve,13165,NA,Diatoms,valve,Brachysira styriaca,DIAT,3,2,Other
+129,NISP,NA,valve,10496,NA,Diatoms,valve,Cyclotella bodanica var. lemanica,DIAT,4,2,Other
+133,NISP,NA,valve,10529,NA,Diatoms,valve,Cymbella microcephala,DIAT,2,2,Other
+134,NISP,NA,valve,10531,NA,Diatoms,valve,Cymbella minuta,DIAT,3,2,Other
+162,NISP,NA,valve,10852,NA,Diatoms,valve,Eunotia bilunaris,DIAT,3,2,Other
+144,NISP,NA,valve,10697,NA,Diatoms,valve,Eunotia exigua,DIAT,3,2,Other
+146,NISP,NA,valve,10703,NA,Diatoms,valve,Eunotia formica,DIAT,3,2,Other
+147,NISP,NA,valve,10705,NA,Diatoms,valve,Eunotia hemicyclus,DIAT,4,2,Other
+160,NISP,NA,valve,10843,NA,Diatoms,valve,Eunotia implicata,DIAT,3,2,Other
+150,NISP,NA,valve,10713,NA,Diatoms,valve,Eunotia meisteri,DIAT,3,2,Other
+151,NISP,NA,valve,10718,NA,Diatoms,valve,Eunotia naegelii,DIAT,3,2,Other
+152,NISP,NA,valve,10721,NA,Diatoms,valve,Eunotia pectinalis,DIAT,3,2,Other
+300,NISP,NA,valve,30797,NA,Diatoms,valve,Eunotia praerupta s.l.,DIAT,2,2,Other
+156,NISP,NA,valve,10737,NA,Diatoms,valve,Eunotia serra var. diadema,DIAT,3,2,Other
+157,NISP,NA,valve,10742,NA,Diatoms,valve,Eunotia tenella,DIAT,3,2,Other
+173,NISP,NA,valve,10982,NA,Diatoms,valve,Frustulia rhomboides var. crassinervia,DIAT,3,2,Other
+174,NISP,NA,valve,10983,NA,Diatoms,valve,Frustulia rhomboides var. saxonica,DIAT,4,2,Other
+177,NISP,NA,valve,11007,NA,Diatoms,valve,Gomphonema affine,DIAT,2,2,Other
+180,NISP,NA,valve,11015,NA,Diatoms,valve,Gomphonema parvulum,DIAT,3,2,Other
+85,mg/L,NA,NA,24855,NA,Chemical substance,NA,Manganese,ELEM,2,2,Other
+185,NISP,NA,valve,11227,NA,Diatoms,valve,Navicula cryptocephala,DIAT,2,2,Other
+202,NISP,NA,valve,11567,NA,Diatoms,valve,Navicula cryptotenella,DIAT,2,2,Other
+302,NISP,NA,valve,30802,NA,Diatoms,valve,Navicula leptostriata (central larger),DIAT,3,2,Other
+200,NISP,NA,valve,11355,NA,Diatoms,valve,Navicula rhynchocephala,DIAT,2,2,Other
+196,NISP,NA,valve,11287,NA,Diatoms,valve,Navicula subtilissima,DIAT,4,2,Other
+303,NISP,NA,valve,30803,NA,Diatoms,valve,Navicula subtilissima (thin),DIAT,3,2,Other
+197,NISP,NA,valve,11292,NA,Diatoms,valve,Navicula vitiosa,DIAT,3,2,Other
+375,μS,NA,NA,25381,NA,Water chemistry,NA,Nitrate,WCHM,2,2,Other
+215,NISP,NA,valve,11750,NA,Diatoms,valve,Nitzschia cf. fonticola,DIAT,3,2,Other
+304,NISP,NA,valve,30804,NA,Diatoms,valve,Nitzschia cf. pura,DIAT,3,2,Other
+211,NISP,NA,valve,11729,NA,Diatoms,valve,Nitzschia gracilis,DIAT,3,2,Other
+213,NISP,NA,valve,11737,NA,Diatoms,valve,Nitzschia palea,DIAT,2,2,Other
+218,NISP,NA,valve,11902,NA,Diatoms,valve,Nitzschia radicula,DIAT,2,2,Other
+221,NISP,NA,valve,11978,NA,Diatoms,valve,Pinnularia braunii,DIAT,2,2,Other
+226,NISP,NA,valve,12027,NA,Diatoms,valve,Pinnularia viridis,DIAT,3,2,Other
+247,NISP,NA,valve,12476,NA,Diatoms,valve,Sellaphora pupula,DIAT,2,2,Other
+233,NISP,NA,valve,12170,NA,Diatoms,valve,Stauroneis livingstonii,DIAT,3,2,Other
+280,NISP,NA,valve,25429,NA,Diatoms,valve,Tabellaria flocculosa (strain IIIp),DIAT,4,2,Other
+373,μS,NA,NA,25201,NA,Water chemistry,NA,Total Phosphorus,WCHM,2,2,Other
+273,NISP,NA,valve,24686,NA,Diatoms,valve,Achnanthes altaica,DIAT,1,1,Other
+111,NISP,NA,valve,10302,NA,Diatoms,valve,Achnanthes curtissima,DIAT,1,1,Other
+101,NISP,NA,valve,10162,NA,Diatoms,valve,Achnanthes didyma,DIAT,1,1,Other
+102,NISP,NA,valve,10177,NA,Diatoms,valve,Achnanthes levanderi,DIAT,1,1,Other
+105,NISP,NA,valve,10183,NA,Diatoms,valve,Achnanthes marginulata,DIAT,1,1,Other
+104,NISP,NA,valve,10181,NA,Diatoms,valve,Achnanthes pusilla,DIAT,1,1,Other
+108,NISP,NA,valve,10257,NA,Diatoms,valve,Achnanthes rossii,DIAT,1,1,Other
+107,NISP,NA,valve,10190,NA,Diatoms,valve,Achnanthes suchlandtii,DIAT,1,1,Other
+100,NISP,NA,valve,10152,NA,Diatoms,valve,Achnanthidium minutissimum,DIAT,1,1,Other
+112,NISP,NA,valve,10317,NA,Diatoms,valve,Actinella punctata,DIAT,2,1,Other
+344,μg/L,NA,NA,25196,NA,Aquatic parameters,NA,Alkalinity,WCHM,1,1,Other
+390,NA,NA,NA,25196,NA,Aquatic parameters,NA,Alkalinity,WCHM,1,1,Other
+113,NISP,NA,valve,10337,NA,Diatoms,valve,Amphora libyca,DIAT,1,1,Other
+115,NISP,NA,valve,10352,NA,Diatoms,valve,Anomoeoneis serians,DIAT,1,1,Other
+122,NISP,NA,valve,10396,NA,Diatoms,valve,Aulacoseira italica,DIAT,1,1,Other
+261,NISP,NA,valve,13015,NA,Diatoms,valve,Aulacoseira lacustris,DIAT,1,1,Other
+119,NISP,NA,valve,10391,NA,Diatoms,valve,Aulacoseira lirata,DIAT,1,1,Other
+121,NISP,NA,valve,10393,NA,Diatoms,valve,Aulacoseira subarctica,DIAT,2,1,Other
+283,NISP,NA,valve,27164,NA,Diatoms,valve,Brachysira gravida,DIAT,1,1,Other
+259,NISP,NA,valve,12886,NA,Diatoms,valve,Brachysira microcephala,DIAT,1,1,Other
+123,NISP,NA,valve,10404,NA,Diatoms,valve,Caloneis bacillum,DIAT,1,1,Other
+258,NISP,NA,valve,12848,NA,Diatoms,valve,Chamaepinnularia mediocris,DIAT,1,1,Other
+374,μS,NA,NA,25380,NA,Aquatic parameters,NA,Chlorophyll A,WCHM,1,1,Other
+124,NISP,NA,valve,10447,NA,Diatoms,valve,Cocconeis placentula var. lineata,DIAT,1,1,Other
+130,NISP,NA,valve,10512,NA,Diatoms,valve,Craticula halophila,DIAT,1,1,Other
+274,NISP,NA,valve,24732,NA,Diatoms,valve,Cyclotella glomerata,DIAT,2,1,Other
+279,NISP,NA,valve,24982,NA,Diatoms,valve,Cyclotella michiganiana,DIAT,1,1,Other
+255,NISP,NA,valve,12656,NA,Diatoms,valve,Cyclotella tripartita,DIAT,1,1,Other
+136,NISP,NA,valve,10599,NA,Diatoms,valve,Cymbella ehrenbergii,DIAT,1,1,Other
+137,NISP,NA,valve,10600,NA,Diatoms,valve,Cymbella helvetica,DIAT,1,1,Other
+140,NISP,NA,valve,10613,NA,Diatoms,valve,Cymbella silesiaca,DIAT,1,1,Other
+251,NISP,NA,valve,12541,NA,Diatoms,valve,Diadesmis contenta,DIAT,1,1,Other
+282,NISP,NA,valve,27141,NA,Diatoms,valve,Encyonema sp.,DIAT,1,1,Other
+253,NISP,NA,valve,12550,NA,Diatoms,valve,Encyonopsis cesatii,DIAT,1,1,Other
+141,NISP,NA,valve,10687,NA,Diatoms,valve,Eunotia bidentula,DIAT,2,1,Other
+284,NISP,NA,valve,27166,NA,Diatoms,valve,Eunotia canicula,DIAT,2,1,Other
+142,NISP,NA,valve,10695,NA,Diatoms,valve,Eunotia diodon,DIAT,2,1,Other
+143,NISP,NA,valve,10696,NA,Diatoms,valve,Eunotia elegans,DIAT,1,1,Other
+294,NISP,NA,valve,27437,NA,Diatoms,valve,Eunotia fallax var. groenlandica,DIAT,1,1,Other
+148,NISP,NA,valve,10706,NA,Diatoms,valve,Eunotia hexaglyphis,DIAT,1,1,Other
+161,NISP,NA,valve,10850,NA,Diatoms,valve,Eunotia minor,DIAT,2,1,Other
+158,NISP,NA,valve,10765,NA,Diatoms,valve,Eunotia paludosa,DIAT,1,1,Other
+281,NISP,NA,valve,27139,NA,Diatoms,valve,Eunotia papilioforma,DIAT,1,1,Other
+153,NISP,NA,valve,10723,NA,Diatoms,valve,Eunotia pectinalis var. undulata,DIAT,2,1,Other
+154,NISP,NA,valve,10733,NA,Diatoms,valve,Eunotia rhomboidea,DIAT,1,1,Other
+155,NISP,NA,valve,10736,NA,Diatoms,valve,Eunotia serra,DIAT,2,1,Other
+290,NISP,NA,valve,27180,NA,Diatoms,valve,Eunotia sp.,DIAT,1,1,Other
+260,NISP,NA,valve,12902,NA,Diatoms,valve,Eunotia subarcuatoides,DIAT,1,1,Other
+265,NISP,NA,valve,13257,NA,Diatoms,valve,Eunotia tetraodon,DIAT,1,1,Other
+246,NISP,NA,valve,12459,NA,Diatoms,valve,Fallacia tenera,DIAT,1,1,Other
+298,NISP,NA,valve,30062,NA,Diatoms,valve,Fragilaria brevistriata var. papillosa,DIAT,1,1,Other
+169,NISP,NA,valve,10924,NA,Diatoms,valve,Fragilaria capucina var. mesolepta,DIAT,1,1,Other
+278,NISP,NA,valve,24904,NA,Diatoms,valve,Fragilaria cf. crotonensis,DIAT,1,1,Other
+301,NISP,NA,valve,30799,NA,Diatoms,valve,Fragilaria cf. rumpens var. familiaris,DIAT,1,1,Other
+165,NISP,NA,valve,10882,NA,Diatoms,valve,Fragilaria constricta,DIAT,1,1,Other
+272,NISP,NA,valve,24653,NA,Diatoms,valve,Fragilaria construens fo. construens,DIAT,1,1,Other
+171,NISP,NA,valve,10967,NA,Diatoms,valve,Fragilaria parasitica,DIAT,1,1,Other
+313,NISP,NA,valve,30831,NA,Diatoms,valve,Fragilaria subrhombica,DIAT,2,1,Other
+175,NISP,NA,valve,10994,NA,Diatoms,valve,Frustulia crassinervia,DIAT,2,1,Other
+285,NISP,NA,valve,27167,NA,Diatoms,valve,Frustulia rexii,DIAT,1,1,Other
+176,NISP,NA,valve,10995,NA,Diatoms,valve,Frustulia saxonica,DIAT,2,1,Other
+178,NISP,NA,valve,11008,NA,Diatoms,valve,Gomphonema angustatum,DIAT,1,1,Other
+179,NISP,NA,valve,11012,NA,Diatoms,valve,Gomphonema gracile,DIAT,1,1,Other
+257,NISP,NA,valve,12687,NA,Diatoms,valve,Gomphonema italicum,DIAT,1,1,Other
+291,NISP,NA,valve,27186,NA,Diatoms,valve,Gomphonema pala,DIAT,1,1,Other
+181,NISP,NA,valve,11076,NA,Diatoms,valve,Gomphonema rhombicum,DIAT,1,1,Other
+289,NISP,NA,valve,27179,NA,Diatoms,valve,Gomphonema sp.,DIAT,1,1,Other
+182,NISP,NA,valve,11113,NA,Diatoms,valve,Gyrosigma spencerii,DIAT,1,1,Other
+252,NISP,NA,valve,12546,NA,Diatoms,valve,Kobayasiella subtilissima,DIAT,1,1,Other
+183,NISP,NA,valve,11214,NA,Diatoms,valve,Meridion circulare var. constrictum,DIAT,1,1,Other
+392,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,Other
+201,NISP,NA,valve,11470,NA,Diatoms,valve,Navicula capitata,DIAT,1,1,Other
+199,NISP,NA,valve,11339,NA,Diatoms,valve,Navicula disjuncta,DIAT,1,1,Other
+295,NISP,NA,valve,27438,NA,Diatoms,valve,Navicula elginensis var. neglecta,DIAT,1,1,Other
+186,NISP,NA,valve,11232,NA,Diatoms,valve,Navicula explanata,DIAT,2,1,Other
+187,NISP,NA,valve,11235,NA,Diatoms,valve,Navicula gregaria,DIAT,1,1,Other
+189,NISP,NA,valve,11244,NA,Diatoms,valve,Navicula laevissima,DIAT,2,1,Other
+193,NISP,NA,valve,11272,NA,Diatoms,valve,Navicula schmassmannii,DIAT,1,1,Other
+194,NISP,NA,valve,11275,NA,Diatoms,valve,Navicula seminuloides,DIAT,2,1,Other
+195,NISP,NA,valve,11276,NA,Diatoms,valve,Navicula seminulum,DIAT,1,1,Other
+296,NISP,NA,valve,27439,NA,Diatoms,valve,Navicula viridula var. rostellata,DIAT,1,1,Other
+205,NISP,NA,valve,11699,NA,Diatoms,valve,Neidium hercynicum,DIAT,1,1,Other
+207,NISP,NA,valve,11718,NA,Diatoms,valve,Nitzschia amphibia,DIAT,1,1,Other
+208,NISP,NA,valve,11720,NA,Diatoms,valve,Nitzschia capitellata,DIAT,1,1,Other
+209,NISP,NA,valve,11725,NA,Diatoms,valve,Nitzschia fonticola,DIAT,1,1,Other
+210,NISP,NA,valve,11727,NA,Diatoms,valve,Nitzschia frustulum,DIAT,1,1,Other
+212,NISP,NA,valve,11733,NA,Diatoms,valve,Nitzschia heufleriana,DIAT,1,1,Other
+350,μg/L,NA,NA,25560,NA,Water chemistry,NA,Phosphate,WCHM,1,1,Other
+219,NISP,NA,valve,11965,NA,Diatoms,valve,Pinnularia abaujensis,DIAT,1,1,Other
+220,NISP,NA,valve,11966,NA,Diatoms,valve,Pinnularia abaujensis var. linearis,DIAT,2,1,Other
+305,NISP,NA,valve,30805,NA,Diatoms,valve,Pinnularia aff. hilseana,DIAT,1,1,Other
+264,NISP,NA,valve,13169,NA,Diatoms,valve,Pinnularia brauniana,DIAT,2,1,Other
+229,NISP,NA,valve,12110,NA,Diatoms,valve,Pinnularia interrupta,DIAT,2,1,Other
+306,NISP,NA,valve,30806,NA,Diatoms,valve,Pinnularia lacustris,DIAT,1,1,Other
+222,NISP,NA,valve,11999,NA,Diatoms,valve,Pinnularia maior,DIAT,1,1,Other
+227,NISP,NA,valve,12038,NA,Diatoms,valve,Pinnularia microstauron var. lunicus,DIAT,2,1,Other
+286,NISP,NA,valve,27176,NA,Diatoms,valve,Pinnularia sp.,DIAT,2,1,Other
+225,NISP,NA,valve,12016,NA,Diatoms,valve,Pinnularia subcapitata,DIAT,1,1,Other
+250,NISP,NA,valve,12529,NA,Diatoms,valve,Placoneis elginensis,DIAT,1,1,Other
+230,NISP,NA,valve,12142,NA,Diatoms,valve,Rhoicosphenia curvata,DIAT,1,1,Other
+232,NISP,NA,valve,12163,NA,Diatoms,valve,Stauroneis anceps fo. gracilis,DIAT,1,1,Other
+308,NISP,NA,valve,30809,NA,Diatoms,valve,Stauroneis anceps var. hyalina,DIAT,1,1,Other
+287,NISP,NA,valve,27177,NA,Diatoms,valve,Stauroneis sp.,DIAT,1,1,Other
+235,NISP,NA,valve,12178,NA,Diatoms,valve,Stauroneis stodderi,DIAT,1,1,Other
+248,NISP,NA,valve,12484,NA,Diatoms,valve,Staurosira construens var. binodis,DIAT,1,1,Other
+249,NISP,NA,valve,12485,NA,Diatoms,valve,Staurosira construens var. venter,DIAT,1,1,Other
+238,NISP,NA,valve,12239,NA,Diatoms,valve,Surirella angusta,DIAT,1,1,Other
+239,NISP,NA,valve,12283,NA,Diatoms,valve,Surirella minuta,DIAT,1,1,Other
+292,NISP,NA,valve,27187,NA,Diatoms,valve,Surirella sp.,DIAT,1,1,Other
+310,NISP,NA,valve,30811,NA,Diatoms,valve,Synedra delicatissima var. angustissima (no process),DIAT,2,1,Other
+309,NISP,NA,valve,30810,NA,Diatoms,valve,Synedra delicatissima var. angustissima (process),DIAT,1,1,Other
+293,NISP,NA,valve,27436,NA,Diatoms,valve,Synedra pulchella var. lacerata,DIAT,1,1,Other
+240,NISP,NA,valve,12338,NA,Diatoms,valve,Synedra ulna,DIAT,1,1,Other
+241,NISP,NA,valve,12380,NA,Diatoms,valve,Tabellaria fenestrata,DIAT,1,1,Other
+243,NISP,NA,valve,12382,NA,Diatoms,valve,"Tabellaria flocculosa (strain III, sensu Koppen)",DIAT,1,1,Other
+288,NISP,NA,valve,27178,NA,Diatoms,valve,Undetermined Pennate,DIAT,1,1,Other
+311,NISP,NA,valve,30812,NA,Diatoms,valve,Unknown centrics,DIAT,1,1,Other
+262,NISP,NA,valve,13115,NA,Diatoms,valve,Urosolenia eriensis,DIAT,2,1,Other
