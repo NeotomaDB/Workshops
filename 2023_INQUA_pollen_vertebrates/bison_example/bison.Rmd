@@ -1,0 +1,159 @@
+---
+title: "Bison"
+author: "Socorro Dominguez"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    code_folding: show
+    fig_caption: yes
+    keep_md: yes
+    self_contained: yes
+    theme: readable
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    pandoc_args: "-V geometry:vmargin=1in -V geometry:hmargin=1in"
+---
+
+```{r setup, echo=FALSE}
+options(warn = -1)
+pacman::p_load(neotoma2, dplyr, tidyverse, ggplot2, sf, geojsonsf, leaflet, DT, maptools, maps)
+```
+
+## 1. Exercise Using Vertebrate Data
+
+Let's retrieve Bison data and see how they were spread out during the Holocene and Pleistocene.
+
+### 1.a Getting "Bison" Data from Neotoma
+
+1. To get the sites that contain `bison` data, let's use the `get_sites()` function and use the parameter `taxa`. Remember that we can use the wildcard `%` to retrieve "similar" names. To retrieve **all** the data, set the `all_data` parameter to TRUE.
+
+```{r finding bison}
+# Might take a few minutes...
+bison <- get_sites(taxa="%bison%", all_data=TRUE)
+head(bison)
+```
+
+2. Now that we have downloaded the sites metadata, let's use that to see where are `bison` located:
+
+```{r plot bison sites}
+plotLeaflet(bison)
+```
+
+3. Now, let's get all the rows of sample data in Neotoma. Since there are 1258 sites, this operation might take a while, so an .RDS file `bisonDataDL.RDS` has been provided. Let's load that:
+
+```{r obtain records}
+bison_dl <- readRDS('data/BisonDataDL.rds')
+head(bison_dl)
+```
+
+3.a. What if we didn't have the `.RDS` file? The code we would have had to use is:
+```{r download the data from scratch}
+#bison_dl <- get_downloads(bison)
+```
+
+4. Let's take a look at the samples in the `bison_dl`.
+You might notice that there are variable names that do not belong to `bison`, that is because the dataset type is `vertebrate-fauna` and the `get_downloads()` function downloads data at the `datasetid` level. We will filter information and keep only the `bison` data by joining with a translation table that contains the `variablename`s we would be interested in.
+
+```{r getSamples}
+allSamp <- samples(bison_dl)
+```
+```{r view Samples}
+DT::datatable(head(allSamp))
+```
+
+5. Let's load in the "translation" table for bison (`bisontable.csv` in the data folder) and take a look at it:
+
+```{r translationDisplay}
+translation <- readr::read_csv("data/bisontable.csv")
+DT::datatable(translation, rownames = FALSE, 
+                options = list(scrollX = "100%", dom = 't'))
+
+```
+
+6. Now, we want to join based on the `variablename` but we just want to keep the `harmonizedname`.
+
+```{r join tables}
+allSampDF <- allSamp %>%
+  inner_join(translation, by = c("variablename" = "variablename")) %>%  # Join by `variablename`
+  dplyr::select(!c("variablename")) # Remove `variablename`, we only care about the `harmonizedname` for now.
+DT::datatable(head(allSampDF))
+```
+7. Let's look how many rows we have left:
+```{r}
+nrow(allSampDF)
+```
+7. In order to visualize how many `bison` were at a a particular time period and location, let's group them by `siteid`, `sitename`, `harmonizedname`, `sampleid`, `units`, `ageyounger`, `ageolder`, `agetype`, `depth`, `datasetid`, `long`, `lat`; I will also sum the `value` or number of observations.
+
+It is probably not the best way to group them by, but for purposes of this coding example, that is how I will do it.
+``` {r}
+allSampDF <- allSampDF %>% 
+  group_by(siteid, sitename, harmonizedname,
+           sampleid, units, ageyounger, ageolder, 
+           agetype, depth, datasetid,
+           long, lat) %>%
+  summarise(value = sum(value), .groups='keep')
+DT::datatable(head(allSampDF))
+```
+```{r nrows II}
+nrow(allSampDF)
+```
+
+8. Let's add a new column where we define if some of the given observations belong to the `Pleistocene` or `Holocene`. We will use `ageyounger` for this purpose. Let's remove the observations that have no era defined.
+
+```{r pleistocene and holocene}
+allSampDF <- allSampDF %>% 
+  mutate(era = factor(ifelse(ageyounger >= 11700, "Pleistocene", "Holocene"))) %>% # Assign a new column with the values Pleistocene or Holocene based on ageyounger
+  mutate(era  = fct_relevel(era,"Pleistocene", "Holocene")) %>%
+  filter(!is.na(era)) # Remove empty eras
+
+DT::datatable(head(allSampDF))
+```
+
+
+```{r nrows III}
+nrow(allSampDF)
+```
+9. Let's visualize a quick bar plot that counts how many observations belong to each era.
+
+```{r plotting data}
+taxaplots <- allSampDF %>%
+  group_by(era, harmonizedname) %>%
+  summarise(sites = length(unique(siteid)), samples = length(unique(sampleid)), .groups='keep') %>% 
+  arrange(era)
+
+DT::datatable(taxaplots)
+```
+
+```{r bison sites in each era}
+ggplot(data = taxaplots, aes(x = era, y=samples)) +
+  geom_bar(stat = 'identity') +
+  ggtitle("Bison Count per Era") +
+  xlab("Age") +
+  ylab("Number of Bison") +
+  theme_bw()
+```
+Let's plot the observations of each era on the map; we will use the `map_data` function from the `maps` library:
+
+```{r}
+world <- map_data("world")
+```
+
+10. Let's show the observations using a facet plot:
+
+```{r facetPlot}
+ggplot(allSampDF, aes(x = long, y = lat)) + 
+              geom_map(data = world, 
+                       map = world,
+                       aes(map_id = region),
+                       color = "black",
+                       fill = "white",
+                       show.legend = FALSE,
+                       inherit.aes = FALSE) +
+              geom_point(aes(colour=era), show.legend = FALSE) + 
+              facet_grid(era ~ .) +
+              theme_bw() +
+              ggtitle("Bisons in each Era") +
+              xlab("Longitude") + 
+              ylab("Latitude") 
+```

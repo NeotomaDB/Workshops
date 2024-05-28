@@ -1,0 +1,1395 @@
+units,context,element,taxonid,symmetry,taxongroup,elementtype,variablename,ecologicalgroup,samples,sites
+NISP,NA,50-125 µm,1062,NA,Charcoal,NA,Charcoal,CHAR,91,1
+NISP,NA,>10 µm,1062,NA,Charcoal,>10 µm,Charcoal,CHAR,354,1
+NISP,NA,>125 µm,1062,NA,Charcoal,>125 µm,Charcoal,CHAR,91,1
+NISP,NA,ascospore,1489,NA,Fungi,ascospore,Sporormiella,FUNG,9,2
+NISP,NA,ascospore,2193,NA,Fungi,ascospore,Gelasinospora,FUNG,1,1
+NISP,NA,ascospore,5415,NA,Fungi,ascospore,Diporotheca,FUNG,21,2
+NISP,NA,ascospore,25931,NA,Fungi,ascospore,Ustulina,FUNG,6,1
+NISP,NA,ascospore,27598,NA,Fungi,ascospore,Podospora-type,FUNG,11,1
+NISP,NA,ascospore,27614,NA,Fungi,ascospore,Ustulina deusta,FUNG,2,1
+NISP,NA,cell cluster,35283,NA,Fungi,cell cluster,Asterosporium,FUNG,51,1
+NISP,NA,colony,202,NA,Algae,colony,Pediastrum,ALGA,400,15
+NISP,NA,colony,326,NA,Algae,colony,Botryococcus,ALGA,243,4
+NISP,NA,colony,690,NA,Algae,colony,Pediastrum duplex,ALGA,19,1
+NISP,NA,colony,2950,NA,Algae,colony,Pediastrum longicorne,ALGA,6,1
+NISP,NA,colony,5137,NA,Algae,colony,Coelastrum reticulatum,ALGA,26,1
+NISP,NA,colony,5138,NA,Algae,colony,Scenedesmus,ALGA,9,1
+NISP,NA,colony,5140,NA,Algae,colony,Tetraëdron minimum,ALGA,63,1
+NISP,NA,colony,27693,NA,Algae,colony,Scenedesmus quadricauda,ALGA,15,1
+NISP,NA,colony,32495,NA,Algae,colony,Pediastrum orientale,ALGA,3,1
+NISP,NA,colony,33383,NA,Algae,colony,Pseudopediastrum boryanum,ALGA,39,2
+NISP,NA,colony,33387,NA,Algae,colony,Pseudopediastrum boryanum var. longicorne,ALGA,21,2
+NISP,NA,colony,33392,NA,Algae,colony,Pseudopediastrum boryanum var. boryanum sensu lato,ALGA,10,1
+NISP,NA,colony,33394,NA,Algae,colony,Pseudopediastrum integrum,ALGA,29,2
+NISP,NA,colony,33395,NA,Algae,colony,Pseudopediastrum boryanum var. cornutum,ALGA,4,1
+NISP,NA,colony,33398,NA,Algae,colony,Monactinus simplex,ALGA,13,1
+NISP,NA,colony,33400,NA,Algae,colony,Stauridium tetras,ALGA,2,1
+NISP,NA,concentration,932,NA,Laboratory analyses,concentration,Lycopodium spike,LABO,91,1
+NISP,NA,counted,932,NA,Laboratory analyses,counted,Lycopodium spike,LABO,223,3
+NISP,NA,counted,37831,NA,Laboratory analyses,counted,Exotic,LABO,26,1
+NISP,NA,cyst,778,NA,Dinoflagellates,cyst,Dinoflagellata,DINO,40,5
+NISP,NA,cyst,5469,NA,Acritarchs,cyst,Pseudoschizaea,ACRI,9,1
+NISP,NA,egg,27709,NA,Rotifers,egg,Filinia,ROTI,2,1
+NISP,NA,egg,34124,NA,Rotifers,egg,Trichocerca,ROTI,1,1
+NISP,NA,filament/cell,1488,NA,Algae,filament/cell,Spirogyra,ALGA,5,1
+NISP,NA,filament/cell,3091,NA,Algae,filament/cell,Zygnema,ALGA,8,1
+NISP,NA,filament/cell,29127,NA,Algae,filament/cell,Botryococcaceae,ALGA,19,1
+NISP,NA,fragment,1062,NA,Charcoal,fragment,Charcoal,CHAR,99,2
+NISP,NA,fruit body,3698,NA,Fungi,fruit body,Microthyrium,FUNG,50,1
+NISP,NA,head capsule,18678,NA,Insects,head capsule,Chironomidae,DIPT,8,1
+NISP,NA,hyphae,535,NA,Fungi,hyphae,Fungi,FUNG,6,1
+NISP,NA,leaf,294,NA,Bryophytes,leaf,Sphagnum,AQBR,1,1
+NISP,NA,leaf hair,2677,NA,Vascular plants,leaf hair,Hippophaë,TRSH,3,1
+NISP,NA,lorica,1198,NA,Rotifers,lorica,Habrotrocha angusticollis,ROTI,59,2
+NISP,NA,lorica,30508,NA,Rotifers,lorica,Callidina,ROTI,4,1
+NISP,NA,mandible,18678,NA,Insects,mandible,Chironomidae,DIPT,74,1
+NISP,NA,number,930,NA,Laboratory analyses,number,Lycopodium tablets,LABO,117,2
+NISP,NA,oocyte,5418,NA,Flatworms,oocyte,Rhabdocoela,FLWO,143,1
+NISP,NA,palynomorph,202,NA,Algae,palynomorph,Pediastrum,ALGA,34,1
+NISP,NA,palynomorph,1198,NA,Rotifers,palynomorph,Habrotrocha angusticollis,ROTI,92,1
+NISP,NA,palynomorph,1488,NA,Algae,palynomorph,Spirogyra,ALGA,18,1
+NISP,NA,palynomorph,1704,NA,Algae,palynomorph,Zygnemataceae,ALGA,9,2
+NISP,NA,palynomorph,5123,NA,Algae,palynomorph,Mougeotia,ALGA,12,2
+NISP,NA,palynomorph,5418,NA,Flatworms,palynomorph,Rhabdocoela,FLWO,149,2
+NISP,NA,palynomorph,5469,NA,Acritarchs,palynomorph,Pseudoschizaea,ACRI,42,3
+NISP,NA,palynomorph,5629,NA,Algae,palynomorph,Cosmarium,ALGA,1,1
+NISP,NA,palynomorph,27884,NA,Unidentified palynomorphs,palynomorph,cf. Larix,TRSH,2,2
+NISP,NA,palynomorph,27884,NA,Unidentified palynomorphs,palynomorph,cf. Larix,UNID,2,2
+NISP,NA,palynomorph,32660,NA,Dinoflagellates,palynomorph,Cymatiosphaera,PLNT,9,1
+NISP,NA,palynomorph,33034,NA,Algae,palynomorph,Chrysophyceae,ALGA,5,1
+NISP,NA,palynomorph,33407,NA,Algae,palynomorph,Pseudopediastrum alternans,ALGA,4,1
+NISP,NA,palynomorph,44118,NA,Algae,palynomorph,Volvocaceae,ALGA,16,1
+NISP,NA,particle,34286,NA,Charcoal,particle,Spheroidal carbonaceous particle,CHAR,26,1
+NISP,NA,pollen,1,NA,Vascular plants,pollen,Abies,TRSH,3717,50
+NISP,NA,pollen,11,NA,Vascular plants,pollen,Aesculus,TRSH,11,4
+NISP,NA,pollen,12,NA,Vascular plants,pollen,Allium,UPHE,16,3
+NISP,NA,pollen,14,NA,Vascular plants,pollen,Alnus viridis-type,TRSH,442,7
+NISP,NA,pollen,15,NA,Vascular plants,pollen,Alnus undiff.,TRSH,122,1
+NISP,NA,pollen,16,NA,Vascular plants,pollen,Ambrosia-type,UPHE,15,3
+NISP,NA,pollen,23,NA,Vascular plants,pollen,Arceuthobium,TRSH,5,1
+NISP,NA,pollen,24,NA,Vascular plants,pollen,Armeria,UPHE,52,14
+NISP,NA,pollen,25,NA,Vascular plants,pollen,Artemisia,UPHE,5971,59
+NISP,NA,pollen,29,NA,Vascular plants,pollen,Betula,TRSH,5715,57
+NISP,NA,pollen,31,NA,Vascular plants,pollen,Bidens-type,UPHE,31,1
+NISP,NA,pollen,32,NA,Vascular plants,pollen,Boraginaceae,UPHE,57,17
+NISP,NA,pollen,39,NA,Vascular plants,pollen,Callitriche,AQVP,27,3
+NISP,NA,pollen,40,NA,Vascular plants,pollen,Caltha,AQVP,14,2
+NISP,NA,pollen,44,NA,Vascular plants,pollen,Carya,TRSH,6,1
+NISP,NA,pollen,45,NA,Vascular plants,pollen,Caryophyllaceae,UPHE,2012,41
+NISP,NA,pollen,47,NA,Vascular plants,pollen,Castanea,TRSH,604,23
+NISP,NA,pollen,49,NA,Vascular plants,pollen,Celtis,TRSH,40,5
+NISP,NA,pollen,55,NA,Vascular plants,pollen,Cistaceae,UPHE,24,3
+NISP,NA,pollen,56,NA,Vascular plants,pollen,Citrus,TRSH,3,2
+NISP,NA,pollen,57,NA,Vascular plants,pollen,Cladium,AQVP,43,1
+NISP,NA,pollen,61,NA,Vascular plants,pollen,Asteraceae undiff.,UPHE,142,3
+NISP,NA,pollen,67,NA,Vascular plants,pollen,Corylus,TRSH,3102,30
+NISP,NA,pollen,68,NA,Vascular plants,pollen,Crassulaceae,UPHE,25,5
+NISP,NA,pollen,69,NA,Vascular plants,pollen,Crataegus-type,TRSH,27,10
+NISP,NA,pollen,70,NA,Vascular plants,pollen,Brassicaceae undiff.,UPHE,69,2
+NISP,NA,pollen,72,NA,Vascular plants,pollen,Cupressaceae,TRSH,67,2
+NISP,NA,pollen,73,NA,Vascular plants,pollen,Cuscuta,UPHE,33,13
+NISP,NA,pollen,74,NA,Vascular plants,pollen,Cyperaceae,UPHE,5600,58
+NISP,NA,pollen,81,NA,Vascular plants,pollen,Drosera,AQVP,46,8
+NISP,NA,pollen,90,NA,Vascular plants,pollen,Epilobium,UPHE,169,30
+NISP,NA,pollen,92,NA,Vascular plants,pollen,Ericaceae,TRSH,1751,50
+NISP,NA,pollen,95,NA,Laboratory analyses,pollen,Eucalyptus spike,LABO,219,1
+NISP,NA,pollen,103,NA,Vascular plants,pollen,Euonymus,TRSH,7,5
+NISP,NA,pollen,104,NA,Vascular plants,pollen,Euphorbia,UPHE,135,23
+NISP,NA,pollen,106,NA,Vascular plants,pollen,Fagopyrum,UPHE,31,10
+NISP,NA,pollen,107,NA,Vascular plants,pollen,Fagus,TRSH,4122,50
+NISP,NA,pollen,114,NA,Vascular plants,pollen,Fraxinus undiff.,TRSH,91,3
+NISP,NA,pollen,116,NA,Vascular plants,pollen,Galium,UPHE,226,7
+NISP,NA,pollen,119,NA,Vascular plants,pollen,Gentianaceae,UPHE,94,17
+NISP,NA,pollen,120,NA,Vascular plants,pollen,Geranium,UPHE,151,28
+NISP,NA,pollen,121,NA,Vascular plants,pollen,Geum-type,UPHE,91,13
+NISP,NA,pollen,125,NA,Vascular plants,pollen,Poaceae undiff.,UPHE,924,1
+NISP,NA,pollen,127,NA,Vascular plants,pollen,Angiospermae undiff. (herbs),UPHE,189,1
+NISP,NA,pollen,129,NA,Vascular plants,pollen,Hippuris vulgaris,AQVP,3,1
+NISP,NA,pollen,130,NA,Vascular plants,pollen,Humulus-type,UPHE,402,7
+NISP,NA,pollen,132,NA,Vascular plants,pollen,Hypericum,UPHE,207,15
+NISP,NA,pollen,135,NA,Vascular plants,pollen,Ilex,TRSH,123,8
+NISP,NA,pollen,136,NA,Vascular plants,pollen,Impatiens,UPHE,3,2
+NISP,NA,pollen,147,NA,Vascular plants,pollen,Juncaceae,UPHE,14,3
+NISP,NA,pollen,150,NA,Vascular plants,pollen,Lamiaceae undiff.,UPHE,9,2
+NISP,NA,pollen,153,NA,Vascular plants,pollen,Larix,TRSH,1887,38
+NISP,NA,pollen,157,NA,Vascular plants,pollen,Fabaceae undiff.,UPHE,248,9
+NISP,NA,pollen,159,NA,Vascular plants,pollen,Lemnoideae,AQVP,2,1
+NISP,NA,pollen,160,NA,Vascular plants,pollen,Cichorioideae,UPHE,4190,57
+NISP,NA,pollen,161,NA,Vascular plants,pollen,Liliaceae undiff.,UPHE,64,3
+NISP,NA,pollen,164,NA,Vascular plants,pollen,Lonicera,TRSH,94,17
+NISP,NA,pollen,180,NA,Vascular plants,pollen,Malvaceae,UPHE,17,5
+NISP,NA,pollen,182,NA,Vascular plants,pollen,Menyanthes trifoliata,AQVP,165,22
+NISP,NA,pollen,185,NA,Vascular plants,pollen,Moraceae,TRSH,1,1
+NISP,NA,pollen,186,NA,Vascular plants,pollen,Morus,TRSH,4,1
+NISP,NA,pollen,188,NA,Vascular plants,pollen,Myriophyllum,AQVP,167,13
+NISP,NA,pollen,190,NA,Vascular plants,pollen,Nuphar,AQVP,44,11
+NISP,NA,pollen,192,NA,Vascular plants,pollen,Nymphaea,AQVP,358,18
+NISP,NA,pollen,199,NA,Vascular plants,pollen,Arecaceae,PALM,3,2
+NISP,NA,pollen,200,NA,Vascular plants,pollen,Parnassia,UPHE,16,2
+NISP,NA,pollen,210,NA,Vascular plants,pollen,Picea,TRSH,2761,48
+NISP,NA,pollen,212,NA,Vascular plants,pollen,Pinus subg. Pinus,TRSH,753,12
+NISP,NA,pollen,213,NA,Vascular plants,pollen,Pinus subg. Strobus,TRSH,89,3
+NISP,NA,pollen,216,NA,Vascular plants,pollen,Pinus undiff.,TRSH,1033,2
+NISP,NA,pollen,218,NA,Vascular plants,pollen,Plantago undiff.,UPHE,324,10
+NISP,NA,pollen,219,NA,Vascular plants,pollen,Plantago major,UPHE,389,25
+NISP,NA,pollen,220,NA,Vascular plants,pollen,Plantago lanceolata,UPHE,513,9
+NISP,NA,pollen,221,NA,Vascular plants,pollen,Plantago media,UPHE,400,24
+NISP,NA,pollen,222,NA,Vascular plants,pollen,Platanus,TRSH,274,19
+NISP,NA,pollen,230,NA,Vascular plants,pollen,Persicaria amphibia,UPHE,16,4
+NISP,NA,pollen,231,NA,Vascular plants,pollen,Polygonum aviculare-type,UPHE,83,15
+NISP,NA,pollen,242,NA,Vascular plants,pollen,Potentilla-type,UPHE,1342,37
+NISP,NA,pollen,244,NA,Vascular plants,pollen,Primulaceae,UPHE,55,13
+NISP,NA,pollen,245,NA,Vascular plants,pollen,Prunus-type,TRSH,112,19
+NISP,NA,pollen,250,NA,Vascular plants,pollen,Pyrus-type,TRSH,1,1
+NISP,NA,pollen,251,NA,Vascular plants,pollen,Quercus,TRSH,2084,27
+NISP,NA,pollen,252,NA,Vascular plants,pollen,Ranunculaceae undiff.,UPHE,40,3
+NISP,NA,pollen,256,NA,Vascular plants,pollen,Rhamnaceae,TRSH,43,1
+NISP,NA,pollen,259,NA,Vascular plants,pollen,Rhododendron,TRSH,58,4
+NISP,NA,pollen,260,NA,Vascular plants,pollen,Rhus,TRSH,1,1
+NISP,NA,pollen,262,NA,Vascular plants,pollen,Ribes,TRSH,6,3
+NISP,NA,pollen,263,NA,Vascular plants,pollen,Robinia,TRSH,3,1
+NISP,NA,pollen,265,NA,Vascular plants,pollen,Rosaceae (trees) undiff.,TRSH,26,1
+NISP,NA,pollen,267,NA,Vascular plants,pollen,Rubus,TRSH,73,13
+NISP,NA,pollen,268,NA,Vascular plants,pollen,Rumex,UPHE,1665,21
+NISP,NA,pollen,270,NA,Vascular plants,pollen,Sagittaria,AQVP,14,2
+NISP,NA,pollen,271,NA,Vascular plants,pollen,Salix,TRSH,4018,58
+NISP,NA,pollen,275,NA,Vascular plants,pollen,Sambucus,TRSH,310,9
+NISP,NA,pollen,277,NA,Vascular plants,pollen,Sanguisorba,UPHE,15,5
+NISP,NA,pollen,282,NA,Vascular plants,pollen,Saxifragaceae,UPHE,92,8
+NISP,NA,pollen,283,NA,Vascular plants,pollen,Scheuchzeria palustris,AQVP,18,2
+NISP,NA,pollen,284,NA,Vascular plants,pollen,Scrophulariaceae,UPHE,728,31
+NISP,NA,pollen,285,NA,Vascular plants,pollen,Sedum,UPHE,230,17
+NISP,NA,pollen,293,NA,Vascular plants,pollen,Sparganium-type,AQVP,659,20
+NISP,NA,pollen,299,NA,Vascular plants,pollen,Taxus,TRSH,283,10
+NISP,NA,pollen,300,NA,Vascular plants,pollen,Thalictrum,UPHE,3183,48
+NISP,NA,pollen,302,NA,Vascular plants,pollen,Tilia,TRSH,3325,55
+NISP,NA,pollen,306,NA,Vascular plants,pollen,Tsuga,TRSH,5,2
+NISP,NA,pollen,307,NA,Vascular plants,pollen,Asteroideae undiff.,UPHE,154,4
+NISP,NA,pollen,308,NA,Vascular plants,pollen,Typha/Sparganium,AQVP,124,3
+NISP,NA,pollen,309,NA,Vascular plants,pollen,Typha latifolia,AQVP,288,12
+NISP,NA,pollen,310,NA,Vascular plants,pollen,Ulmus,TRSH,4890,58
+NISP,NA,pollen,311,NA,Vascular plants,pollen,Apiaceae,UPHE,3273,49
+NISP,NA,pollen,312,NA,Unidentified palynomorphs,pollen,Indeterminable,UNID,83,2
+NISP,NA,pollen,314,NA,Vascular plants,pollen,Urtica-type,UPHE,120,1
+NISP,NA,pollen,316,NA,Vascular plants,pollen,Utricularia,AQVP,38,5
+NISP,NA,pollen,317,NA,Vascular plants,pollen,Vaccinium,TRSH,441,11
+NISP,NA,pollen,318,NA,Vascular plants,pollen,Valeriana,UPHE,41,8
+NISP,NA,pollen,319,NA,Vascular plants,pollen,Viburnum undiff.,TRSH,1,1
+NISP,NA,pollen,320,NA,Vascular plants,pollen,Vitis,TRSH,1692,44
+NISP,NA,pollen,322,NA,Vascular plants,pollen,Xanthium,UPHE,44,12
+NISP,NA,pollen,323,NA,Vascular plants,pollen,Zea mays,UPHE,134,20
+NISP,NA,pollen,330,NA,Vascular plants,pollen,Alnus,TRSH,3167,26
+NISP,NA,pollen,332,NA,Vascular plants,pollen,Viola,UPHE,15,6
+NISP,NA,pollen,336,NA,Vascular plants,pollen,Lythrum,UPHE,186,22
+NISP,NA,pollen,338,NA,Vascular plants,pollen,Acer,TRSH,2586,54
+NISP,NA,pollen,341,NA,Vascular plants,pollen,Liliaceae,UPHE,165,21
+NISP,NA,pollen,344,NA,Vascular plants,pollen,Alnus incana,TRSH,63,1
+NISP,NA,pollen,345,NA,Vascular plants,pollen,Ambrosia,UPHE,76,12
+NISP,NA,pollen,346,NA,Vascular plants,pollen,Fabaceae,UPHE,438,23
+NISP,NA,pollen,349,NA,Vascular plants,pollen,Bidens,UPHE,3,1
+NISP,NA,pollen,350,NA,Vascular plants,pollen,Ranunculaceae,UPHE,997,26
+NISP,NA,pollen,351,NA,Vascular plants,pollen,Campanulaceae,UPHE,312,21
+NISP,NA,pollen,353,NA,Vascular plants,pollen,Alnus viridis,TRSH,1399,29
+NISP,NA,pollen,355,NA,Vascular plants,pollen,Rosaceae undiff.,UPHE,335,8
+NISP,NA,pollen,361,NA,Vascular plants,pollen,Cornus,TRSH,16,5
+NISP,NA,pollen,363,NA,Vascular plants,pollen,Juniperus-type,TRSH,728,9
+NISP,NA,pollen,366,NA,Vascular plants,pollen,Ephedra,TRSH,183,9
+NISP,NA,pollen,369,NA,Vascular plants,pollen,Fraxinus,TRSH,264,11
+NISP,NA,pollen,372,NA,Vascular plants,pollen,Juglans,TRSH,963,48
+NISP,NA,pollen,384,NA,Vascular plants,pollen,Ostrya-type,TRSH,1294,34
+NISP,NA,pollen,385,NA,Vascular plants,pollen,Pinus,TRSH,3020,33
+NISP,NA,pollen,388,NA,Vascular plants,pollen,Pistacia,TRSH,691,28
+NISP,NA,pollen,389,NA,Vascular plants,pollen,Populus,TRSH,1066,36
+NISP,NA,pollen,391,NA,Vascular plants,pollen,Amaranthaceae,UPHE,3491,33
+NISP,NA,pollen,394,NA,Vascular plants,pollen,Caprifoliaceae,TRSH,1,1
+NISP,NA,pollen,397,NA,Vascular plants,pollen,Viburnum,TRSH,315,28
+NISP,NA,pollen,409,NA,Vascular plants,pollen,Asteraceae,UPHE,169,5
+NISP,NA,pollen,414,NA,Vascular plants,pollen,Avena-type,UPHE,22,3
+NISP,NA,pollen,416,NA,Vascular plants,pollen,Poaceae (Cerealia),UPHE,1289,33
+NISP,NA,pollen,417,NA,Vascular plants,pollen,Poaceae,UPHE,5920,59
+NISP,NA,pollen,418,NA,Vascular plants,pollen,Asteroideae,UPHE,1507,37
+NISP,NA,pollen,420,NA,Vascular plants,pollen,Brassicaceae,UPHE,2857,54
+NISP,NA,pollen,425,NA,Vascular plants,pollen,Humulus,UPHE,88,4
+NISP,NA,pollen,426,NA,Vascular plants,pollen,Cannabis sativa,UPHE,424,10
+NISP,NA,pollen,427,NA,Vascular plants,pollen,Poaceae (Cerealia) undiff.,UPHE,65,2
+NISP,NA,pollen,430,NA,Vascular plants,pollen,Cyperaceae undiff.,UPHE,679,1
+NISP,NA,pollen,448,NA,Vascular plants,pollen,Gentiana,UPHE,6,4
+NISP,NA,pollen,452,NA,Vascular plants,pollen,Heliotropium,UPHE,1,1
+NISP,NA,pollen,460,NA,Vascular plants,pollen,Lamiaceae,UPHE,489,33
+NISP,NA,pollen,464,NA,Vascular plants,pollen,Urticaceae,UPHE,562,15
+NISP,NA,pollen,475,NA,Vascular plants,pollen,Parietaria,UPHE,3,1
+NISP,NA,pollen,476,NA,Vascular plants,pollen,Pedicularis,UPHE,8,4
+NISP,NA,pollen,480,NA,Vascular plants,pollen,Plantago,UPHE,1603,27
+NISP,NA,pollen,483,NA,Vascular plants,pollen,Rosaceae,UPHE,1763,47
+NISP,NA,pollen,484,NA,Vascular plants,pollen,Primula,UPHE,16,5
+NISP,NA,pollen,487,NA,Vascular plants,pollen,Saxifraga,UPHE,11,5
+NISP,NA,pollen,488,NA,Vascular plants,pollen,Secale-type,UPHE,56,1
+NISP,NA,pollen,491,NA,Vascular plants,pollen,Stachys-type,UPHE,52,11
+NISP,NA,pollen,495,NA,Vascular plants,pollen,Trifolium pratense,UPHE,13,2
+NISP,NA,pollen,496,NA,Vascular plants,pollen,Trifolium repens-type,UPHE,289,22
+NISP,NA,pollen,497,NA,Vascular plants,pollen,Triticum-type,UPHE,63,5
+NISP,NA,pollen,498,NA,Vascular plants,pollen,Urtica,UPHE,1321,34
+NISP,NA,pollen,500,NA,Vascular plants,pollen,Verbena,UPHE,5,2
+NISP,NA,pollen,513,NA,Vascular plants,pollen,Alisma,AQVP,66,10
+NISP,NA,pollen,514,NA,Vascular plants,pollen,Hydrocotyle,AQVP,5,1
+NISP,NA,pollen,515,NA,Vascular plants,pollen,Lemna,AQVP,27,6
+NISP,NA,pollen,516,NA,Vascular plants,pollen,Stuckenia,AQVP,27,1
+NISP,NA,pollen,517,NA,Vascular plants,pollen,Potamogeton,AQVP,805,25
+NISP,NA,pollen,539,NA,Vascular plants,pollen,Lysimachia,UPHE,52,12
+NISP,NA,pollen,540,NA,Vascular plants,pollen,Polygonum,UPHE,39,12
+NISP,NA,pollen,541,NA,Vascular plants,pollen,Prunus/Sorbus,TRSH,45,1
+NISP,NA,pollen,543,NA,Vascular plants,pollen,Solanaceae,UPHE,1,1
+NISP,NA,pollen,549,NA,Vascular plants,pollen,Ranunculus,UPHE,418,6
+NISP,NA,pollen,557,NA,Vascular plants,pollen,Allium-type,UPHE,195,20
+NISP,NA,pollen,564,NA,Vascular plants,pollen,Andromeda polifolia,TRSH,203,1
+NISP,NA,pollen,582,NA,Vascular plants,pollen,Butomus umbellatus,AQVP,34,2
+NISP,NA,pollen,584,NA,Vascular plants,pollen,cf. Callitriche,AQVP,15,2
+NISP,NA,pollen,585,NA,Vascular plants,pollen,Caltha-type,UPHE,161,21
+NISP,NA,pollen,586,NA,Vascular plants,pollen,Campanula-type,UPHE,173,7
+NISP,NA,pollen,592,NA,Vascular plants,pollen,Centaurea,UPHE,76,8
+NISP,NA,pollen,598,NA,Vascular plants,pollen,Lonicera caerulea,TRSH,13,2
+NISP,NA,pollen,635,NA,Vascular plants,pollen,Linnaea borealis,UPHE,1,1
+NISP,NA,pollen,636,NA,Vascular plants,pollen,Linum,UPHE,38,12
+NISP,NA,pollen,639,NA,Vascular plants,pollen,Kalmia procumbens,TRSH,22,3
+NISP,NA,pollen,647,NA,Vascular plants,pollen,cf. Hypericum,UPHE,1,1
+NISP,NA,pollen,655,NA,Vascular plants,pollen,Lythrum salicaria,UPHE,10,1
+NISP,NA,pollen,656,NA,Vascular plants,pollen,Mentha-type,UPHE,709,35
+NISP,NA,pollen,661,NA,Vascular plants,pollen,Monotropa,UPHE,1,1
+NISP,NA,pollen,667,NA,Vascular plants,pollen,Myriophyllum alterniflorum,AQVP,91,7
+NISP,NA,pollen,673,NA,Vascular plants,pollen,Nymphaeaceae,AQVP,23,2
+NISP,NA,pollen,674,NA,Vascular plants,pollen,Oleaceae undiff.,TRSH,8,2
+NISP,NA,pollen,682,NA,Vascular plants,pollen,Oxyria digyna-type,UPHE,3,1
+NISP,NA,pollen,684,NA,Vascular plants,pollen,Papaveraceae,UPHE,30,7
+NISP,NA,pollen,694,NA,Vascular plants,pollen,Euphorbiaceae,UPHE,40,8
+NISP,NA,pollen,699,NA,Vascular plants,pollen,Plantago lanceolata-type,UPHE,1897,37
+NISP,NA,pollen,702,NA,Vascular plants,pollen,Polygonaceae,UPHE,13,3
+NISP,NA,pollen,703,NA,Vascular plants,pollen,Bistorta officinalis-type,UPHE,66,10
+NISP,NA,pollen,705,NA,Vascular plants,pollen,Bistorta vivipara,UPHE,36,9
+NISP,NA,pollen,714,NA,Vascular plants,pollen,Prunella-type,UPHE,18,4
+NISP,NA,pollen,715,NA,Vascular plants,pollen,Prunus,TRSH,48,6
+NISP,NA,pollen,733,NA,Vascular plants,pollen,Rubiaceae,TRSH,1690,39
+NISP,NA,pollen,734,NA,Vascular plants,pollen,Rubus chamaemorus,TRSH,3,1
+NISP,NA,pollen,735,NA,Vascular plants,pollen,Rumex-type,UPHE,997,15
+NISP,NA,pollen,736,NA,Vascular plants,pollen,Rumex acetosa-type,UPHE,1475,24
+NISP,NA,pollen,747,NA,Vascular plants,pollen,Saxifraga oppositifolia-type,UPHE,433,28
+NISP,NA,pollen,748,NA,Vascular plants,pollen,Micranthes stellaris-type,UPHE,139,23
+NISP,NA,pollen,751,NA,Vascular plants,pollen,Typha,AQVP,36,2
+NISP,NA,pollen,752,NA,Vascular plants,pollen,Typha angustifolia,AQVP,551,7
+NISP,NA,pollen,762,NA,Vascular plants,pollen,Trifolium-type,UPHE,150,17
+NISP,NA,pollen,785,NA,Vascular plants,pollen,Rhamnus,TRSH,194,19
+NISP,NA,pollen,794,NA,Vascular plants,pollen,Viburnum opulus,TRSH,6,2
+NISP,NA,pollen,795,NA,Vascular plants,pollen,Viburnum opulus-type,TRSH,100,4
+NISP,NA,pollen,798,NA,Vascular plants,pollen,Polemonium,UPHE,2,1
+NISP,NA,pollen,804,NA,Vascular plants,pollen,Chenopodium-type,UPHE,49,1
+NISP,NA,pollen,806,NA,Vascular plants,pollen,Humulus/Cannabis,UPHE,168,6
+NISP,NA,pollen,808,NA,Vascular plants,pollen,Vicia-type,UPHE,101,25
+NISP,NA,pollen,810,NA,Vascular plants,pollen,Potamogeton-type,AQVP,274,17
+NISP,NA,pollen,813,NA,Vascular plants,pollen,Campanula,UPHE,372,20
+NISP,NA,pollen,815,NA,Vascular plants,pollen,Ranunculus-type,UPHE,695,15
+NISP,NA,pollen,819,NA,Vascular plants,pollen,Smilax,UPHE,3,1
+NISP,NA,pollen,820,NA,Vascular plants,pollen,Achillea-type,UPHE,1163,28
+NISP,NA,pollen,821,NA,Vascular plants,pollen,Circaea,UPHE,2,2
+NISP,NA,pollen,825,NA,Vascular plants,pollen,Potentilla,UPHE,39,6
+NISP,NA,pollen,838,NA,Vascular plants,pollen,Plantago major-type,UPHE,55,6
+NISP,NA,pollen,842,NA,Vascular plants,pollen,Ononis-type,UPHE,60,11
+NISP,NA,pollen,843,NA,Vascular plants,pollen,Rosa,TRSH,27,8
+NISP,NA,pollen,848,NA,Vascular plants,pollen,Ericales,TRSH,53,1
+NISP,NA,pollen,858,NA,Vascular plants,pollen,Ligustrum,TRSH,91,23
+NISP,NA,pollen,879,NA,Vascular plants,pollen,cf. Ribes,TRSH,4,2
+NISP,NA,pollen,883,NA,Vascular plants,pollen,Myrtaceae,TRSH,2,1
+NISP,NA,pollen,884,NA,Vascular plants,pollen,Persicaria maculosa-type,UPHE,60,15
+NISP,NA,pollen,886,NA,Vascular plants,pollen,Senecio,UPHE,130,12
+NISP,NA,pollen,888,NA,Vascular plants,pollen,Persicaria amphibia-type,UPHE,3,2
+NISP,NA,pollen,894,NA,Vascular plants,pollen,Ceratophyllum,AQVP,48,2
+NISP,NA,pollen,902,NA,Vascular plants,pollen,cf. Sambucus,TRSH,4,2
+NISP,NA,pollen,904,NA,Vascular plants,pollen,Rumex undiff.,UPHE,125,4
+NISP,NA,pollen,908,NA,Vascular plants,pollen,Sparganium,AQVP,298,10
+NISP,NA,pollen,909,NA,Vascular plants,pollen,Ericaceae undiff.,TRSH,34,3
+NISP,NA,pollen,912,NA,Vascular plants,pollen,Saxifragaceae undiff.,UPHE,15,1
+NISP,NA,pollen,936,NA,Vascular plants,pollen,Oxalis,UPHE,5,1
+NISP,NA,pollen,940,NA,Vascular plants,pollen,Ilex-type,TRSH,9,2
+NISP,NA,pollen,947,NA,Vascular plants,pollen,Polygonum aviculare,UPHE,148,21
+NISP,NA,pollen,967,NA,Vascular plants,pollen,Secale,UPHE,541,32
+NISP,NA,pollen,968,NA,Vascular plants,pollen,Triglochin,AQVP,2,1
+NISP,NA,pollen,983,NA,Vascular plants,pollen,Juniperus,TRSH,2984,46
+NISP,NA,pollen,988,NA,Vascular plants,pollen,Persicaria maculosa,UPHE,10,2
+NISP,NA,pollen,994,NA,Vascular plants,pollen,Arenaria,UPHE,34,3
+NISP,NA,pollen,996,NA,Vascular plants,pollen,Ranunculus acris-type,UPHE,839,22
+NISP,NA,pollen,997,NA,Vascular plants,pollen,Melampyrum,UPHE,170,19
+NISP,NA,pollen,999,NA,Vascular plants,pollen,Cerastium-type,UPHE,94,10
+NISP,NA,pollen,1012,NA,Vascular plants,pollen,Bupleurum,UPHE,44,9
+NISP,NA,pollen,1013,NA,Vascular plants,pollen,Caryophyllaceae undiff.,UPHE,730,7
+NISP,NA,pollen,1015,NA,Vascular plants,pollen,Nothofagus,TRSH,1,1
+NISP,NA,pollen,1026,NA,Vascular plants,pollen,Empetrum-type,TRSH,216,9
+NISP,NA,pollen,1050,NA,Vascular plants,pollen,Pinguicula,UPHE,24,2
+NISP,NA,pollen,1069,NA,Vascular plants,pollen,Papaver,UPHE,27,3
+NISP,NA,pollen,1072,NA,Vascular plants,pollen,Polygala,UPHE,10,5
+NISP,NA,pollen,1073,NA,Vascular plants,pollen,Jasione,UPHE,68,11
+NISP,NA,pollen,1074,NA,Vascular plants,pollen,Boraginaceae undiff.,UPHE,80,4
+NISP,NA,pollen,1078,NA,Vascular plants,pollen,Trifolium,UPHE,26,6
+NISP,NA,pollen,1086,NA,Vascular plants,pollen,Cardamine-type,UPHE,9,3
+NISP,NA,pollen,1087,NA,Vascular plants,pollen,Rumex obtusifolius-type,UPHE,181,16
+NISP,NA,pollen,1098,NA,Vascular plants,pollen,Juncus,AQVP,1,1
+NISP,NA,pollen,1099,NA,Vascular plants,pollen,Scutellaria-type,UPHE,20,6
+NISP,NA,pollen,1119,NA,Vascular plants,pollen,cf. Myrica,TRSH,1,1
+NISP,NA,pollen,1121,NA,Vascular plants,pollen,Typha angustifolia-type,AQVP,105,2
+NISP,NA,pollen,1142,NA,Vascular plants,pollen,Anemone,UPHE,56,3
+NISP,NA,pollen,1143,NA,Vascular plants,pollen,Aconitum,UPHE,69,11
+NISP,NA,pollen,1154,NA,Vascular plants,pollen,Androsace,UPHE,25,6
+NISP,NA,pollen,1157,NA,Vascular plants,pollen,Saussurea,UPHE,11,7
+NISP,NA,pollen,1159,NA,Vascular plants,pollen,Monotropoideae,UPHE,8,2
+NISP,NA,pollen,1160,NA,Vascular plants,pollen,Scrophulariaceae undiff.,UPHE,63,3
+NISP,NA,pollen,1161,NA,Vascular plants,pollen,Anemone-type,UPHE,10,1
+NISP,NA,pollen,1162,NA,Vascular plants,pollen,Arctostaphylos,TRSH,5,2
+NISP,NA,pollen,1163,NA,Vascular plants,pollen,Astragalus-type,UPHE,1,1
+NISP,NA,pollen,1166,NA,Vascular plants,pollen,Hedysarum-type,UPHE,14,4
+NISP,NA,pollen,1172,NA,Vascular plants,pollen,Apiaceae undiff.,UPHE,1166,10
+NISP,NA,pollen,1173,NA,Vascular plants,pollen,Vaccinium-type,TRSH,26,4
+NISP,NA,pollen,1178,NA,Vascular plants,pollen,Geraniaceae,UPHE,18,6
+NISP,NA,pollen,1184,NA,Vascular plants,pollen,Bistorta officinalis,UPHE,50,10
+NISP,NA,pollen,1203,NA,Vascular plants,pollen,Ulmaceae,TRSH,105,1
+NISP,NA,pollen,1211,NA,Vascular plants,pollen,Myriophyllum undiff.,AQVP,94,1
+NISP,NA,pollen,1222,NA,Vascular plants,pollen,Saxifraga undiff.,UPHE,12,3
+NISP,NA,pollen,1237,NA,Vascular plants,pollen,Ostrya,TRSH,1070,12
+NISP,NA,pollen,1249,NA,Vascular plants,pollen,Eucalyptus,TRSH,17,7
+NISP,NA,pollen,1253,NA,Vascular plants,pollen,Cirsium,UPHE,623,23
+NISP,NA,pollen,1260,NA,Vascular plants,pollen,Helianthemum,UPHE,1314,52
+NISP,NA,pollen,1262,NA,Vascular plants,pollen,Solanum,UPHE,101,4
+NISP,NA,pollen,1266,NA,Vascular plants,pollen,Euphorbia-type,UPHE,3,1
+NISP,NA,pollen,1267,NA,Vascular plants,pollen,Bupleurum-type,UPHE,84,10
+NISP,NA,pollen,1268,NA,Vascular plants,pollen,Typha latifolia-type,AQVP,357,23
+NISP,NA,pollen,1278,NA,Vascular plants,pollen,Lythraceae,UPHE,9,1
+NISP,NA,pollen,1279,NA,Vascular plants,pollen,Salsola-type,UPHE,44,1
+NISP,NA,pollen,1287,NA,Vascular plants,pollen,Pinus sylvestris,TRSH,94,1
+NISP,NA,pollen,1288,NA,Vascular plants,pollen,Picea abies,TRSH,499,6
+NISP,NA,pollen,1298,NA,Vascular plants,pollen,Plumbaginaceae,UPHE,7,2
+NISP,NA,pollen,1299,NA,Vascular plants,pollen,Alnus glutinosa,TRSH,244,4
+NISP,NA,pollen,1301,NA,Vascular plants,pollen,Sanguisorba officinalis,UPHE,149,25
+NISP,NA,pollen,1302,NA,Vascular plants,pollen,Valerianoideae,UPHE,22,12
+NISP,NA,pollen,1306,NA,Vascular plants,pollen,Hippophaë rhamnoides,TRSH,412,28
+NISP,NA,pollen,1307,NA,Vascular plants,pollen,Plantago maritima,UPHE,14,1
+NISP,NA,pollen,1308,NA,Vascular plants,pollen,Echinops,UPHE,3,2
+NISP,NA,pollen,1310,NA,Vascular plants,pollen,Myriophyllum spicatum,AQVP,411,22
+NISP,NA,pollen,1311,NA,Vascular plants,pollen,Myriophyllum verticillatum,AQVP,58,11
+NISP,NA,pollen,1315,NA,Vascular plants,pollen,Sorbus aucuparia,TRSH,9,2
+NISP,NA,pollen,1316,NA,Vascular plants,pollen,Corylus avellana,TRSH,2146,30
+NISP,NA,pollen,1319,NA,Vascular plants,pollen,Carpinus betulus,TRSH,2197,38
+NISP,NA,pollen,1320,NA,Vascular plants,pollen,Fagus sylvatica,TRSH,627,6
+NISP,NA,pollen,1321,NA,Vascular plants,pollen,Vitis vinifera,TRSH,44,2
+NISP,NA,pollen,1324,NA,Vascular plants,pollen,Fagopyrum esculentum,UPHE,2,1
+NISP,NA,pollen,1325,NA,Vascular plants,pollen,Scabiosa,UPHE,54,12
+NISP,NA,pollen,1327,NA,Vascular plants,pollen,Convolvulaceae,UPHE,9,1
+NISP,NA,pollen,1334,NA,Vascular plants,pollen,Viscum,TRSH,61,15
+NISP,NA,pollen,1335,NA,Vascular plants,pollen,Humulus lupulus,UPHE,189,12
+NISP,NA,pollen,1336,NA,Vascular plants,pollen,Centaurea cyanus,UPHE,51,14
+NISP,NA,pollen,1339,NA,Vascular plants,pollen,Salvia,UPHE,41,3
+NISP,NA,pollen,1340,NA,Vascular plants,pollen,Dipsacoideae,UPHE,77,16
+NISP,NA,pollen,1341,NA,Vascular plants,pollen,Dipsacus,UPHE,4,3
+NISP,NA,pollen,1346,NA,Vascular plants,pollen,Myriophyllum alterniflorum-type,AQVP,3,2
+NISP,NA,pollen,1351,NA,Vascular plants,pollen,Spermatophyta undiff. (trees/shrubs),TRSH,146,1
+NISP,NA,pollen,1358,NA,Vascular plants,pollen,Cupressaceae/Taxaceae,TRSH,54,1
+NISP,NA,pollen,1392,NA,Vascular plants,pollen,Centaurea undiff.,UPHE,6,1
+NISP,NA,pollen,1401,NA,Vascular plants,pollen,Lilium,UPHE,10,4
+NISP,NA,pollen,1416,NA,Vascular plants,pollen,Galium-type,UPHE,1616,15
+NISP,NA,pollen,1427,NA,Vascular plants,pollen,Limonium,UPHE,1,1
+NISP,NA,pollen,1428,NA,Vascular plants,pollen,Filipendula,UPHE,1839,50
+NISP,NA,pollen,1429,NA,Vascular plants,pollen,Carpinus,TRSH,452,16
+NISP,NA,pollen,1434,NA,Vascular plants,pollen,Tofieldia,UPHE,4,2
+NISP,NA,pollen,1435,NA,Vascular plants,pollen,Sorbus,TRSH,248,7
+NISP,NA,pollen,1473,NA,Vascular plants,pollen,Saxifragaceae-type,UPHE,2,1
+NISP,NA,pollen,1501,NA,Vascular plants,pollen,Convolvulus,UPHE,21,3
+NISP,NA,pollen,1505,NA,Vascular plants,pollen,Carpinus-type,TRSH,198,2
+NISP,NA,pollen,1510,NA,Vascular plants,pollen,Centaurea-type,UPHE,4,1
+NISP,NA,pollen,1517,NA,Vascular plants,pollen,Calystegia,UPHE,19,6
+NISP,NA,pollen,1529,NA,Vascular plants,pollen,Pedicularis-type,UPHE,1,1
+NISP,NA,pollen,1530,NA,Vascular plants,pollen,Cerastium,UPHE,2,1
+NISP,NA,pollen,1532,NA,Vascular plants,pollen,Rumex acetosella-type,UPHE,779,11
+NISP,NA,pollen,1576,NA,Vascular plants,pollen,Impatiens noli-tangere,UPHE,1,1
+NISP,NA,pollen,1594,NA,Vascular plants,pollen,cf. Polygonum,UPHE,1,1
+NISP,NA,pollen,1596,NA,Vascular plants,pollen,Hypericum-type,UPHE,1,1
+NISP,NA,pollen,1598,NA,Vascular plants,pollen,Primulaceae undiff.,UPHE,25,1
+NISP,NA,pollen,1693,NA,Vascular plants,pollen,Cornaceae,TRSH,42,1
+NISP,NA,pollen,1727,NA,Vascular plants,pollen,Ficus,TRSH,9,2
+NISP,NA,pollen,1751,NA,Vascular plants,pollen,Thalictrum-type,UPHE,56,2
+NISP,NA,pollen,1764,NA,Vascular plants,pollen,Apium,UPHE,45,8
+NISP,NA,pollen,1915,NA,Vascular plants,pollen,Senecio-type,UPHE,602,10
+NISP,NA,pollen,1931,NA,Vascular plants,pollen,Liliaceae-type,UPHE,75,13
+NISP,NA,pollen,1932,NA,Vascular plants,pollen,Iris,UPHE,5,5
+NISP,NA,pollen,1947,NA,Vascular plants,pollen,Poaceae (Cerealia-type),UPHE,660,11
+NISP,NA,pollen,1997,NA,Vascular plants,pollen,Erythrina,TRSH,1,1
+NISP,NA,pollen,2003,NA,Vascular plants,pollen,Malvaceae undiff.,UPHE,4,1
+NISP,NA,pollen,2113,NA,Vascular plants,pollen,Poaceae (>40 µm),UPHE,13,1
+NISP,NA,pollen,2127,NA,Vascular plants,pollen,Lathyrus-type,UPHE,30,6
+NISP,NA,pollen,2129,NA,Vascular plants,pollen,Lotus-type,UPHE,203,28
+NISP,NA,pollen,2160,NA,Vascular plants,pollen,Geum,UPHE,18,6
+NISP,NA,pollen,2196,NA,Vascular plants,pollen,Epilobium-type,UPHE,6,1
+NISP,NA,pollen,2209,NA,Vascular plants,pollen,Linaria,UPHE,1,1
+NISP,NA,pollen,2224,NA,Vascular plants,pollen,Myriophyllum verticillatum-type,AQVP,114,3
+NISP,NA,pollen,2227,NA,Vascular plants,pollen,Rhynchospora alba,AQVP,2,1
+NISP,NA,pollen,2249,NA,Vascular plants,pollen,Cedrus,TRSH,208,29
+NISP,NA,pollen,2261,NA,Vascular plants,pollen,Corydalis,UPHE,4,2
+NISP,NA,pollen,2286,NA,Vascular plants,pollen,Mentha,UPHE,14,2
+NISP,NA,pollen,2306,NA,Vascular plants,pollen,Silene,UPHE,28,8
+NISP,NA,pollen,2312,NA,Vascular plants,pollen,Valeriana undiff.,UPHE,9,1
+NISP,NA,pollen,2322,NA,Vascular plants,pollen,Frangula alnus,TRSH,307,16
+NISP,NA,pollen,2337,NA,Vascular plants,pollen,Myriophyllum spicatum-type,AQVP,161,4
+NISP,NA,pollen,2338,NA,Vascular plants,pollen,Olea,TRSH,1493,40
+NISP,NA,pollen,2339,NA,Vascular plants,pollen,Oleaceae,TRSH,32,4
+NISP,NA,pollen,2342,NA,Vascular plants,pollen,Quercus (deciduous),TRSH,595,10
+NISP,NA,pollen,2344,NA,Vascular plants,pollen,Tamarix,TRSH,24,4
+NISP,NA,pollen,2345,NA,Vascular plants,pollen,Thymelaeaceae,UPHE,12,5
+NISP,NA,pollen,2460,NA,Vascular plants,pollen,Carduus,UPHE,182,23
+NISP,NA,pollen,2481,NA,Vascular plants,pollen,Anagallis-type,UPHE,15,2
+NISP,NA,pollen,2482,NA,Vascular plants,pollen,Resedaceae,UPHE,9,1
+NISP,NA,pollen,2483,NA,Vascular plants,pollen,Alchemilla,UPHE,75,11
+NISP,NA,pollen,2519,NA,Vascular plants,pollen,Clematis,UPHE,4,3
+NISP,NA,pollen,2532,NA,Vascular plants,pollen,Quercus (evergreen),TRSH,137,3
+NISP,NA,pollen,2535,NA,Vascular plants,pollen,Gentiana verna-type,UPHE,3,2
+NISP,NA,pollen,2536,NA,Vascular plants,pollen,Gentiana pneumonanthe-type,UPHE,94,21
+NISP,NA,pollen,2537,NA,Vascular plants,pollen,Heracleum,UPHE,141,16
+NISP,NA,pollen,2549,NA,Vascular plants,pollen,Dianthus-type,UPHE,3,2
+NISP,NA,pollen,2555,NA,Vascular plants,pollen,Paronychia,UPHE,2,2
+NISP,NA,pollen,2566,NA,Vascular plants,pollen,Montia,UPHE,1,1
+NISP,NA,pollen,2572,NA,Vascular plants,pollen,Typha angustifolia/Sparganium,AQVP,332,9
+NISP,NA,pollen,2627,NA,Vascular plants,pollen,Delphinium,UPHE,10,2
+NISP,NA,pollen,2628,NA,Vascular plants,pollen,Buxus,TRSH,302,16
+NISP,NA,pollen,2645,NA,Vascular plants,pollen,cf. Oxalis,UPHE,2,1
+NISP,NA,pollen,2657,NA,Vascular plants,pollen,Castanea sativa,TRSH,945,33
+NISP,NA,pollen,2664,NA,Vascular plants,pollen,Juglans regia,TRSH,267,4
+NISP,NA,pollen,2667,NA,Vascular plants,pollen,Pterocarya,TRSH,8,2
+NISP,NA,pollen,2677,NA,Vascular plants,pollen,Hippophaë,TRSH,684,14
+NISP,NA,pollen,2680,NA,Vascular plants,pollen,Daphne,TRSH,24,10
+NISP,NA,pollen,2684,NA,Vascular plants,pollen,Hedera,TRSH,782,17
+NISP,NA,pollen,2685,NA,Vascular plants,pollen,Knautia,UPHE,27,10
+NISP,NA,pollen,2693,NA,Vascular plants,pollen,Asperula,UPHE,1,1
+NISP,NA,pollen,2759,NA,Vascular plants,pollen,Euphrasia,UPHE,11,3
+NISP,NA,pollen,2782,NA,Vascular plants,pollen,Spermatophyta undiff. (shrubs),TRSH,102,1
+NISP,NA,pollen,2795,NA,Vascular plants,pollen,Veronica,UPHE,58,12
+NISP,NA,pollen,2797,NA,Vascular plants,pollen,Centaurium,UPHE,11,4
+NISP,NA,pollen,2828,NA,Vascular plants,pollen,Echium,UPHE,82,18
+NISP,NA,pollen,2836,NA,Vascular plants,pollen,Gratiola,UPHE,1,1
+NISP,NA,pollen,2855,NA,Vascular plants,pollen,Poaceae (<20 µm),UPHE,3,1
+NISP,NA,pollen,2893,NA,Vascular plants,pollen,Ranunculus acris,UPHE,1,1
+NISP,NA,pollen,2895,NA,Vascular plants,pollen,Valerianella,UPHE,10,4
+NISP,NA,pollen,2897,NA,Vascular plants,pollen,Calluna vulgaris,TRSH,787,36
+NISP,NA,pollen,2903,NA,Vascular plants,pollen,Erica,TRSH,213,4
+NISP,NA,pollen,2904,NA,Vascular plants,pollen,Lotus,UPHE,22,4
+NISP,NA,pollen,2905,NA,Vascular plants,pollen,Plantago major/P. media,UPHE,191,5
+NISP,NA,pollen,2906,NA,Vascular plants,pollen,Scleranthus perennis,UPHE,8,1
+NISP,NA,pollen,2907,NA,Vascular plants,pollen,Scleranthus,UPHE,10,6
+NISP,NA,pollen,2909,NA,Vascular plants,pollen,Stellaria holostea,UPHE,23,6
+NISP,NA,pollen,2910,NA,Vascular plants,pollen,Succisa,UPHE,20,9
+NISP,NA,pollen,2911,NA,Vascular plants,pollen,Symphytum,UPHE,11,6
+NISP,NA,pollen,2913,NA,Vascular plants,pollen,Trifolium repens,UPHE,13,2
+NISP,NA,pollen,2915,NA,Vascular plants,pollen,Astragalus alpinus-type,UPHE,15,2
+NISP,NA,pollen,2918,NA,Vascular plants,pollen,Cirsium-type,UPHE,142,10
+NISP,NA,pollen,2920,NA,Vascular plants,pollen,Elatine-type,AQVP,1,1
+NISP,NA,pollen,2925,NA,Vascular plants,pollen,Frangula,TRSH,46,3
+NISP,NA,pollen,2927,NA,Vascular plants,pollen,Mercurialis,UPHE,142,12
+NISP,NA,pollen,2928,NA,Vascular plants,pollen,Prunella,UPHE,3,1
+NISP,NA,pollen,2929,NA,Vascular plants,pollen,Quercus ilex-type,TRSH,1706,24
+NISP,NA,pollen,2930,NA,Vascular plants,pollen,Rhinanthus,UPHE,89,12
+NISP,NA,pollen,2931,NA,Vascular plants,pollen,Rhinanthus-type,UPHE,116,12
+NISP,NA,pollen,2932,NA,Vascular plants,pollen,Spergula,UPHE,3,2
+NISP,NA,pollen,2933,NA,Vascular plants,pollen,Spergula arvensis,UPHE,1,1
+NISP,NA,pollen,2934,NA,Vascular plants,pollen,Spergula-type,UPHE,35,13
+NISP,NA,pollen,2938,NA,Vascular plants,pollen,Vicia,UPHE,28,1
+NISP,NA,pollen,2943,NA,Vascular plants,pollen,Quercus undiff.,TRSH,1301,3
+NISP,NA,pollen,2944,NA,Vascular plants,pollen,Caltha palustris,AQVP,3,1
+NISP,NA,pollen,3052,NA,Vascular plants,pollen,Eryngium,UPHE,62,11
+NISP,NA,pollen,3072,NA,Vascular plants,pollen,Rhamnus-type,TRSH,105,7
+NISP,NA,pollen,3124,NA,Vascular plants,pollen,Ranunculus aquatilis-type,AQVP,306,4
+NISP,NA,pollen,3159,NA,Vascular plants,pollen,cf. Aquilegia,UPHE,8,1
+NISP,NA,pollen,3172,NA,Vascular plants,pollen,Rumex acetosella,UPHE,575,15
+NISP,NA,pollen,3180,NA,Vascular plants,pollen,Erodium,UPHE,1,1
+NISP,NA,pollen,3208,NA,Vascular plants,pollen,Betula nana,TRSH,56,1
+NISP,NA,pollen,3405,NA,Vascular plants,pollen,Rubus fruticosus-type,TRSH,1,1
+NISP,NA,pollen,3407,NA,Vascular plants,pollen,Solidago-type,UPHE,752,1
+NISP,NA,pollen,3408,NA,Vascular plants,pollen,Teucrium,UPHE,32,16
+NISP,NA,pollen,3409,NA,Vascular plants,pollen,Theligonum,UPHE,3,2
+NISP,NA,pollen,3410,NA,Vascular plants,pollen,Ulex,TRSH,1,1
+NISP,NA,pollen,3411,NA,Vascular plants,pollen,Ulex-type,TRSH,20,2
+NISP,NA,pollen,3417,NA,Vascular plants,pollen,Glaucium,UPHE,1,1
+NISP,NA,pollen,3418,NA,Vascular plants,pollen,Plantago media-type,UPHE,16,1
+NISP,NA,pollen,3419,NA,Vascular plants,pollen,Carduus-type,UPHE,7,1
+NISP,NA,pollen,3420,NA,Vascular plants,pollen,Cistus,TRSH,39,6
+NISP,NA,pollen,3421,NA,Vascular plants,pollen,Ephedra distachya,TRSH,560,4
+NISP,NA,pollen,3422,NA,Vascular plants,pollen,Ephedra fragilis,TRSH,92,4
+NISP,NA,pollen,3423,NA,Vascular plants,pollen,Gypsophila-type,UPHE,3,2
+NISP,NA,pollen,3424,NA,Vascular plants,pollen,Paronychia-type,UPHE,109,3
+NISP,NA,pollen,3425,NA,Vascular plants,pollen,Phillyrea,TRSH,896,24
+NISP,NA,pollen,3426,NA,Vascular plants,pollen,Pinus cembra,TRSH,2170,34
+NISP,NA,pollen,3427,NA,Vascular plants,pollen,Pistacia lentiscus,TRSH,1,1
+NISP,NA,pollen,3430,NA,Vascular plants,pollen,Veronica-type,UPHE,104,7
+NISP,NA,pollen,3438,NA,Vascular plants,pollen,Anthemis-type,UPHE,623,7
+NISP,NA,pollen,3439,NA,Vascular plants,pollen,Aster-type,UPHE,908,22
+NISP,NA,pollen,3440,NA,Vascular plants,pollen,Centaurea jacea,UPHE,4,2
+NISP,NA,pollen,3441,NA,Vascular plants,pollen,Centaurea scabiosa,UPHE,75,15
+NISP,NA,pollen,3446,NA,Vascular plants,pollen,Galeopsis,UPHE,4,2
+NISP,NA,pollen,3449,NA,Vascular plants,pollen,Genista-type,TRSH,160,17
+NISP,NA,pollen,3455,NA,Vascular plants,pollen,Sorbus-type,TRSH,417,23
+NISP,NA,pollen,3465,NA,Vascular plants,pollen,Echium vulgare,UPHE,20,4
+NISP,NA,pollen,3472,NA,Vascular plants,pollen,Tilia cordata,TRSH,140,4
+NISP,NA,pollen,3473,NA,Vascular plants,pollen,Tilia platyphyllos,TRSH,41,2
+NISP,NA,pollen,3482,NA,Vascular plants,pollen,Delphinium-type,UPHE,1,1
+NISP,NA,pollen,3500,NA,Vascular plants,pollen,Clematis-type,UPHE,23,1
+NISP,NA,pollen,3517,NA,Vascular plants,pollen,Cyperus,UPHE,26,2
+NISP,NA,pollen,3561,NA,Vascular plants,pollen,Aconitum-type,UPHE,47,8
+NISP,NA,pollen,3564,NA,Vascular plants,pollen,Asphodelus,UPHE,9,3
+NISP,NA,pollen,3566,NA,Vascular plants,pollen,Centaurea cyanus-type,UPHE,47,8
+NISP,NA,pollen,3567,NA,Vascular plants,pollen,Centaurea scabiosa-type,UPHE,55,6
+NISP,NA,pollen,3568,NA,Vascular plants,pollen,Centaurea solstitialis-type,UPHE,341,2
+NISP,NA,pollen,3570,NA,Vascular plants,pollen,Cornus sanguinea,TRSH,23,8
+NISP,NA,pollen,3572,NA,Vascular plants,pollen,Ephedra distachya-type,TRSH,480,31
+NISP,NA,pollen,3578,NA,Vascular plants,pollen,Ephedra fragilis-type,TRSH,1104,38
+NISP,NA,pollen,3579,NA,Vascular plants,pollen,Fraxinus excelsior,TRSH,1403,31
+NISP,NA,pollen,3580,NA,Vascular plants,pollen,Fraxinus ornus,TRSH,1555,35
+NISP,NA,pollen,3581,NA,Vascular plants,pollen,Helleborus,UPHE,54,9
+NISP,NA,pollen,3582,NA,Vascular plants,pollen,Hypericum perforatum-type,UPHE,156,12
+NISP,NA,pollen,3585,NA,Vascular plants,pollen,Matthiola,UPHE,1,1
+NISP,NA,pollen,3588,NA,Vascular plants,pollen,Ostrya/Carpinus orientalis,TRSH,253,4
+NISP,NA,pollen,3590,NA,Vascular plants,pollen,Plantago coronopus-type,UPHE,47,3
+NISP,NA,pollen,3591,NA,Vascular plants,pollen,Plantago maritima-type,UPHE,32,1
+NISP,NA,pollen,3593,NA,Vascular plants,pollen,Quercus robur-type,TRSH,2529,23
+NISP,NA,pollen,3597,NA,Vascular plants,pollen,Sambucus nigra-type,TRSH,378,12
+NISP,NA,pollen,3600,NA,Vascular plants,pollen,Solanum dulcamara,UPHE,188,14
+NISP,NA,pollen,3602,NA,Vascular plants,pollen,Urtica dioica-type,UPHE,141,3
+NISP,NA,pollen,3609,NA,Vascular plants,pollen,Cupressaceae-type,TRSH,788,1
+NISP,NA,pollen,3644,NA,Vascular plants,pollen,Abies alba,TRSH,715,8
+NISP,NA,pollen,3666,NA,Vascular plants,pollen,cf. Veronica,UPHE,2,1
+NISP,NA,pollen,3690,NA,Vascular plants,pollen,Chrysosplenium,UPHE,14,1
+NISP,NA,pollen,3693,NA,Vascular plants,pollen,Larix decidua,TRSH,174,2
+NISP,NA,pollen,3696,NA,Vascular plants,pollen,Lysimachia vulgaris-type,UPHE,11,2
+NISP,NA,pollen,3699,NA,Vascular plants,pollen,Parnassia palustris,UPHE,86,16
+NISP,NA,pollen,3701,NA,Vascular plants,pollen,Pleurospermum,UPHE,4,1
+NISP,NA,pollen,3702,NA,Vascular plants,pollen,Ranunculus arvensis-type,UPHE,17,1
+NISP,NA,pollen,3703,NA,Vascular plants,pollen,Silene-type,UPHE,7,4
+NISP,NA,pollen,3704,NA,Vascular plants,pollen,Trifolium pratense-type,UPHE,147,20
+NISP,NA,pollen,3705,NA,Vascular plants,pollen,Hordeum-type,UPHE,54,3
+NISP,NA,pollen,3727,NA,Vascular plants,pollen,Acer campestre-type,TRSH,106,2
+NISP,NA,pollen,3737,NA,Vascular plants,pollen,Achillea,UPHE,113,2
+NISP,NA,pollen,3751,NA,Vascular plants,pollen,Agrimonia-type,UPHE,1,1
+NISP,NA,pollen,3753,NA,Vascular plants,pollen,Agropyron-type,UPHE,7,1
+NISP,NA,pollen,3757,NA,Vascular plants,pollen,Alchemilla-type,UPHE,52,12
+NISP,NA,pollen,3758,NA,Vascular plants,pollen,cf. Alchemilla,UPHE,8,1
+NISP,NA,pollen,3762,NA,Vascular plants,pollen,Alisma-type,AQVP,25,4
+NISP,NA,pollen,3767,NA,Vascular plants,pollen,Allium vineale-type,UPHE,8,2
+NISP,NA,pollen,3770,NA,Vascular plants,pollen,Alnus glutinosa-type,TRSH,1847,22
+NISP,NA,pollen,3771,NA,Vascular plants,pollen,Alnus glutinosa/A. incana,TRSH,687,7
+NISP,NA,pollen,3773,NA,Vascular plants,pollen,Anagallis arvensis-type,UPHE,14,3
+NISP,NA,pollen,3775,NA,Vascular plants,pollen,Anagallis tenella,UPHE,1,1
+NISP,NA,pollen,3777,NA,Vascular plants,pollen,Anagallis arvensis,UPHE,2,1
+NISP,NA,pollen,3785,NA,Vascular plants,pollen,Anthericum,UPHE,11,5
+NISP,NA,pollen,3786,NA,Vascular plants,pollen,Fritillaria-type,UPHE,9,5
+NISP,NA,pollen,3787,NA,Vascular plants,pollen,Anthericum-type,UPHE,32,3
+NISP,NA,pollen,3792,NA,Vascular plants,pollen,Pulmonaria-type,UPHE,10,5
+NISP,NA,pollen,3793,NA,Vascular plants,pollen,Pulmonaria obscura-type,UPHE,3,1
+NISP,NA,pollen,3802,NA,Vascular plants,pollen,Anthriscus sylvestris-type,UPHE,178,10
+NISP,NA,pollen,3804,NA,Vascular plants,pollen,Anthriscus sylvestris,UPHE,38,1
+NISP,NA,pollen,3805,NA,Vascular plants,pollen,Anthyllis,UPHE,12,2
+NISP,NA,pollen,3814,NA,Vascular plants,pollen,Silene dioica-type,UPHE,124,13
+NISP,NA,pollen,3815,NA,Vascular plants,pollen,Silene vulgaris-type,UPHE,224,11
+NISP,NA,pollen,3832,NA,Vascular plants,pollen,Apium-type,UPHE,178,2
+NISP,NA,pollen,3833,NA,Vascular plants,pollen,Apium inundatum-type,UPHE,2,1
+NISP,NA,pollen,3834,NA,Vascular plants,pollen,Arbutus,TRSH,88,5
+NISP,NA,pollen,3835,NA,Vascular plants,pollen,Arbutus unedo,TRSH,61,4
+NISP,NA,pollen,3837,NA,Vascular plants,pollen,Arctium,UPHE,1,1
+NISP,NA,pollen,3854,NA,Vascular plants,pollen,Armeria-type,UPHE,1,1
+NISP,NA,pollen,3855,NA,Vascular plants,pollen,Armeria maritima (type B),UPHE,1,1
+NISP,NA,pollen,3856,NA,Vascular plants,pollen,Armeria/Limonium,UPHE,3,2
+NISP,NA,pollen,3862,NA,Vascular plants,pollen,cf. Armeria (type A),UPHE,2,1
+NISP,NA,pollen,3879,NA,Vascular plants,pollen,Aruncus dioicus,UPHE,2,1
+NISP,NA,pollen,3882,NA,Vascular plants,pollen,Asparagus,UPHE,1,1
+NISP,NA,pollen,3885,NA,Vascular plants,pollen,Asphodelus/Asphodeline,UPHE,11,2
+NISP,NA,pollen,3886,NA,Vascular plants,pollen,Asphodelus-type,UPHE,44,1
+NISP,NA,pollen,3887,NA,Vascular plants,pollen,Asphodelus albus-type,UPHE,5,2
+NISP,NA,pollen,3897,NA,Vascular plants,pollen,Astragalus danicus-type,UPHE,3,1
+NISP,NA,pollen,3901,NA,Vascular plants,pollen,Vicia cracca-type,UPHE,5,2
+NISP,NA,pollen,3909,NA,Vascular plants,pollen,Lathyrus,UPHE,2,1
+NISP,NA,pollen,3926,NA,Vascular plants,pollen,Secale cereale,UPHE,25,4
+NISP,NA,pollen,3928,NA,Vascular plants,pollen,cf. Baldellia,AQVP,2,1
+NISP,NA,pollen,3930,NA,Vascular plants,pollen,Bartsia-type,UPHE,136,14
+NISP,NA,pollen,3932,NA,Vascular plants,pollen,Bellis-type,UPHE,4,1
+NISP,NA,pollen,3934,NA,Vascular plants,pollen,Berberis vulgaris,TRSH,1,1
+NISP,NA,pollen,3950,NA,Vascular plants,pollen,Fallopia convolvulus-type,UPHE,3,3
+NISP,NA,pollen,3962,NA,Vascular plants,pollen,Buglossoides arvensis,UPHE,4,2
+NISP,NA,pollen,3963,NA,Vascular plants,pollen,Buglossoides arvensis-type,UPHE,1,1
+NISP,NA,pollen,3967,NA,Vascular plants,pollen,Bupleurum falcatum-type,UPHE,29,2
+NISP,NA,pollen,3970,NA,Vascular plants,pollen,Butomus,AQVP,1,1
+NISP,NA,pollen,3971,NA,Vascular plants,pollen,Buxus sempervirens,TRSH,81,12
+NISP,NA,pollen,3973,NA,Vascular plants,pollen,Calluna vulgaris-type,TRSH,30,1
+NISP,NA,pollen,3974,NA,Vascular plants,pollen,Caltha palustris-type,AQVP,10,2
+NISP,NA,pollen,3988,NA,Vascular plants,pollen,Scilla-type,UPHE,115,6
+NISP,NA,pollen,3994,NA,Vascular plants,pollen,Ostrya carpinifolia/Carpinus orientalis,TRSH,160,2
+NISP,NA,pollen,4000,NA,Vascular plants,pollen,Celtis australis,TRSH,9,5
+NISP,NA,pollen,4001,NA,Vascular plants,pollen,Centaurea jacea-type,UPHE,94,7
+NISP,NA,pollen,4002,NA,Vascular plants,pollen,Centaurea montana,UPHE,38,7
+NISP,NA,pollen,4003,NA,Vascular plants,pollen,Centaurea montana-type,UPHE,10,3
+NISP,NA,pollen,4004,NA,Vascular plants,pollen,Centaurea nigra,UPHE,38,1
+NISP,NA,pollen,4005,NA,Vascular plants,pollen,Centaurea nigra-type,UPHE,423,28
+NISP,NA,pollen,4011,NA,Vascular plants,pollen,Centaurea solstitialis,UPHE,1,1
+NISP,NA,pollen,4023,NA,Vascular plants,pollen,Centaurea collina-type,UPHE,26,2
+NISP,NA,pollen,4024,NA,Vascular plants,pollen,Centaurium-type,UPHE,14,2
+NISP,NA,pollen,4026,NA,Vascular plants,pollen,cf. Centaurium,UPHE,3,1
+NISP,NA,pollen,4034,NA,Vascular plants,pollen,Cerastium fontanum-type,UPHE,27,3
+NISP,NA,pollen,4047,NA,Vascular plants,pollen,Dryas octopetala,UPHE,36,5
+NISP,NA,pollen,4053,NA,Vascular plants,pollen,Rumex acetosa,UPHE,13,2
+NISP,NA,pollen,4058,NA,Vascular plants,pollen,Rumex crispus,UPHE,6,4
+NISP,NA,pollen,4059,NA,Vascular plants,pollen,Rumex obtusifolius,UPHE,36,1
+NISP,NA,pollen,4072,NA,Vascular plants,pollen,Rumex conglomeratus-type,UPHE,6,3
+NISP,NA,pollen,4073,NA,Vascular plants,pollen,Rumex acetosa/R. acetosella-type,UPHE,462,3
+NISP,NA,pollen,4079,NA,Vascular plants,pollen,Papaver rhoeas-type,UPHE,73,8
+NISP,NA,pollen,4085,NA,Vascular plants,pollen,Pedicularis palustris-type,UPHE,17,9
+NISP,NA,pollen,4098,NA,Vascular plants,pollen,Saussurea-type,UPHE,5,3
+NISP,NA,pollen,4099,NA,Vascular plants,pollen,cf. Sedum,UPHE,1,1
+NISP,NA,pollen,4102,NA,Vascular plants,pollen,Sedum-type,UPHE,168,10
+NISP,NA,pollen,4108,NA,Vascular plants,pollen,Sorbus aria,TRSH,2,1
+NISP,NA,pollen,4114,NA,Vascular plants,pollen,Digitalis-type,UPHE,52,4
+NISP,NA,pollen,4115,NA,Vascular plants,pollen,Digitalis,UPHE,1,1
+NISP,NA,pollen,4117,NA,Vascular plants,pollen,Digitalis purpurea-type,UPHE,1,1
+NISP,NA,pollen,4123,NA,Vascular plants,pollen,Scrophularia-type,UPHE,72,9
+NISP,NA,pollen,4125,NA,Vascular plants,pollen,Scrophularia,UPHE,1,1
+NISP,NA,pollen,4130,NA,Vascular plants,pollen,Chrysosplenium-type,UPHE,6,1
+NISP,NA,pollen,4133,NA,Vascular plants,pollen,Cicuta virosa,UPHE,1,1
+NISP,NA,pollen,4139,NA,Vascular plants,pollen,Cistaceae undiff.,UPHE,2,1
+NISP,NA,pollen,4144,NA,Vascular plants,pollen,Cistus salviifolius,UPHE,28,3
+NISP,NA,pollen,4145,NA,Vascular plants,pollen,Cistus monspeliensis,UPHE,14,1
+NISP,NA,pollen,4148,NA,Vascular plants,pollen,Cistus ladanifer-type,UPHE,1,1
+NISP,NA,pollen,4152,NA,Vascular plants,pollen,Helianthemum-type,UPHE,104,1
+NISP,NA,pollen,4153,NA,Vascular plants,pollen,Helianthemum nummularium-type,UPHE,6,2
+NISP,NA,pollen,4160,NA,Vascular plants,pollen,Helianthemum undiff.,UPHE,39,1
+NISP,NA,pollen,4162,NA,Vascular plants,pollen,Cladium mariscus,AQVP,342,11
+NISP,NA,pollen,4165,NA,Vascular plants,pollen,Colchicum,UPHE,1,1
+NISP,NA,pollen,4166,NA,Vascular plants,pollen,Colchicum-type,UPHE,17,3
+NISP,NA,pollen,4173,NA,Vascular plants,pollen,Convallaria-type,UPHE,2,1
+NISP,NA,pollen,4174,NA,Vascular plants,pollen,Cornus sanguinea-type,TRSH,23,3
+NISP,NA,pollen,4175,NA,Vascular plants,pollen,Cornus suecica,TRSH,3,1
+NISP,NA,pollen,4178,NA,Vascular plants,pollen,Cornus mas,TRSH,61,12
+NISP,NA,pollen,4180,NA,Vascular plants,pollen,Cornus mas-type,TRSH,17,4
+NISP,NA,pollen,4185,NA,Vascular plants,pollen,Coronilla,UPHE,1,1
+NISP,NA,pollen,4188,NA,Vascular plants,pollen,Corydalis solida-type,UPHE,1,1
+NISP,NA,pollen,4189,NA,Vascular plants,pollen,Pseudofumaria lutea-type,UPHE,8,1
+NISP,NA,pollen,4200,NA,Vascular plants,pollen,Cuscuta europaea-type,UPHE,14,3
+NISP,NA,pollen,4201,NA,Vascular plants,pollen,Cynoglossum,UPHE,4,2
+NISP,NA,pollen,4204,NA,Vascular plants,pollen,Cytisus scoparius,TRSH,43,7
+NISP,NA,pollen,4210,NA,Vascular plants,pollen,Cytisus-type,TRSH,17,4
+NISP,NA,pollen,4215,NA,Vascular plants,pollen,Thymelaeaceae cf. Daphne,TRSH,5,1
+NISP,NA,pollen,4216,NA,Vascular plants,pollen,Thymelaea,TRSH,2,1
+NISP,NA,pollen,4222,NA,Vascular plants,pollen,Daucus carota,UPHE,124,11
+NISP,NA,pollen,4223,NA,Vascular plants,pollen,Daucus,UPHE,30,2
+NISP,NA,pollen,4227,NA,Vascular plants,pollen,Dianthus superbus-type,UPHE,17,8
+NISP,NA,pollen,4231,NA,Vascular plants,pollen,Draba-type,UPHE,9,2
+NISP,NA,pollen,4238,NA,Vascular plants,pollen,Echium-type,UPHE,21,2
+NISP,NA,pollen,4250,NA,Vascular plants,pollen,Erica arborea,TRSH,113,1
+NISP,NA,pollen,4255,NA,Vascular plants,pollen,Erica arborea-type,TRSH,290,4
+NISP,NA,pollen,4264,NA,Vascular plants,pollen,Erica terminalis,TRSH,1,1
+NISP,NA,pollen,4276,NA,Vascular plants,pollen,Ephedra major,TRSH,1,1
+NISP,NA,pollen,4282,NA,Vascular plants,pollen,Euonymus europaeus,TRSH,7,4
+NISP,NA,pollen,4285,NA,Vascular plants,pollen,cf. Euphorbia,UPHE,149,1
+NISP,NA,pollen,4286,NA,Vascular plants,pollen,Euphrasia-type,UPHE,43,3
+NISP,NA,pollen,4289,NA,Vascular plants,pollen,Ficus carica,TRSH,4,1
+NISP,NA,pollen,4301,NA,Vascular plants,pollen,Fraxinus excelsior-type,TRSH,2135,18
+NISP,NA,pollen,4316,NA,Vascular plants,pollen,Genista,TRSH,1,1
+NISP,NA,pollen,4329,NA,Vascular plants,pollen,Gentiana lutea,UPHE,1,1
+NISP,NA,pollen,4336,NA,Vascular plants,pollen,Gentianella campestris-type,UPHE,42,11
+NISP,NA,pollen,4340,NA,Vascular plants,pollen,Gentianella tenella-type,UPHE,1,1
+NISP,NA,pollen,4341,NA,Vascular plants,pollen,Geranium-type,UPHE,1,1
+NISP,NA,pollen,4347,NA,Vascular plants,pollen,Rosaceae cf. Geum,UPHE,1,1
+NISP,NA,pollen,4357,NA,Vascular plants,pollen,Gnaphalium,UPHE,3,2
+NISP,NA,pollen,4358,NA,Vascular plants,pollen,Gnaphalium-type,UPHE,81,15
+NISP,NA,pollen,4359,NA,Vascular plants,pollen,Gypsophila,UPHE,4,1
+NISP,NA,pollen,4361,NA,Vascular plants,pollen,Gypsophila repens-type,UPHE,29,8
+NISP,NA,pollen,4367,NA,Vascular plants,pollen,Hedera helix,TRSH,628,25
+NISP,NA,pollen,4373,NA,Vascular plants,pollen,Heracleum-type,UPHE,9,3
+NISP,NA,pollen,4374,NA,Vascular plants,pollen,Heracleum sphondylium,UPHE,6,1
+NISP,NA,pollen,4377,NA,Vascular plants,pollen,Herniaria,UPHE,1,1
+NISP,NA,pollen,4378,NA,Vascular plants,pollen,Herniaria-type,UPHE,18,9
+NISP,NA,pollen,4385,NA,Vascular plants,pollen,Hornungia-type,UPHE,80,4
+NISP,NA,pollen,4394,NA,Vascular plants,pollen,Hydrocharis,AQVP,5,2
+NISP,NA,pollen,4406,NA,Vascular plants,pollen,Ilex aquifolium,TRSH,17,10
+NISP,NA,pollen,4407,NA,Vascular plants,pollen,Ilex aquifolium-type,TRSH,2,1
+NISP,NA,pollen,4409,NA,Vascular plants,pollen,Iris pseudacorus-type,UPHE,30,5
+NISP,NA,pollen,4413,NA,Vascular plants,pollen,Jasione montana-type,UPHE,3,1
+NISP,NA,pollen,4414,NA,Vascular plants,pollen,Jasione-type,UPHE,91,8
+NISP,NA,pollen,4416,NA,Vascular plants,pollen,Juniperus communis,TRSH,40,1
+NISP,NA,pollen,4419,NA,Vascular plants,pollen,Knautia-type,UPHE,1,1
+NISP,NA,pollen,4428,NA,Vascular plants,pollen,Stachys sylvatica-type,UPHE,108,6
+NISP,NA,pollen,4430,NA,Vascular plants,pollen,Larix-type,TRSH,1,1
+NISP,NA,pollen,4434,NA,Vascular plants,pollen,Ligustrum vulgare,TRSH,2,1
+NISP,NA,pollen,4442,NA,Vascular plants,pollen,Lilium martagon-type,UPHE,12,3
+NISP,NA,pollen,4443,NA,Vascular plants,pollen,Lilium martagon,UPHE,2,1
+NISP,NA,pollen,4445,NA,Vascular plants,pollen,Linaria-type,UPHE,58,6
+NISP,NA,pollen,4447,NA,Vascular plants,pollen,Linum bienne-type,UPHE,2,1
+NISP,NA,pollen,4449,NA,Vascular plants,pollen,Linum catharticum-type,UPHE,51,6
+NISP,NA,pollen,4451,NA,Vascular plants,pollen,Linum usitatissimum-type,UPHE,12,4
+NISP,NA,pollen,4457,NA,Vascular plants,pollen,Linum austriacum-type,UPHE,46,4
+NISP,NA,pollen,4461,NA,Vascular plants,pollen,Lithospermum,UPHE,6,1
+NISP,NA,pollen,4462,NA,Vascular plants,pollen,Lithospermum officinale,UPHE,4,2
+NISP,NA,pollen,4465,NA,Vascular plants,pollen,Lonicera xylosteum-type,TRSH,17,4
+NISP,NA,pollen,4469,NA,Vascular plants,pollen,Lonicera xylosteum,TRSH,23,2
+NISP,NA,pollen,4471,NA,Vascular plants,pollen,cf. Lonicera,TRSH,3,1
+NISP,NA,pollen,4474,NA,Vascular plants,pollen,Loranthus europaeus,TRSH,2,2
+NISP,NA,pollen,4482,NA,Vascular plants,pollen,Luzula,UPHE,84,5
+NISP,NA,pollen,4485,NA,Vascular plants,pollen,Lycopus europaeus,UPHE,8,1
+NISP,NA,pollen,4488,NA,Vascular plants,pollen,Lysimachia nemorum,UPHE,1,1
+NISP,NA,pollen,4496,NA,Vascular plants,pollen,Lythrum salicaria-type,UPHE,59,4
+NISP,NA,pollen,4502,NA,Vascular plants,pollen,Maianthemum bifolium,UPHE,1,1
+NISP,NA,pollen,4512,NA,Vascular plants,pollen,Prunus padus,TRSH,1,1
+NISP,NA,pollen,4517,NA,Vascular plants,pollen,Prunus spinosa,TRSH,5,1
+NISP,NA,pollen,4521,NA,Vascular plants,pollen,Marrubium,UPHE,3,1
+NISP,NA,pollen,4530,NA,Vascular plants,pollen,Menyanthes trifoliata-type,AQVP,7,1
+NISP,NA,pollen,4531,NA,Vascular plants,pollen,Mercurialis annua,UPHE,133,14
+NISP,NA,pollen,4533,NA,Vascular plants,pollen,Mercurialis perennis,UPHE,40,2
+NISP,NA,pollen,4535,NA,Vascular plants,pollen,cf. Mercurialis,UPHE,14,1
+NISP,NA,pollen,4536,NA,Vascular plants,pollen,Mercurialis perennis-type,UPHE,13,6
+NISP,NA,pollen,4537,NA,Vascular plants,pollen,Mercurialis-type,UPHE,11,1
+NISP,NA,pollen,4546,NA,Vascular plants,pollen,Muscari,UPHE,2,1
+NISP,NA,pollen,4548,NA,Vascular plants,pollen,Myosotis arvensis-type,UPHE,7,2
+NISP,NA,pollen,4550,NA,Vascular plants,pollen,Myricaria germanica,TRSH,7,2
+NISP,NA,pollen,4553,NA,Vascular plants,pollen,Myriophyllum cf. M. spicatum,AQVP,2,1
+NISP,NA,pollen,4554,NA,Vascular plants,pollen,Myriophyllum cf. M. verticillatum,AQVP,2,1
+NISP,NA,pollen,4556,NA,Vascular plants,pollen,Myrtus,TRSH,29,4
+NISP,NA,pollen,4557,NA,Vascular plants,pollen,Myrtus communis,TRSH,16,3
+NISP,NA,pollen,4558,NA,Vascular plants,pollen,Narcissus,UPHE,2,1
+NISP,NA,pollen,4566,NA,Vascular plants,pollen,Nonea,UPHE,1,1
+NISP,NA,pollen,4573,NA,Vascular plants,pollen,Nymphaea alba-type,AQVP,39,4
+NISP,NA,pollen,4576,NA,Vascular plants,pollen,Nymphoides peltata,AQVP,2,2
+NISP,NA,pollen,4578,NA,Vascular plants,pollen,Odontites,UPHE,212,8
+NISP,NA,pollen,4579,NA,Vascular plants,pollen,cf. Odontites,UPHE,29,2
+NISP,NA,pollen,4580,NA,Vascular plants,pollen,Odontites-type,UPHE,326,16
+NISP,NA,pollen,4582,NA,Vascular plants,pollen,Olea europaea,TRSH,69,2
+NISP,NA,pollen,4585,NA,Vascular plants,pollen,Onobrychis,UPHE,29,12
+NISP,NA,pollen,4586,NA,Vascular plants,pollen,Onobrychis-type,UPHE,68,7
+NISP,NA,pollen,4588,NA,Vascular plants,pollen,Ononis,UPHE,1,1
+NISP,NA,pollen,4591,NA,Vascular plants,pollen,Ornithogalum-type,UPHE,38,4
+NISP,NA,pollen,4592,NA,Vascular plants,pollen,Ornithogalum,UPHE,1,1
+NISP,NA,pollen,4597,NA,Vascular plants,pollen,Pentaglottis sempervirens,UPHE,3,2
+NISP,NA,pollen,4599,NA,Vascular plants,pollen,Phragmites,AQVP,44,2
+NISP,NA,pollen,4607,NA,Vascular plants,pollen,Pimpinella-type,UPHE,4,1
+NISP,NA,pollen,4608,NA,Vascular plants,pollen,Pimpinella major-type,UPHE,130,12
+NISP,NA,pollen,4620,NA,Vascular plants,pollen,Pinus sylvestris-type,TRSH,1607,13
+NISP,NA,pollen,4626,NA,Vascular plants,pollen,Pinus cembra-type,TRSH,651,7
+NISP,NA,pollen,4630,NA,Vascular plants,pollen,Pinus halepensis-type,TRSH,101,2
+NISP,NA,pollen,4634,NA,Vascular plants,pollen,Plantago atrata,UPHE,132,6
+NISP,NA,pollen,4635,NA,Vascular plants,pollen,Plantago coronopus,UPHE,72,5
+NISP,NA,pollen,4637,NA,Vascular plants,pollen,Plantago tenuiflora,UPHE,1,1
+NISP,NA,pollen,4638,NA,Vascular plants,pollen,Plantago cf. P. media,UPHE,1,1
+NISP,NA,pollen,4639,NA,Vascular plants,pollen,Plantago alpina-type,UPHE,984,30
+NISP,NA,pollen,4642,NA,Vascular plants,pollen,Plantago atrata-type,UPHE,63,7
+NISP,NA,pollen,4646,NA,Vascular plants,pollen,Plantago tenuiflora-type,UPHE,1,1
+NISP,NA,pollen,4647,NA,Vascular plants,pollen,Plantago alpina,UPHE,199,7
+NISP,NA,pollen,4662,NA,Vascular plants,pollen,cf. Platanus,TRSH,5,1
+NISP,NA,pollen,4663,NA,Vascular plants,pollen,Pleurospermum austriacum,UPHE,6,3
+NISP,NA,pollen,4664,NA,Vascular plants,pollen,Pleurospermum austriacum-type,UPHE,1,1
+NISP,NA,pollen,4665,NA,Vascular plants,pollen,Pleurospermum-type,UPHE,7,3
+NISP,NA,pollen,4666,NA,Vascular plants,pollen,Polemonium caeruleum,UPHE,1,1
+NISP,NA,pollen,4673,NA,Vascular plants,pollen,Polygala vulgaris-type,UPHE,1,1
+NISP,NA,pollen,4686,NA,Vascular plants,pollen,cf. Persicaria amphibia,UPHE,1,1
+NISP,NA,pollen,4694,NA,Vascular plants,pollen,Stuckenia-type,AQVP,17,3
+NISP,NA,pollen,4703,NA,Vascular plants,pollen,Primula farinosa,UPHE,2,1
+NISP,NA,pollen,4704,NA,Vascular plants,pollen,Primula farinosa-type,UPHE,16,2
+NISP,NA,pollen,4708,NA,Vascular plants,pollen,Primula veris-type,UPHE,31,4
+NISP,NA,pollen,4712,NA,Vascular plants,pollen,Pterocarya fraxinifolia,TRSH,1,1
+NISP,NA,pollen,4713,NA,Vascular plants,pollen,Quercus cerris-type,TRSH,396,4
+NISP,NA,pollen,4714,NA,Vascular plants,pollen,Quercus pubescens-type,TRSH,227,2
+NISP,NA,pollen,4715,NA,Vascular plants,pollen,cf. Quercus,TRSH,15,1
+NISP,NA,pollen,4717,NA,Vascular plants,pollen,Quercus ilex,TRSH,594,10
+NISP,NA,pollen,4718,NA,Vascular plants,pollen,Quercus suber,TRSH,1,1
+NISP,NA,pollen,4720,NA,Vascular plants,pollen,Quercus cerris,TRSH,19,1
+NISP,NA,pollen,4728,NA,Vascular plants,pollen,Radiola linoides,UPHE,2,1
+NISP,NA,pollen,4734,NA,Vascular plants,pollen,Ranunculus sceleratus-type,UPHE,32,4
+NISP,NA,pollen,4736,NA,Vascular plants,pollen,Ranunculus arvensis,UPHE,3,2
+NISP,NA,pollen,4740,NA,Vascular plants,pollen,Ranunculus aquatilis,AQVP,4,1
+NISP,NA,pollen,4747,NA,Vascular plants,pollen,Reseda,UPHE,5,3
+NISP,NA,pollen,4759,NA,Vascular plants,pollen,Rosa-type,UPHE,1,1
+NISP,NA,pollen,4764,NA,Vascular plants,pollen,Rosaceae (trees),TRSH,59,4
+NISP,NA,pollen,4770,NA,Vascular plants,pollen,Sagina,UPHE,100,11
+NISP,NA,pollen,4782,NA,Vascular plants,pollen,Sambucus ebulus,TRSH,15,5
+NISP,NA,pollen,4783,NA,Vascular plants,pollen,Sambucus nigra,TRSH,170,18
+NISP,NA,pollen,4784,NA,Vascular plants,pollen,Sambucus racemosa,TRSH,152,15
+NISP,NA,pollen,4788,NA,Vascular plants,pollen,Sambucus racemosa-type,TRSH,79,1
+NISP,NA,pollen,4796,NA,Vascular plants,pollen,Sanguisorba minor-type,UPHE,170,19
+NISP,NA,pollen,4803,NA,Vascular plants,pollen,Saxifraga granulata-type,UPHE,104,18
+NISP,NA,pollen,4809,NA,Vascular plants,pollen,Micranthes stellaris,UPHE,1,1
+NISP,NA,pollen,4814,NA,Vascular plants,pollen,Saxifraga granulata,UPHE,1,1
+NISP,NA,pollen,4818,NA,Vascular plants,pollen,Saxifraga aizoides-type,UPHE,21,2
+NISP,NA,pollen,4827,NA,Vascular plants,pollen,Scabiosa columbaria-type,UPHE,7,4
+NISP,NA,pollen,4845,NA,Vascular plants,pollen,Scleranthus annuus,UPHE,3,2
+NISP,NA,pollen,4851,NA,Vascular plants,pollen,Sempervivum,UPHE,18,6
+NISP,NA,pollen,4853,NA,Vascular plants,pollen,Serratula-type,UPHE,63,7
+NISP,NA,pollen,4856,NA,Vascular plants,pollen,Sinapis-type,UPHE,289,7
+NISP,NA,pollen,4862,NA,Vascular plants,pollen,Solanum nigrum,UPHE,17,2
+NISP,NA,pollen,4863,NA,Vascular plants,pollen,Solanum nigrum-type,UPHE,44,11
+NISP,NA,pollen,4865,NA,Vascular plants,pollen,Stratiotes aloides,AQVP,1,1
+NISP,NA,pollen,4870,NA,Vascular plants,pollen,Taxus baccata,TRSH,201,13
+NISP,NA,pollen,4877,NA,Vascular plants,pollen,Thesium,UPHE,4,1
+NISP,NA,pollen,4883,NA,Vascular plants,pollen,Tilia cordata-type,TRSH,10,1
+NISP,NA,pollen,4887,NA,Vascular plants,pollen,Solidago,UPHE,24,8
+NISP,NA,pollen,4888,NA,Vascular plants,pollen,Sparganium erectum-type,AQVP,86,2
+NISP,NA,pollen,4890,NA,Vascular plants,pollen,Sparganium emersum-type,AQVP,113,2
+NISP,NA,pollen,4906,NA,Vascular plants,pollen,Trapa natans,AQVP,31,2
+NISP,NA,pollen,4922,NA,Vascular plants,pollen,Trollius,UPHE,34,8
+NISP,NA,pollen,4923,NA,Vascular plants,pollen,Trollius europaeus,UPHE,84,7
+NISP,NA,pollen,4940,NA,Vascular plants,pollen,Urtica dioica,UPHE,91,1
+NISP,NA,pollen,4942,NA,Vascular plants,pollen,Urtica pilulifera-type,UPHE,13,3
+NISP,NA,pollen,4956,NA,Vascular plants,pollen,Valeriana officinalis-type,UPHE,42,10
+NISP,NA,pollen,4961,NA,Vascular plants,pollen,Valeriana dioica-type,UPHE,19,9
+NISP,NA,pollen,4962,NA,Vascular plants,pollen,Valeriana tripteris-type,UPHE,8,3
+NISP,NA,pollen,4964,NA,Vascular plants,pollen,Verbascum,UPHE,5,2
+NISP,NA,pollen,4966,NA,Vascular plants,pollen,Verbena officinalis,UPHE,2,2
+NISP,NA,pollen,4968,NA,Vascular plants,pollen,Viburnum lantana,TRSH,147,6
+NISP,NA,pollen,4969,NA,Vascular plants,pollen,Viburnum lantana-type,TRSH,6,1
+NISP,NA,pollen,4970,NA,Vascular plants,pollen,Viburnum tinus,TRSH,4,1
+NISP,NA,pollen,4972,NA,Vascular plants,pollen,Viola arvensis-type,UPHE,3,2
+NISP,NA,pollen,4973,NA,Vascular plants,pollen,Viola palustris-type,AQVP,3,1
+NISP,NA,pollen,4977,NA,Vascular plants,pollen,Viscum album,TRSH,2,1
+NISP,NA,pollen,4978,NA,Vascular plants,pollen,cf. Viscum,TRSH,1,1
+NISP,NA,pollen,5070,NA,Vascular plants,pollen,Chenopodium,UPHE,35,3
+NISP,NA,pollen,5090,NA,Vascular plants,pollen,Glyceria-type,UPHE,22,1
+NISP,NA,pollen,5097,NA,Vascular plants,pollen,Atriplex,UPHE,1,1
+NISP,NA,pollen,5099,NA,Vascular plants,pollen,Atriplex-type,UPHE,35,1
+NISP,NA,pollen,5145,NA,Vascular plants,pollen,Anemone nemorosa,UPHE,77,2
+NISP,NA,pollen,5146,NA,Vascular plants,pollen,Anemone nemorosa-type,UPHE,239,18
+NISP,NA,pollen,5151,NA,Vascular plants,pollen,Veratrum,UPHE,23,6
+NISP,NA,pollen,5152,NA,Vascular plants,pollen,Veratrum album,UPHE,5,2
+NISP,NA,pollen,5158,NA,Vascular plants,pollen,Tuberaria,UPHE,2,2
+NISP,NA,pollen,5170,NA,Vascular plants,pollen,Amaranthaceae-type,UPHE,1105,24
+NISP,NA,pollen,5181,NA,Vascular plants,pollen,Calligonum,TRSH,18,8
+NISP,NA,pollen,5186,NA,Vascular plants,pollen,Coriaria myrtifolia,TRSH,1,1
+NISP,NA,pollen,5192,NA,Vascular plants,pollen,Oenanthe,AQVP,13,3
+NISP,NA,pollen,5201,NA,Vascular plants,pollen,Carthamus,UPHE,3,2
+NISP,NA,pollen,5211,NA,Vascular plants,pollen,Ruta,UPHE,1,1
+NISP,NA,pollen,5214,NA,Vascular plants,pollen,Tribulus terrestris,UPHE,2,2
+NISP,NA,pollen,5220,NA,Vascular plants,pollen,Arceuthobium oxycedri,TRSH,13,2
+NISP,NA,pollen,5223,NA,Vascular plants,pollen,Chelidonium,UPHE,2,2
+NISP,NA,pollen,5229,NA,Vascular plants,pollen,Theligonum cynocrambe,UPHE,1,1
+NISP,NA,pollen,5232,NA,Vascular plants,pollen,Peucedanum palustre-type,UPHE,1,1
+NISP,NA,pollen,5233,NA,Vascular plants,pollen,Peucedanum-type,UPHE,358,17
+NISP,NA,pollen,5234,NA,Vascular plants,pollen,Peucedanum,UPHE,61,1
+NISP,NA,pollen,5238,NA,Vascular plants,pollen,Xeranthemum,UPHE,16,3
+NISP,NA,pollen,5254,NA,Vascular plants,pollen,Sideritis,UPHE,2,1
+NISP,NA,pollen,5256,NA,Vascular plants,pollen,Cyclamen,UPHE,52,3
+NISP,NA,pollen,5258,NA,Vascular plants,pollen,Asphodeline,UPHE,3,1
+NISP,NA,pollen,5263,NA,Vascular plants,pollen,cf. Orobanche,UPHE,3,1
+NISP,NA,pollen,5274,NA,Vascular plants,pollen,Inula,UPHE,1,1
+NISP,NA,pollen,5298,NA,Vascular plants,pollen,Cerinthe-type,UPHE,3,1
+NISP,NA,pollen,5299,NA,Vascular plants,pollen,Cerinthe,UPHE,25,6
+NISP,NA,pollen,5305,NA,Vascular plants,pollen,Laurus,TRSH,1,1
+NISP,NA,pollen,5310,NA,Vascular plants,pollen,Androsace-type,UPHE,20,1
+NISP,NA,pollen,5311,NA,Vascular plants,pollen,Consolida,UPHE,1,1
+NISP,NA,pollen,5312,NA,Vascular plants,pollen,Consolida ambigua-type,UPHE,10,3
+NISP,NA,pollen,5316,NA,Vascular plants,pollen,Phyteuma-type,UPHE,19,2
+NISP,NA,pollen,5320,NA,Vascular plants,pollen,Beta-type,UPHE,54,1
+NISP,NA,pollen,5323,NA,Vascular plants,pollen,Ceratonia siliqua,TRSH,1,1
+NISP,NA,pollen,5341,NA,Vascular plants,pollen,Centranthus,UPHE,1,1
+NISP,NA,pollen,5342,NA,Vascular plants,pollen,Astrantia-type,UPHE,26,6
+NISP,NA,pollen,5343,NA,Vascular plants,pollen,Astrantia,UPHE,2,1
+NISP,NA,pollen,5353,NA,Vascular plants,pollen,Swertia perennis,UPHE,11,3
+NISP,NA,pollen,5357,NA,Vascular plants,pollen,Agrostemma githago,UPHE,2,1
+NISP,NA,pollen,5358,NA,Vascular plants,pollen,Epipactis palustris,UPHE,1,1
+NISP,NA,pollen,5360,NA,Vascular plants,pollen,Petasites,UPHE,18,4
+NISP,NA,pollen,5375,NA,Vascular plants,pollen,Chaerophyllum,UPHE,257,4
+NISP,NA,pollen,5385,NA,Vascular plants,pollen,Erigeron,UPHE,8,2
+NISP,NA,pollen,5400,NA,Vascular plants,pollen,Carum verticillatum,UPHE,1,1
+NISP,NA,pollen,5431,NA,Vascular plants,pollen,Amaranthus-type,UPHE,1,1
+NISP,NA,pollen,5434,NA,Vascular plants,pollen,Dorycnium,UPHE,5,3
+NISP,NA,pollen,5449,NA,Vascular plants,pollen,Bellis,UPHE,28,6
+NISP,NA,pollen,5461,NA,Vascular plants,pollen,Fumana-type,TRSH,1,1
+NISP,NA,pollen,5465,NA,Vascular plants,pollen,Lamiaceae (tricolpate),UPHE,1,1
+NISP,NA,pollen,5483,NA,Vascular plants,pollen,cf. Myrtus,TRSH,1,1
+NISP,NA,pollen,5489,NA,Vascular plants,pollen,Fumana,TRSH,6,2
+NISP,NA,pollen,5495,NA,Vascular plants,pollen,Conium maculatum,UPHE,1,1
+NISP,NA,pollen,5498,NA,Vascular plants,pollen,Meum-type,UPHE,20,2
+NISP,NA,pollen,5500,NA,Vascular plants,pollen,Ornithopus,UPHE,1,1
+NISP,NA,pollen,5502,NA,Vascular plants,pollen,Selinum carvifolia,UPHE,2,1
+NISP,NA,pollen,5505,NA,Vascular plants,pollen,Sesamoides,UPHE,1,1
+NISP,NA,pollen,5512,NA,Vascular plants,pollen,Olea-type,TRSH,8,1
+NISP,NA,pollen,5517,NA,Vascular plants,pollen,Pinus pinaster-type,TRSH,17,1
+NISP,NA,pollen,5519,NA,Vascular plants,pollen,Quercus cf. Q. suber,TRSH,7,1
+NISP,NA,pollen,5520,NA,Vascular plants,pollen,Sorbus aucuparia-type,TRSH,80,4
+NISP,NA,pollen,5524,NA,Vascular plants,pollen,Nerium oleander,TRSH,2,1
+NISP,NA,pollen,5536,NA,Vascular plants,pollen,Conium-type,UPHE,25,1
+NISP,NA,pollen,5560,NA,Vascular plants,pollen,Pinus mugo,TRSH,3,1
+NISP,NA,pollen,5562,NA,Vascular plants,pollen,Aruncus-type,UPHE,24,7
+NISP,NA,pollen,5602,NA,Vascular plants,pollen,Centaurea cf. C. cyanus-type,UPHE,19,1
+NISP,NA,pollen,5603,NA,Vascular plants,pollen,Centaurea cf. C. nigra-type,UPHE,55,1
+NISP,NA,pollen,5604,NA,Vascular plants,pollen,Centaurea cf. C. scabiosa-type,UPHE,28,1
+NISP,NA,pollen,5614,NA,Vascular plants,pollen,Betula pubescens-type,TRSH,56,1
+NISP,NA,pollen,5615,NA,Vascular plants,pollen,Calligonum-type,TRSH,36,1
+NISP,NA,pollen,5618,NA,Vascular plants,pollen,Centaurea collina,UPHE,9,1
+NISP,NA,pollen,5621,NA,Vascular plants,pollen,Chaerophyllum hirsutum-type,UPHE,270,6
+NISP,NA,pollen,5623,NA,Vascular plants,pollen,Cistus albidus-type,TRSH,1,1
+NISP,NA,pollen,5628,NA,Vascular plants,pollen,Coronilla-type,UPHE,1,1
+NISP,NA,pollen,5633,NA,Vascular plants,pollen,Falcaria vulgaris,UPHE,2,1
+NISP,NA,pollen,5639,NA,Vascular plants,pollen,Heliotropium europaeum,UPHE,1,1
+NISP,NA,pollen,5671,NA,Vascular plants,pollen,Helleborus-type,UPHE,14,1
+NISP,NA,pollen,5674,NA,Vascular plants,pollen,Phyteuma,UPHE,108,14
+NISP,NA,pollen,5750,NA,Vascular plants,pollen,Ailanthus,TRSH,9,2
+NISP,NA,pollen,5798,NA,Vascular plants,pollen,Aesculus hippocastanum,TRSH,1,1
+NISP,NA,pollen,5804,NA,Vascular plants,pollen,Plantago major/P. media-type,UPHE,40,3
+NISP,NA,pollen,5811,NA,Vascular plants,pollen,Papaveraceae undiff.,UPHE,3,1
+NISP,NA,pollen,5819,NA,Vascular plants,pollen,Oenanthe fistulosa-type,UPHE,11,1
+NISP,NA,pollen,5823,NA,Vascular plants,pollen,Cannabis-type,UPHE,251,7
+NISP,NA,pollen,9115,NA,Vascular plants,pollen,Cannabaceae,TRSH,318,13
+NISP,NA,pollen,9503,NA,Vascular plants,pollen,Oxyria,UPHE,12,2
+NISP,NA,pollen,9505,NA,Vascular plants,pollen,Menyanthes,AQVP,52,3
+NISP,NA,pollen,9519,NA,Vascular plants,pollen,Fallopia,UPHE,1,1
+NISP,NA,pollen,9585,NA,Vascular plants,pollen,Amaranthus,UPHE,32,3
+NISP,NA,pollen,9629,NA,Vascular plants,pollen,Cyperus-type,UPHE,59,2
+NISP,NA,pollen,9666,NA,Vascular plants,pollen,Helianthus,UPHE,2,1
+NISP,NA,pollen,9686,NA,Vascular plants,pollen,Clusiaceae/Hypericaceae cf. Hypericum,TRSH,3,1
+NISP,NA,pollen,9690,NA,Vascular plants,pollen,Faboideae,UPHE,183,18
+NISP,NA,pollen,9773,NA,Vascular plants,pollen,Calluna,TRSH,260,6
+NISP,NA,pollen,14122,NA,Vascular plants,pollen,Ostrya carpinifolia,TRSH,288,3
+NISP,NA,pollen,21606,NA,Vascular plants,pollen,Potamogeton natans-type,AQVP,37,1
+NISP,NA,pollen,21607,NA,Vascular plants,pollen,Potamogeton pectinatus-type,AQVP,3,1
+NISP,NA,pollen,22585,NA,Vascular plants,pollen,Erica-type,TRSH,277,3
+NISP,NA,pollen,22717,NA,Vascular plants,pollen,Dioscorea,UPHE,2,2
+NISP,NA,pollen,23548,NA,Vascular plants,pollen,cf. Rubus,TRSH,3,1
+NISP,NA,pollen,23592,NA,Vascular plants,pollen,Quercus sp.,TRSH,3,1
+NISP,NA,pollen,23730,NA,Vascular plants,pollen,Myriophyllum-type,AQVP,86,1
+NISP,NA,pollen,23835,NA,Vascular plants,pollen,Pinus sp.,TRSH,108,1
+NISP,NA,pollen,23917,NA,Vascular plants,pollen,cf. Rutaceae,TRSH,1,1
+NISP,NA,pollen,23964,NA,Vascular plants,pollen,Glyceria,UPHE,1,1
+NISP,NA,pollen,24002,NA,Vascular plants,pollen,cf. Medicago,UPHE,38,2
+NISP,NA,pollen,24994,NA,Vascular plants,pollen,cf. Mentha,UPHE,1,1
+NISP,NA,pollen,24995,NA,Vascular plants,pollen,cf. Prunus,TRSH,7,1
+NISP,NA,pollen,25820,NA,Vascular plants,pollen,Bromus,UPHE,2,1
+NISP,NA,pollen,25878,NA,Vascular plants,pollen,Anemone sect. Pulsatilla,UPHE,69,12
+NISP,NA,pollen,26972,NA,Vascular plants,pollen,Rhododendron-type,TRSH,2,1
+NISP,NA,pollen,27457,NA,Vascular plants,pollen,Oxyria-type,UPHE,15,3
+NISP,NA,pollen,27573,NA,Vascular plants,pollen,Ranunculus sect. Batrachium,AQVP,43,7
+NISP,NA,pollen,27584,NA,Vascular plants,pollen,Aegopodium podagraria,UPHE,1,1
+NISP,NA,pollen,27585,NA,Vascular plants,pollen,Arnica montana,UPHE,17,5
+NISP,NA,pollen,27586,NA,Vascular plants,pollen,Carlina,UPHE,19,6
+NISP,NA,pollen,27587,NA,Vascular plants,pollen,Silenoideae-type,UPHE,63,8
+NISP,NA,pollen,27588,NA,Vascular plants,pollen,Cerastium arvense-type,UPHE,21,3
+NISP,NA,pollen,27589,NA,Vascular plants,pollen,Cerastium cerastoides-type,UPHE,58,6
+NISP,NA,pollen,27592,NA,Vascular plants,pollen,Doronicum,UPHE,2,1
+NISP,NA,pollen,27593,NA,Vascular plants,pollen,Homogyne,UPHE,15,7
+NISP,NA,pollen,27594,NA,Vascular plants,pollen,Ligusticum mutellina,UPHE,54,10
+NISP,NA,pollen,27595,NA,Vascular plants,pollen,Medicago falcata-type,UPHE,5,3
+NISP,NA,pollen,27597,NA,Vascular plants,pollen,Moehringia-type,UPHE,6,2
+NISP,NA,pollen,27599,NA,Vascular plants,pollen,Primula hirsuta-type,UPHE,2,1
+NISP,NA,pollen,27600,NA,Vascular plants,pollen,Rumex alpinus,UPHE,367,11
+NISP,NA,pollen,27605,NA,Vascular plants,pollen,Seseli-type,UPHE,38,2
+NISP,NA,pollen,27606,NA,Vascular plants,pollen,Soldanella,UPHE,12,7
+NISP,NA,pollen,27607,NA,Vascular plants,pollen,Sparganium angustifolium-type,AQVP,92,7
+NISP,NA,pollen,27611,NA,Vascular plants,pollen,Trifolium badium-type,UPHE,22,4
+NISP,NA,pollen,27613,NA,Vascular plants,pollen,Tussilago farfara,UPHE,10,3
+NISP,NA,pollen,27661,NA,Vascular plants,pollen,Humulus/Cannabis-type,UPHE,218,4
+NISP,NA,pollen,27881,NA,Vascular plants,pollen,cf. Chrysosplenium,UPHE,3,1
+NISP,NA,pollen,27888,NA,Vascular plants,pollen,cf. Scutellaria,UPHE,1,1
+NISP,NA,pollen,29012,NA,Vascular plants,pollen,mimosoid clade,TRSH,3,2
+NISP,NA,pollen,29114,NA,Vascular plants,pollen,Cicendia,UPHE,2,1
+NISP,NA,pollen,29485,NA,Vascular plants,pollen,cf. Daphne,TRSH,2,1
+NISP,NA,pollen,29559,NA,Vascular plants,pollen,Erythrina-type,TRSH,2,1
+NISP,NA,pollen,29625,NA,Vascular plants,pollen,Cannabis,UPHE,184,8
+NISP,NA,pollen,29809,NA,Vascular plants,pollen,Orlaya,UPHE,14,3
+NISP,NA,pollen,29810,NA,Vascular plants,pollen,Orlaya grandiflora,UPHE,11,3
+NISP,NA,pollen,29811,NA,Vascular plants,pollen,Torilis arvensis,UPHE,9,3
+NISP,NA,pollen,29816,NA,Vascular plants,pollen,Trifolium alpinum-type,UPHE,18,5
+NISP,NA,pollen,30385,NA,Vascular plants,pollen,Plantago sp.,UPHE,11,2
+NISP,NA,pollen,30930,NA,Vascular plants,pollen,Aconitum napellus-type,UPHE,10,1
+NISP,NA,pollen,30937,NA,Vascular plants,pollen,Adonis annua-type,UPHE,5,3
+NISP,NA,pollen,30942,NA,Vascular plants,pollen,Aethusa-type,UPHE,19,2
+NISP,NA,pollen,30966,NA,Vascular plants,pollen,Ammi majus,UPHE,2,1
+NISP,NA,pollen,30972,NA,Vascular plants,pollen,Lycopsis arvensis,UPHE,2,1
+NISP,NA,pollen,30977,NA,Vascular plants,pollen,Androsace alpina-type,UPHE,2,1
+NISP,NA,pollen,30999,NA,Vascular plants,pollen,Anemone hortensis-type,UPHE,3,1
+NISP,NA,pollen,31033,NA,Vascular plants,pollen,Aphanes arvensis,UPHE,3,1
+NISP,NA,pollen,31050,NA,Vascular plants,pollen,Arenaria serpyllifolia-type,UPHE,1,1
+NISP,NA,pollen,31211,NA,Vascular plants,pollen,Asparagus acutifolius,UPHE,8,1
+NISP,NA,pollen,31233,NA,Vascular plants,pollen,Astragalus depressus,UPHE,2,1
+NISP,NA,pollen,31236,NA,Vascular plants,pollen,Astrantia major-type,UPHE,2,1
+NISP,NA,pollen,31246,NA,Vascular plants,pollen,Avena/Triticum group,UPHE,86,2
+NISP,NA,pollen,31266,NA,Vascular plants,pollen,Ranunculus sect. Batrachium-type,UPHE,103,4
+NISP,NA,pollen,31289,NA,Vascular plants,pollen,Bifora radians-type,UPHE,5,1
+NISP,NA,pollen,31368,NA,Vascular plants,pollen,Buphthalmum,UPHE,1,1
+NISP,NA,pollen,31421,NA,Vascular plants,pollen,Carthamus-type,UPHE,3,2
+NISP,NA,pollen,31459,NA,Vascular plants,pollen,Carpinus betulus-type,TRSH,67,1
+NISP,NA,pollen,31512,NA,Vascular plants,pollen,Centaurea montana/Cyanus triumfettii,UPHE,3,1
+NISP,NA,pollen,31556,NA,Vascular plants,pollen,cf. Aconitum,UPHE,3,1
+NISP,NA,pollen,31558,NA,Vascular plants,pollen,cf. Acorus,UPHE,3,1
+NISP,NA,pollen,31574,NA,Vascular plants,pollen,cf. Astragalus,UPHE,1,1
+NISP,NA,pollen,31589,NA,Vascular plants,pollen,cf. Butomus,AQVP,4,1
+NISP,NA,pollen,31595,NA,Vascular plants,pollen,cf. Carduus,UPHE,10,2
+NISP,NA,pollen,31600,NA,Vascular plants,pollen,cf. Cedrus,TRSH,3,1
+NISP,NA,pollen,31628,NA,Vascular plants,pollen,cf. Cirsium,UPHE,1,1
+NISP,NA,pollen,31711,NA,Vascular plants,pollen,cf. Cytisus,TRSH,40,3
+NISP,NA,pollen,31723,NA,Vascular plants,pollen,cf. Epilobium,UPHE,4,1
+NISP,NA,pollen,31734,NA,Vascular plants,pollen,Gagea,UPHE,1,1
+NISP,NA,pollen,31736,NA,Vascular plants,pollen,cf. Genista,TRSH,5,2
+NISP,NA,pollen,31744,NA,Vascular plants,pollen,cf. Helianthemum,UPHE,1,1
+NISP,NA,pollen,31745,NA,Vascular plants,pollen,Helleborus viridis,UPHE,3,2
+NISP,NA,pollen,31756,NA,Vascular plants,pollen,cf. Humulus lupulus,UPHE,62,1
+NISP,NA,pollen,31998,NA,Vascular plants,pollen,Cynoglossum officinale-type,UPHE,2,2
+NISP,NA,pollen,31999,NA,Vascular plants,pollen,Falcaria-type,UPHE,45,5
+NISP,NA,pollen,32003,NA,Vascular plants,pollen,Laserpitium latifolium-type,UPHE,4,3
+NISP,NA,pollen,32004,NA,Vascular plants,pollen,Minuartia rubra-type,UPHE,42,4
+NISP,NA,pollen,32005,NA,Vascular plants,pollen,Morus alba-type,TRSH,27,6
+NISP,NA,pollen,32006,NA,Vascular plants,pollen,Saponaria,UPHE,3,2
+NISP,NA,pollen,32262,NA,Vascular plants,pollen,Levisticum officinale,UPHE,2,1
+NISP,NA,pollen,32275,NA,Vascular plants,pollen,Silene flos-cuculi,UPHE,2,2
+NISP,NA,pollen,32277,NA,Vascular plants,pollen,Silene viscaria-type,UPHE,14,3
+NISP,NA,pollen,32327,NA,Vascular plants,pollen,cf. Olea,TRSH,54,2
+NISP,NA,pollen,32328,NA,Vascular plants,pollen,cf. Onobrychis-type,UPHE,1,1
+NISP,NA,pollen,32385,NA,Vascular plants,pollen,cf. Rosa,UPHE,9,2
+NISP,NA,pollen,32397,NA,Vascular plants,pollen,cf. Saussurea,UPHE,1,1
+NISP,NA,pollen,32460,NA,Vascular plants,pollen,cf. Succisa,UPHE,3,1
+NISP,NA,pollen,32467,NA,Vascular plants,pollen,cf. Taraxacum,UPHE,4,1
+NISP,NA,pollen,32537,NA,Vascular plants,pollen,Chaerophyllum-type,UPHE,16,2
+NISP,NA,pollen,32603,NA,Vascular plants,pollen,Convolvulus arvensis-type,UPHE,6,2
+NISP,NA,pollen,32604,NA,Vascular plants,pollen,Calystegia sepium-type,UPHE,1,1
+NISP,NA,pollen,32645,NA,Vascular plants,pollen,Crupina-type,UPHE,2,1
+NISP,NA,pollen,32654,NA,Vascular plants,pollen,Cyclamen hederifolium,UPHE,6,5
+NISP,NA,pollen,32655,NA,Vascular plants,pollen,Cyclamen purpurascens,UPHE,1,1
+NISP,NA,pollen,32672,NA,Vascular plants,pollen,Cytinus,UPHE,3,1
+NISP,NA,pollen,32685,NA,Vascular plants,pollen,Daucus carota-type,UPHE,4,1
+NISP,NA,pollen,32692,NA,Vascular plants,pollen,Dictamnus albus,TRSH,1,1
+NISP,NA,pollen,32714,NA,Vascular plants,pollen,Drosera-type,AQVP,1,1
+NISP,NA,pollen,32730,NA,Vascular plants,pollen,Echium vulgare-type,UPHE,12,2
+NISP,NA,pollen,32731,NA,Vascular plants,pollen,Vincetoxicum,UPHE,1,1
+NISP,NA,pollen,32769,NA,Vascular plants,pollen,Epipactis palustris-type,UPHE,1,1
+NISP,NA,pollen,32821,NA,Vascular plants,pollen,Falcaria vulgaris-type,UPHE,12,1
+NISP,NA,pollen,32839,NA,Vascular plants,pollen,Foeniculum vulgare subsp. vulgare,UPHE,1,1
+NISP,NA,pollen,32840,NA,Vascular plants,pollen,Frangula alnus-type,TRSH,2,1
+NISP,NA,pollen,32843,NA,Vascular plants,pollen,Fraxinus ornus-type,TRSH,122,5
+NISP,NA,pollen,32864,NA,Vascular plants,pollen,Gagea/Tulipa,UPHE,7,1
+NISP,NA,pollen,32887,NA,Vascular plants,pollen,Genisteae-type,TRSH,7,1
+NISP,NA,pollen,32899,NA,Vascular plants,pollen,Geranium molle-type,UPHE,2,1
+NISP,NA,pollen,32901,NA,Vascular plants,pollen,Geranium phaeum-type,UPHE,2,1
+NISP,NA,pollen,32913,NA,Vascular plants,pollen,Geum montanum-type,UPHE,1,1
+NISP,NA,pollen,32918,NA,Vascular plants,pollen,Globularia,UPHE,4,2
+NISP,NA,pollen,32938,NA,Vascular plants,pollen,Hedera-type,TRSH,10,1
+NISP,NA,pollen,32940,NA,Vascular plants,pollen,Hedysarum hedysaroides,UPHE,1,1
+NISP,NA,pollen,32962,NA,Vascular plants,pollen,Helleborus foetidus,UPHE,36,2
+NISP,NA,pollen,32963,NA,Vascular plants,pollen,Helleborus viridis-type,UPHE,17,2
+NISP,NA,pollen,32974,NA,Vascular plants,pollen,Herniaria glabra-type,UPHE,34,3
+NISP,NA,pollen,32987,NA,Vascular plants,pollen,Hippocrepis comosa,UPHE,2,2
+NISP,NA,pollen,33004,NA,Vascular plants,pollen,Hordelymus,UPHE,3,1
+NISP,NA,pollen,33007,NA,Vascular plants,pollen,Hordeum/Triticum-type,UPHE,39,1
+NISP,NA,pollen,33008,NA,Vascular plants,pollen,Hordeum group,UPHE,117,2
+NISP,NA,pollen,33009,NA,Vascular plants,pollen,Hottonia palustris-type,AQVP,12,2
+NISP,NA,pollen,33064,NA,Vascular plants,pollen,Juniperus communis-type,TRSH,8,1
+NISP,NA,pollen,33069,NA,Vascular plants,pollen,Knautia arvensis-type,UPHE,5,4
+NISP,NA,pollen,33087,NA,Vascular plants,pollen,Laserpitium prutenicum,UPHE,20,6
+NISP,NA,pollen,33144,NA,Vascular plants,pollen,Limonium-type,UPHE,1,1
+NISP,NA,pollen,33146,NA,Vascular plants,pollen,Linaceae undiff.,UPHE,1,1
+NISP,NA,pollen,33169,NA,Vascular plants,pollen,Lloydia serotina,UPHE,3,3
+NISP,NA,pollen,33199,NA,Vascular plants,pollen,Lygeum spartum,UPHE,35,6
+NISP,NA,pollen,33243,NA,Vascular plants,pollen,Malva sylvestris-type,UPHE,1,1
+NISP,NA,pollen,33246,NA,Vascular plants,pollen,Marrubium-type,UPHE,1,1
+NISP,NA,pollen,33247,NA,Vascular plants,pollen,Matthiola-type,UPHE,1,1
+NISP,NA,pollen,33253,NA,Vascular plants,pollen,Thymus/Mentha-type,UPHE,43,2
+NISP,NA,pollen,33256,NA,Vascular plants,pollen,Mercurialis cf. M. ovata,UPHE,4,1
+NISP,NA,pollen,33270,NA,Vascular plants,pollen,Minuartia verna-type,UPHE,26,3
+NISP,NA,pollen,33288,NA,Vascular plants,pollen,Morus alba,TRSH,42,3
+NISP,NA,pollen,33299,NA,Vascular plants,pollen,Myrtus-type,TRSH,7,4
+NISP,NA,pollen,33339,NA,Vascular plants,pollen,Onosma,UPHE,2,2
+NISP,NA,pollen,33359,NA,Vascular plants,pollen,Papaver argemone-type,UPHE,1,1
+NISP,NA,pollen,33377,NA,Vascular plants,pollen,Parthenocissus quinquefolia,TRSH,1,1
+NISP,NA,pollen,33465,NA,Vascular plants,pollen,Phillyrea angustifolia-type,TRSH,79,2
+NISP,NA,pollen,33478,NA,Vascular plants,pollen,Pimpinella anisum-type,UPHE,2,2
+NISP,NA,pollen,33523,NA,Vascular plants,pollen,Platanus orientalis,TRSH,1,1
+NISP,NA,pollen,33547,NA,Vascular plants,pollen,Spermatophyta undiff. (cf. upland herbs),UPHE,491,9
+NISP,NA,pollen,33583,NA,Vascular plants,pollen,Koenigia alpina,UPHE,21,7
+NISP,NA,pollen,33584,NA,Vascular plants,pollen,Koenigia alpina-type,UPHE,4,1
+NISP,NA,pollen,33595,NA,Vascular plants,pollen,Rumex spinosus,UPHE,1,1
+NISP,NA,pollen,33609,NA,Vascular plants,pollen,Polygonum maritimum,UPHE,1,1
+NISP,NA,pollen,33634,NA,Vascular plants,pollen,Poterium,UPHE,3,1
+NISP,NA,pollen,33655,NA,Vascular plants,pollen,Pulmonaria obscura,UPHE,2,2
+NISP,NA,pollen,33686,NA,Vascular plants,pollen,Quercus cerris/Q. suber,TRSH,248,3
+NISP,NA,pollen,33694,NA,Vascular plants,pollen,Quercus pubescens/Q. robur-type,TRSH,164,3
+NISP,NA,pollen,33719,NA,Vascular plants,pollen,Ranunculus aconitifolius-type,UPHE,59,5
+NISP,NA,pollen,33720,NA,Vascular plants,pollen,Ranunculus acris group,UPHE,4,1
+NISP,NA,pollen,33749,NA,Vascular plants,pollen,Ranunculus lingua-type,UPHE,1,1
+NISP,NA,pollen,33759,NA,Vascular plants,pollen,Reseda luteola-type,UPHE,5,1
+NISP,NA,pollen,33767,NA,Vascular plants,pollen,Rhamnus/Frangula,TRSH,2,1
+NISP,NA,pollen,33769,NA,Vascular plants,pollen,Rhaponticum scariosum,UPHE,1,1
+NISP,NA,pollen,33800,NA,Vascular plants,pollen,Robinia pseudoacacia,TRSH,6,3
+NISP,NA,pollen,33823,NA,Vascular plants,pollen,Poterium sanguisorba,UPHE,213,19
+NISP,NA,pollen,33824,NA,Vascular plants,pollen,Poterium sanguisorba subsp. sanguisorba,UPHE,5,1
+NISP,NA,pollen,33844,NA,Vascular plants,pollen,Rumex acetosa/R. scutatus-type,UPHE,1,1
+NISP,NA,pollen,33845,NA,Vascular plants,pollen,Rumex scutatus-type,UPHE,1,1
+NISP,NA,pollen,33849,NA,Vascular plants,pollen,Rumex alpinus-type,UPHE,40,2
+NISP,NA,pollen,33854,NA,Vascular plants,pollen,Rumex palustris-type,AQVP,1,1
+NISP,NA,pollen,33855,NA,Vascular plants,pollen,Rumex palustris group,AQVP,11,1
+NISP,NA,pollen,33856,NA,Vascular plants,pollen,Rumex sanguineus,UPHE,4,4
+NISP,NA,pollen,33858,NA,Vascular plants,pollen,Rumex triangulivalvis,UPHE,7,2
+NISP,NA,pollen,33883,NA,Vascular plants,pollen,Salvia-type,UPHE,9,2
+NISP,NA,pollen,33909,NA,Vascular plants,pollen,Saxifraga paniculata-type,UPHE,71,5
+NISP,NA,pollen,33958,NA,Vascular plants,pollen,Scleranthus annuus-type,UPHE,4,2
+NISP,NA,pollen,33966,NA,Vascular plants,pollen,Scrophulariaceae pro parte,UPHE,1,1
+NISP,NA,pollen,33999,NA,Vascular plants,pollen,Silaum silaus,UPHE,1,1
+NISP,NA,pollen,34011,NA,Vascular plants,pollen,Asphodelaceae,UPHE,2,1
+NISP,NA,pollen,34017,NA,Vascular plants,pollen,Simethis planifolia,UPHE,3,1
+NISP,NA,pollen,34019,NA,Vascular plants,pollen,Sison amomum,UPHE,1,1
+NISP,NA,pollen,34035,NA,Vascular plants,pollen,Sorbus aria-type,TRSH,23,2
+NISP,NA,pollen,34059,NA,Vascular plants,pollen,Staphylea pinnata,TRSH,3,1
+NISP,NA,pollen,34064,NA,Vascular plants,pollen,Stellaria cf. S. holostea,UPHE,1,1
+NISP,NA,pollen,34068,NA,Vascular plants,pollen,Streptopus amplexifolius,UPHE,1,1
+NISP,NA,pollen,34069,NA,Vascular plants,pollen,Succisa pratensis-type,UPHE,11,2
+NISP,NA,pollen,34076,NA,Vascular plants,pollen,Dioscorea communis,UPHE,4,2
+NISP,NA,pollen,34091,NA,Vascular plants,pollen,Thalictrum flavum-type,UPHE,108,2
+NISP,NA,pollen,34116,NA,Vascular plants,pollen,Torilis nodosa,UPHE,5,2
+NISP,NA,pollen,34120,NA,Vascular plants,pollen,Trachycarpus fortunei,PALM,10,3
+NISP,NA,pollen,34161,NA,Vascular plants,pollen,Trollius europaeus-type,UPHE,3,1
+NISP,NA,pollen,34204,NA,Vascular plants,pollen,Urtica pilulifera,UPHE,2,2
+NISP,NA,pollen,34206,NA,Vascular plants,pollen,Urtica membranacea,UPHE,7,2
+NISP,NA,pollen,34232,NA,Vascular plants,pollen,Valeriana montana-type,UPHE,3,2
+NISP,NA,pollen,34235,NA,Vascular plants,pollen,Verbena-type,UPHE,1,1
+NISP,NA,pollen,34247,NA,Vascular plants,pollen,Viola canina-type,UPHE,2,1
+NISP,NA,pollen,34259,NA,Vascular plants,pollen,Xanthium spinosum-type,UPHE,5,1
+NISP,NA,pollen,35235,NA,Vascular plants,pollen,Vicia faba-type,UPHE,1,1
+NISP,NA,pollen,38049,NA,Vascular plants,pollen,cf. Hydrocotyle,AQVP,1,1
+NISP,NA,pollen,38510,NA,Vascular plants,pollen,Althaea officinalis,UPHE,6,1
+NISP,NA,pollen,38716,NA,Vascular plants,pollen,cf. Ruta,UPHE,1,1
+NISP,NA,pollen,38770,NA,Vascular plants,pollen,Plantago uniflora,UPHE,3,3
+NISP,NA,pollen,39210,NA,Vascular plants,pollen,Vicia cf. V. faba,UPHE,3,1
+NISP,NA,pollen,39227,NA,Vascular plants,pollen,cf. Elatine,AQVP,2,1
+NISP,NA,pollen,40368,NA,Vascular plants,pollen,cf. Capparis,TRSH,8,2
+NISP,NA,pollen,40907,NA,Vascular plants,pollen,Fabaceae (type 1),UPHE,1,1
+NISP,NA,pollen,41049,NA,Vascular plants,pollen,Achillea/Anthemis-type,UPHE,487,1
+NISP,NA,pollen,41050,NA,Vascular plants,pollen,Centaurea cf. C. cyanus/montana-type,UPHE,20,1
+NISP,NA,pollen,41051,NA,Vascular plants,pollen,cf. Frangula/Bruckenthalia,TRSH,1,1
+NISP,NA,pollen,41052,NA,Vascular plants,pollen,cf. Androsace,UPHE,21,1
+NISP,NA,pollen,41053,NA,Vascular plants,pollen,cf. Circaea,UPHE,1,1
+NISP,NA,pollen,41054,NA,Vascular plants,pollen,cf. Samolus valerandi,AQVP,1,1
+NISP,NA,pollen,41057,NA,Vascular plants,pollen,Persicaria undiff.,UPHE,5,1
+NISP,NA,pollen,41531,NA,Vascular plants,pollen,Pyrus/Malus,TRSH,2,1
+NISP,NA,pollen,41548,NA,Vascular plants,pollen,cf. Cardamine,UPHE,4,1
+NISP,NA,pollen,41612,NA,Vascular plants,pollen,cf. Lupinus,UPHE,1,1
+NISP,NA,pollen,42232,NA,Vascular plants,pollen,Caryophyllaceae (porate),UPHE,9,2
+NISP,NA,pollen,44116,NA,Vascular plants,pollen,Fumaria officinalis,UPHE,4,1
+NISP,NA,pollen,44117,NA,Vascular plants,pollen,Centaurium erythraea,UPHE,3,1
+NISP,NA,pollen,45946,NA,Vascular plants,pollen,Anthyllis montana-type,UPHE,3,1
+NISP,NA,pollen,46128,NA,Vascular plants,pollen,cf. Cercis,TRSH,1,1
+NISP,NA,pollen,46129,NA,Vascular plants,pollen,Cistus cf. C. incanus,TRSH,18,2
+NISP,NA,pollen,46130,NA,Vascular plants,pollen,Clematis vitalba group,UPHE,47,2
+NISP,NA,pollen,46131,NA,Vascular plants,pollen,Erica cf. E. arborea/multiflora,TRSH,128,2
+NISP,NA,pollen,46132,NA,Vascular plants,pollen,cf. Ficus,TRSH,2,1
+NISP,NA,pollen,46133,NA,Vascular plants,pollen,Jasminum fruticans-type,UPHE,2,1
+NISP,NA,pollen,46134,NA,Vascular plants,pollen,cf. Pyrus,TRSH,8,2
+NISP,NA,pollen,46135,NA,Vascular plants,pollen,cf. Arum,UPHE,1,1
+NISP,NA,pollen,46136,NA,Vascular plants,pollen,Symphytum officinale-type,UPHE,5,2
+NISP,NA,pollen,46137,NA,Vascular plants,pollen,Paronychia cf. P. kapela,UPHE,32,2
+NISP,NA,pollen,46138,NA,Vascular plants,pollen,cf. Arabis,UPHE,41,2
+NISP,NA,pollen,46139,NA,Vascular plants,pollen,cf. Capsella,UPHE,16,2
+NISP,NA,pollen,46140,NA,Vascular plants,pollen,cf. Lamium,UPHE,16,2
+NISP,NA,pollen,46141,NA,Vascular plants,pollen,cf. Phlomis,UPHE,10,2
+NISP,NA,pollen,46143,NA,Vascular plants,pollen,cf. Dorycnium,UPHE,1,1
+NISP,NA,pollen,46144,NA,Vascular plants,pollen,Hedysarum cf. H. coronarium,UPHE,8,2
+NISP,NA,pollen,46145,NA,Vascular plants,pollen,cf. Asparagus,UPHE,12,2
+NISP,NA,pollen,46146,NA,Vascular plants,pollen,cf. Mesembryanthemum,UPHE,3,2
+NISP,NA,pollen,46147,NA,Vascular plants,pollen,cf. Corydalis,UPHE,3,1
+NISP,NA,pollen,46148,NA,Vascular plants,pollen,cf. Rheum,UPHE,1,1
+NISP,NA,pollen,46149,NA,Vascular plants,pollen,Cyclamen hederifolium-type,UPHE,3,2
+NISP,NA,pollen,46150,NA,Vascular plants,pollen,Primula cf. P. integrifolia,UPHE,6,1
+NISP,NA,pollen,46151,NA,Vascular plants,pollen,Primula undiff.,UPHE,3,1
+NISP,NA,pollen,46152,NA,Vascular plants,pollen,cf. Euphrasia,UPHE,3,1
+NISP,NA,pollen,46153,NA,Vascular plants,pollen,Pastinaca sativa-type,UPHE,1,1
+NISP,NA,pollen,46154,NA,Vascular plants,pollen,Urtica cf. U. membranacea,UPHE,4,1
+NISP,NA,pollen,46155,NA,Vascular plants,pollen,Magnoliatae indeterminata,TRSH,100,2
+NISP,NA,pollen,46156,NA,Vascular plants,pollen,Samolus valerandi-type,AQVP,2,1
+NISP,NA,pollen,46165,NA,Vascular plants,pollen,cf. Ziziphus,TRSH,2,1
+NISP,NA,pollen,46166,NA,Vascular plants,pollen,cf. Iberis,UPHE,3,1
+NISP,NA,pollen,46167,NA,Vascular plants,pollen,cf. Limodorum,UPHE,1,1
+NISP,NA,pollen,46168,NA,Vascular plants,pollen,Fragaria cf. F. vesca,UPHE,1,1
+NISP,NA,pollen,46169,NA,Vascular plants,pollen,Ammi cf. A. visnaga,UPHE,6,1
+NISP,NA,pollen,46170,NA,Vascular plants,pollen,cf. Althenia,AQVP,1,1
+NISP,NA,pollen,46171,NA,Vascular plants,pollen,Ranunculus cf. R. fluitans,UPHE,1,1
+NISP,NA,pollen,46203,NA,Vascular plants,pollen,Phoenix-type,PALM,1,1
+NISP,NA,pollen,46204,NA,Vascular plants,pollen,Valeriana celtica-type,UPHE,2,1
+NISP,NA,pollen,46277,NA,Vascular plants,pollen,Pinus cf. P. pinaster,TRSH,1,1
+NISP,NA,pollen,46278,NA,Vascular plants,pollen,Pinus sylvestris/P. mugo,TRSH,93,1
+NISP,NA,pollen,46279,NA,Vascular plants,pollen,Fraxinus cf. F. angustifolia/F. oxycarpa,TRSH,30,1
+NISP,NA,pollen,46280,NA,Vascular plants,pollen,Cistus cf. C. albidus,TRSH,1,1
+NISP,NA,pollen,46281,NA,Vascular plants,pollen,cf. Bellis,UPHE,5,1
+NISP,NA,pollen,46282,NA,Vascular plants,pollen,cf. Senecio,UPHE,2,1
+NISP,NA,pollen,46283,NA,Vascular plants,pollen,cf. Hieracium,UPHE,1,1
+NISP,NA,pollen,46285,NA,Vascular plants,pollen,cf. Raphanus,UPHE,1,1
+NISP,NA,pollen,46286,NA,Vascular plants,pollen,cf. Corrigiola,UPHE,1,1
+NISP,NA,pollen,46287,NA,Vascular plants,pollen,cf. Lathyrus,UPHE,1,1
+NISP,NA,pollen,46288,NA,Vascular plants,pollen,cf. Stachys glutinosa,UPHE,1,1
+NISP,NA,pollen,46289,NA,Vascular plants,pollen,cf. Anagallis tenella,UPHE,1,1
+NISP,NA,pollen,48911,NA,Vascular plants,pollen,Pistacia-type,TRSH,3,1
+NISP,NA,pollen/spore,296,NA,Unidentified palynomorphs,pollen/spore,Unknown undiff.,UNID,273,1
+NISP,NA,pollen/spore,312,NA,Unidentified palynomorphs,pollen/spore,Indeterminable,UNID,1114,9
+NISP,NA,pollen/spore,313,NA,Unidentified palynomorphs,pollen/spore,Unknown,UNID,831,12
+NISP,NA,pollen/spore,905,NA,Unidentified palynomorphs,pollen/spore,Indeterminable undiff.,UNID,299,3
+NISP,NA,pollen/spore,3713,NA,Unidentified palynomorphs,pollen/spore,Varia,UNID,868,13
+NISP,NA,pollen/spore,34946,NA,Unidentified palynomorphs,pollen/spore,Indeterminable (broken),UNID,431,1
+NISP,NA,pollen/spore,35429,NA,Unidentified palynomorphs,pollen/spore,Indeterminable (unknown),UNID,149,3
+NISP,NA,pollen/spore,35430,NA,Unidentified palynomorphs,pollen/spore,Indeterminable (concealed),UNID,70,1
+NISP,NA,pollen/spore,35431,NA,Unidentified palynomorphs,pollen/spore,Indeterminable (degraded),UNID,327,1
+NISP,NA,pollen/spore,35432,NA,Unidentified palynomorphs,pollen/spore,Indeterminable (unidentified),UNID,63,1
+NISP,NA,pollen/spore,35433,NA,Unidentified palynomorphs,pollen/spore,Indeterminable (crumpled),UNID,541,1
+NISP,NA,quantity added,932,NA,Laboratory analyses,quantity added,Lycopodium spike,LABO,223,3
+NISP,NA,spine,4865,NA,Vascular plants,spine,Stratiotes aloides,AQVP,1,1
+NISP,NA,sporangium,677,NA,Vascular plants,sporangium,Pteridophyta,VACR,10,1
+NISP,NA,spore,26,NA,Vascular plants,spore,Athyrium,VACR,13,1
+NISP,NA,spore,33,NA,Vascular plants,spore,Botrychium,VACR,501,36
+NISP,NA,spore,91,NA,Vascular plants,spore,Equisetum,VACR,470,26
+NISP,NA,spore,108,NA,Vascular plants,spore,Polypodiophyta undiff.,VACR,91,1
+NISP,NA,spore,139,NA,Vascular plants,spore,Isoëtes,AQVP,52,7
+NISP,NA,spore,168,NA,Vascular plants,spore,Lycopodium annotinum,VACR,44,11
+NISP,NA,spore,170,NA,Vascular plants,spore,Lycopodium clavatum,VACR,7,5
+NISP,NA,spore,172,NA,Vascular plants,spore,Lycopodiella inundata,VACR,58,5
+NISP,NA,spore,175,NA,Vascular plants,spore,Huperzia selago,VACR,59,20
+NISP,NA,spore,202,NA,Algae,spore,Pediastrum,ALGA,38,1
+NISP,NA,spore,234,NA,Vascular plants,spore,Polypodiaceae,VACR,54,2
+NISP,NA,spore,235,NA,Vascular plants,spore,Polypodium-type,VACR,33,5
+NISP,NA,spore,247,NA,Vascular plants,spore,Pteridium-type,VACR,4,2
+NISP,NA,spore,286,NA,Vascular plants,spore,Selaginella,VACR,9,3
+NISP,NA,spore,294,NA,Bryophytes,spore,Sphagnum,AQBR,735,31
+NISP,NA,spore,313,NA,Unidentified palynomorphs,spore,Unknown,UNID,21,1
+NISP,NA,spore,326,NA,Algae,spore,Botryococcus,ALGA,71,2
+NISP,NA,spore,339,NA,Unidentified palynomorphs,spore,Unknown (trilete),UNID,474,11
+NISP,NA,spore,348,NA,Unidentified palynomorphs,spore,Unknown (monolete),UNID,1190,12
+NISP,NA,spore,504,NA,Vascular plants,spore,Gymnocarpium,VACR,61,5
+NISP,NA,spore,508,NA,Vascular plants,spore,Ophioglossum,VACR,36,3
+NISP,NA,spore,509,NA,Vascular plants,spore,Osmunda,VACR,114,2
+NISP,NA,spore,512,NA,Vascular plants,spore,Thelypteris palustris-type,VACR,4,1
+NISP,NA,spore,535,NA,Fungi,spore,Fungi,FUNG,1,1
+NISP,NA,spore,573,NA,Vascular plants,spore,Athyrium filix-femina,VACR,360,19
+NISP,NA,spore,605,NA,Vascular plants,spore,Cystopteris fragilis,VACR,68,16
+NISP,NA,spore,613,NA,Vascular plants,spore,Dryopteris,VACR,117,5
+NISP,NA,spore,650,NA,Vascular plants,spore,Lycopodium annotinum-type,VACR,2,2
+NISP,NA,spore,676,NA,Vascular plants,spore,Polypodiophyta,VACR,77,2
+NISP,NA,spore,677,NA,Vascular plants,spore,Pteridophyta,VACR,160,2
+NISP,NA,spore,720,NA,Vascular plants,spore,Pteridium aquilinum,VACR,1881,31
+NISP,NA,spore,750,NA,Vascular plants,spore,Selaginella selaginoides,VACR,480,28
+NISP,NA,spore,799,NA,Vascular plants,spore,Polypodiophyta (monolete),VACR,1112,19
+NISP,NA,spore,807,NA,Vascular plants,spore,Pteridium,VACR,602,12
+NISP,NA,spore,835,NA,Vascular plants,spore,Polypodium,VACR,461,34
+NISP,NA,spore,839,NA,Vascular plants,spore,Cystopteris-type,VACR,13,5
+NISP,NA,spore,850,NA,Vascular plants,spore,Osmunda regalis,VACR,49,5
+NISP,NA,spore,932,NA,Laboratory analyses,spore,Lycopodium spike,LABO,26,1
+NISP,NA,spore,957,NA,Vascular plants,spore,Polypodiophyta (monolete) undiff.,VACR,16,1
+NISP,NA,spore,958,NA,Vascular plants,spore,Polypodiophyta (trilete) undiff.,VACR,16,1
+NISP,NA,spore,1068,NA,Vascular plants,spore,Botrychium-type,VACR,108,6
+NISP,NA,spore,1092,NA,Vascular plants,spore,Adiantum-type,VACR,1,1
+NISP,NA,spore,1109,NA,Fungi,spore,Tilletia sphagni,FUNG,324,2
+NISP,NA,spore,1125,NA,Vascular plants,spore,Lycopodium clavatum-type,VACR,18,3
+NISP,NA,spore,1179,NA,Vascular plants,spore,Lycopodiella,VACR,1,1
+NISP,NA,spore,1180,NA,Vascular plants,spore,Lycopodiaceae,VACR,5,3
+NISP,NA,spore,1243,NA,Bryophytes,spore,Bryophyta undiff.,UPBR,20,1
+NISP,NA,spore,1265,NA,Vascular plants,spore,Polypodiophyta (trilete),VACR,41,4
+NISP,NA,spore,1331,NA,Vascular plants,spore,Ophioglossum vulgatum,VACR,24,9
+NISP,NA,spore,1343,NA,Bryophytes,spore,Riccia,AQBR,1,1
+NISP,NA,spore,1345,NA,Vascular plants,spore,Dryopteris filix-mas-type,VACR,285,13
+NISP,NA,spore,1348,NA,Vascular plants,spore,Asplenium,VACR,17,4
+NISP,NA,spore,1370,NA,Vascular plants,spore,Thelypteris palustris,VACR,248,11
+NISP,NA,spore,1488,NA,Algae,spore,Spirogyra,ALGA,30,2
+NISP,NA,spore,1489,NA,Fungi,spore,Sporormiella,FUNG,356,6
+NISP,NA,spore,1519,NA,Vascular plants,spore,Osmunda-type,VACR,138,2
+NISP,NA,spore,1559,NA,Vascular plants,spore,cf. Botrychium,VACR,19,1
+NISP,NA,spore,1615,NA,Vascular plants,spore,Hymenophyllum,VACR,2,1
+NISP,NA,spore,1695,NA,Vascular plants,spore,Pteridophyta (trilete),VACR,116,2
+NISP,NA,spore,1801,NA,Bryophytes,spore,Anthoceros laevis,UPBR,1,1
+NISP,NA,spore,1890,NA,Vascular plants,spore,Asplenium-type,VACR,95,14
+NISP,NA,spore,1949,NA,Vascular plants,spore,cf. Ophioglossum,VACR,1,1
+NISP,NA,spore,2193,NA,Fungi,spore,Gelasinospora,FUNG,13,4
+NISP,NA,spore,2277,NA,Bryophytes,spore,Hedwigia,UPBR,22,9
+NISP,NA,spore,2299,NA,Vascular plants,spore,Polypodiaceae undiff.,VACR,124,1
+NISP,NA,spore,2301,NA,Vascular plants,spore,Polypodium vulgare,VACR,60,4
+NISP,NA,spore,2660,NA,Vascular plants,spore,Cryptogramma crispa,VACR,27,7
+NISP,NA,spore,2662,NA,Vascular plants,spore,Diphasiastrum-type,VACR,4,3
+NISP,NA,spore,2679,NA,Vascular plants,spore,Selaginella helvetica,VACR,11,1
+NISP,NA,spore,3091,NA,Algae,spore,Zygnema,ALGA,10,2
+NISP,NA,spore,3114,NA,Vascular plants,spore,Pteridophyta (monolete),VACR,54,1
+NISP,NA,spore,3141,NA,Vascular plants,spore,Pteridophyta (trilete) undiff.,VACR,256,10
+NISP,NA,spore,3401,NA,Vascular plants,spore,Dryopteris filix-mas,VACR,131,9
+NISP,NA,spore,3429,NA,Vascular plants,spore,Thelypteris,VACR,8,1
+NISP,NA,spore,3716,NA,Bryophytes,spore,cf. Sphagnum,PLNT,3,1
+NISP,NA,spore,4985,NA,Vascular plants,spore,cf. Athyrium,VACR,1,1
+NISP,NA,spore,4988,NA,Vascular plants,spore,Botrychium lunaria-type,VACR,30,3
+NISP,NA,spore,4989,NA,Vascular plants,spore,Blechnum spicant,VACR,24,2
+NISP,NA,spore,5011,NA,Vascular plants,spore,Lycopodium,VACR,68,3
+NISP,NA,spore,5024,NA,Vascular plants,spore,Polypodium vulgare-type,VACR,8,2
+NISP,NA,spore,5027,NA,Vascular plants,spore,Polystichum-type,VACR,8,6
+NISP,NA,spore,5030,NA,Vascular plants,spore,Pteridophyta (monolete) undiff.,VACR,1631,13
+NISP,NA,spore,5033,NA,Vascular plants,spore,Selaginella helvetica-type,VACR,20,8
+NISP,NA,spore,5034,NA,Vascular plants,spore,Selaginella selaginoides-type,VACR,5,2
+NISP,NA,spore,5039,NA,Bryophytes,spore,cf. Bryophyta,PLNT,2,1
+NISP,NA,spore,5142,NA,Algae,spore,Tetraëdron,ALGA,2,1
+NISP,NA,spore,5406,NA,Bryophytes,spore,Polytrichum,AQBR,4,1
+NISP,NA,spore,5415,NA,Fungi,spore,Diporotheca,FUNG,18,3
+NISP,NA,spore,5470,NA,Fungi,spore,Glomus,FUNG,118,7
+NISP,NA,spore,5559,NA,Vascular plants,spore,Dryopteris dilatata-type,VACR,10,4
+NISP,NA,spore,9541,NA,Vascular plants,spore,Polypodiales (monolete),VACR,421,3
+NISP,NA,spore,9542,NA,Vascular plants,spore,Polypodiales (trilete),VACR,25,1
+NISP,NA,spore,15671,NA,Unidentified palynomorphs,spore,Unknown (pre-Quaternary),ANAC,15,1
+NISP,NA,spore,23130,NA,Fungi,spore,Podospora,FUNG,1,1
+NISP,NA,spore,24696,NA,Fungi,spore,Sordaria,FUNG,2,1
+NISP,NA,spore,25917,NA,Fungi,spore,Neurospora,FUNG,2,1
+NISP,NA,spore,25931,NA,Fungi,spore,Ustulina,FUNG,12,3
+NISP,NA,spore,27453,NA,Vascular plants,spore,"Polypodiophyta undiff. (monolete, without perine)",VACR,21,1
+NISP,NA,spore,27591,NA,Fungi,spore,Cercophora-type,FUNG,100,4
+NISP,NA,spore,27598,NA,Fungi,spore,Podospora-type,FUNG,50,3
+NISP,NA,spore,27614,NA,Fungi,spore,Ustulina deusta,FUNG,8,3
+NISP,NA,spore,27652,NA,Fungi,spore,Zopfiella,FUNG,4,1
+NISP,NA,spore,29127,NA,Algae,spore,Botryococcaceae,ALGA,72,2
+NISP,NA,spore,29967,NA,Bryophytes,spore,Bryidae,UPBR,4,1
+NISP,NA,spore,30479,NA,Fungi,spore,Cercophora,FUNG,16,1
+NISP,NA,spore,30993,NA,Algae,spore,Rivulariaceae,ALGA,38,2
+NISP,NA,spore,32718,NA,Vascular plants,spore,Dryopteris cf. D. cristata,VACR,1,1
+NISP,NA,spore,32720,NA,Vascular plants,spore,Dryopteris/Thelypteris,VACR,2,1
+NISP,NA,spore,33341,NA,Vascular plants,spore,Ophioglossum lusitanicum,VACR,4,2
+NISP,NA,spore,33343,NA,Vascular plants,spore,Ophioglossum vulgatum-type,VACR,3,2
+NISP,NA,spore,33468,NA,Vascular plants,spore,Asplenium scolopendrium-type,VACR,1,1
+NISP,NA,spore,33622,NA,Vascular plants,spore,Polystichum lonchitis,VACR,2,1
+NISP,NA,spore,34272,NA,Fungi,spore,Gelasinospora retispora,FUNG,1,1
+NISP,NA,spore,34413,NA,Bryophytes,spore,Aspiromitus punctatus,UPBR,2,1
+NISP,NA,spore,37440,NA,Vascular plants,spore,Monoletes,PTER,91,4
+NISP,NA,spore,37441,NA,Vascular plants,spore,Triletes,PTER,81,3
+NISP,NA,spore,38489,NA,Fungi,spore,Tetraploa scheueri,FUNG,4,1
+NISP,NA,spore,41055,NA,Vascular plants,spore,cf. Trichomanes,VACR,2,1
+NISP,NA,stomate,1,NA,Vascular plants,stomate,Abies,TRSH,178,8
+NISP,NA,stomate,153,NA,Vascular plants,stomate,Larix,TRSH,329,13
+NISP,NA,stomate,210,NA,Vascular plants,stomate,Picea,TRSH,163,7
+NISP,NA,stomate,312,NA,Unidentified palynomorphs,stomate,Indeterminable,UNID,28,2
+NISP,NA,stomate,385,NA,Vascular plants,stomate,Pinus,TRSH,444,18
+NISP,NA,stomate,983,NA,Vascular plants,stomate,Juniperus,TRSH,61,12
+NISP,NA,stomate,1943,NA,Vascular plants,stomate,Coniferae undiff.,TRSH,3,1
+NISP,NA,stomate,1944,NA,Vascular plants,stomate,Coniferae,TRSH,143,3
+NISP,NA,stomate,2897,NA,Vascular plants,stomate,Calluna vulgaris,TRSH,1,1
+NISP,NA,stomate,9095,NA,Plants undiff.,stomate,Plantae,PLNT,2,2
+NISP,NA,stomate,31591,NA,Vascular plants,stomate,cf. Calluna,TRSH,1,1
+NISP,NA,test,559,NA,Testate amoebae,test,Amphitrema,TEAM,27,1
+NISP,NA,test,570,NA,Testate amoebae,test,Assulina,TEAM,81,2
+NISP,NA,test,571,NA,Testate amoebae,test,Assulina muscorum,TEAM,340,2
+NISP,NA,test,572,NA,Testate amoebae,test,Assulina seminulum,TEAM,240,1
+NISP,NA,test,620,NA,Foraminifera,test,Foraminifera,FORM,47,1
+NISP,NA,test,1189,NA,Testate amoebae,test,Arcella,TEAM,123,2
+NISP,NA,test,28043,NA,Testate amoebae,test,Archerella flavum,TEAM,95,1
+NISP,NA,tracheid,9534,NA,Vascular plants,tracheid,Tracheophyta,VASC,33,1
+NISP,NA,volume,276,NA,Laboratory analyses,volume,Sample quantity,LABO,354,1
+NISP,NA,zygospore,5123,NA,Algae,zygospore,Mougeotia,ALGA,1,1
+cm^3,NA,volume,276,NA,Laboratory analyses,volume,Sample quantity,LABO,210,2
+count,NA,particle,34286,NA,Charcoal,particle,Spheroidal carbonaceous particle,CHAR,354,1
+g,NA,mass,276,NA,Laboratory analyses,mass,Sample quantity,LABO,132,2
+grains/g,NA,concentration,63,NA,Laboratory analyses,concentration,Pollen concentration,LABO,137,1
+grains/tablet,NA,concentration,97,NA,Laboratory analyses,concentration,Eucalyptus tablets,LABO,161,1
+grains/tablet,NA,concentration,930,NA,Laboratory analyses,concentration,Lycopodium tablets,LABO,2509,24
+grains/tablet,NA,concentration,2635,NA,Laboratory analyses,concentration,Spike tablets,LABO,104,2
+l,NA,volume,276,NA,Laboratory analyses,volume,Sample quantity,LABO,94,1
+mg,NA,mass,276,NA,Laboratory analyses,mass,Sample quantity,LABO,323,5
+ml,NA,quantity added,96,NA,Laboratory analyses,quantity added,Eucalyptus suspension,LABO,164,1
+ml,NA,volume,276,NA,Laboratory analyses,volume,Sample quantity,LABO,2692,32
+mm^2/cm^2/yr,NA,>10 µm,1062,NA,Charcoal,>10 µm,Charcoal,CHAR,471,2
+mm^2/ml,NA,>10 µm,1062,NA,Charcoal,>10 µm,Charcoal,CHAR,471,2
+number,NA,>10 µm,1062,NA,Charcoal,>10 µm,Charcoal,CHAR,75,1
+number,NA,counted,95,NA,Laboratory analyses,counted,Eucalyptus spike,LABO,161,1
+number,NA,counted,932,NA,Laboratory analyses,counted,Lycopodium spike,LABO,2472,21
+number,NA,counted,1305,NA,Laboratory analyses,counted,Spike,LABO,261,6
+number,NA,counted,5508,NA,Laboratory analyses,counted,Transects across slide,LABO,322,5
+number,NA,quantity added,97,NA,Laboratory analyses,quantity added,Eucalyptus tablets,LABO,161,1
+number,NA,quantity added,930,NA,Laboratory analyses,quantity added,Lycopodium tablets,LABO,2509,24
+number/ml,NA,concentration,96,NA,Laboratory analyses,concentration,Eucalyptus suspension,LABO,214,1
+particles,NA,>10 µm,1062,NA,Charcoal,>10 µm,Charcoal,CHAR,72,1
+particles/cm^2/yr,NA,>10 µm,1062,NA,Charcoal,>10 µm,Charcoal,CHAR,469,4
+particles/ml,NA,>10 µm,1062,NA,Charcoal,>10 µm,Charcoal,CHAR,469,4
+particles/ml,NA,concentration,1062,NA,Charcoal,concentration,Charcoal,CHAR,75,1
