@@ -1,10 +1,17 @@
+<!-- badges: start -->
+[![lifecycle](https://img.shields.io/badge/lifecycle-stable-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![NSF-1948926](https://img.shields.io/badge/NSF-1948926-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1948926)
+[![NSF-2410961](https://img.shields.io/badge/NSF-2410961-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2410961)
+
+<!-- badges: end -->
+
 # Neotoma Workshops
 
 ![](images/Packrat.png)
 
 <br>
 
-The [Neotoma Paleoecological Database](http://neotomadb.org) is committed to outreach directed at multiple user groups including public school students and teachers, community groups, and academic users.  To facilitate coordinated outreach we have developed a number of teaching modules, and will likely continue developing modules.  These modules are stored in this repository.  We welcome continued contribution and comment on our teaching modules.  Bug reports can be made in the [issue tracker](https://github.com/NeotomaDB/Workshops/issues).
+The [Neotoma Paleoecological Database](http://neotomadb.org) is committed to outreach directed at multiple user groups including public school students and teachers, community groups, and academic users.  To facilitate coordinated outreach we have developed a number of teaching modules, and will likely continue developing modules.  This repository archives past interactive R workshops. To view the most recent/current Neotoma Workshop, see the [Current_Workshop](https://github.com/NeotomaDB/Current_Workshop/) repo.   We welcome continued contribution and comment on our teaching modules.  Bug reports can be made in the [issue tracker](https://github.com/NeotomaDB/Workshops/issues).
 
 # Contributors
 
