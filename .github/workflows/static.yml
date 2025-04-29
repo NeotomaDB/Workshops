@@ -30,9 +30,9 @@ jobs:
     steps:
     
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.2.1
       - name: Force action download
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.2.1
         with:
           name: dummy
           path: README.md
