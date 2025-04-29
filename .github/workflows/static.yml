@@ -28,8 +28,15 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+    
       - name: Checkout
         uses: actions/checkout@v3
+      
+      - name: Force action download
+        uses: actions/upload-artifact@v3.1.2
+        with:
+          name: dummy
+          path: README.md
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
