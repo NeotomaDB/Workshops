@@ -31,9 +31,8 @@ jobs:
     
       - name: Checkout
         uses: actions/checkout@v3
-      
       - name: Force action download
-        uses: actions/upload-artifact@v3.1.2
+        uses: actions/upload-artifact@v3
         with:
           name: dummy
           path: README.md
