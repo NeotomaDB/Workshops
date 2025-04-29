@@ -1,0 +1,17 @@
+EPD_binder.Rproj
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.DS_Store
+*/slides/.DS_Store
+.ipynb_checkpoints/
+slides/.ipynb_checkpoints/slides1-checkpoint.ipynb
+slides/.DS_Store
+slides/.ipynb_checkpoints/slides1-checkpoint.ipynb
+
+wc10/
+complex_workflow_files/
+simple_workflow_files/
+Current_Workshop.Rproj
+template_spreadsheet.xlsx
