@@ -1,0 +1,8 @@
+install.packages("ggplot2")
+install.packages("tidyverse")
+install.packages("dplyr")
+install.packages("rioja")
+install.packages("DT")
+install.packages("pacman")
+install.packages("Bchron")
+remotes::install_github("NeotomaDB/neotoma2@dev")
